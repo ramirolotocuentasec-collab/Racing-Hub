@@ -1,18 +1,796 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-10-08T03:53:57.547897+00:00",
+  "year": 2026,
   "source": {
     "f1": "Jolpica F1",
-    "moto": "MotoGP/PulseLive"
+    "moto": "MotoGP / PulseLive"
   },
   "f1": {
-    "races": [],
-    "drivers": [],
-    "teams": []
+    "races": [
+      {
+        "id": "1",
+        "round": "1",
+        "name": "Australian Grand Prix",
+        "circuit": "Albert Park Grand Prix Circuit",
+        "race": "2026-03-08T04:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-03-06T01:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-03-06T05:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-03-07T01:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-03-07T05:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "round": "2",
+        "name": "Chinese Grand Prix",
+        "circuit": "Shanghai International Circuit",
+        "race": "2026-03-15T07:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-03-13T03:30:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-03-13T07:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-03-14T03:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-03-14T07:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "round": "3",
+        "name": "Japanese Grand Prix",
+        "circuit": "Suzuka Circuit",
+        "race": "2026-03-29T05:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-03-27T02:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-03-27T06:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-03-28T02:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-03-28T06:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "round": "4",
+        "name": "Miami Grand Prix",
+        "circuit": "Miami International Autodrome",
+        "race": "2026-05-03T20:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-05-01T16:00:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-05-01T20:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-05-02T16:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-05-02T20:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "round": "5",
+        "name": "Canadian Grand Prix",
+        "circuit": "Circuit Gilles Villeneuve",
+        "race": "2026-05-24T20:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-05-22T16:30:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-05-22T20:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-05-23T16:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-05-23T20:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "round": "6",
+        "name": "Monaco Grand Prix",
+        "circuit": "Circuit de Monaco",
+        "race": "2026-06-07T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-06-05T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-06-05T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-06-06T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-06-06T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "round": "7",
+        "name": "Barcelona Grand Prix",
+        "circuit": "Circuit de Barcelona-Catalunya",
+        "race": "2026-06-14T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-06-12T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-06-12T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-06-13T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-06-13T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "round": "8",
+        "name": "Austrian Grand Prix",
+        "circuit": "Red Bull Ring",
+        "race": "2026-06-28T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-06-26T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-06-26T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-06-27T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-06-27T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "round": "9",
+        "name": "British Grand Prix",
+        "circuit": "Silverstone Circuit",
+        "race": "2026-07-05T14:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-07-03T11:30:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-07-03T15:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-07-04T11:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-07-04T15:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "round": "10",
+        "name": "Belgian Grand Prix",
+        "circuit": "Circuit de Spa-Francorchamps",
+        "race": "2026-07-19T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-07-17T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-07-17T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-07-18T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-07-18T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "round": "11",
+        "name": "Hungarian Grand Prix",
+        "circuit": "Hungaroring",
+        "race": "2026-07-26T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-07-24T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-07-24T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-07-25T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-07-25T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "round": "12",
+        "name": "Dutch Grand Prix",
+        "circuit": "Circuit Park Zandvoort",
+        "race": "2026-08-23T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-08-21T10:30:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-08-21T14:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-08-22T10:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-08-22T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "round": "13",
+        "name": "Italian Grand Prix",
+        "circuit": "Autodromo Nazionale di Monza",
+        "race": "2026-09-06T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-09-04T10:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-09-04T14:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-09-05T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-09-05T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "round": "14",
+        "name": "Spanish Grand Prix",
+        "circuit": "Madring",
+        "race": "2026-09-13T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-09-11T11:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-09-11T15:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-09-12T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-09-12T14:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "round": "15",
+        "name": "Azerbaijan Grand Prix",
+        "circuit": "Baku City Circuit",
+        "race": "2026-09-26T11:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-09-24T08:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-09-24T12:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-09-25T08:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-09-25T12:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "round": "16",
+        "name": "Bahrain Grand Prix in Malaysia",
+        "circuit": "Sepang International Circuit",
+        "race": "2026-10-04T07:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-10-02T04:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-10-02T08:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-10-03T04:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-10-03T08:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "round": "17",
+        "name": "Singapore Grand Prix",
+        "circuit": "Marina Bay Street Circuit",
+        "race": "2026-10-11T12:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-10-09T08:30:00Z"
+          },
+          {
+            "name": "Clasificación Sprint",
+            "date": "2026-10-09T12:30:00Z"
+          },
+          {
+            "name": "Sprint",
+            "date": "2026-10-10T09:00:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-10-10T13:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "round": "18",
+        "name": "United States Grand Prix",
+        "circuit": "Circuit of the Americas",
+        "race": "2026-10-25T20:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-10-23T17:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-10-23T21:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-10-24T17:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-10-24T21:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "round": "19",
+        "name": "Mexico City Grand Prix",
+        "circuit": "Autódromo Hermanos Rodríguez",
+        "race": "2026-11-01T20:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-10-30T18:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-10-30T22:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-10-31T17:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-10-31T21:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "round": "20",
+        "name": "Brazilian Grand Prix",
+        "circuit": "Autódromo José Carlos Pace",
+        "race": "2026-11-08T17:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-11-06T15:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-11-06T19:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-11-07T14:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-11-07T18:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "round": "21",
+        "name": "Las Vegas Grand Prix",
+        "circuit": "Las Vegas Strip Street Circuit",
+        "race": "2026-11-22T04:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-11-20T00:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-11-20T04:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-11-21T00:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-11-21T04:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "round": "22",
+        "name": "Qatar Grand Prix",
+        "circuit": "Lusail International Circuit",
+        "race": "2026-11-29T16:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-11-27T13:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-11-27T17:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-11-28T14:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-11-28T18:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "round": "23",
+        "name": "Abu Dhabi Grand Prix",
+        "circuit": "Yas Marina Circuit",
+        "race": "2026-12-06T13:00:00Z",
+        "sessions": [
+          {
+            "name": "Práctica 1",
+            "date": "2026-12-04T09:30:00Z"
+          },
+          {
+            "name": "Práctica 2",
+            "date": "2026-12-04T13:00:00Z"
+          },
+          {
+            "name": "Práctica 3",
+            "date": "2026-12-05T10:30:00Z"
+          },
+          {
+            "name": "Clasificación",
+            "date": "2026-12-05T14:00:00Z"
+          }
+        ]
+      }
+    ],
+    "drivers": [
+      {
+        "position": "1",
+        "name": "Andrea Kimi Antonelli",
+        "team": "Mercedes",
+        "points": "320"
+      },
+      {
+        "position": "2",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "points": "236"
+      },
+      {
+        "position": "3",
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "points": "214"
+      },
+      {
+        "position": "4",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": "191"
+      },
+      {
+        "position": "5",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": "188"
+      },
+      {
+        "position": "6",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": "188"
+      },
+      {
+        "position": "7",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "points": "128"
+      },
+      {
+        "position": "8",
+        "name": "Isack Hadjar",
+        "team": "Red Bull",
+        "points": "96"
+      },
+      {
+        "position": "9",
+        "name": "Liam Lawson",
+        "team": "RB F1 Team",
+        "points": "65"
+      },
+      {
+        "position": "10",
+        "name": "Pierre Gasly",
+        "team": "Alpine F1 Team",
+        "points": "41"
+      },
+      {
+        "position": "11",
+        "name": "Arvid Lindblad",
+        "team": "RB F1 Team",
+        "points": "38"
+      },
+      {
+        "position": "12",
+        "name": "Franco Colapinto",
+        "team": "Alpine F1 Team",
+        "points": "27"
+      },
+      {
+        "position": "13",
+        "name": "Oliver Bearman",
+        "team": "Haas F1 Team",
+        "points": "20"
+      },
+      {
+        "position": "14",
+        "name": "Gabriel Bortoleto",
+        "team": "Audi",
+        "points": "10"
+      },
+      {
+        "position": "15",
+        "name": "Nico Hülkenberg",
+        "team": "Audi",
+        "points": "7"
+      },
+      {
+        "position": "16",
+        "name": "Esteban Ocon",
+        "team": "Haas F1 Team",
+        "points": "7"
+      },
+      {
+        "position": "17",
+        "name": "Fernando Alonso",
+        "team": "Aston Martin",
+        "points": "7"
+      },
+      {
+        "position": "18",
+        "name": "Carlos Sainz",
+        "team": "Williams",
+        "points": "7"
+      },
+      {
+        "position": "19",
+        "name": "Alexander Albon",
+        "team": "Williams",
+        "points": "5"
+      },
+      {
+        "position": "20",
+        "name": "Yuki Tsunoda",
+        "team": "RB F1 Team",
+        "points": "1"
+      },
+      {
+        "position": "21",
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": "0"
+      },
+      {
+        "position": "22",
+        "name": "Valtteri Bottas",
+        "team": "Cadillac F1 Team",
+        "points": "0"
+      },
+      {
+        "position": "23",
+        "name": "Sergio Pérez",
+        "team": "Cadillac F1 Team",
+        "points": "0"
+      }
+    ],
+    "teams": [
+      {
+        "position": "1",
+        "name": "Mercedes",
+        "points": "556"
+      },
+      {
+        "position": "2",
+        "name": "Ferrari",
+        "points": "405"
+      },
+      {
+        "position": "3",
+        "name": "McLaren",
+        "points": "316"
+      },
+      {
+        "position": "4",
+        "name": "Red Bull",
+        "points": "298"
+      },
+      {
+        "position": "5",
+        "name": "RB F1 Team",
+        "points": "90"
+      },
+      {
+        "position": "6",
+        "name": "Alpine F1 Team",
+        "points": "68"
+      },
+      {
+        "position": "7",
+        "name": "Haas F1 Team",
+        "points": "27"
+      },
+      {
+        "position": "8",
+        "name": "Audi",
+        "points": "17"
+      },
+      {
+        "position": "9",
+        "name": "Williams",
+        "points": "12"
+      },
+      {
+        "position": "10",
+        "name": "Aston Martin",
+        "points": "7"
+      },
+      {
+        "position": "11",
+        "name": "Cadillac F1 Team",
+        "points": "0"
+      }
+    ]
   },
   "moto": {
     "races": [],
     "drivers": [],
-    "teams": []
+    "teams": [],
+    "error": "HTTP Error 400: Bad Request"
   },
-  "errors": []
+  "errors": [
+    {
+      "sport": "moto",
+      "message": "HTTP Error 400: Bad Request"
+    }
+  ]
 }
