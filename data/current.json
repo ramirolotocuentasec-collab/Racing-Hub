@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-08T14:50:59.028506Z",
+  "updatedAt": "2026-10-08T15:16:50.073394Z",
   "year": 2026,
   "f1": {
     "races": [
       {
-        "id": "f1-2026-1",
+        "id": "2026-1",
         "round": "1",
         "name": "Australian Grand Prix",
         "circuit": "Albert Park Grand Prix Circuit",
@@ -33,7 +33,7 @@
         ]
       },
       {
-        "id": "f1-2026-2",
+        "id": "2026-2",
         "round": "2",
         "name": "Chinese Grand Prix",
         "circuit": "Shanghai International Circuit",
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "id": "f1-2026-3",
+        "id": "2026-3",
         "round": "3",
         "name": "Japanese Grand Prix",
         "circuit": "Suzuka Circuit",
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "id": "f1-2026-4",
+        "id": "2026-4",
         "round": "4",
         "name": "Miami Grand Prix",
         "circuit": "Miami International Autodrome",
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "id": "f1-2026-5",
+        "id": "2026-5",
         "round": "5",
         "name": "Canadian Grand Prix",
         "circuit": "Circuit Gilles Villeneuve",
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "id": "f1-2026-6",
+        "id": "2026-6",
         "round": "6",
         "name": "Monaco Grand Prix",
         "circuit": "Circuit de Monaco",
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "id": "f1-2026-7",
+        "id": "2026-7",
         "round": "7",
         "name": "Barcelona Grand Prix",
         "circuit": "Circuit de Barcelona-Catalunya",
@@ -195,7 +195,7 @@
         ]
       },
       {
-        "id": "f1-2026-8",
+        "id": "2026-8",
         "round": "8",
         "name": "Austrian Grand Prix",
         "circuit": "Red Bull Ring",
@@ -224,7 +224,7 @@
         ]
       },
       {
-        "id": "f1-2026-9",
+        "id": "2026-9",
         "round": "9",
         "name": "British Grand Prix",
         "circuit": "Silverstone Circuit",
@@ -249,7 +249,7 @@
         ]
       },
       {
-        "id": "f1-2026-10",
+        "id": "2026-10",
         "round": "10",
         "name": "Belgian Grand Prix",
         "circuit": "Circuit de Spa-Francorchamps",
@@ -278,7 +278,7 @@
         ]
       },
       {
-        "id": "f1-2026-11",
+        "id": "2026-11",
         "round": "11",
         "name": "Hungarian Grand Prix",
         "circuit": "Hungaroring",
@@ -307,7 +307,7 @@
         ]
       },
       {
-        "id": "f1-2026-12",
+        "id": "2026-12",
         "round": "12",
         "name": "Dutch Grand Prix",
         "circuit": "Circuit Park Zandvoort",
@@ -332,7 +332,7 @@
         ]
       },
       {
-        "id": "f1-2026-13",
+        "id": "2026-13",
         "round": "13",
         "name": "Italian Grand Prix",
         "circuit": "Autodromo Nazionale di Monza",
@@ -361,7 +361,7 @@
         ]
       },
       {
-        "id": "f1-2026-14",
+        "id": "2026-14",
         "round": "14",
         "name": "Spanish Grand Prix",
         "circuit": "Madring",
@@ -390,7 +390,7 @@
         ]
       },
       {
-        "id": "f1-2026-15",
+        "id": "2026-15",
         "round": "15",
         "name": "Azerbaijan Grand Prix",
         "circuit": "Baku City Circuit",
@@ -419,7 +419,7 @@
         ]
       },
       {
-        "id": "f1-2026-16",
+        "id": "2026-16",
         "round": "16",
         "name": "Bahrain Grand Prix in Malaysia",
         "circuit": "Sepang International Circuit",
@@ -448,7 +448,7 @@
         ]
       },
       {
-        "id": "f1-2026-17",
+        "id": "2026-17",
         "round": "17",
         "name": "Singapore Grand Prix",
         "circuit": "Marina Bay Street Circuit",
@@ -473,7 +473,7 @@
         ]
       },
       {
-        "id": "f1-2026-18",
+        "id": "2026-18",
         "round": "18",
         "name": "United States Grand Prix",
         "circuit": "Circuit of the Americas",
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "id": "f1-2026-19",
+        "id": "2026-19",
         "round": "19",
         "name": "Mexico City Grand Prix",
         "circuit": "Autódromo Hermanos Rodríguez",
@@ -531,7 +531,7 @@
         ]
       },
       {
-        "id": "f1-2026-20",
+        "id": "2026-20",
         "round": "20",
         "name": "Brazilian Grand Prix",
         "circuit": "Autódromo José Carlos Pace",
@@ -560,7 +560,7 @@
         ]
       },
       {
-        "id": "f1-2026-21",
+        "id": "2026-21",
         "round": "21",
         "name": "Las Vegas Grand Prix",
         "circuit": "Las Vegas Strip Street Circuit",
@@ -589,7 +589,7 @@
         ]
       },
       {
-        "id": "f1-2026-22",
+        "id": "2026-22",
         "round": "22",
         "name": "Qatar Grand Prix",
         "circuit": "Lusail International Circuit",
@@ -618,7 +618,7 @@
         ]
       },
       {
-        "id": "f1-2026-23",
+        "id": "2026-23",
         "round": "23",
         "name": "Abu Dhabi Grand Prix",
         "circuit": "Yas Marina Circuit",
@@ -649,259 +649,258 @@
     ],
     "drivers": [
       {
-        "position": 1,
+        "position": "1",
         "name": "Andrea Kimi Antonelli",
-        "driver": "ANT",
-        "number": "12",
+        "driver": "Andrea Kimi Antonelli",
         "team": "Mercedes",
-        "points": 320.0
+        "points": "320",
+        "number": "12"
       },
       {
-        "position": 2,
+        "position": "2",
         "name": "George Russell",
-        "driver": "RUS",
-        "number": "63",
+        "driver": "George Russell",
         "team": "Mercedes",
-        "points": 236.0
+        "points": "236",
+        "number": "63"
       },
       {
-        "position": 3,
+        "position": "3",
         "name": "Lewis Hamilton",
-        "driver": "HAM",
-        "number": "44",
+        "driver": "Lewis Hamilton",
         "team": "Ferrari",
-        "points": 214.0
+        "points": "214",
+        "number": "44"
       },
       {
-        "position": 4,
+        "position": "4",
         "name": "Charles Leclerc",
-        "driver": "LEC",
-        "number": "16",
+        "driver": "Charles Leclerc",
         "team": "Ferrari",
-        "points": 191.0
+        "points": "191",
+        "number": "16"
       },
       {
-        "position": 5,
+        "position": "5",
         "name": "Lando Norris",
-        "driver": "NOR",
-        "number": "1",
+        "driver": "Lando Norris",
         "team": "McLaren",
-        "points": 188.0
+        "points": "188",
+        "number": "1"
       },
       {
-        "position": 6,
+        "position": "6",
         "name": "Max Verstappen",
-        "driver": "VER",
-        "number": "3",
+        "driver": "Max Verstappen",
         "team": "Red Bull",
-        "points": 188.0
+        "points": "188",
+        "number": "3"
       },
       {
-        "position": 7,
+        "position": "7",
         "name": "Oscar Piastri",
-        "driver": "PIA",
-        "number": "81",
+        "driver": "Oscar Piastri",
         "team": "McLaren",
-        "points": 128.0
+        "points": "128",
+        "number": "81"
       },
       {
-        "position": 8,
+        "position": "8",
         "name": "Isack Hadjar",
-        "driver": "HAD",
-        "number": "6",
+        "driver": "Isack Hadjar",
         "team": "Red Bull",
-        "points": 96.0
+        "points": "96",
+        "number": "6"
       },
       {
-        "position": 9,
+        "position": "9",
         "name": "Liam Lawson",
-        "driver": "LAW",
-        "number": "30",
+        "driver": "Liam Lawson",
         "team": "RB F1 Team",
-        "points": 65.0
+        "points": "65",
+        "number": "30"
       },
       {
-        "position": 10,
+        "position": "10",
         "name": "Pierre Gasly",
-        "driver": "GAS",
-        "number": "10",
+        "driver": "Pierre Gasly",
         "team": "Alpine F1 Team",
-        "points": 41.0
+        "points": "41",
+        "number": "10"
       },
       {
-        "position": 11,
+        "position": "11",
         "name": "Arvid Lindblad",
-        "driver": "LIN",
-        "number": "41",
+        "driver": "Arvid Lindblad",
         "team": "RB F1 Team",
-        "points": 38.0
+        "points": "38",
+        "number": "41"
       },
       {
-        "position": 12,
+        "position": "12",
         "name": "Franco Colapinto",
-        "driver": "COL",
-        "number": "43",
+        "driver": "Franco Colapinto",
         "team": "Alpine F1 Team",
-        "points": 27.0
+        "points": "27",
+        "number": "43"
       },
       {
-        "position": 13,
+        "position": "13",
         "name": "Oliver Bearman",
-        "driver": "BEA",
-        "number": "87",
+        "driver": "Oliver Bearman",
         "team": "Haas F1 Team",
-        "points": 20.0
+        "points": "20",
+        "number": "87"
       },
       {
-        "position": 14,
+        "position": "14",
         "name": "Gabriel Bortoleto",
-        "driver": "BOR",
-        "number": "5",
+        "driver": "Gabriel Bortoleto",
         "team": "Audi",
-        "points": 10.0
+        "points": "10",
+        "number": "5"
       },
       {
-        "position": 15,
+        "position": "15",
         "name": "Nico Hülkenberg",
-        "driver": "HUL",
-        "number": "27",
+        "driver": "Nico Hülkenberg",
         "team": "Audi",
-        "points": 7.0
+        "points": "7",
+        "number": "27"
       },
       {
-        "position": 16,
+        "position": "16",
         "name": "Esteban Ocon",
-        "driver": "OCO",
-        "number": "31",
+        "driver": "Esteban Ocon",
         "team": "Haas F1 Team",
-        "points": 7.0
+        "points": "7",
+        "number": "31"
       },
       {
-        "position": 17,
+        "position": "17",
         "name": "Fernando Alonso",
-        "driver": "ALO",
-        "number": "14",
+        "driver": "Fernando Alonso",
         "team": "Aston Martin",
-        "points": 7.0
+        "points": "7",
+        "number": "14"
       },
       {
-        "position": 18,
+        "position": "18",
         "name": "Carlos Sainz",
-        "driver": "SAI",
-        "number": "55",
+        "driver": "Carlos Sainz",
         "team": "Williams",
-        "points": 7.0
+        "points": "7",
+        "number": "55"
       },
       {
-        "position": 19,
+        "position": "19",
         "name": "Alexander Albon",
-        "driver": "ALB",
-        "number": "23",
+        "driver": "Alexander Albon",
         "team": "Williams",
-        "points": 5.0
+        "points": "5",
+        "number": "23"
       },
       {
-        "position": 20,
+        "position": "20",
         "name": "Yuki Tsunoda",
-        "driver": "TSU",
-        "number": "22",
+        "driver": "Yuki Tsunoda",
         "team": "RB F1 Team",
-        "points": 1.0
+        "points": "1",
+        "number": "22"
       },
       {
-        "position": 21,
+        "position": "21",
         "name": "Lance Stroll",
-        "driver": "STR",
-        "number": "18",
+        "driver": "Lance Stroll",
         "team": "Aston Martin",
-        "points": 0.0
+        "points": "0",
+        "number": "18"
       },
       {
-        "position": 22,
+        "position": "22",
         "name": "Valtteri Bottas",
-        "driver": "BOT",
-        "number": "77",
+        "driver": "Valtteri Bottas",
         "team": "Cadillac F1 Team",
-        "points": 0.0
+        "points": "0",
+        "number": "77"
       },
       {
-        "position": 23,
+        "position": "23",
         "name": "Sergio Pérez",
-        "driver": "PER",
-        "number": "11",
+        "driver": "Sergio Pérez",
         "team": "Cadillac F1 Team",
-        "points": 0.0
+        "points": "0",
+        "number": "11"
       }
     ],
     "teams": [
       {
-        "position": 1,
+        "position": "1",
         "name": "Mercedes",
         "team": "Mercedes",
-        "points": 556.0
+        "points": "556"
       },
       {
-        "position": 2,
+        "position": "2",
         "name": "Ferrari",
         "team": "Ferrari",
-        "points": 405.0
+        "points": "405"
       },
       {
-        "position": 3,
+        "position": "3",
         "name": "McLaren",
         "team": "McLaren",
-        "points": 316.0
+        "points": "316"
       },
       {
-        "position": 4,
+        "position": "4",
         "name": "Red Bull",
         "team": "Red Bull",
-        "points": 298.0
+        "points": "298"
       },
       {
-        "position": 5,
+        "position": "5",
         "name": "RB F1 Team",
         "team": "RB F1 Team",
-        "points": 90.0
+        "points": "90"
       },
       {
-        "position": 6,
+        "position": "6",
         "name": "Alpine F1 Team",
         "team": "Alpine F1 Team",
-        "points": 68.0
+        "points": "68"
       },
       {
-        "position": 7,
+        "position": "7",
         "name": "Haas F1 Team",
         "team": "Haas F1 Team",
-        "points": 27.0
+        "points": "27"
       },
       {
-        "position": 8,
+        "position": "8",
         "name": "Audi",
         "team": "Audi",
-        "points": 17.0
+        "points": "17"
       },
       {
-        "position": 9,
+        "position": "9",
         "name": "Williams",
         "team": "Williams",
-        "points": 12.0
+        "points": "12"
       },
       {
-        "position": 10,
+        "position": "10",
         "name": "Aston Martin",
         "team": "Aston Martin",
-        "points": 7.0
+        "points": "7"
       },
       {
-        "position": 11,
+        "position": "11",
         "name": "Cadillac F1 Team",
         "team": "Cadillac F1 Team",
-        "points": 0.0
+        "points": "0"
       }
-    ],
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+    ]
   },
   "moto": {
     "races": [
@@ -2363,122 +2362,250 @@
   "news": {
     "f1": [
       {
-        "title": "¿Chaleco refrigerante o límite presupuestario? El nuevo dilema de los equipos en 2026 - SoyMotor.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0pwVlFOc0ZINWtnOHNQUnFkbGhJNXRTZnJCY2NYeDFOUGwzLU1vUXZSSFpncVd2VTZoMUktWFg4cDhyY2pNWUh0Qll2UzJwRnpKeXFYVjF5YWNXMlhBRWx1dDVxV0dfOTFkM1lxb1prOXNCTnhISzVuZ3JKaUgxckRrbHFMdHQ4T1Q1QXpZLTdCQnhkdmtWS1p3YTVER0FUMmxwMXBsa2FNSkF0Xy02U1pTM2RRZkk?oc=5",
-        "published": "2026-10-08T14:42:24Z",
-        "source": "SoyMotor.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "El GP de Singapur podría verse afectado por los incendios forestales en Indonesia",
+        "url": "https://espanol.motorsport.com/f1/news/gp-singapur-podria-verse-afectado-por-incendios-indonesia/10863105/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/YE9ENeqY/s6/vista-general-del-fullerton-ho.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Noticias - SoyMotor.com",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqYTR5U3otbjhIMkRmZTROeFBCNEQzZHFEaHQzX2pTN1dUNTNNRDBqWjdqSFBvaG9MNHVHOEZiZHJVODdzOHhzY3A2dDh4UXpFNDdKcWNBM0F5VkhOenExdXBCRQ?oc=5",
-        "published": "2026-10-08T09:07:49Z",
-        "source": "SoyMotor.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "McLaren hace cambios para Singapur tras los problemas de motor de Lando Norris",
+        "url": "https://espanol.motorsport.com/f1/news/mclaren-cambios-motor-de-lando-norris-singapur/10863097/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-9.motorsport.com/images/amp/24QGlNqY/s6/lando-norris-mclaren-oscar-pia.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Alonso: \"No creo que sean compatibles las exigencias de la F1 con el Dakar\" - SoyMotor.com",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSjJDd3JmQXA2eE8zNE40RnQ5emFKRTNFZDdyRTdIUURrbk1pN2M3aHlvWU5mLUZZUWFhSS0xNFdfR0I3THdJNnM2aEhlc2hIX2ZHNkVJSzVOak15ZnFka0pKcnNNLXJSOFk4aHZ2V25SV09hdHZPc2Jjb1dMM2JtbGc0SmpGSHBkbUY2bF9GS0t0bVkyZWpZTWJaQjRRbElRSlNBc3ZUVno?oc=5",
-        "published": "2026-10-08T14:00:06Z",
-        "source": "SoyMotor.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Lewis Hamilton: Los pilotos jóvenes de F1 son “cada vez más cautelosos” para correr en lluvia",
+        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-pilotos-jovenes-mas-cautelosos-para-correr-en-lluvia/10863091/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-2.motorsport.com/images/amp/0JXRVlNY/s6/lewis-hamilton-ferrari.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Alonso, sobre los V10 y V8: \"Eran divertidos de pilotar, ligeros y ruidosos... pero igual no encajan en el mundo actual\" - SoyMotor.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZktDZ0kyWHZwTXZsZkg0aHlndldrRG9sdS0yYjNsTklvT3Z0NGNvMmhNa285T0hGbklYekRCbUdVN3kzbldWRzBCTzZfSlphY0dzaXByZ3F5eFdMa0JiMklaNFVrcHdDa2V0aTExQmU0NDVoR3JoN3FFNlQ0azFldTFVZnlqWXVkazNvYXAwQ1hBTVlibmFKeHhhdWc5SmF6aGdtcWc3NnM2TzZSdkhfaUh1eGhwMnU4SlpySldLZ0pPVG9xTkphZV8tbw?oc=5",
-        "published": "2026-10-08T12:08:25Z",
-        "source": "SoyMotor.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Lando Norris pone en duda el valor de una carrera sprint en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/lando-norris-pone-en-duda-valor-carrera-sprint-singapur/10863081/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-8.motorsport.com/images/amp/0arEyyr2/s6/lando-norris-mclaren.jpg",
+        "sport": "f1"
       },
       {
-        "title": "El otro motivo para el optimismo de Aston Martin y Fernando Alonso en Singapur - SoyMotor.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1ZCVS1yU2lRMEN3VXNpQnBLMl9FX3lwMmpNQXdET09IYVMwY21ZbVNTVWdidThRT0ptVjR6Rk1VdTNXQ1UteVRaeGhHcHFQVklKNE0tQnhaazhCcUZITGFMUTNWSy1NSUY1RGRFMGxWQ2lfa2p2S0p5NDJqSXB3NWtMWl9DNS1GLUcyTmJjN1cyUUc3UHNwcHJTd1hTQnRNWGlhekxuMEI2TE9YMkdaZg?oc=5",
-        "published": "2026-10-08T11:51:34Z",
-        "source": "SoyMotor.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Ocon quiere seguir sí o sí en la F1, como titular o como reserva: \"Aquí es donde pertenezco\"",
+        "url": "https://espanol.motorsport.com/f1/news/ocon-quiere-seguir-si-o-si-en-la-f1-como-titular-o-reserva/10863072/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-5.motorsport.com/images/amp/2wlKvPVY/s6/esteban-ocon-haas-f1-team.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Márquez cree que los pilotos de MotoGP se acabarán uniendo, como ocurre en la Fórmula 1 - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGluZG1zRllUR1huM3NlTGtSeklUX19qQVpkZHZLWTc3N3NYMEF4LWlfU3hJZVFwZDhqVkc4eGRreE9Zb0dZYUJsV1lxcnBTTWt6WDNjNjgxYUpjSVJXS2t6UTFPMDlMTzBDOXB1U0JyaEZ0Q2ZSQUNRbzhIMEZ3WVFYM210OV9WcTRBMHZGUm0yWFVWcThYV1VWNHhDZjFEbVpnTHFIZURHZkNZd1FB?oc=5",
-        "published": "2026-10-08T10:09:34Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Los pilotos de Audi F1 revelan su mayor limitación y cómo abordarla en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/pilotos-audi-revelan-su-mayor-limitacion/10863065/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-2.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Alonso desmiente ir al Dakar: \"El siguiente reto lo anunciaré yo, no un rumor\" - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeDNjb3l3NnpUNlRQUWRBYXFmMHlmWU9IUzhDYy0yTkg4NXFSeFRIclJNZml1Qy1IeFlHVjVXT1g4bXpYNGJZT1B4SW1pY0Q1bVJOdGJEcnFvVVNaRldpWkpXUGxqQ1pRN2JqNlRxakU4Um5mU25ST2JBZl9jQnpLNElrZmJSMDhvdlktLWRR?oc=5",
-        "published": "2026-10-08T10:24:29Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Para Russell es \"obvio\" cambiar al Mercedes anterior para el GP de Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/george-russell-obvio-usar-el-coche-anterior-mercedes-en-singapur/10863051/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-5.motorsport.com/images/amp/6lmAGd80/s6/george-russell-mercedes-andrea.jpg",
+        "sport": "f1"
       },
       {
-        "title": "Aston Martin llega \"bastante confiado\" a Singapur; Krack señala a Alonso - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFJHS3BBWkxoMVdWZGxfc0I4T3o0TW4ydVBPN2hxQ01XNzF0UGFLcTZwWlAyUTh2Q2dFX1BGRS1xRjRSTE1CbllLblA0akdjdnZOTnV3MkFXMG1NdGN3X0RkemZ6dEQ5UEpRZU5ScW4wQmw2TTdhOVY2Um9rYnFxZ2o4SkM1NXBia0lFdWdxaDZWSUNQ?oc=5",
-        "published": "2026-10-08T07:47:41Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+        "title": "Por qué el antecedente de Bakú es la esperanza para Alpine en el GP de Singapur de F1",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-baku-es-la-esperanza-para-alpine-en-singapur/10863025/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-8.motorsport.com/images/amp/24QGdv5Y/s6/franco-colapinto-alpine.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Revelan la impresionante indemnización que Red Bull pagó a Christian Horner",
+        "url": "https://espanol.motorsport.com/f1/news/horner-indemnizacion-millonaria-red-bull/10862967/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-3.motorsport.com/images/amp/0oOyxqP0/s6/christian-horner-red-bull-raci-2.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Checo Pérez sobre sus fans y la situación en Cadillac: \"Es difícil, pero apoyan totalmente\"",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-cadillac-apoyo-aficion-situacion-dificil-gp-mexico/10862996/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8ZOen2/s6/sergio-perez-cadillac-racing.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Colapinto revela el objetivo con Alpine para el Gran Premio de Singapur de F1",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-objetivo-alpine-singapur/10862988/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbNDn2/s6/franco-colapinto-alpine-2.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Bottas relata su viaje entre serpientes de Malasia a Singapur y duda si volvería a hacerlo",
+        "url": "https://espanol.motorsport.com/f1/news/bottas-relata-viaje-serpientes-malasia-singapur-2026/10862939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/YMXbNbl2/s6/valtteri-bottas-cadillac-racin.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Checo Pérez y Cadillac ven en Singapur \"la última oportunidad de algo importante\"",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-cadillac-singapur-ultima-oportunidad-2026/10862945/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-1.motorsport.com/images/amp/63QaB9w2/s6/sergio-perez-cadillac-racing.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Mercedes usará a Russell con el paquete antiguo en Singapur tras su penalización de motor",
+        "url": "https://espanol.motorsport.com/f1/news/mercedes-usara-russell-paquete-antiguo-singapur-penalizacion-motor/10862921/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/68Vw9RQ2/s6/andrea-kimi-antonelli-mercedes.jpg",
+        "sport": "f1"
+      },
+      {
+        "title": "Williams demanda al dueño de un taller inglés por la desaparición de un coche de F1 de 2001",
+        "url": "https://espanol.motorsport.com/f1/news/williams-racing-demanda-dueno-taller-millon-libras-esterlinas/10862910/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jX3XEE6/s6/juan-pablo-montoya-williams-fw-3.jpg",
+        "sport": "f1"
       }
     ],
     "moto": [
       {
-        "title": "Bezzecchi, liberado: sin presión y a por todas - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONXlOUUI1bDZLaG1xMXd2TzR0TVphc1lxdG50T1U0bUotZEhCTWRjSVp1d2hxaG9wUkNJc1RDeGZKdVhEejFpRllZSUFUTzZtNVM5X0doUDRWZHRxNk96UEtfaGNsRnN2bHJ1OXhQRVZqbG9US3dETVpIOXhVaFJDcGtjdU9sMFNnek5VRzBEWDE0R3ZOZGJ4ZXE3VUI?oc=5",
-        "published": "2026-10-08T09:07:00Z",
-        "source": "www.motogp.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Batir a Marc Márquez en MotoGP es “la tarea más difícil que podríamos tener”, dice el jefe de Aprilia",
+        "url": "https://espanol.motorsport.com/motogp/news/aprilia-batir-a-marc-marquez-es-la-tarea-mas-dificil/10863011/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEAplE0/s6/marc-marquez-ducati-team.jpg",
+        "sport": "moto"
       },
       {
-        "title": "Marc Márquez: \"Es un circuito que se adapta bien a las Aprilia\" - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSVBLSHVYN0NSeFVyV3ZfNGh2TkF5ZkFhQk1mNEVPckJJcVFxYmg2VWJQazhrZS1QclZMQmRCblZmSzMtUWIzRnprQldQdXh1NWc1RHVIWUpYbVlPTGVfNERhMGVQbm5aOWRuZjdEd3ItX3JkVExFUXB6YVpGV0tPeVNCWnRKaHg0M2tFck93aWxLdkhXb3d4cERkWnJlS1pRTFZ5QlBEc0xHcFdYWmxXM1Vn?oc=5",
-        "published": "2026-10-08T08:58:00Z",
-        "source": "www.motogp.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "MotoGP cambiará sus fines de semana en 2027 y la parrilla no comparte una misma visión",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-cambios-formato-fines-semana-2027-opiniones-pilotos/10862900/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/27vdOaE0/s6/paddock.jpg",
+        "sport": "moto"
       },
       {
-        "title": "REWIND: Doblete crucial de Marc Márquez en Japón - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk5rRXlQT3RGZVFfWklTTzR6UGZiekZzYm9DYU4zSU1tbnpYTlNySWNsaE9ZZHRtUnE5UzNOVzNSbWdfQklGNnFPOFo2bThWQUVaR2tXRzVBY1BReVJnemh3T2hYaWJaa2NnbGw4OGJ1Nlk2bWM0WGVXYXhDRzk0QWZkWkZOaGl1OEN2cElqbFVZQzFibkE3dVYzVzdJNWdEWFJGenp3cVI5azA5TnFvb3JCUFFudFVw?oc=5",
-        "published": "2026-10-08T04:30:00Z",
-        "source": "www.motogp.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Massimo Rivola responde a las preocupaciones por la velocidad de las MotoGP de 850cc: \"Lo hecho, hecho está\"",
+        "url": "https://espanol.motorsport.com/motogp/news/rivola-responde-preocupaciones-por-velocidad-850cc/10862957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-6.motorsport.com/images/amp/YBVjMvnY/s6/massimo-rivola-aprilia-racing-.jpg",
+        "sport": "moto"
       },
       {
-        "title": "Rueda de prensa del 'Round 17' con Martín, Marc Márquez y Bezzecchi - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXFkNWxlOTYzU1JkcjBpcnZRMHBnZkJpRUZtN2pramNUbzJreWpJNE9QaDRTTk1nRTMteFUtVEhDWktmaHFLdWJpOUt6YUhBRlZMZXY1RUFGa1VnQkxjUldQd3BLMFJUZXJUZ2ZUY1FKQ2tSRGVTQ0lHRGFRcFZHSDN6eWZ6Zno4WS1BNkVYYzVoU0ZxVEtZcUdmQURmVlVhYnBzc19tSFIyVkNQUF91TGFFNGE4cms?oc=5",
-        "published": "2026-10-08T08:40:00Z",
-        "source": "www.motogp.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Casey Stoner quiere \"luchar\" para que Phillip Island regrese al calendario de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/casey-stoner-quiere-lucha-phillip-island-regrese-motogp/10862913/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-1.motorsport.com/images/amp/0a9mZMp0/s6/casey-stoner.jpg",
+        "sport": "moto"
       },
       {
-        "title": "\"El ambiente es muy especial\" - Los pilotos, encantados con Mandalika - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN1JHMGZlV3FyOWRhZnAyNVVNN2E3NnY2LUZtRTFoTkM2cGROT3hMc3I2ZENST2U3RWJkbmctQjlqTGt4bm1HWno4NUhBb2NrVldVNlpad0s2bFRtaGcxRlkxdEI3SFMzQzF1V1VKeWRQeG9PZV9kUGZtSklxREQwWDU2NWhhNVVrWGJNU3poX2NBYnVrSml6WWQ5TnpuNHhtM1d2OVJza0lCaDJ1MTh6eFN0QlRyYTA?oc=5",
-        "published": "2026-10-08T07:51:00Z",
-        "source": "www.motogp.com",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Bagnaia: solo cuatro pilotos debatieron el nuevo formato de MotoGP en la Comisión de Seguridad",
+        "url": "https://espanol.motorsport.com/motogp/news/bagnaia-cuatro-pilotos-debatieron-nuevo-formato-motogp-comision-seguridad/10862902/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-4.motorsport.com/images/amp/68Vw9B92/s6/francesco-bagnaia-ducati-team.jpg",
+        "sport": "moto"
       },
       {
-        "title": "F1, MotoGP y toda la actualidad del motor | Motorsport.com España - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1KNGg3aVBoUmE2UEtwREdwSVVtTjMxRWdWZTV6d19ndDZEc040VGRrRWFNbHZaeGxtbURSNGhtSQ?oc=5",
-        "published": "2017-02-17T11:13:31Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Bezzecchi explica por qué le falta algo para estar al nivel de Márquez y Martín en MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-explica-diferencia-con-marquez-y-martin/10862713/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-9.motorsport.com/images/amp/YE9EyZwY/s6/marco-bezzecchi-aprilia-racing.jpg",
+        "sport": "moto"
       },
       {
-        "title": "A qué hora fue la carrera de MotoGP en Motegi (GP de Japón) y cómo se vio - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNlZnQjdLNkFCeTl0bmt3TFJTbnk2QTFvaFBZYlhQSU1IUXlLRk5uVk10bG9uR0Rpdk0tQmZhSEQybDFlVEhQMkN4WDJGLUJRREU3S3czaEVjbjZwR1J5LVh3bU94VmVNakxjam9RQ01CbUdSQmhtVnltT21ZSlJHME9oMkhuM0phLXZWQnpUZ290eUhFenR3WEln?oc=5",
-        "published": "2026-10-05T01:47:07Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "MotoGP confirma el cambio de formato para sus Grandes Premios a partir de 2027 con la clasificación sprint",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-confirma-clasificacion-sprint-2027/10862690/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-6.motorsport.com/images/amp/YP74R4X2/s6/salida.jpg",
+        "sport": "moto"
       },
       {
-        "title": "¿Por qué está tan serio Marc Márquez? - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWjlSWE5Sd3o1Ml9qelVfRVJOVHRRaDJKeHV2MkZteXdYT1IwZHhFTlg3eTBnb1dVaEg1M3c1S2NoZzN0YjRtQ1ZsYkVPYWNRWkY1NzBGV3gxZ3F6S1RiVmExSzgtTDRKYmk4Smc5ZnFQbzFsVFhaNU5MM2h5SkRlVWYwX2JPSko1ZXhJ?oc=5",
-        "published": "2026-10-05T08:00:32Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
+        "title": "Las cifras que demuestran cómo Gigi Dall’Igna convirtió a Ducati en una potencia de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/cifras-demuestran-gigi-dalligna-convirtio-ducati-potencia-motogp/10862613/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/YvKQLj76/s6/luigi-dall-igna-ducati-team-2.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Honda confirma a Espargaró en sustitución de Mir para la carrera de Indonesia",
+        "url": "https://espanol.motorsport.com/motogp/news/honda-confirma-espargaro-sustitucion-mir-carrera-indonesia/10862517/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-9.motorsport.com/images/amp/2jX4j7N6/s6/aleix-espargaro-honda-hrc.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Dall'Igna y las 100 victorias con Ducati: \"La más importante es la primera, con Iannone en Austria\"",
+        "url": "https://espanol.motorsport.com/motogp/news/dalligna-100-victorias-ducati-mas-importante-primera/10862382/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-1.motorsport.com/images/amp/6zoJ1aP0/s6/luigi-dall-igna-ducati-team.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Solo al 70 % de aceleración: la Yamaha V4 carece de potencia y consume demasiado combustible",
+        "url": "https://espanol.motorsport.com/motogp/news/yamaha-v4-carece-potencia-consume-demasiado-combustible/10862384/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-7.motorsport.com/images/amp/6x7Ld1mY/s6/fabio-quartararo-yamaha-factor.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Acosta sufre en Motegi: un fallo “extraño” lo hunde al séptimo tras saborear la gloria",
+        "url": "https://espanol.motorsport.com/motogp/news/acosta-sufre-motegi-fallo-extrano-septimo-saborear-gloria/10862290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-8.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "¿Por qué está Marc Márquez tan serio a pesar de sus victorias en MotoGP?",
+        "url": "https://espanol.motorsport.com/motogp/news/por-que-marc-marquez-serio-victorias-2026/10862288/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-6.motorsport.com/images/amp/6grQmrVY/s6/marc-marquez-ducati-team-3.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Ganadores y perdedores del Gran Premio de Japón de MotoGP 2026",
+        "url": "https://espanol.motorsport.com/motogp/news/ganadores-perdedores-gran-premio-japon-motogp-2026/10862128/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8zOd6/s6/somkiat-chantra-team-lcr-honda.jpg",
+        "sport": "moto"
+      },
+      {
+        "title": "Honda HRC tendrá nuevo jefe ante el retiro de Koji Watanabe",
+        "url": "https://espanol.motorsport.com/f1/news/honda-hrc-tendra-nuevo-jefe-ante-el-retiro-de-koji-watanabe/10862223/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "",
+        "source": "Motorsport.com",
+        "image": "https://cdn-5.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg",
+        "sport": "moto"
       }
     ]
   },
   "errors": [
-    "MotoGP: No se pudo descargar https://api.motogp.pulselive.com/motogp/v1/results/categories: HTTP Error 400: Bad Request"
+    "MotoGP: HTTP Error 400: Bad Request"
   ]
 }
