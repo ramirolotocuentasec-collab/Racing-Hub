@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T12:06:36.972982Z",
+  "updatedAt": "2026-10-08T12:38:25.698174Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2363,10 +2363,38 @@
   "news": {
     "f1": [
       {
-        "title": "Márquez cree que los pilotos de MotoGP se acabarán uniendo, como ocurre en la Fórmula 1 - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGluZG1zRllUR1huM3NlTGtSeklUX19qQVpkZHZLWTc3N3NYMEF4LWlfU3hJZVFwZDhqVkc4eGRreE9Zb0dZYUJsV1lxcnBTTWt6WDNjNjgxYUpjSVJXS2t6UTFPMDlMTzBDOXB1U0JyaEZ0Q2ZSQUNRbzhIMEZ3WVFYM210OV9WcTRBMHZGUm0yWFVWcThYV1VWNHhDZjFEbVpnTHFIZURHZkNZd1FB?oc=5",
-        "published": "2026-10-08T10:09:34Z",
-        "source": "Motorsport.com España",
+        "title": "Alonso, sobre los V10 y V8: \"Eran divertidos de pilotar, ligeros y ruidosos... pero igual no encajan en el mundo actual\" - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZktDZ0kyWHZwTXZsZkg0aHlndldrRG9sdS0yYjNsTklvT3Z0NGNvMmhNa285T0hGbklYekRCbUdVN3kzbldWRzBCTzZfSlphY0dzaXByZ3F5eFdMa0JiMklaNFVrcHdDa2V0aTExQmU0NDVoR3JoN3FFNlQ0azFldTFVZnlqWXVkazNvYXAwQ1hBTVlibmFKeHhhdWc5SmF6aGdtcWc3NnM2TzZSdkhfaUh1eGhwMnU4SlpySldLZ0pPVG9xTkphZV8tbw?oc=5",
+        "published": "2026-10-08T12:08:25Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+      },
+      {
+        "title": "El otro motivo para el optimismo de Aston Martin y Fernando Alonso en Singapur - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1ZCVS1yU2lRMEN3VXNpQnBLMl9FX3lwMmpNQXdET09IYVMwY21ZbVNTVWdidThRT0ptVjR6Rk1VdTNXQ1UteVRaeGhHcHFQVklKNE0tQnhaazhCcUZITGFMUTNWSy1NSUY1RGRFMGxWQ2lfa2p2S0p5NDJqSXB3NWtMWl9DNS1GLUcyTmJjN1cyUUc3UHNwcHJTd1hTQnRNWGlhekxuMEI2TE9YMkdaZg?oc=5",
+        "published": "2026-10-08T11:51:34Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+      },
+      {
+        "title": "La cuenta pendiente de Verstappen: ganar en Singapur, el circuito que le falta - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS3ZiN1Y2TGs0eGhqcUoxNGhHclRia0RTNF9IUFhUT3FTRVAydXBMLXlEbnctMFFCTld3Q3plZTZyNlBWMGc3ek51Z1VGNDM2UkY2QWp3el8tTXNQdWtLMlRpbjJldVVFS2tJaVRQNllFODN2elZiMWtYQ1VJRzdiT19zQWxLTHRrSFZ0clNaLUVHQTZFdTJZMVdCdkpuaXdNZlUwRUUyZHJPR1ZYb3c?oc=5",
+        "published": "2026-10-08T06:43:00Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+      },
+      {
+        "title": "Noticias - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqYTR5U3otbjhIMkRmZTROeFBCNEQzZHFEaHQzX2pTN1dUNTNNRDBqWjdqSFBvaG9MNHVHOEZiZHJVODdzOHhzY3A2dDh4UXpFNDdKcWNBM0F5VkhOenExdXBCRQ?oc=5",
+        "published": "2026-10-08T09:07:49Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
+      },
+      {
+        "title": "Alonso y los \"importantes\" puntos de Sepang: \"Estamos lejos de lo que queremos conseguir\" - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSExSUUlienJHTUlReVpnZ0tDZ1h3bmk4aFZmdU1Va0VoSHowVktBdi05eVd6dFZJVFV2cVJqT1F0T1dFQWU5VWVfT1VkbnFhcm1UaTJEYVlvbkgwRUxaZ0VXN0xyM0pPLUR1TlVQOV9MUUNCT25ua2YxanZDbERYR0x2OVV6VGRRNFd4dzZmM0UwenNmRXZUazNsWDVWQ0NaeS1jYkpsdUtUcmw0V0RsS3E1WEhqUjZT?oc=5",
+        "published": "2026-10-08T10:30:00Z",
+        "source": "SoyMotor.com",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
@@ -2377,9 +2405,9 @@
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Helmut Marko estalla contra Horner por Verstappen: \"Es una mentira absoluta\" - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa1VvV3VnZGhnUVpKT1ZNajZvSFItekQ3NmthbHhiS080TlI0Q3VzTDBxZnM1ZXRFY1ZwcUxGT1JwenFLX3Zkb2o3Q2FhdWF3by1uMllMWF9nQURYNkV5MzNKSktZcEZob19XT2xHTDJKdWR6b0hEWFZPNEkxMlMtdkpYczgzUUVjQ2l5MUs0d3F2Zw?oc=5",
-        "published": "2026-10-08T06:06:38Z",
+        "title": "Márquez cree que los pilotos de MotoGP se acabarán uniendo, como ocurre en la Fórmula 1 - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGluZG1zRllUR1huM3NlTGtSeklUX19qQVpkZHZLWTc3N3NYMEF4LWlfU3hJZVFwZDhqVkc4eGRreE9Zb0dZYUJsV1lxcnBTTWt6WDNjNjgxYUpjSVJXS2t6UTFPMDlMTzBDOXB1U0JyaEZ0Q2ZSQUNRbzhIMEZ3WVFYM210OV9WcTRBMHZGUm0yWFVWcThYV1VWNHhDZjFEbVpnTHFIZURHZkNZd1FB?oc=5",
+        "published": "2026-10-08T10:09:34Z",
         "source": "Motorsport.com España",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
@@ -2388,34 +2416,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFJHS3BBWkxoMVdWZGxfc0I4T3o0TW4ydVBPN2hxQ01XNzF0UGFLcTZwWlAyUTh2Q2dFX1BGRS1xRjRSTE1CbllLblA0akdjdnZOTnV3MkFXMG1NdGN3X0RkemZ6dEQ5UEpRZU5ScW4wQmw2TTdhOVY2Um9rYnFxZ2o4SkM1NXBia0lFdWdxaDZWSUNQ?oc=5",
         "published": "2026-10-08T07:47:41Z",
         "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
-      },
-      {
-        "title": "Entonces... ¿qué mejora Honda con el ADUO2 en el motor del Aston Martin? - Motorsport.com España",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qMU1WYW1mX0tYRlNXbmVZZF8zcldVaGFpWjRiSzJoSEVlWVZWOFp5cHhUWE9aOXJXb0RHekdRQ1E0M3FVVjNUanRsZVRhRmxJODRfTTE4UG4xeGJWLUJPdzVtUmZHQnZ3MlR6TEdoRzdSZVJINWJ4aDNDMA?oc=5",
-        "published": "2026-10-06T14:23:31Z",
-        "source": "Motorsport.com España",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
-      },
-      {
-        "title": "La locura de Valtteri Bottas (Cadillac F1): Ir del GP de Malasia al GP de Singapur en bicicleta - Car and Driver",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkFkNUdKVGFGZFBsc1BDdTE0enZ0TGllRDNKZ0xoSXp3dE4yMjVEaHl1SEpENmduLVhpQXJEaDE3Rjd0N2VhbU8wYy1BTU5QWVBWU05xR0JsNnlZVjdSZ1M5YzQwdmxhZzAzVkwxMERudHFkN2FqcEhJZ1pSTkJzQUdKV2tWa0dlbXp4bHpOQQ?oc=5",
-        "published": "2026-10-06T19:08:28Z",
-        "source": "Car and Driver",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
-      },
-      {
-        "title": "Max Verstappen reina en el caos de la FIA en Malasia; ¡puntos para Fernando Alonso! - Car and Driver",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXV0cF9KTGJpVVFLd29pWHcxckpxNWJTa0lDLWl4eWVuTDFOckhzZUJvbVdMNzdYV0NtNXlLYVpnSG9DWjFBTWpUT1I2Q1FLaHdlMTJ4T3hsdXMtRkRxUXF4NHgyb1BlQTRFZENYbXFRd0pWZ0VsRmJ5Q1A4Tk1iNlRNOGUwakRLbzBNcU9aSDJRb0g2NUUxd3hUdktvaVhjWUc5Q3FwUldBVEdXd3VhZlJ1S1M?oc=5",
-        "published": "2026-10-05T10:13:07Z",
-        "source": "Car and Driver",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
-      },
-      {
-        "title": "Red Bull funciona en Malasia: primera pole de Max Verstappen en 2026; Aston Martin mejora - Car and Driver",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVl6U0Y2dG9SbzlyelpJRWstVGRTQ0k5ME5VVnNqMkRiWW1IM2tTbDU0U3BUZGFYVi1OU1BFZUthbHFJTHc0dU11ekJEalRLUHF5eU1LZ3llSm0tU2Zsa0NFdnBrZWVVMFYxSFgzYnhQcFZ5dkdnWTlNQkx3bHNNOHRqbGJaVVgxVlR0N2RsaUxJeHpKOE9lVkRLeGpPNVR6Z1BtRmZHaE0wNi1CMHdraVdlWk5pb2plWHVNTjlJT3F3akdsV3o0bGFKS01TbW9jRFg1bGJWUm9nQQ?oc=5",
-        "published": "2026-10-03T10:38:02Z",
-        "source": "Car and Driver",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       }
     ],
@@ -2428,16 +2428,16 @@
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "Marc Márquez: \"Es un circuito que se adapta bien a las Aprilia\" - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSVBLSHVYN0NSeFVyV3ZfNGh2TkF5ZkFhQk1mNEVPckJJcVFxYmg2VWJQazhrZS1QclZMQmRCblZmSzMtUWIzRnprQldQdXh1NWc1RHVIWUpYbVlPTGVfNERhMGVQbm5aOWRuZjdEd3ItX3JkVExFUXB6YVpGV0tPeVNCWnRKaHg0M2tFck93aWxLdkhXb3d4cERkWnJlS1pRTFZ5QlBEc0xHcFdYWmxXM1Vn?oc=5",
-        "published": "2026-10-08T08:58:00Z",
+        "title": "REWIND: Doblete crucial de Marc Márquez en Japón - www.motogp.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk5rRXlQT3RGZVFfWklTTzR6UGZiekZzYm9DYU4zSU1tbnpYTlNySWNsaE9ZZHRtUnE5UzNOVzNSbWdfQklGNnFPOFo2bThWQUVaR2tXRzVBY1BReVJnemh3T2hYaWJaa2NnbGw4OGJ1Nlk2bWM0WGVXYXhDRzk0QWZkWkZOaGl1OEN2cElqbFVZQzFibkE3dVYzVzdJNWdEWFJGenp3cVI5azA5TnFvb3JCUFFudFVw?oc=5",
+        "published": "2026-10-08T04:30:00Z",
         "source": "www.motogp.com",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "REWIND: Doblete crucial de Marc Márquez en Japón - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVk5rRXlQT3RGZVFfWklTTzR6UGZiekZzYm9DYU4zSU1tbnpYTlNySWNsaE9ZZHRtUnE5UzNOVzNSbWdfQklGNnFPOFo2bThWQUVaR2tXRzVBY1BReVJnemh3T2hYaWJaa2NnbGw4OGJ1Nlk2bWM0WGVXYXhDRzk0QWZkWkZOaGl1OEN2cElqbFVZQzFibkE3dVYzVzdJNWdEWFJGenp3cVI5azA5TnFvb3JCUFFudFVw?oc=5",
-        "published": "2026-10-08T04:30:00Z",
+        "title": "Marc Márquez: \"Es un circuito que se adapta bien a las Aprilia\" - www.motogp.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSVBLSHVYN0NSeFVyV3ZfNGh2TkF5ZkFhQk1mNEVPckJJcVFxYmg2VWJQazhrZS1QclZMQmRCblZmSzMtUWIzRnprQldQdXh1NWc1RHVIWUpYbVlPTGVfNERhMGVQbm5aOWRuZjdEd3ItX3JkVExFUXB6YVpGV0tPeVNCWnRKaHg0M2tFck93aWxLdkhXb3d4cERkWnJlS1pRTFZ5QlBEc0xHcFdYWmxXM1Vn?oc=5",
+        "published": "2026-10-08T08:58:00Z",
         "source": "www.motogp.com",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
