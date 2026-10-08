@@ -1,0 +1,18 @@
+{
+  "updatedAt": null,
+  "source": {
+    "f1": "Jolpica F1",
+    "moto": "MotoGP/PulseLive"
+  },
+  "f1": {
+    "races": [],
+    "drivers": [],
+    "teams": []
+  },
+  "moto": {
+    "races": [],
+    "drivers": [],
+    "teams": []
+  },
+  "errors": []
+}
