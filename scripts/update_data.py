@@ -1,128 +1,174 @@
-#!/usr/bin/env python3
-
-"""
-Racing Hub AR
-Actualizador automático de datos F1 + MotoGP.
-
-Genera:
-    data/current.json
-
-Fuentes:
-    F1     -> Jolpica F1 API
-    MotoGP -> MotoGP PulseLive API
-    News   -> Google News RSS filtrado a fuentes oficiales
-
-El script está diseñado para NO destruir los datos anteriores
-si una API falla temporalmente.
-"""
+from __future__ import annotations
 
 import json
-import os
 import re
-import sys
-import urllib.request
-import urllib.parse
+import time
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from html import unescape
+from pathlib import Path
+from urllib.parse import quote, urlencode
+from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
-from datetime import datetime, timezone
-from pathlib import Path
 
-
-# =========================================================
+# ============================================================
 # CONFIGURACIÓN
-# =========================================================
+# ============================================================
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = ROOT / "data"
+DATA_FILE = DATA_DIR / "current.json"
 
 YEAR = datetime.now(timezone.utc).year
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-DATA_FILE = DATA_DIR / "current.json"
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; RacingHubAR/1.0; "
+    "+https://github.com/)"
+)
 
-ARGENTINA_TZ = "America/Argentina/Buenos_Aires"
-
-
-F1_BASE = "https://api.jolpi.ca/ergast/f1"
-
-MOTOGP_BASE = "https://api.motogp.pulselive.com/motogp/v1"
+TIMEOUT = 25
+RETRIES = 3
 
 
-MOTOGP_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 "
-        "(Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 "
-        "Chrome/131.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-    "Origin": "https://www.motogp.com",
-    "Referer": "https://www.motogp.com/",
-}
+# ============================================================
+# IMÁGENES
+# ============================================================
+#
+# Son imágenes generales del deporte. No dependemos de que cada
+# noticia tenga una fotografía propia.
+#
+# Wikimedia Commons permite utilizar imágenes mediante sus URLs.
+#
+
+F1_IMAGE = (
+    "https://commons.wikimedia.org/wiki/Special:FilePath/"
+    + quote("Lewis Hamilton Ferrari F1 Car (55383746481).jpg")
+    + "?width=1280"
+)
+
+MOTOGP_IMAGE = (
+    "https://commons.wikimedia.org/wiki/Special:FilePath/"
+    + quote("MotoGP 2026 season launch Kuala Lumpur 01.jpg")
+    + "?width=1280"
+)
 
 
-DEFAULT_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 "
-        "(Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 "
-        "Chrome/131.0 Safari/537.36"
-    ),
-    "Accept": "*/*",
-}
+# ============================================================
+# UTILIDADES HTTP
+# ============================================================
+
+def fetch_bytes(url: str, headers: dict | None = None) -> bytes:
+    final_headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "*/*",
+    }
+
+    if headers:
+        final_headers.update(headers)
+
+    last_error = None
+
+    for attempt in range(RETRIES):
+        try:
+            request = Request(url, headers=final_headers)
+
+            with urlopen(request, timeout=TIMEOUT) as response:
+                return response.read()
+
+        except Exception as exc:
+            last_error = exc
+
+            if attempt < RETRIES - 1:
+                time.sleep(2 * (attempt + 1))
+
+    raise RuntimeError(f"No se pudo descargar {url}: {last_error}")
 
 
-# =========================================================
-# UTILIDADES
-# =========================================================
-
-def now_iso():
-    return datetime.now(timezone.utc).isoformat()
-
-
-def log(message):
-    print(f"[RACING HUB] {message}")
-
-
-def fetch_json(url, headers=None, timeout=30):
-    request = urllib.request.Request(
+def fetch_json(url: str, headers: dict | None = None) -> dict | list:
+    raw = fetch_bytes(
         url,
-        headers=headers or DEFAULT_HEADERS,
+        headers={
+            "Accept": "application/json, text/plain, */*",
+            **(headers or {}),
+        },
     )
 
-    with urllib.request.urlopen(
-        request,
-        timeout=timeout,
-    ) as response:
-
-        raw = response.read()
-
-        if not raw:
-            raise RuntimeError("Respuesta vacía")
-
-        return json.loads(
-            raw.decode("utf-8")
-        )
+    return json.loads(raw.decode("utf-8-sig"))
 
 
-def fetch_text(url, headers=None, timeout=30):
-    request = urllib.request.Request(
+def fetch_text(url: str, headers: dict | None = None) -> str:
+    raw = fetch_bytes(
         url,
-        headers=headers or DEFAULT_HEADERS,
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            **(headers or {}),
+        },
     )
 
-    with urllib.request.urlopen(
-        request,
-        timeout=timeout,
-    ) as response:
-
-        return response.read().decode(
-            "utf-8",
-            errors="replace"
-        )
+    return raw.decode("utf-8", errors="replace")
 
 
-def safe_float(value, default=0):
+# ============================================================
+# UTILIDADES GENERALES
+# ============================================================
+
+def load_existing_data() -> dict:
+    if not DATA_FILE.exists():
+        return {}
+
     try:
-        if value is None:
+        with DATA_FILE.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        return data if isinstance(data, dict) else {}
+
+    except Exception:
+        return {}
+
+
+def save_data(data: dict) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    temporary = DATA_FILE.with_suffix(".tmp")
+
+    with temporary.open("w", encoding="utf-8") as f:
+        json.dump(
+            data,
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    temporary.replace(DATA_FILE)
+
+
+def clean_text(value) -> str:
+    if value is None:
+        return ""
+
+    text = unescape(str(value))
+
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+
+    return text.strip()
+
+
+def first_value(obj, *keys, default=None):
+    if not isinstance(obj, dict):
+        return default
+
+    for key in keys:
+        if key in obj and obj[key] not in (None, ""):
+            return obj[key]
+
+    return default
+
+
+def safe_number(value, default=0):
+    try:
+        if value is None or value == "":
             return default
 
         return float(value)
@@ -131,53 +177,267 @@ def safe_float(value, default=0):
         return default
 
 
-def safe_int(value, default=0):
-    try:
-        if value is None:
-            return default
+def parse_datetime(value: str | None) -> str:
+    if not value:
+        return ""
 
-        return int(float(value))
+    value = str(value).strip()
+
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+
+        return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
     except Exception:
-        return default
+        pass
+
+    try:
+        dt = parsedate_to_datetime(value)
+
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+
+        return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+    except Exception:
+        return value
 
 
-def first_value(obj, *keys, default=None):
-    if not isinstance(obj, dict):
-        return default
+# ============================================================
+# FÓRMULA 1 - JOLPICA
+# ============================================================
 
-    for key in keys:
-        if key in obj:
-
-            value = obj[key]
-
-            if value is not None and value != "":
-                return value
-
-    return default
+JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
 
 
-def recursive_find(obj, keys):
-    """
-    Busca recursivamente una clave dentro de un JSON.
-    """
+def build_f1_session(name: str, session_data: dict) -> dict | None:
+    if not isinstance(session_data, dict):
+        return None
 
-    wanted = {
-        str(k).lower()
-        for k in keys
+    date = session_data.get("date")
+    time_value = session_data.get("time")
+
+    if not date:
+        return None
+
+    if time_value:
+        iso = f"{date}T{time_value}"
+    else:
+        iso = date
+
+    return {
+        "name": name,
+        "date": parse_datetime(iso),
     }
 
+
+def get_f1_schedule(year: int) -> list:
+    url = f"{JOLPICA_BASE}/{year}.json?limit=100"
+
+    data = fetch_json(url)
+
+    races = (
+        data.get("MRData", {})
+        .get("RaceTable", {})
+        .get("Races", [])
+    )
+
+    result = []
+
+    for race in races:
+        race_name = race.get("raceName", "")
+        round_number = race.get("round", "")
+
+        circuit = race.get("Circuit", {})
+        circuit_name = circuit.get("circuitName", "")
+
+        date = race.get("date")
+        race_time = race.get("time")
+
+        if not date:
+            continue
+
+        if race_time:
+            race_datetime = f"{date}T{race_time}"
+        else:
+            race_datetime = date
+
+        sessions = []
+
+        session_map = [
+            ("FP1", "FirstPractice"),
+            ("FP2", "SecondPractice"),
+            ("FP3", "ThirdPractice"),
+            ("Sprint", "Sprint"),
+            ("Q", "Qualifying"),
+        ]
+
+        for display_name, source_name in session_map:
+            session = build_f1_session(
+                display_name,
+                race.get(source_name),
+            )
+
+            if session:
+                sessions.append(session)
+
+        sessions.append({
+            "name": "Race",
+            "date": parse_datetime(race_datetime),
+        })
+
+        result.append({
+            "id": f"f1-{year}-{round_number}",
+            "round": str(round_number),
+            "name": race_name,
+            "circuit": circuit_name,
+            "race": parse_datetime(race_datetime),
+            "sessions": sessions,
+        })
+
+    return result
+
+
+def get_f1_driver_standings(year: int) -> list:
+    url = (
+        f"{JOLPICA_BASE}/{year}/driverstandings.json"
+        "?limit=100"
+    )
+
+    data = fetch_json(url)
+
+    lists = (
+        data.get("MRData", {})
+        .get("StandingsTable", {})
+        .get("StandingsLists", [])
+    )
+
+    if not lists:
+        return []
+
+    standings = lists[0].get("DriverStandings", [])
+
+    result = []
+
+    for row in standings:
+        driver = row.get("Driver", {})
+        constructors = row.get("Constructors", [])
+
+        team = ""
+
+        if constructors:
+            team = constructors[0].get("name", "")
+
+        given = driver.get("givenName", "")
+        family = driver.get("familyName", "")
+
+        full_name = f"{given} {family}".strip()
+
+        result.append({
+            "position": int(row.get("position", 0) or 0),
+            "name": full_name,
+            "driver": driver.get("code", ""),
+            "number": driver.get("permanentNumber", ""),
+            "team": team,
+            "points": safe_number(row.get("points")),
+        })
+
+    return result
+
+
+def get_f1_team_standings(year: int) -> list:
+    url = (
+        f"{JOLPICA_BASE}/{year}/constructorstandings.json"
+        "?limit=100"
+    )
+
+    data = fetch_json(url)
+
+    lists = (
+        data.get("MRData", {})
+        .get("StandingsTable", {})
+        .get("StandingsLists", [])
+    )
+
+    if not lists:
+        return []
+
+    standings = lists[0].get("ConstructorStandings", [])
+
+    result = []
+
+    for row in standings:
+        constructor = row.get("Constructor", {})
+
+        result.append({
+            "position": int(row.get("position", 0) or 0),
+            "name": constructor.get("name", ""),
+            "team": constructor.get("name", ""),
+            "points": safe_number(row.get("points")),
+        })
+
+    return result
+
+
+def get_f1_data(previous: dict) -> dict:
+    previous_f1 = previous.get("f1", {})
+
+    result = {
+        "races": previous_f1.get("races", []),
+        "drivers": previous_f1.get("drivers", []),
+        "teams": previous_f1.get("teams", []),
+        "image": F1_IMAGE,
+    }
+
+    result["races"] = get_f1_schedule(YEAR)
+    result["drivers"] = get_f1_driver_standings(YEAR)
+    result["teams"] = get_f1_team_standings(YEAR)
+
+    return result
+
+
+# ============================================================
+# MOTOGP - PULSELIVE
+# ============================================================
+
+MOTOGP_BASE = "https://api.motogp.pulselive.com/motogp/v1"
+
+MOTOGP_HEADERS = {
+    "Origin": "https://www.motogp.com",
+    "Referer": "https://www.motogp.com/",
+    "Accept": "application/json, text/plain, */*",
+}
+
+
+def find_list_recursive(obj):
+    if isinstance(obj, list):
+        if obj:
+            return obj
+
+        return None
+
+    if isinstance(obj, dict):
+        for value in obj.values():
+            found = find_list_recursive(value)
+
+            if found:
+                return found
+
+    return None
+
+
+def find_key_recursive(obj, keys: set):
     if isinstance(obj, dict):
 
         for key, value in obj.items():
 
-            if str(key).lower() in wanted:
+            if key.lower() in {x.lower() for x in keys}:
                 return value
 
-            found = recursive_find(
-                value,
-                keys
-            )
+            found = find_key_recursive(value, keys)
 
             if found is not None:
                 return found
@@ -185,11 +445,7 @@ def recursive_find(obj, keys):
     elif isinstance(obj, list):
 
         for item in obj:
-
-            found = recursive_find(
-                item,
-                keys
-            )
+            found = find_key_recursive(item, keys)
 
             if found is not None:
                 return found
@@ -197,1858 +453,889 @@ def recursive_find(obj, keys):
     return None
 
 
-def as_list(value):
-    if value is None:
-        return []
+def get_motogp_season_uuid(year: int) -> str:
+    url = f"{MOTOGP_BASE}/results/seasons"
 
-    if isinstance(value, list):
-        return value
+    data = fetch_json(url, MOTOGP_HEADERS)
 
-    if isinstance(value, dict):
-
-        for key in (
-            "content",
-            "items",
-            "data",
-            "results",
-            "events",
-            "standings",
-            "rows",
-        ):
-
-            if isinstance(
-                value.get(key),
-                list
-            ):
-                return value[key]
-
-    return []
-
-
-def parse_iso_date(value):
-    """
-    Convierte diferentes formatos de fecha
-    a ISO UTC.
-    """
-
-    if value is None:
-        return None
-
-    if isinstance(value, (int, float)):
-
-        try:
-
-            # Milisegundos
-            if value > 100000000000:
-
-                dt = datetime.fromtimestamp(
-                    value / 1000,
-                    tz=timezone.utc
-                )
-
-            else:
-
-                dt = datetime.fromtimestamp(
-                    value,
-                    tz=timezone.utc
-                )
-
-            return dt.isoformat()
-
-        except Exception:
-            return None
-
-    text = str(value).strip()
-
-    if not text:
-        return None
-
-    # ISO directo
-    try:
-
-        normalized = text.replace(
-            "Z",
-            "+00:00"
-        )
-
-        dt = datetime.fromisoformat(
-            normalized
-        )
-
-        if dt.tzinfo is None:
-
-            dt = dt.replace(
-                tzinfo=timezone.utc
-            )
-
-        return dt.astimezone(
-            timezone.utc
-        ).isoformat()
-
-    except Exception:
-        pass
-
-    # Timestamp numérico dentro de string
-    try:
-
-        number = float(text)
-
-        return parse_iso_date(number)
-
-    except Exception:
-        pass
-
-    return None
-
-
-def clean_text(value):
-    if value is None:
-        return ""
-
-    return re.sub(
-        r"\s+",
-        " ",
-        str(value)
-    ).strip()
-
-
-def make_id(*parts):
-    raw = "-".join(
-        clean_text(p)
-        for p in parts
-        if p is not None
-    )
-
-    raw = raw.lower()
-
-    raw = re.sub(
-        r"[^a-z0-9\-]+",
-        "-",
-        raw
-    )
-
-    raw = re.sub(
-        r"-+",
-        "-",
-        raw
-    )
-
-    return raw.strip("-")
-
-
-# =========================================================
-# ARCHIVO ANTERIOR
-# =========================================================
-
-def load_previous_data():
-
-    if not DATA_FILE.exists():
-        return {}
-
-    try:
-
-        with open(
-            DATA_FILE,
-            "r",
-            encoding="utf-8"
-        ) as file:
-
-            data = json.load(file)
-
-            if isinstance(data, dict):
-                return data
-
-    except Exception as error:
-
-        log(
-            "No se pudo leer current.json anterior: "
-            + str(error)
-        )
-
-    return {}
-
-
-# =========================================================
-# F1 - CALENDARIO
-# =========================================================
-
-def fetch_f1_races():
-
-    url = (
-        f"{F1_BASE}/"
-        f"{YEAR}.json"
-        f"?limit=100"
-    )
-
-    data = fetch_json(url)
-
-    races = (
-        data
-        .get("MRData", {})
-        .get("RaceTable", {})
-        .get("Races", [])
-    )
-
-    normalized = []
-
-    for race in races:
-
-        race_name = first_value(
-            race,
-            "raceName",
-            "name",
-            default="Gran Premio"
-        )
-
-        round_number = first_value(
-            race,
-            "round",
-            default=""
-        )
-
-        circuit = (
-            race
-            .get("Circuit", {})
-        )
-
-        circuit_name = first_value(
-            circuit,
-            "circuitName",
-            "name",
-            default=""
-        )
-
-        race_date = race.get("date")
-        race_time = race.get("time")
-
-        race_datetime = None
-
-        if race_date:
-
-            if race_time:
-
-                race_datetime = (
-                    f"{race_date}T{race_time}"
-                )
-
-            else:
-
-                race_datetime = (
-                    f"{race_date}T00:00:00Z"
-                )
-
-        race_datetime = parse_iso_date(
-            race_datetime
-        )
-
-        sessions = []
-
-        # -------------------------------------------------
-        # Sesiones estándar F1
-        # -------------------------------------------------
-
-        session_fields = [
-            ("FirstPractice", "FP1"),
-            ("SecondPractice", "FP2"),
-            ("ThirdPractice", "FP3"),
-            ("Sprint", "Sprint"),
-            ("Qualifying", "Clasificación"),
-        ]
-
-        for field, label in session_fields:
-
-            session = race.get(field)
-
-            if not isinstance(
-                session,
-                dict
-            ):
-                continue
-
-            date = session.get("date")
-            time = session.get("time")
-
-            if not date:
-                continue
-
-            if time:
-                value = (
-                    f"{date}T{time}"
-                )
-            else:
-                value = (
-                    f"{date}T00:00:00Z"
-                )
-
-            iso = parse_iso_date(
-                value
-            )
-
-            if iso:
-
-                sessions.append({
-                    "name": label,
-                    "date": iso
-                })
-
-        # -------------------------------------------------
-        # Carrera
-        # -------------------------------------------------
-
-        if race_datetime:
-
-            sessions.append({
-                "name": "Carrera",
-                "date": race_datetime
-            })
-
-        circuit_url = ""
-
-        if isinstance(
-            circuit,
-            dict
-        ):
-
-            circuit_url = first_value(
-                circuit,
-                "url",
-                default=""
-            )
-
-        normalized.append({
-
-            "id": make_id(
-                "f1",
-                YEAR,
-                round_number,
-                race_name
-            ),
-
-            "round": round_number,
-
-            "name": race_name,
-
-            "circuit": circuit_name,
-
-            "race": race_datetime,
-
-            "sessions": sessions,
-
-            "circuitUrl": circuit_url,
-
-            "circuitImage": ""
-
-        })
-
-    return normalized
-
-
-# =========================================================
-# F1 - PILOTOS
-# =========================================================
-
-def fetch_f1_drivers():
-
-    url = (
-        f"{F1_BASE}/"
-        f"{YEAR}/driverstandings.json"
-        f"?limit=100"
-    )
-
-    data = fetch_json(url)
-
-    lists = (
-        data
-        .get("MRData", {})
-        .get("StandingsTable", {})
-        .get("StandingsLists", [])
-    )
-
-    if not lists:
-        return []
-
-    standings = (
-        lists[0]
-        .get("DriverStandings", [])
-    )
-
-    result = []
-
-    for item in standings:
-
-        driver = item.get(
-            "Driver",
-            {}
-        )
-
-        constructor_list = item.get(
-            "Constructors",
-            []
-        )
-
-        constructor = ""
-
-        if constructor_list:
-
-            constructor = first_value(
-                constructor_list[0],
-                "name",
-                default=""
-            )
-
-        given = first_value(
-            driver,
-            "givenName",
-            default=""
-        )
-
-        family = first_value(
-            driver,
-            "familyName",
-            default=""
-        )
-
-        name = clean_text(
-            f"{given} {family}"
-        )
-
-        result.append({
-
-            "position": safe_int(
-                item.get("position")
-            ),
-
-            "name": name,
-
-            "driver": name,
-
-            "team": constructor,
-
-            "constructor": constructor,
-
-            "points": safe_float(
-                item.get("points")
-            ),
-
-            "number": first_value(
-                driver,
-                "permanentNumber",
-                default=""
-            ),
-
-            "teamLogo": "",
-
-            "teamColor": ""
-
-        })
-
-    return result
-
-
-# =========================================================
-# F1 - EQUIPOS
-# =========================================================
-
-def fetch_f1_teams():
-
-    url = (
-        f"{F1_BASE}/"
-        f"{YEAR}/constructorstandings.json"
-        f"?limit=100"
-    )
-
-    data = fetch_json(url)
-
-    lists = (
-        data
-        .get("MRData", {})
-        .get("StandingsTable", {})
-        .get("StandingsLists", [])
-    )
-
-    if not lists:
-        return []
-
-    standings = (
-        lists[0]
-        .get("ConstructorStandings", [])
-    )
-
-    result = []
-
-    for item in standings:
-
-        constructor = item.get(
-            "Constructor",
-            {}
-        )
-
-        name = first_value(
-            constructor,
-            "name",
-            default="Sin nombre"
-        )
-
-        result.append({
-
-            "position": safe_int(
-                item.get("position")
-            ),
-
-            "name": name,
-
-            "team": name,
-
-            "points": safe_float(
-                item.get("points")
-            ),
-
-            "logo": "",
-
-            "teamColor": ""
-
-        })
-
-    return result
-
-
-# =========================================================
-# MOTOGP - TEMPORADA
-# =========================================================
-
-def fetch_motogp_season():
-
-    url = (
-        f"{MOTOGP_BASE}/"
-        "results/seasons"
-    )
-
-    seasons = fetch_json(
-        url,
-    )
-
-    if isinstance(
-        seasons,
-        dict
-    ):
-        seasons = as_list(
-            seasons
-        )
+    seasons = find_list_recursive(data) or []
 
     for season in seasons:
+        if not isinstance(season, dict):
+            continue
 
-        if safe_int(
-            season.get("year")
-        ) == YEAR:
+        season_year = first_value(
+            season,
+            "year",
+            "seasonYear",
+        )
 
-            return season
+        uuid = first_value(
+            season,
+            "id",
+            "uuid",
+            "seasonUuid",
+        )
+
+        if str(season_year) == str(year) and uuid:
+            return str(uuid)
 
     raise RuntimeError(
-        f"No se encontró la temporada MotoGP {YEAR}"
+        f"No se encontró la temporada MotoGP {year}"
     )
 
 
-# =========================================================
-# MOTOGP - CATEGORÍA
-# =========================================================
+def get_motogp_category_uuid() -> str:
+    url = f"{MOTOGP_BASE}/results/categories"
 
-def fetch_motogp_category():
+    data = fetch_json(url, MOTOGP_HEADERS)
 
-    """
-    Obtiene las categorías disponibles.
-    La API puede cambiar ligeramente su respuesta,
-    por eso hacemos varias rutas de búsqueda.
-    """
+    categories = find_list_recursive(data) or []
 
-    possible_urls = [
+    for category in categories:
+        if not isinstance(category, dict):
+            continue
 
-        (
-            f"{MOTOGP_BASE}/"
-            "results/categories"
-        ),
-
-        (
-            f"{MOTOGP_BASE}/"
-            "results/categories/"
-        ),
-
-    ]
-
-    last_error = None
-
-    for url in possible_urls:
-
-        try:
-
-            data = fetch_json(
-                url,
-                MOTOGP_HEADERS
+        name = clean_text(
+            first_value(
+                category,
+                "name",
+                "displayName",
+                "categoryName",
+                default="",
             )
+        ).lower()
 
-            categories = as_list(
-                data
-            )
+        uuid = first_value(
+            category,
+            "id",
+            "uuid",
+            "categoryUuid",
+        )
 
-            # A veces el JSON es un objeto
-            if not categories:
+        if uuid and (
+            name == "motogp"
+            or "motogp" in name
+        ):
+            return str(uuid)
 
-                categories = (
-                    data
-                    if isinstance(
-                        data,
-                        list
-                    )
-                    else []
-                )
+    # UUID conocido/fallback habitual de MotoGP.
+    for category in categories:
+        if not isinstance(category, dict):
+            continue
 
-            for category in categories:
+        uuid = first_value(
+            category,
+            "id",
+            "uuid",
+            "categoryUuid",
+        )
 
-                if not isinstance(
-                    category,
-                    dict
-                ):
-                    continue
-
-                name = clean_text(
-                    first_value(
-                        category,
-                        "name",
-                        "displayName",
-                        "categoryName",
-                        default=""
-                    )
-                )
-
-                if name.lower() == "motogp":
-
-                    category_id = first_value(
-                        category,
-                        "id",
-                        "uuid",
-                        "categoryUuid",
-                        default=""
-                    )
-
-                    if category_id:
-
-                        return {
-                            "id": str(category_id),
-                            "name": "MotoGP"
-                        }
-
-        except Exception as error:
-
-            last_error = error
-
-    if last_error:
-
-        raise last_error
+        if uuid:
+            return str(uuid)
 
     raise RuntimeError(
         "No se encontró la categoría MotoGP"
     )
 
 
-# =========================================================
-# MOTOGP - EVENTOS
-# =========================================================
+def extract_name(obj: dict) -> str:
+    if not isinstance(obj, dict):
+        return ""
 
-def extract_motogp_events(
-    season_uuid
-):
+    name = first_value(
+        obj,
+        "name",
+        "displayName",
+        "eventName",
+        "circuitName",
+        "shortName",
+    )
+
+    if isinstance(name, dict):
+        name = first_value(
+            name,
+            "name",
+            "displayName",
+            "shortName",
+        )
+
+    return clean_text(name)
+
+
+def extract_datetime_from_object(obj: dict) -> str:
+    if not isinstance(obj, dict):
+        return ""
+
+    value = first_value(
+        obj,
+        "date",
+        "startDate",
+        "dateStart",
+        "eventDate",
+        "scheduledStart",
+        "startTime",
+        "localDate",
+    )
+
+    if isinstance(value, dict):
+        value = first_value(
+            value,
+            "date",
+            "value",
+        )
+
+    return parse_datetime(value)
+
+
+def normalize_motogp_event(event: dict, index: int) -> dict | None:
+    if not isinstance(event, dict):
+        return None
+
+    nested_event = event.get("event")
+
+    if isinstance(nested_event, dict):
+        source = nested_event
+    else:
+        source = event
+
+    event_name = extract_name(source)
+
+    if not event_name:
+        event_name = extract_name(event)
+
+    event_id = first_value(
+        source,
+        "id",
+        "uuid",
+        "eventUuid",
+        "eventId",
+        default=f"motogp-{YEAR}-{index}",
+    )
+
+    round_number = first_value(
+        source,
+        "round",
+        "roundNumber",
+        "sequence",
+        "order",
+        default=index + 1,
+    )
+
+    circuit_obj = source.get("circuit")
+
+    if not isinstance(circuit_obj, dict):
+        circuit_obj = {}
+
+    circuit_name = extract_name(circuit_obj)
+
+    if not circuit_name:
+        circuit_name = clean_text(
+            first_value(
+                source,
+                "circuitName",
+                "trackName",
+                "venueName",
+                default="",
+            )
+        )
+
+    sessions = []
+
+    possible_sessions = []
+
+    for key in (
+        "sessions",
+        "session",
+        "eventSessions",
+        "races",
+    ):
+        value = source.get(key)
+
+        if isinstance(value, list):
+            possible_sessions.extend(value)
+
+    if isinstance(event.get("sessions"), list):
+        possible_sessions.extend(event["sessions"])
+
+    for session in possible_sessions:
+        if not isinstance(session, dict):
+            continue
+
+        session_name = clean_text(
+            first_value(
+                session,
+                "name",
+                "displayName",
+                "sessionName",
+                "type",
+                default="",
+            )
+        )
+
+        session_date = extract_datetime_from_object(session)
+
+        if not session_date:
+            continue
+
+        sessions.append({
+            "name": session_name or "Sesión",
+            "date": session_date,
+        })
+
+    # Intentamos identificar específicamente la carrera.
+    race_date = ""
+
+    for session in sessions:
+        session_name = session["name"].lower()
+
+        if (
+            "motogp" in session_name
+            or "race" in session_name
+            or "carrera" in session_name
+            or session_name == "gp"
+        ):
+            race_date = session["date"]
+
+    if not race_date:
+        race_date = extract_datetime_from_object(source)
+
+    if not event_name:
+        return None
+
+    return {
+        "id": str(event_id),
+        "round": str(round_number),
+        "name": event_name,
+        "circuit": circuit_name,
+        "race": race_date,
+        "sessions": sessions,
+    }
+
+
+def get_motogp_schedule(year: int) -> list:
+    season_uuid = get_motogp_season_uuid(year)
 
     urls = [
-
         (
-            f"{MOTOGP_BASE}/"
-            "results/events"
-            f"?seasonUuid={urllib.parse.quote(str(season_uuid))}"
-            "&isFinished=false"
+            f"{MOTOGP_BASE}/results/events"
+            f"?seasonUuid={season_uuid}&isFinished=false"
         ),
-
         (
-            f"{MOTOGP_BASE}/"
-            "results/events"
-            f"?seasonUuid={urllib.parse.quote(str(season_uuid))}"
-            "&isFinished=true"
+            f"{MOTOGP_BASE}/results/events"
+            f"?seasonUuid={season_uuid}&isFinished=true"
         ),
-
         (
-            f"{MOTOGP_BASE}/"
-            "events"
-            f"?seasonYear={YEAR}"
+            f"{MOTOGP_BASE}/events"
+            f"?seasonYear={year}"
         ),
-
     ]
 
     all_events = []
 
-    seen = set()
-
     for url in urls:
-
         try:
+            data = fetch_json(url, MOTOGP_HEADERS)
 
-            data = fetch_json(
-                url,
-                MOTOGP_HEADERS
-            )
+            found = find_list_recursive(data)
 
-            events = as_list(
-                data
-            )
+            if found:
+                all_events.extend(found)
 
-            for event in events:
-
-                if not isinstance(
-                    event,
-                    dict
-                ):
-                    continue
-
-                event_id = first_value(
-                    event,
-                    "id",
-                    "uuid",
-                    "eventId",
-                    default=""
-                )
-
-                key = str(
-                    event_id
-                    or
-                    first_value(
-                        event,
-                        "name",
-                        "shortName",
-                        default=""
-                    )
-                )
-
-                if not key:
-                    continue
-
-                if key in seen:
-                    continue
-
-                seen.add(key)
-
-                all_events.append(
-                    event
-                )
-
-        except Exception as error:
-
-            log(
-                "MotoGP eventos: "
-                + str(error)
-            )
-
-    return all_events
-
-
-# =========================================================
-# MOTOGP - FECHA DE EVENTO
-# =========================================================
-
-def find_event_datetime(
-    event
-):
-
-    # Posibles campos directos
-    direct_keys = [
-
-        "date",
-
-        "startDate",
-
-        "startTime",
-
-        "eventDate",
-
-        "eventStartDate",
-
-        "raceDate",
-
-        "raceStartDate",
-
-        "utcDate",
-
-        "utcStartDate",
-
-    ]
-
-    for key in direct_keys:
-
-        value = event.get(
-            key
-        )
-
-        parsed = parse_iso_date(
-            value
-        )
-
-        if parsed:
-            return parsed
-
-    # Buscar recursivamente
-    candidate = recursive_find(
-        event,
-        direct_keys
-    )
-
-    parsed = parse_iso_date(
-        candidate
-    )
-
-    if parsed:
-        return parsed
-
-    return None
-
-
-# =========================================================
-# MOTOGP - NOMBRE / CIRCUITO
-# =========================================================
-
-def find_event_name(event):
-
-    return clean_text(
-        first_value(
-            event,
-            "name",
-            "shortName",
-            "displayName",
-            "eventName",
-            "title",
-            default="Gran Premio MotoGP"
-        )
-    )
-
-
-def find_event_circuit(event):
-
-    circuit = event.get(
-        "circuit"
-    )
-
-    if isinstance(
-        circuit,
-        dict
-    ):
-
-        value = first_value(
-            circuit,
-            "name",
-            "shortName",
-            "displayName",
-            default=""
-        )
-
-        if value:
-            return clean_text(value)
-
-    return clean_text(
-        first_value(
-            event,
-            "circuitName",
-            "venueName",
-            "trackName",
-            "circuit",
-            "venue",
-            default=""
-        )
-    )
-
-
-# =========================================================
-# MOTOGP - SESIONES
-# =========================================================
-
-def extract_session_list(
-    event
-):
-
-    sessions = []
-
-    possible_lists = [
-
-        event.get(
-            "sessions"
-        ),
-
-        event.get(
-            "eventSessions"
-        ),
-
-        event.get(
-            "session"
-        ),
-
-        event.get(
-            "schedule"
-        ),
-
-    ]
-
-    for value in possible_lists:
-
-        if isinstance(
-            value,
-            list
-        ):
-
-            sessions.extend(
-                value
-            )
-
-    # También buscamos una lista anidada
-    recursive = recursive_find(
-        event,
-        [
-            "sessions",
-            "eventSessions",
-            "schedule"
-        ]
-    )
-
-    if isinstance(
-        recursive,
-        list
-    ):
-
-        sessions.extend(
-            recursive
-        )
-
-    return sessions
-
-
-def normalize_motogp_session(
-    session
-):
-
-    if not isinstance(
-        session,
-        dict
-    ):
-        return None
-
-    name = clean_text(
-        first_value(
-            session,
-            "name",
-            "sessionName",
-            "type",
-            "sessionType",
-            "displayName",
-            default=""
-        )
-    )
-
-    date_value = first_value(
-        session,
-        "date",
-        "startDate",
-        "startTime",
-        "utcDate",
-        "utcStartDate",
-        default=None
-    )
-
-    date = parse_iso_date(
-        date_value
-    )
-
-    if not name or not date:
-        return None
-
-    return {
-        "name": name,
-        "date": date
-    }
-
-
-# =========================================================
-# MOTOGP - CALENDARIO NORMALIZADO
-# =========================================================
-
-def normalize_motogp_races(
-    events
-):
-
-    normalized = []
-
-    for index, event in enumerate(
-        events,
-        start=1
-    ):
-
-        race_datetime = (
-            find_event_datetime(
-                event
-            )
-        )
-
-        if not race_datetime:
+        except Exception:
             continue
 
-        name = find_event_name(
-            event
-        )
+    result = []
+    seen = set()
 
-        circuit = find_event_circuit(
-            event
-        )
-
-        event_id = first_value(
+    for index, event in enumerate(all_events):
+        normalized = normalize_motogp_event(
             event,
-            "id",
-            "uuid",
-            "eventId",
-            default=""
+            index,
         )
 
-        sessions = []
-
-        for session in extract_session_list(
-            event
-        ):
-
-            normalized_session = (
-                normalize_motogp_session(
-                    session
-                )
-            )
-
-            if normalized_session:
-
-                sessions.append(
-                    normalized_session
-                )
-
-        # -------------------------------------------------
-        # Si la API no entrega las sesiones,
-        # intentamos crear al menos la carrera.
-        # -------------------------------------------------
-
-        race_session_exists = any(
-
-            str(
-                s.get("name", "")
-            ).lower()
-            in (
-                "race",
-                "grand prix",
-                "motogp"
-            )
-
-            for s in sessions
-        )
-
-        if not race_session_exists:
-
-            sessions.append({
-
-                "name": "Grand Prix",
-
-                "date": race_datetime
-
-            })
-
-        # Ordenar
-        sessions.sort(
-            key=lambda x:
-                x.get("date", "")
-        )
-
-        round_number = first_value(
-            event,
-            "round",
-            "roundNumber",
-            "eventNumber",
-            default=index
-        )
-
-        normalized.append({
-
-            "id": make_id(
-                "moto",
-                YEAR,
-                event_id or index,
-                name
-            ),
-
-            "round": str(
-                round_number
-            ),
-
-            "name": name,
-
-            "circuit": circuit,
-
-            "race": race_datetime,
-
-            "sessions": sessions,
-
-            "circuitImage": "",
-
-            "eventUrl": ""
-
-        })
-
-    # -----------------------------------------------------
-    # El endpoint puede devolver elementos duplicados.
-    # -----------------------------------------------------
-
-    unique = {}
-
-    for race in normalized:
+        if not normalized:
+            continue
 
         key = (
-            race.get("name", ""),
-            race.get("race", "")
+            normalized["name"].lower(),
+            normalized["circuit"].lower(),
         )
 
-        unique[key] = race
+        if key in seen:
+            continue
 
-    result = list(
-        unique.values()
-    )
+        seen.add(key)
+        result.append(normalized)
 
     result.sort(
-        key=lambda x:
-            x.get("race") or ""
+        key=lambda item: (
+            safe_number(item.get("round"), 9999),
+            item.get("name", ""),
+        )
     )
-
-    # Renumeramos únicamente si no hay round válido
-    for index, race in enumerate(
-        result,
-        start=1
-    ):
-
-        if not race.get(
-            "round"
-        ):
-
-            race["round"] = str(
-                index
-            )
 
     return result
 
 
-# =========================================================
-# MOTOGP - STANDINGS
-# =========================================================
+def normalize_motogp_standing(row: dict, index: int) -> dict | None:
+    if not isinstance(row, dict):
+        return None
 
-def find_motogp_standings(
-    season_uuid,
-    category_uuid
-):
+    rider = row.get("rider")
 
-    url = (
+    if not isinstance(rider, dict):
+        rider = row.get("riderData")
 
-        f"{MOTOGP_BASE}/"
-        "results/standings"
+    if not isinstance(rider, dict):
+        rider = {}
 
-        f"?seasonUuid="
-        f"{urllib.parse.quote(str(season_uuid))}"
+    participant = row.get("participant")
 
-        f"&categoryUuid="
-        f"{urllib.parse.quote(str(category_uuid))}"
+    if not isinstance(participant, dict):
+        participant = {}
 
-    )
-
-    data = fetch_json(
-        url,
-        MOTOGP_HEADERS
-    )
-
-    return data
-
-
-def normalize_motogp_standings(
-    data
-):
-
-    # La API puede envolver la información
-    # en diferentes niveles.
-
-    raw = as_list(
-        data
-    )
-
-    if not raw:
-
-        if isinstance(
-            data,
-            list
-        ):
-            raw = data
-
-        else:
-
-            candidate = recursive_find(
-                data,
-                [
-                    "standings",
-                    "riders",
-                    "riderStandings",
-                    "content",
-                    "items",
-                    "rows"
-                ]
-            )
-
-            raw = as_list(
-                candidate
-            )
-
-    drivers = []
-
-    teams_map = {}
-
-    for index, item in enumerate(
-        raw,
-        start=1
-    ):
-
-        if not isinstance(
-            item,
-            dict
-        ):
-            continue
-
-        rider = (
-            item.get("rider")
-            or
-            item.get("driver")
-            or
-            {}
-        )
-
-        if not isinstance(
+    name = clean_text(
+        first_value(
             rider,
-            dict
-        ):
-            rider = {}
-
-        team = (
-            item.get("team")
-            or
-            item.get("constructor")
-            or
-            {}
+            "fullName",
+            "name",
+            "displayName",
+            default="",
         )
+    )
 
-        if not isinstance(
-            team,
-            dict
-        ):
-            team = {}
-
-        given = first_value(
+    if not name:
+        first = first_value(
             rider,
             "firstName",
             "givenName",
-            default=""
+            default="",
         )
 
-        family = first_value(
+        last = first_value(
             rider,
             "lastName",
             "familyName",
-            default=""
+            default="",
         )
 
-        rider_name = clean_text(
-            f"{given} {family}"
-        )
+        name = f"{first} {last}".strip()
 
-        if not rider_name:
-
-            rider_name = clean_text(
-                first_value(
-                    item,
-                    "riderName",
-                    "driverName",
-                    "name",
-                    "fullName",
-                    default=""
-                )
-            )
-
-        team_name = clean_text(
+    if not name:
+        name = clean_text(
             first_value(
-                team,
+                row,
+                "riderName",
                 "name",
+                "fullName",
+                default="",
+            )
+        )
+
+    if not name:
+        return None
+
+    team_obj = row.get("team")
+
+    if not isinstance(team_obj, dict):
+        team_obj = participant.get("team")
+
+    if not isinstance(team_obj, dict):
+        team_obj = {}
+
+    team = clean_text(
+        first_value(
+            team_obj,
+            "name",
+            "displayName",
+            "teamName",
+            default="",
+        )
+    )
+
+    if not team:
+        team = clean_text(
+            first_value(
+                row,
                 "teamName",
-                "constructorName",
-                default=""
+                "team",
+                default="",
             )
         )
 
-        if not team_name:
-
-            team_name = clean_text(
-                first_value(
-                    item,
-                    "teamName",
-                    "constructorName",
-                    "team",
-                    default=""
-                )
-            )
-
-        position = safe_int(
-            first_value(
-                item,
-                "position",
-                "pos",
-                "rank",
-                default=index
-            ),
-            index
-        )
-
-        points = safe_float(
-            first_value(
-                item,
-                "points",
-                "score",
-                "totalPoints",
-                default=0
-            )
-        )
-
-        number = first_value(
-            rider,
-            "number",
-            "riderNumber",
-            default=""
-        )
-
-        if not rider_name:
-            continue
-
-        drivers.append({
-
-            "position": position,
-
-            "name": rider_name,
-
-            "driver": rider_name,
-
-            "rider": rider_name,
-
-            "team": team_name,
-
-            "teamName": team_name,
-
-            "points": points,
-
-            "number": number,
-
-            "teamLogo": "",
-
-            "teamColor": "",
-
-            "bikeImage": "",
-
-            "riderImage": ""
-
-        })
-
-        if team_name:
-
-            current = teams_map.get(
-                team_name
-            )
-
-            if not current:
-
-                teams_map[team_name] = {
-
-                    "name": team_name,
-
-                    "team": team_name,
-
-                    "points": points
-
-                }
-
-            else:
-
-                current["points"] += points
-
-    drivers.sort(
-        key=lambda x:
-            (
-                safe_int(
-                    x.get("position"),
-                    999
-                )
-            )
+    number = first_value(
+        rider,
+        "number",
+        "riderNumber",
+        default=first_value(row, "number"),
     )
 
-    teams = []
-
-    for team in teams_map.values():
-
-        teams.append(team)
-
-    teams.sort(
-        key=lambda x:
-            -safe_float(
-                x.get("points")
-            )
+    position = first_value(
+        row,
+        "position",
+        "rank",
+        "classification",
+        default=index + 1,
     )
 
-    for index, team in enumerate(
-        teams,
-        start=1
-    ):
-
-        team["position"] = index
-
-        team["logo"] = ""
-
-        team["teamColor"] = ""
-
-    return drivers, teams
-
-
-# =========================================================
-# MOTOGP - PROCESO COMPLETO
-# =========================================================
-
-def fetch_motogp():
-
-    season = fetch_motogp_season()
-
-    season_uuid = first_value(
-        season,
-        "id",
-        "uuid",
-        default=""
+    points = first_value(
+        row,
+        "points",
+        "score",
+        "totalPoints",
+        "championshipPoints",
+        default=0,
     )
 
-    if not season_uuid:
-
-        raise RuntimeError(
-            "MotoGP: UUID de temporada no encontrado"
-        )
-
-    category = fetch_motogp_category()
-
-    category_uuid = category["id"]
-
-    events = extract_motogp_events(
-        season_uuid
-    )
-
-    races = normalize_motogp_races(
-        events
-    )
-
-    standings_raw = find_motogp_standings(
-        season_uuid,
-        category_uuid
-    )
-
-    drivers, teams = (
-        normalize_motogp_standings(
-            standings_raw
-        )
+    image = first_value(
+        rider,
+        "image",
+        "imageUrl",
+        "photo",
+        "photoUrl",
+        "riderImage",
+        default="",
     )
 
     return {
-
-        "races": races,
-
-        "drivers": drivers,
-
-        "teams": teams
-
+        "position": int(safe_number(position, index + 1)),
+        "name": name,
+        "driver": str(number or ""),
+        "number": str(number or ""),
+        "team": team,
+        "points": safe_number(points),
+        "riderImage": image or "",
     }
 
 
-# =========================================================
-# NOTICIAS - GOOGLE NEWS RSS
-# =========================================================
+def get_motogp_standings(year: int) -> list:
+    season_uuid = get_motogp_season_uuid(year)
+    category_uuid = get_motogp_category_uuid()
 
-def parse_google_news_rss(
-    url,
-    default_source
-):
-
-    xml_text = fetch_text(
-        url,
-        DEFAULT_HEADERS,
-        timeout=30
+    url = (
+        f"{MOTOGP_BASE}/results/standings"
+        f"?seasonUuid={season_uuid}"
+        f"&categoryUuid={category_uuid}"
     )
 
-    root = ET.fromstring(
-        xml_text
+    data = fetch_json(url, MOTOGP_HEADERS)
+
+    rows = find_list_recursive(data) or []
+
+    result = []
+
+    for index, row in enumerate(rows):
+        normalized = normalize_motogp_standing(
+            row,
+            index,
+        )
+
+        if normalized:
+            result.append(normalized)
+
+    result.sort(
+        key=lambda item: (
+            item.get("position", 9999)
+        )
     )
 
-    results = []
+    return result
 
-    channel = root.find(
-        "channel"
-    )
 
-    if channel is None:
-        return results
+def get_motogp_data(previous: dict) -> dict:
+    previous_moto = previous.get("moto", {})
 
-    for item in channel.findall(
-        "item"
-    ):
+    result = {
+        "races": previous_moto.get("races", []),
+        "drivers": previous_moto.get("drivers", []),
+        "teams": previous_moto.get("teams", []),
+        "image": MOTOGP_IMAGE,
+    }
 
-        title = item.findtext(
-            "title",
-            default=""
-        )
+    result["races"] = get_motogp_schedule(YEAR)
+    result["drivers"] = get_motogp_standings(YEAR)
 
-        link = item.findtext(
-            "link",
-            default=""
-        )
+    # No fabricamos una clasificación de equipos si la API no
+    # entrega una clasificación oficial compatible.
+    #
+    # Si ya teníamos datos válidos, los conservamos.
+    if "teams" not in result:
+        result["teams"] = []
 
-        pub_date = item.findtext(
-            "pubDate",
-            default=""
-        )
+    return result
 
-        source_element = item.find(
-            "source"
-        )
 
-        source = default_source
+# ============================================================
+# NOTICIAS
+# ============================================================
 
-        if source_element is not None:
+GOOGLE_NEWS_BASE = "https://news.google.com/rss/search"
 
-            source = clean_text(
-                source_element.text
-                or
-                default_source
-            )
 
-        title = clean_text(
-            title
-        )
+def google_news_url(query: str) -> str:
+    params = {
+        "q": query,
+        "hl": "es-419",
+        "gl": "AR",
+        "ceid": "AR:es-419",
+    }
 
-        link = clean_text(
-            link
-        )
+    return GOOGLE_NEWS_BASE + "?" + urlencode(params)
+
+
+def parse_rss_news(xml_data: bytes, limit: int = 8) -> list:
+    root = ET.fromstring(xml_data)
+
+    result = []
+
+    for item in root.iter():
+        tag = item.tag.lower()
+
+        if not tag.endswith("item"):
+            continue
+
+        title = ""
+        link = ""
+        published = ""
+        source = ""
+
+        for child in item:
+            child_tag = child.tag.lower()
+
+            if child_tag.endswith("title"):
+                title = clean_text(child.text)
+
+            elif child_tag.endswith("link"):
+                link = clean_text(child.text)
+
+                if not link:
+                    link = clean_text(
+                        child.attrib.get("href", "")
+                    )
+
+            elif child_tag.endswith("pubdate"):
+                published = parse_datetime(
+                    clean_text(child.text)
+                )
+
+            elif child_tag.endswith("source"):
+                source = clean_text(child.text)
 
         if not title or not link:
             continue
 
-        results.append({
-
+        result.append({
             "title": title,
-
             "url": link,
-
-            "published": pub_date,
-
-            "source": source
-
+            "published": published,
+            "source": source,
         })
 
-    return results[:15]
+        if len(result) >= limit:
+            break
+
+    return result
 
 
-def fetch_news():
+def get_google_news(query: str, limit: int = 8) -> list:
+    url = google_news_url(query)
 
-    encoded_f1 = urllib.parse.quote(
-        "site:formula1.com when:7d"
+    raw = fetch_bytes(
+        url,
+        headers={
+            "Accept": "application/rss+xml, application/xml, text/xml",
+        },
     )
 
-    encoded_moto = urllib.parse.quote(
-        "site:motogp.com when:7d"
-    )
+    return parse_rss_news(raw, limit)
 
-    f1_url = (
-        "https://news.google.com/rss/search"
-        f"?q={encoded_f1}"
-        "&hl=es-419"
-        "&gl=AR"
-        "&ceid=AR:es-419"
-    )
 
-    moto_url = (
-        "https://news.google.com/rss/search"
-        f"?q={encoded_moto}"
-        "&hl=es-419"
-        "&gl=AR"
-        "&ceid=AR:es-419"
-    )
+def get_f1_news(previous: dict) -> list:
+    queries = [
+        'Fórmula 1 noticias site:soymotor.com',
+        'Fórmula 1 noticias site:es.motorsport.com',
+        'Fórmula 1 noticias site:caranddriver.com/es',
+        'Fórmula 1 noticias español',
+    ]
 
-    return {
+    result = []
 
-        "f1": parse_google_news_rss(
-            f1_url,
-            "Formula 1"
-        ),
+    for query in queries:
+        try:
+            articles = get_google_news(
+                query,
+                limit=5,
+            )
 
-        "moto": parse_google_news_rss(
-            moto_url,
-            "MotoGP"
+            result.extend(articles)
+
+        except Exception:
+            continue
+
+        if len(result) >= 8:
+            break
+
+    return deduplicate_news(result)[:8]
+
+
+def get_motogp_news(previous: dict) -> list:
+    queries = [
+        'MotoGP site:motogp.com/es',
+        'MotoGP noticias español site:es.motorsport.com',
+        'MotoGP noticias español',
+    ]
+
+    result = []
+
+    for query in queries:
+        try:
+            articles = get_google_news(
+                query,
+                limit=5,
+            )
+
+            result.extend(articles)
+
+        except Exception:
+            continue
+
+        if len(result) >= 8:
+            break
+
+    return deduplicate_news(result)[:8]
+
+
+def deduplicate_news(items: list) -> list:
+    result = []
+    seen = set()
+
+    for item in items:
+        title = clean_text(
+            item.get("title", "")
         )
 
+        url = item.get("url", "")
+
+        key = (
+            re.sub(
+                r"[^a-z0-9áéíóúüñ]+",
+                " ",
+                title.lower(),
+            ).strip()
+        )
+
+        if not key or key in seen:
+            continue
+
+        seen.add(key)
+
+        result.append({
+            "title": title,
+            "url": url,
+            "published": item.get("published", ""),
+            "source": item.get("source", ""),
+        })
+
+    return result
+
+
+def add_news_images(
+    articles: list,
+    sport_image: str,
+) -> list:
+    result = []
+
+    for article in articles:
+        item = dict(article)
+
+        # Imagen general del deporte.
+        # De esta manera nunca queda una noticia sin imagen
+        # aunque el feed no proporcione una fotografía.
+        item["image"] = sport_image
+
+        result.append(item)
+
+    return result
+
+
+def get_news(previous: dict) -> dict:
+    previous_news = previous.get("news", {})
+
+    f1_previous = previous_news.get("f1", [])
+    moto_previous = previous_news.get("moto", [])
+
+    f1_news = get_f1_news(previous)
+    moto_news = get_motogp_news(previous)
+
+    # Si una fuente falla y no devuelve nada, conservamos
+    # las noticias anteriores.
+    if not f1_news:
+        f1_news = f1_previous
+
+    if not moto_news:
+        moto_news = moto_previous
+
+    return {
+        "f1": add_news_images(
+            f1_news,
+            F1_IMAGE,
+        ),
+        "moto": add_news_images(
+            moto_news,
+            MOTOGP_IMAGE,
+        ),
     }
 
 
-# =========================================================
-# EJECUCIÓN PRINCIPAL
-# =========================================================
+# ============================================================
+# PROGRAMA PRINCIPAL
+# ============================================================
 
 def main():
+    previous = load_existing_data()
 
-    DATA_DIR.mkdir(
-        parents=True,
-        exist_ok=True
-    )
+    errors = []
 
-    previous = load_previous_data()
-
-    # -----------------------------------------------------
-    # Base
-    # -----------------------------------------------------
-
-    output = {
-
-        "updatedAt": now_iso(),
+    data = {
+        "updatedAt": datetime.now(timezone.utc)
+        .isoformat()
+        .replace("+00:00", "Z"),
 
         "year": YEAR,
 
-        "f1":
-            previous.get(
-                "f1",
-                {
-                    "races": [],
-                    "drivers": [],
-                    "teams": []
-                }
-            ),
+        "f1": previous.get("f1", {
+            "races": [],
+            "drivers": [],
+            "teams": [],
+            "image": F1_IMAGE,
+        }),
 
-        "moto":
-            previous.get(
-                "moto",
-                {
-                    "races": [],
-                    "drivers": [],
-                    "teams": []
-                }
-            ),
+        "moto": previous.get("moto", {
+            "races": [],
+            "drivers": [],
+            "teams": [],
+            "image": MOTOGP_IMAGE,
+        }),
 
-        "news":
-            previous.get(
-                "news",
-                {
-                    "f1": [],
-                    "moto": []
-                }
-            ),
+        "news": previous.get("news", {
+            "f1": [],
+            "moto": [],
+        }),
 
-        "errors": []
-
+        "errors": [],
     }
 
-    # =====================================================
+    # --------------------------------------------------------
     # F1
-    # =====================================================
+    # --------------------------------------------------------
 
     try:
+        data["f1"] = get_f1_data(previous)
 
-        log(
-            f"Actualizando F1 {YEAR}..."
-        )
-
-        f1_races = fetch_f1_races()
-
-        f1_drivers = fetch_f1_drivers()
-
-        f1_teams = fetch_f1_teams()
-
-        output["f1"] = {
-
-            "races": f1_races,
-
-            "drivers": f1_drivers,
-
-            "teams": f1_teams
-
-        }
-
-        log(
+        print(
             f"F1 OK: "
-            f"{len(f1_races)} carreras, "
-            f"{len(f1_drivers)} pilotos, "
-            f"{len(f1_teams)} equipos"
+            f"{len(data['f1'].get('races', []))} carreras, "
+            f"{len(data['f1'].get('drivers', []))} pilotos."
         )
 
-    except Exception as error:
+    except Exception as exc:
+        message = f"F1: {exc}"
 
-        message = (
-            "F1: "
-            + str(error)
+        print(f"ERROR {message}")
+
+        errors.append(message)
+
+        # Conservamos la última información válida.
+        data["f1"] = previous.get(
+            "f1",
+            {
+                "races": [],
+                "drivers": [],
+                "teams": [],
+                "image": F1_IMAGE,
+            },
         )
 
-        log(
-            "ERROR " +
-            message
-        )
+        data["f1"]["image"] = F1_IMAGE
 
-        output["errors"].append(
-            message
-        )
-
-    # =====================================================
-    # MOTOGP
-    # =====================================================
+    # --------------------------------------------------------
+    # MotoGP
+    # --------------------------------------------------------
 
     try:
+        data["moto"] = get_motogp_data(previous)
 
-        log(
-            f"Actualizando MotoGP {YEAR}..."
-        )
-
-        moto = fetch_motogp()
-
-        output["moto"] = moto
-
-        log(
+        print(
             f"MotoGP OK: "
-            f"{len(moto.get('races', []))} carreras, "
-            f"{len(moto.get('drivers', []))} pilotos, "
-            f"{len(moto.get('teams', []))} equipos"
+            f"{len(data['moto'].get('races', []))} carreras, "
+            f"{len(data['moto'].get('drivers', []))} pilotos."
         )
 
-    except Exception as error:
+    except Exception as exc:
+        message = f"MotoGP: {exc}"
 
-        message = (
-            "MotoGP: "
-            + str(error)
+        print(f"ERROR {message}")
+
+        errors.append(message)
+
+        data["moto"] = previous.get(
+            "moto",
+            {
+                "races": [],
+                "drivers": [],
+                "teams": [],
+                "image": MOTOGP_IMAGE,
+            },
         )
 
-        log(
-            "ERROR " +
-            message
-        )
+        data["moto"]["image"] = MOTOGP_IMAGE
 
-        output["errors"].append(
-            message
-        )
-
-    # =====================================================
+    # --------------------------------------------------------
     # NOTICIAS
-    # =====================================================
+    # --------------------------------------------------------
 
     try:
+        data["news"] = get_news(previous)
 
-        log(
-            "Actualizando noticias..."
+        print(
+            f"Noticias F1: "
+            f"{len(data['news'].get('f1', []))}"
         )
 
-        news = fetch_news()
-
-        output["news"] = news
-
-        log(
-            f"Noticias OK: "
-            f"{len(news.get('f1', []))} F1 + "
-            f"{len(news.get('moto', []))} MotoGP"
+        print(
+            f"Noticias MotoGP: "
+            f"{len(data['news'].get('moto', []))}"
         )
 
-    except Exception as error:
+    except Exception as exc:
+        message = f"Noticias: {exc}"
 
-        message = (
-            "Noticias: "
-            + str(error)
+        print(f"ERROR {message}")
+
+        errors.append(message)
+
+        data["news"] = previous.get(
+            "news",
+            {
+                "f1": [],
+                "moto": [],
+            },
         )
 
-        log(
-            "ERROR " +
-            message
-        )
+    data["errors"] = errors
 
-        output["errors"].append(
-            message
-        )
+    save_data(data)
 
-    # =====================================================
-    # LIMPIEZA DE ERRORES
-    # =====================================================
-
-    if not output["errors"]:
-
-        output.pop(
-            "errors",
-            None
-        )
-
-    # =====================================================
-    # GUARDAR
-    # =====================================================
-
-    temporary_file = (
-        DATA_FILE.with_suffix(
-            ".tmp"
-        )
-    )
-
-    with open(
-        temporary_file,
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            output,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
-
-        file.write("\n")
-
-    os.replace(
-        temporary_file,
-        DATA_FILE
-    )
-
-    log(
-        "======================================"
-    )
-
-    log(
-        "current.json actualizado correctamente"
-    )
-
-    log(
-        f"Archivo: {DATA_FILE}"
-    )
-
-    log(
-        "======================================"
-    )
+    print("")
+    print("========================================")
+    print(" Racing Hub AR - actualización completa")
+    print("========================================")
+    print(f"Año: {YEAR}")
+    print(f"Archivo: {DATA_FILE}")
+    print(f"Errores: {len(errors)}")
+    print("========================================")
 
 
 if __name__ == "__main__":
-
-    try:
-
-        main()
-
-    except Exception as error:
-
-        print(
-            "[RACING HUB] ERROR FATAL:",
-            error
-        )
-
-        sys.exit(1)
+    main()
