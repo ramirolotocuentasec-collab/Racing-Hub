@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T21:48:42.614324Z",
+  "updatedAt": "2026-10-08T22:06:32.913183Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -579,8 +579,7 @@
             "name": "Race",
             "date": "2026-10-11T12:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg/1920px-Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-18-americas",
@@ -1773,8 +1772,7 @@
             "name": "Race",
             "date": "2026-10-11T15:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg/1920px-%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-c1dea7a7-e35e-4363-9e28-7997e3bc6fbf",
