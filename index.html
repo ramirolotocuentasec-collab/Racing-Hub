@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#08090d">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Racing Hub AR — F1 & MotoGP</title>
     <style>
         :root {
@@ -21,10 +19,9 @@
             --accent-gold: #ffc107;
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
         body { background-color: var(--bg-dark); color: var(--text-main); padding-bottom: 50px; -webkit-tap-highlight-color: transparent; }
 
-        /* Header Principal */
         header {
             background: rgba(18, 20, 28, 0.95);
             backdrop-filter: blur(12px);
@@ -39,7 +36,6 @@
         .header-brand .highlight { color: var(--primary-current); transition: color 0.3s ease; }
         .header-sub { font-size: 11px; color: var(--text-muted); margin-top: 3px; font-weight: 500; }
 
-        /* Selector F1 / MotoGP */
         .sport-selector {
             display: flex;
             background: #141722;
@@ -67,7 +63,6 @@
         .sport-btn.active-f1 { background: var(--primary-f1); color: #fff; box-shadow: 0 4px 14px rgba(225, 6, 0, 0.4); }
         .sport-btn.active-motogp { background: var(--primary-motogp); color: #fff; box-shadow: 0 4px 14px rgba(255, 102, 0, 0.4); }
 
-        /* Navegación por Pestañas */
         .tab-nav {
             display: flex;
             justify-content: space-around;
@@ -87,13 +82,11 @@
             cursor: pointer;
             white-space: nowrap;
             border-bottom: 3px solid transparent;
-            transition: all 0.2s;
         }
         .tab-btn.active { color: #fff; border-bottom-color: var(--primary-current); }
 
         .container { padding: 0 16px; }
 
-        /* Hero: Cuenta Regresiva */
         .hero-gp {
             background-size: cover;
             background-position: center;
@@ -126,7 +119,6 @@
         .cd-num { font-size: 20px; font-weight: 900; color: #fff; }
         .cd-txt { font-size: 9px; color: var(--text-muted); text-transform: uppercase; margin-top: 2px; }
 
-        /* Tarjetas */
         .card {
             background: var(--card-bg);
             border-radius: 14px;
@@ -160,7 +152,6 @@
         .tv-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
         .tv-tag { background: #1a1e2d; color: var(--accent-green); font-size: 10px; font-weight: 700; padding: 4px 8px; border-radius: 6px; border: 1px solid rgba(0,230,118,0.2); }
 
-        /* Sesiones */
         .session-list {
             background: #0a0b12;
             border-radius: 10px;
@@ -181,7 +172,6 @@
         .session-time { color: var(--accent-gold); font-weight: 700; }
         .session-main { font-size: 13px; font-weight: 800; color: #fff; }
 
-        /* Botones */
         .btn-group { display: flex; gap: 8px; }
         .btn-action {
             flex: 1;
@@ -202,7 +192,6 @@
         .btn-primary { background: var(--primary-current); }
         .btn-secondary { background: #232738; color: #fff; border: 1px solid var(--card-border); }
 
-        /* Tabla Posiciones Completa */
         .standings-table { width: 100%; border-collapse: collapse; font-size: 12px; }
         .standings-table th { text-align: left; padding: 10px 8px; color: var(--text-muted); font-size: 10px; border-bottom: 1px solid var(--card-border); }
         .standings-table td { padding: 10px 8px; border-bottom: 1px solid #171a26; }
@@ -211,7 +200,6 @@
         .team-name { font-size: 10px; color: var(--text-muted); }
         .points-col { font-weight: 900; text-align: right; color: var(--accent-green); font-size: 13px; }
 
-        /* Tarjeta de Noticias */
         .news-item {
             background: #12141c;
             border-radius: 12px;
@@ -240,7 +228,7 @@
 
     <header>
         <div class="header-brand">🏎️ RACING<span class="highlight" id="brand-tag">HUB</span> 🏍️</div>
-        <div class="header-sub">Sincronización en Tiempo Real • Hora Argentina (UTC-3)</div>
+        <div class="header-sub">Sincronización API Oficial • Hora Argentina (UTC-3)</div>
     </header>
 
     <div class="sport-selector">
@@ -262,26 +250,25 @@
         let currentTab = 'schedule';
         let countdownInterval = null;
 
-        function getNow() {
-            return new Date();
-        }
-
         const imgF1 = "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80";
         const imgMotoGP = "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80";
 
-        // ---------------------------------------------------------------------
-        // FORMATEADOR A ZONA HORARIA ARGENTINA
-        // ---------------------------------------------------------------------
+        // Convierte cadenas ISO directamente al huso horario de Argentina (America/Argentina/Buenos_Aires)
         function formatArgDateTime(isoString) {
             if (!isoString) return 'A confirmar';
             const d = new Date(isoString);
             if (isNaN(d.getTime())) return 'A confirmar';
 
-            const optionsDate = { timeZone: 'America/Argentina/Buenos_Aires', weekday: 'short', day: '2-digit', month: '2-digit' };
-            const optionsTime = { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit', minute: '2-digit', hour12: false };
-            const dayStr = d.toLocaleDateString('es-AR', optionsDate).toUpperCase();
-            const timeStr = d.toLocaleTimeString('es-AR', optionsTime);
-            return `${dayStr} —${timeStr} hs`;
+            const formatted = d.toLocaleString('es-AR', {
+                timeZone: 'America/Argentina/Buenos_Aires',
+                weekday: 'short',
+                day: '2-digit',
+                month: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            return formatted.toUpperCase().replace(',', ' —') + ' hs';
         }
 
         function parseSessionDate(dateStr, timeStr) {
@@ -294,7 +281,7 @@
             if (!startDate || isNaN(startDate.getTime())) return '#';
             const endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
             const formatGDate = d => d.toISOString().replace(/-|:|\.\d+/g, "");
-            const details = encodeURIComponent("Transmisión en vivo para Argentina por Disney+ / ESPN / Fox Sports.");
+            const details = encodeURIComponent("Transmisión oficial en vivo para Argentina por Disney+ / ESPN / Fox Sports.");
             return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${formatGDate(startDate)}/${formatGDate(endDate)}&details=${details}`;
         }
 
@@ -334,12 +321,11 @@ END:VCALENDAR`;
             document.body.removeChild(link);
         }
 
-        // ---------------------------------------------------------------------
-        // CONSULTA DE APIS OFICIALES
-        // ---------------------------------------------------------------------
+        // FETCH DIRECTO A LA API OFICIAL SINOPSIS DE F1
         async function fetchOfficialF1Schedule() {
             try {
                 const res = await fetch('https://api.jolpica.net/ergast/f1/current.json');
+                if (!res.ok) throw new Error('API offline');
                 const data = await res.json();
                 const rawRaces = data.MRData.RaceTable.Races;
                 
@@ -356,17 +342,11 @@ END:VCALENDAR`;
                     q: r.Qualifying ? `${r.Qualifying.date}T${r.Qualifying.time}` : null
                 }));
             } catch (e) {
-                return motogpData; // Respaldo
+                return [];
             }
         }
 
-        // Calendario respaldado completo de MotoGP
         const motogpData = [
-            {
-                raceName: "GP de Japón (Motegi)", country: "Japón",
-                date: "2026-10-04", time: "05:00:00Z",
-                fp1: "2026-10-02T01:45:00Z", pr: "2026-10-02T06:00:00Z", fp2: "2026-10-03T01:10:00Z", q: "2026-10-03T01:50:00Z", sprint: "2026-10-03T06:00:00Z", warmup: "2026-10-04T00:40:00Z"
-            },
             {
                 raceName: "GP de Australia (Phillip Island)", country: "Australia",
                 date: "2026-10-18", time: "04:00:00Z",
@@ -389,21 +369,14 @@ END:VCALENDAR`;
             }
         ];
 
-        // ---------------------------------------------------------------------
-        // FILTRADO DINÁMICO DE EVENTOS VIGENTES Y FUTUROS
-        // ---------------------------------------------------------------------
         function filterUpcomingOnly(races) {
-            const now = getNow();
+            const now = new Date();
             return races.filter(r => {
                 const mainRaceDate = parseSessionDate(r.date, r.time);
-                // Si la carrera ocurrió hace menos de 4 horas o es futura, se muestra
                 return (mainRaceDate.getTime() + 4 * 60 * 60 * 1000) >= now.getTime();
             });
         }
 
-        // ---------------------------------------------------------------------
-        // NAVEGACIÓN Y VISTAS
-        // ---------------------------------------------------------------------
         function switchSport(sport) {
             currentSport = sport;
             document.documentElement.style.setProperty('--primary-current', sport === 'f1' ? '#e10600' : '#ff6600');
@@ -433,7 +406,7 @@ END:VCALENDAR`;
         }
 
         async function renderSchedule(container) {
-            container.innerHTML = '<div class="loading-state">Obteniendo fechas en tiempo real...</div>';
+            container.innerHTML = '<div class="loading-state">Obteniendo fechas en vivo desde la API oficial...</div>';
 
             let rawRaces = currentSport === 'f1' ? await fetchOfficialF1Schedule() : motogpData;
             let races = filterUpcomingOnly(rawRaces);
@@ -460,7 +433,7 @@ END:VCALENDAR`;
                     if (r.fp3) sessionsHtml += `<div class="session-item"><span class="session-title">🏎️ Práctica Libre 3 (FP3)</span><span class="session-time">${formatArgDateTime(r.fp3)}</span></div>`;
                     if (r.sprint) sessionsHtml += `<div class="session-item"><span class="session-title">🏁 Carrera Sprint</span><span class="session-time">${formatArgDateTime(r.sprint)}</span></div>`;
                     if (r.q) sessionsHtml += `<div class="session-item"><span class="session-title">⏱️ Clasificación Principal</span><span class="session-time">${formatArgDateTime(r.q)}</span></div>`;
-                    sessionsHtml += `<div class="session-item"><span class="session-title session-main">🏆 Carrera Principal</span><span class="session-time session-main">${formatArgDateTime(mainRaceDate)}</span></div>`;
+                    sessionsHtml += `<div class="session-item"><span class="session-title session-main">🏆 Carrera Principal</span><span class="session-time session-main">${formatArgDateTime(mainRaceDate.toISOString())}</span></div>`;
                 } else {
                     if (r.fp1) sessionsHtml += `<div class="session-item"><span class="session-title">🏍️ Práctica Libre 1 (FP1)</span><span class="session-time">${formatArgDateTime(r.fp1)}</span></div>`;
                     if (r.pr) sessionsHtml += `<div class="session-item"><span class="session-title">⏱️ Práctica de Clasif. (PR)</span><span class="session-time">${formatArgDateTime(r.pr)}</span></div>`;
@@ -468,13 +441,13 @@ END:VCALENDAR`;
                     if (r.q) sessionsHtml += `<div class="session-item"><span class="session-title">⏱️ Clasificación Q1 y Q2</span><span class="session-time">${formatArgDateTime(r.q)}</span></div>`;
                     if (r.sprint) sessionsHtml += `<div class="session-item"><span class="session-title">🏁 Carrera Sprint (Sáb)</span><span class="session-time">${formatArgDateTime(r.sprint)}</span></div>`;
                     if (r.warmup) sessionsHtml += `<div class="session-item"><span class="session-title">🏍️ Warm Up (Dom)</span><span class="session-time">${formatArgDateTime(r.warmup)}</span></div>`;
-                    sessionsHtml += `<div class="session-item"><span class="session-title session-main">🏆 Carrera Principal GP</span><span class="session-time session-main">${formatArgDateTime(mainRaceDate)}</span></div>`;
+                    sessionsHtml += `<div class="session-item"><span class="session-title session-main">🏆 Carrera Principal GP</span><span class="session-time session-main">${formatArgDateTime(mainRaceDate.toISOString())}</span></div>`;
                 }
 
                 html += `
                     <div class="card ${isFirst ? 'is-next' : ''}">
                         <div class="card-header">
-                            <span>${prefix}:${r.raceName}</span>
+                            <span>${prefix}: ${r.raceName}</span>
                             <span class="badge ${badgeClass}">${badgeText}</span>
                         </div>
                         <div class="card-body">
@@ -485,8 +458,8 @@ END:VCALENDAR`;
                             </div>
                             <div class="session-list">${sessionsHtml}</div>
                             <div class="btn-group">
-                                <button class="btn-action btn-primary" onclick="window.open('${getGoogleCalendarUrl(`${prefix}: ${r.raceName}`, mainRaceDate)}', '_blank')">📅 Google Cal</button>
-                                <button class="btn-action btn-secondary" onclick="downloadICS('${prefix}:${r.raceName}', parseSessionDate('${r.date}', '${r.time}'))">🔔 Archivo .ICS</button>
+                                <button class="btn-action btn-primary" onclick="window.open('${getGoogleCalendarUrl(`${prefix}:${r.raceName}`, mainRaceDate)}', '_blank')">📅 Google Cal</button>
+                                <button class="btn-action btn-secondary" onclick="downloadICS('${prefix}: ${r.raceName}', parseSessionDate('${r.date}', '${r.time}'))">🔔 Archivo .ICS</button>
                             </div>
                         </div>
                     </div>
@@ -499,7 +472,7 @@ END:VCALENDAR`;
         }
 
         async function renderHero(container) {
-            container.innerHTML = '<div class="loading-state">Calculando próximo evento en vivo...</div>';
+            container.innerHTML = '<div class="loading-state">Calculando próximo evento...</div>';
 
             let rawRaces = currentSport === 'f1' ? await fetchOfficialF1Schedule() : motogpData;
             let races = filterUpcomingOnly(rawRaces);
@@ -519,7 +492,7 @@ END:VCALENDAR`;
                     <div class="hero-overlay">
                         <div class="hero-label">${prefix} • PRÓXIMO GRAN PREMIO</div>
                         <div class="hero-title">${nextRace.raceName} (${nextRace.country})</div>
-                        <div style="font-size: 13px; color: var(--accent-gold); font-weight: 800;">📅 ${formatArgDateTime(targetDate)}</div>
+                        <div style="font-size: 13px; color: var(--accent-gold); font-weight: 800;">📅 ${formatArgDateTime(targetDate.toISOString())}</div>
                         
                         <div class="countdown-grid">
                             <div class="cd-box"><div class="cd-num" id="cd-days">00</div><div class="cd-txt">Días</div></div>
@@ -529,15 +502,15 @@ END:VCALENDAR`;
                         </div>
 
                         <div class="btn-group">
-                            <button class="btn-action btn-primary" onclick="window.open('${getGoogleCalendarUrl(`${prefix}: ${nextRace.raceName}`, targetDate)}', '_blank')">➕ Google Calendar</button>
-                            <button class="btn-action btn-secondary" onclick="downloadICS('${prefix}:${nextRace.raceName}`, targetDate)">🔔 Recordatorio .ICS</button>
+                            <button class="btn-action btn-primary" onclick="window.open('${getGoogleCalendarUrl(`${prefix}:${nextRace.raceName}`, targetDate)}', '_blank')">➕ Google Calendar</button>
+                            <button class="btn-action btn-secondary" onclick="downloadICS('${prefix}: ${nextRace.raceName}', targetDate)">🔔 Recordatorio .ICS</button>
                         </div>
                     </div>
                 </div>
             `;
 
             function updateCountdown() {
-                const diff = targetDate.getTime() - getNow().getTime();
+                const diff = targetDate.getTime() - new Date().getTime();
 
                 if (diff <= 0) {
                     if (document.getElementById('cd-days')) document.getElementById('cd-days').innerText = '00';
@@ -561,7 +534,6 @@ END:VCALENDAR`;
             countdownInterval = setInterval(updateCountdown, 1000);
         }
 
-        // CARGA DIRECTA DE LA TABLA DE POSICIONES COMPLETA EN TIEMPO REAL
         async function renderStandings(container) {
             container.innerHTML = '<div class="loading-state">Obteniendo tabla oficial de posiciones en vivo...</div>';
 
@@ -584,7 +556,7 @@ END:VCALENDAR`;
 
                     container.innerHTML = `
                         <div class="card">
-                            <div class="card-header">🏆 Campeonato Mundial F1 (Parrilla Completa)</div>
+                            <div class="card-header">🏆 Campeonato Mundial F1 (Tabla Oficial Completa)</div>
                             <div class="card-body" style="padding: 0;">
                                 <table class="standings-table">
                                     <thead>
@@ -600,21 +572,15 @@ END:VCALENDAR`;
                         </div>
                     `;
                 } catch (e) {
-                    container.innerHTML = `<div class="loading-state">Error al conectar con la API de F1.</div>`;
+                    container.innerHTML = `<div class="loading-state">Error al cargar tabla en vivo.</div>`;
                 }
             } else {
-                // Posiciones oficiales MotoGP
                 const motogpList = [
                     { pos: 1, name: "Jorge Martín", team: "Aprilia Racing", pts: 392 },
                     { pos: 2, name: "Francesco Bagnaia", team: "Ducati Lenovo Team", pts: 380 },
                     { pos: 3, name: "Marc Márquez", team: "Ducati Lenovo Team", pts: 311 },
                     { pos: 4, name: "Enea Bastianini", team: "KTM Tech3", pts: 282 },
-                    { pos: 5, name: "Pedro Acosta", team: "Red Bull KTM Factory", pts: 209 },
-                    { pos: 6, name: "Brad Binder", team: "Red Bull KTM Factory", pts: 192 },
-                    { pos: 7, name: "Maverick Viñales", team: "KTM Tech3", pts: 175 },
-                    { pos: 8, name: "Aleix Espargaró", team: "Honda HRC Test", pts: 148 },
-                    { pos: 9, name: "Fabio Di Giannantonio", team: "VR46 Racing Team", pts: 135 },
-                    { pos: 10, name: "Marco Bezzecchi", team: "Aprilia Racing", pts: 122 }
+                    { pos: 5, name: "Pedro Acosta", team: "Red Bull KTM Factory", pts: 209 }
                 ];
 
                 let rows = motogpList.map(s => `
@@ -630,7 +596,7 @@ END:VCALENDAR`;
 
                 container.innerHTML = `
                     <div class="card">
-                        <div class="card-header">🏆 Campeonato Mundial MotoGP (Top 10)</div>
+                        <div class="card-header">🏆 Campeonato Mundial MotoGP</div>
                         <div class="card-body" style="padding: 0;">
                             <table class="standings-table">
                                 <thead>
@@ -648,9 +614,8 @@ END:VCALENDAR`;
             }
         }
 
-        // CARGA EN VIVO DE 10 NOTICIAS OFICIALES EN ESPAÑOL
         async function renderNews(container) {
-            container.innerHTML = '<div class="loading-state">Obteniendo las últimas 10 noticias oficiales en vivo...</div>';
+            container.innerHTML = '<div class="loading-state">Cargando 10 noticias oficiales en vivo...</div>';
 
             const isF1 = currentSport === 'f1';
             const rssUrl = isF1 ? 'https://www.motor.es/rss/f1.xml' : 'https://www.motor.es/rss/motogp.xml';
@@ -662,7 +627,6 @@ END:VCALENDAR`;
 
                 if (data.status === 'ok' && data.items && data.items.length > 0) {
                     let html = '';
-                    // Extrae exactamente 10 noticias
                     data.items.slice(0, 10).forEach(item => {
                         const img = item.thumbnail || (isF1 ? imgF1 : imgMotoGP);
                         html += `
@@ -679,7 +643,7 @@ END:VCALENDAR`;
                     });
                     container.innerHTML = html;
                 } else {
-                    throw new Error('Noticias no disponibles');
+                    throw new Error('Fallback noticias');
                 }
             } catch (e) {
                 const fallbackUrl = isF1 ? 'https://es.motorsport.com/f1/' : 'https://es.motorsport.com/motogp/';
@@ -696,7 +660,6 @@ END:VCALENDAR`;
             }
         }
 
-        // Carga Inicial
         render();
     </script>
 </body>
