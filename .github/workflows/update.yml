@@ -1,4 +1,4 @@
-name: Actualizar Racing Hub
+name: Actualizar datos deportivos
 
 on:
 
@@ -7,8 +7,10 @@ on:
   schedule:
     - cron: "*/10 * * * *"
 
+
 permissions:
   contents: write
+
 
 jobs:
 
@@ -16,33 +18,56 @@ jobs:
 
     runs-on: ubuntu-latest
 
+
     steps:
 
+      # ===================================================
+      # DESCARGAR REPOSITORIO
+      # ===================================================
+
       - name: Descargar repositorio
+
         uses: actions/checkout@v4
 
+
+      # ===================================================
+      # PREPARAR PYTHON
+      # ===================================================
+
       - name: Preparar Python
+
         uses: actions/setup-python@v5
+
         with:
+
           python-version: "3.x"
 
-      - name: Actualizar datos
+
+      # ===================================================
+      # ACTUALIZAR DATOS
+      # ===================================================
+
+      - name: Consultar F1 y MotoGP
+
         run: |
+
           python scripts/update_data.py
 
-      - name: Guardar cambios
+
+      # ===================================================
+      # GUARDAR CURRENT.JSON
+      # ===================================================
+
+      - name: Guardar JSON actualizado
+
         run: |
 
-          git config user.name \
-            "github-actions[bot]"
+          git config user.name "github-actions[bot]"
 
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/current.json
 
-          git diff --cached --quiet || \
-            git commit \
-            -m "Actualizar datos F1 y MotoGP"
+          git diff --cached --quiet || git commit -m "Actualizar datos deportivos"
 
           git push
