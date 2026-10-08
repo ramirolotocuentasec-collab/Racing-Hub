@@ -1,951 +1,836 @@
 {
-  "updatedAt": "2026-10-08T04:42:04.648161+00:00",
+  "updatedAt": "2026-10-08T04:50:37.451116Z",
   "year": 2026,
   "f1": {
     "races": [
       {
-        "id": "f1-2026-1-australian-grand-prix",
+        "id": "f1-2026-1",
         "round": "1",
         "name": "Australian Grand Prix",
         "circuit": "Albert Park Grand Prix Circuit",
-        "race": "2026-03-08T04:00:00+00:00",
+        "race": "2026-03-08T04:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-03-06T01:30:00+00:00"
+            "date": "2026-03-06T01:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-03-06T05:00:00+00:00"
+            "date": "2026-03-06T05:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-03-07T01:30:00+00:00"
+            "date": "2026-03-07T01:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-03-07T05:00:00+00:00"
+            "name": "Q",
+            "date": "2026-03-07T05:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-03-08T04:00:00+00:00"
+            "name": "Race",
+            "date": "2026-03-08T04:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Albert_Park_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-2-chinese-grand-prix",
+        "id": "f1-2026-2",
         "round": "2",
         "name": "Chinese Grand Prix",
         "circuit": "Shanghai International Circuit",
-        "race": "2026-03-15T07:00:00+00:00",
+        "race": "2026-03-15T07:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-03-13T03:30:00+00:00"
+            "date": "2026-03-13T03:30:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-03-14T03:00:00+00:00"
+            "date": "2026-03-14T03:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-03-14T07:00:00+00:00"
+            "name": "Q",
+            "date": "2026-03-14T07:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-03-15T07:00:00+00:00"
+            "name": "Race",
+            "date": "2026-03-15T07:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Shanghai_International_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-3-japanese-grand-prix",
+        "id": "f1-2026-3",
         "round": "3",
         "name": "Japanese Grand Prix",
         "circuit": "Suzuka Circuit",
-        "race": "2026-03-29T05:00:00+00:00",
+        "race": "2026-03-29T05:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-03-27T02:30:00+00:00"
+            "date": "2026-03-27T02:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-03-27T06:00:00+00:00"
+            "date": "2026-03-27T06:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-03-28T02:30:00+00:00"
+            "date": "2026-03-28T02:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-03-28T06:00:00+00:00"
+            "name": "Q",
+            "date": "2026-03-28T06:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-03-29T05:00:00+00:00"
+            "name": "Race",
+            "date": "2026-03-29T05:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-4-miami-grand-prix",
+        "id": "f1-2026-4",
         "round": "4",
         "name": "Miami Grand Prix",
         "circuit": "Miami International Autodrome",
-        "race": "2026-05-03T20:00:00+00:00",
+        "race": "2026-05-03T20:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-05-01T16:00:00+00:00"
+            "date": "2026-05-01T16:00:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-05-02T16:00:00+00:00"
+            "date": "2026-05-02T16:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-05-02T20:00:00+00:00"
+            "name": "Q",
+            "date": "2026-05-02T20:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-05-03T20:00:00+00:00"
+            "name": "Race",
+            "date": "2026-05-03T20:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Miami_International_Autodrome",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-5-canadian-grand-prix",
+        "id": "f1-2026-5",
         "round": "5",
         "name": "Canadian Grand Prix",
         "circuit": "Circuit Gilles Villeneuve",
-        "race": "2026-05-24T20:00:00+00:00",
+        "race": "2026-05-24T20:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-05-22T16:30:00+00:00"
+            "date": "2026-05-22T16:30:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-05-23T16:00:00+00:00"
+            "date": "2026-05-23T16:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-05-23T20:00:00+00:00"
+            "name": "Q",
+            "date": "2026-05-23T20:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-05-24T20:00:00+00:00"
+            "name": "Race",
+            "date": "2026-05-24T20:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-6-monaco-grand-prix",
+        "id": "f1-2026-6",
         "round": "6",
         "name": "Monaco Grand Prix",
         "circuit": "Circuit de Monaco",
-        "race": "2026-06-07T13:00:00+00:00",
+        "race": "2026-06-07T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-06-05T11:30:00+00:00"
+            "date": "2026-06-05T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-06-05T15:00:00+00:00"
+            "date": "2026-06-05T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-06-06T10:30:00+00:00"
+            "date": "2026-06-06T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-06-06T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-06-06T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-06-07T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-06-07T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_de_Monaco",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-7-barcelona-grand-prix",
+        "id": "f1-2026-7",
         "round": "7",
         "name": "Barcelona Grand Prix",
         "circuit": "Circuit de Barcelona-Catalunya",
-        "race": "2026-06-14T13:00:00+00:00",
+        "race": "2026-06-14T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-06-12T11:30:00+00:00"
+            "date": "2026-06-12T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-06-12T15:00:00+00:00"
+            "date": "2026-06-12T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-06-13T10:30:00+00:00"
+            "date": "2026-06-13T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-06-13T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-06-13T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-06-14T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-06-14T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-8-austrian-grand-prix",
+        "id": "f1-2026-8",
         "round": "8",
         "name": "Austrian Grand Prix",
         "circuit": "Red Bull Ring",
-        "race": "2026-06-28T13:00:00+00:00",
+        "race": "2026-06-28T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-06-26T11:30:00+00:00"
+            "date": "2026-06-26T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-06-26T15:00:00+00:00"
+            "date": "2026-06-26T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-06-27T10:30:00+00:00"
+            "date": "2026-06-27T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-06-27T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-06-27T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-06-28T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-06-28T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Red_Bull_Ring",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-9-british-grand-prix",
+        "id": "f1-2026-9",
         "round": "9",
         "name": "British Grand Prix",
         "circuit": "Silverstone Circuit",
-        "race": "2026-07-05T14:00:00+00:00",
+        "race": "2026-07-05T14:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-07-03T11:30:00+00:00"
+            "date": "2026-07-03T11:30:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-07-04T11:00:00+00:00"
+            "date": "2026-07-04T11:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-07-04T15:00:00+00:00"
+            "name": "Q",
+            "date": "2026-07-04T15:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-07-05T14:00:00+00:00"
+            "name": "Race",
+            "date": "2026-07-05T14:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-10-belgian-grand-prix",
+        "id": "f1-2026-10",
         "round": "10",
         "name": "Belgian Grand Prix",
         "circuit": "Circuit de Spa-Francorchamps",
-        "race": "2026-07-19T13:00:00+00:00",
+        "race": "2026-07-19T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-07-17T11:30:00+00:00"
+            "date": "2026-07-17T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-07-17T15:00:00+00:00"
+            "date": "2026-07-17T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-07-18T10:30:00+00:00"
+            "date": "2026-07-18T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-07-18T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-07-18T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-07-19T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-07-19T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-11-hungarian-grand-prix",
+        "id": "f1-2026-11",
         "round": "11",
         "name": "Hungarian Grand Prix",
         "circuit": "Hungaroring",
-        "race": "2026-07-26T13:00:00+00:00",
+        "race": "2026-07-26T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-07-24T11:30:00+00:00"
+            "date": "2026-07-24T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-07-24T15:00:00+00:00"
+            "date": "2026-07-24T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-07-25T10:30:00+00:00"
+            "date": "2026-07-25T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-07-25T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-07-25T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-07-26T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-07-26T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Hungaroring",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-12-dutch-grand-prix",
+        "id": "f1-2026-12",
         "round": "12",
         "name": "Dutch Grand Prix",
         "circuit": "Circuit Park Zandvoort",
-        "race": "2026-08-23T13:00:00+00:00",
+        "race": "2026-08-23T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-08-21T10:30:00+00:00"
+            "date": "2026-08-21T10:30:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-08-22T10:00:00+00:00"
+            "date": "2026-08-22T10:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-08-22T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-08-22T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-08-23T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-08-23T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_Zandvoort",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-13-italian-grand-prix",
+        "id": "f1-2026-13",
         "round": "13",
         "name": "Italian Grand Prix",
         "circuit": "Autodromo Nazionale di Monza",
-        "race": "2026-09-06T13:00:00+00:00",
+        "race": "2026-09-06T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-09-04T10:30:00+00:00"
+            "date": "2026-09-04T10:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-09-04T14:00:00+00:00"
+            "date": "2026-09-04T14:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-09-05T10:30:00+00:00"
+            "date": "2026-09-05T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-09-05T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-09-05T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-09-06T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-09-06T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Monza_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-14-spanish-grand-prix",
+        "id": "f1-2026-14",
         "round": "14",
         "name": "Spanish Grand Prix",
         "circuit": "Madring",
-        "race": "2026-09-13T13:00:00+00:00",
+        "race": "2026-09-13T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-09-11T11:30:00+00:00"
+            "date": "2026-09-11T11:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-09-11T15:00:00+00:00"
+            "date": "2026-09-11T15:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-09-12T10:30:00+00:00"
+            "date": "2026-09-12T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-09-12T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-09-12T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-09-13T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-09-13T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Madring",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-15-azerbaijan-grand-prix",
+        "id": "f1-2026-15",
         "round": "15",
         "name": "Azerbaijan Grand Prix",
         "circuit": "Baku City Circuit",
-        "race": "2026-09-26T11:00:00+00:00",
+        "race": "2026-09-26T11:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-09-24T08:30:00+00:00"
+            "date": "2026-09-24T08:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-09-24T12:00:00+00:00"
+            "date": "2026-09-24T12:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-09-25T08:30:00+00:00"
+            "date": "2026-09-25T08:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-09-25T12:00:00+00:00"
+            "name": "Q",
+            "date": "2026-09-25T12:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-09-26T11:00:00+00:00"
+            "name": "Race",
+            "date": "2026-09-26T11:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Baku_City_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-16-bahrain-grand-prix-in-malaysia",
+        "id": "f1-2026-16",
         "round": "16",
         "name": "Bahrain Grand Prix in Malaysia",
         "circuit": "Sepang International Circuit",
-        "race": "2026-10-04T07:00:00+00:00",
+        "race": "2026-10-04T07:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-10-02T04:30:00+00:00"
+            "date": "2026-10-02T04:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-10-02T08:00:00+00:00"
+            "date": "2026-10-02T08:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-10-03T04:30:00+00:00"
+            "date": "2026-10-03T04:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-10-03T08:00:00+00:00"
+            "name": "Q",
+            "date": "2026-10-03T08:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-10-04T07:00:00+00:00"
+            "name": "Race",
+            "date": "2026-10-04T07:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-17-singapore-grand-prix",
+        "id": "f1-2026-17",
         "round": "17",
         "name": "Singapore Grand Prix",
         "circuit": "Marina Bay Street Circuit",
-        "race": "2026-10-11T12:00:00+00:00",
+        "race": "2026-10-11T12:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-10-09T08:30:00+00:00"
+            "date": "2026-10-09T08:30:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-10-10T09:00:00+00:00"
+            "date": "2026-10-10T09:00:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-10-10T13:00:00+00:00"
+            "name": "Q",
+            "date": "2026-10-10T13:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-10-11T12:00:00+00:00"
+            "name": "Race",
+            "date": "2026-10-11T12:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-18-united-states-grand-prix",
+        "id": "f1-2026-18",
         "round": "18",
         "name": "United States Grand Prix",
         "circuit": "Circuit of the Americas",
-        "race": "2026-10-25T20:00:00+00:00",
+        "race": "2026-10-25T20:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-10-23T17:30:00+00:00"
+            "date": "2026-10-23T17:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-10-23T21:00:00+00:00"
+            "date": "2026-10-23T21:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-10-24T17:30:00+00:00"
+            "date": "2026-10-24T17:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-10-24T21:00:00+00:00"
+            "name": "Q",
+            "date": "2026-10-24T21:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-10-25T20:00:00+00:00"
+            "name": "Race",
+            "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-19-mexico-city-grand-prix",
+        "id": "f1-2026-19",
         "round": "19",
         "name": "Mexico City Grand Prix",
         "circuit": "Autódromo Hermanos Rodríguez",
-        "race": "2026-11-01T20:00:00+00:00",
+        "race": "2026-11-01T20:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-10-30T18:30:00+00:00"
+            "date": "2026-10-30T18:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-10-30T22:00:00+00:00"
+            "date": "2026-10-30T22:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-10-31T17:30:00+00:00"
+            "date": "2026-10-31T17:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-10-31T21:00:00+00:00"
+            "name": "Q",
+            "date": "2026-10-31T21:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-11-01T20:00:00+00:00"
+            "name": "Race",
+            "date": "2026-11-01T20:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-20-brazilian-grand-prix",
+        "id": "f1-2026-20",
         "round": "20",
         "name": "Brazilian Grand Prix",
         "circuit": "Autódromo José Carlos Pace",
-        "race": "2026-11-08T17:00:00+00:00",
+        "race": "2026-11-08T17:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-11-06T15:30:00+00:00"
+            "date": "2026-11-06T15:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-11-06T19:00:00+00:00"
+            "date": "2026-11-06T19:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-11-07T14:30:00+00:00"
+            "date": "2026-11-07T14:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-11-07T18:00:00+00:00"
+            "name": "Q",
+            "date": "2026-11-07T18:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-11-08T17:00:00+00:00"
+            "name": "Race",
+            "date": "2026-11-08T17:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Interlagos_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-21-las-vegas-grand-prix",
+        "id": "f1-2026-21",
         "round": "21",
         "name": "Las Vegas Grand Prix",
         "circuit": "Las Vegas Strip Street Circuit",
-        "race": "2026-11-22T04:00:00+00:00",
+        "race": "2026-11-22T04:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-11-20T00:30:00+00:00"
+            "date": "2026-11-20T00:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-11-20T04:00:00+00:00"
+            "date": "2026-11-20T04:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-11-21T00:30:00+00:00"
+            "date": "2026-11-21T00:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-11-21T04:00:00+00:00"
+            "name": "Q",
+            "date": "2026-11-21T04:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-11-22T04:00:00+00:00"
+            "name": "Race",
+            "date": "2026-11-22T04:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-22-qatar-grand-prix",
+        "id": "f1-2026-22",
         "round": "22",
         "name": "Qatar Grand Prix",
         "circuit": "Lusail International Circuit",
-        "race": "2026-11-29T16:00:00+00:00",
+        "race": "2026-11-29T16:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-11-27T13:30:00+00:00"
+            "date": "2026-11-27T13:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-11-27T17:00:00+00:00"
+            "date": "2026-11-27T17:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-11-28T14:30:00+00:00"
+            "date": "2026-11-28T14:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-11-28T18:00:00+00:00"
+            "name": "Q",
+            "date": "2026-11-28T18:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-11-29T16:00:00+00:00"
+            "name": "Race",
+            "date": "2026-11-29T16:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Lusail_International_Circuit",
-        "circuitImage": ""
+        ]
       },
       {
-        "id": "f1-2026-23-abu-dhabi-grand-prix",
+        "id": "f1-2026-23",
         "round": "23",
         "name": "Abu Dhabi Grand Prix",
         "circuit": "Yas Marina Circuit",
-        "race": "2026-12-06T13:00:00+00:00",
+        "race": "2026-12-06T13:00:00Z",
         "sessions": [
           {
             "name": "FP1",
-            "date": "2026-12-04T09:30:00+00:00"
+            "date": "2026-12-04T09:30:00Z"
           },
           {
             "name": "FP2",
-            "date": "2026-12-04T13:00:00+00:00"
+            "date": "2026-12-04T13:00:00Z"
           },
           {
             "name": "FP3",
-            "date": "2026-12-05T10:30:00+00:00"
+            "date": "2026-12-05T10:30:00Z"
           },
           {
-            "name": "Clasificación",
-            "date": "2026-12-05T14:00:00+00:00"
+            "name": "Q",
+            "date": "2026-12-05T14:00:00Z"
           },
           {
-            "name": "Carrera",
-            "date": "2026-12-06T13:00:00+00:00"
+            "name": "Race",
+            "date": "2026-12-06T13:00:00Z"
           }
-        ],
-        "circuitUrl": "https://en.wikipedia.org/wiki/Yas_Marina_Circuit",
-        "circuitImage": ""
+        ]
       }
     ],
     "drivers": [
       {
         "position": 1,
         "name": "Andrea Kimi Antonelli",
-        "driver": "Andrea Kimi Antonelli",
-        "team": "Mercedes",
-        "constructor": "Mercedes",
-        "points": 320.0,
+        "driver": "ANT",
         "number": "12",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Mercedes",
+        "points": 320.0
       },
       {
         "position": 2,
         "name": "George Russell",
-        "driver": "George Russell",
-        "team": "Mercedes",
-        "constructor": "Mercedes",
-        "points": 236.0,
+        "driver": "RUS",
         "number": "63",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Mercedes",
+        "points": 236.0
       },
       {
         "position": 3,
         "name": "Lewis Hamilton",
-        "driver": "Lewis Hamilton",
-        "team": "Ferrari",
-        "constructor": "Ferrari",
-        "points": 214.0,
+        "driver": "HAM",
         "number": "44",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Ferrari",
+        "points": 214.0
       },
       {
         "position": 4,
         "name": "Charles Leclerc",
-        "driver": "Charles Leclerc",
-        "team": "Ferrari",
-        "constructor": "Ferrari",
-        "points": 191.0,
+        "driver": "LEC",
         "number": "16",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Ferrari",
+        "points": 191.0
       },
       {
         "position": 5,
         "name": "Lando Norris",
-        "driver": "Lando Norris",
-        "team": "McLaren",
-        "constructor": "McLaren",
-        "points": 188.0,
+        "driver": "NOR",
         "number": "1",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "McLaren",
+        "points": 188.0
       },
       {
         "position": 6,
         "name": "Max Verstappen",
-        "driver": "Max Verstappen",
-        "team": "Red Bull",
-        "constructor": "Red Bull",
-        "points": 188.0,
+        "driver": "VER",
         "number": "3",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Red Bull",
+        "points": 188.0
       },
       {
         "position": 7,
         "name": "Oscar Piastri",
-        "driver": "Oscar Piastri",
-        "team": "McLaren",
-        "constructor": "McLaren",
-        "points": 128.0,
+        "driver": "PIA",
         "number": "81",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "McLaren",
+        "points": 128.0
       },
       {
         "position": 8,
         "name": "Isack Hadjar",
-        "driver": "Isack Hadjar",
-        "team": "Red Bull",
-        "constructor": "Red Bull",
-        "points": 96.0,
+        "driver": "HAD",
         "number": "6",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Red Bull",
+        "points": 96.0
       },
       {
         "position": 9,
         "name": "Liam Lawson",
-        "driver": "Liam Lawson",
-        "team": "RB F1 Team",
-        "constructor": "RB F1 Team",
-        "points": 65.0,
+        "driver": "LAW",
         "number": "30",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "RB F1 Team",
+        "points": 65.0
       },
       {
         "position": 10,
         "name": "Pierre Gasly",
-        "driver": "Pierre Gasly",
-        "team": "Alpine F1 Team",
-        "constructor": "Alpine F1 Team",
-        "points": 41.0,
+        "driver": "GAS",
         "number": "10",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Alpine F1 Team",
+        "points": 41.0
       },
       {
         "position": 11,
         "name": "Arvid Lindblad",
-        "driver": "Arvid Lindblad",
-        "team": "RB F1 Team",
-        "constructor": "RB F1 Team",
-        "points": 38.0,
+        "driver": "LIN",
         "number": "41",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "RB F1 Team",
+        "points": 38.0
       },
       {
         "position": 12,
         "name": "Franco Colapinto",
-        "driver": "Franco Colapinto",
-        "team": "Alpine F1 Team",
-        "constructor": "Alpine F1 Team",
-        "points": 27.0,
+        "driver": "COL",
         "number": "43",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Alpine F1 Team",
+        "points": 27.0
       },
       {
         "position": 13,
         "name": "Oliver Bearman",
-        "driver": "Oliver Bearman",
-        "team": "Haas F1 Team",
-        "constructor": "Haas F1 Team",
-        "points": 20.0,
+        "driver": "BEA",
         "number": "87",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Haas F1 Team",
+        "points": 20.0
       },
       {
         "position": 14,
         "name": "Gabriel Bortoleto",
-        "driver": "Gabriel Bortoleto",
-        "team": "Audi",
-        "constructor": "Audi",
-        "points": 10.0,
+        "driver": "BOR",
         "number": "5",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Audi",
+        "points": 10.0
       },
       {
         "position": 15,
         "name": "Nico Hülkenberg",
-        "driver": "Nico Hülkenberg",
-        "team": "Audi",
-        "constructor": "Audi",
-        "points": 7.0,
+        "driver": "HUL",
         "number": "27",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Audi",
+        "points": 7.0
       },
       {
         "position": 16,
         "name": "Esteban Ocon",
-        "driver": "Esteban Ocon",
-        "team": "Haas F1 Team",
-        "constructor": "Haas F1 Team",
-        "points": 7.0,
+        "driver": "OCO",
         "number": "31",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Haas F1 Team",
+        "points": 7.0
       },
       {
         "position": 17,
         "name": "Fernando Alonso",
-        "driver": "Fernando Alonso",
-        "team": "Aston Martin",
-        "constructor": "Aston Martin",
-        "points": 7.0,
+        "driver": "ALO",
         "number": "14",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Aston Martin",
+        "points": 7.0
       },
       {
         "position": 18,
         "name": "Carlos Sainz",
-        "driver": "Carlos Sainz",
-        "team": "Williams",
-        "constructor": "Williams",
-        "points": 7.0,
+        "driver": "SAI",
         "number": "55",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Williams",
+        "points": 7.0
       },
       {
         "position": 19,
         "name": "Alexander Albon",
-        "driver": "Alexander Albon",
-        "team": "Williams",
-        "constructor": "Williams",
-        "points": 5.0,
+        "driver": "ALB",
         "number": "23",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Williams",
+        "points": 5.0
       },
       {
         "position": 20,
         "name": "Yuki Tsunoda",
-        "driver": "Yuki Tsunoda",
-        "team": "RB F1 Team",
-        "constructor": "RB F1 Team",
-        "points": 1.0,
+        "driver": "TSU",
         "number": "22",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "RB F1 Team",
+        "points": 1.0
       },
       {
         "position": 21,
         "name": "Lance Stroll",
-        "driver": "Lance Stroll",
-        "team": "Aston Martin",
-        "constructor": "Aston Martin",
-        "points": 0.0,
+        "driver": "STR",
         "number": "18",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Aston Martin",
+        "points": 0.0
       },
       {
         "position": 22,
         "name": "Valtteri Bottas",
-        "driver": "Valtteri Bottas",
-        "team": "Cadillac F1 Team",
-        "constructor": "Cadillac F1 Team",
-        "points": 0.0,
+        "driver": "BOT",
         "number": "77",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Cadillac F1 Team",
+        "points": 0.0
       },
       {
         "position": 23,
         "name": "Sergio Pérez",
-        "driver": "Sergio Pérez",
-        "team": "Cadillac F1 Team",
-        "constructor": "Cadillac F1 Team",
-        "points": 0.0,
+        "driver": "PER",
         "number": "11",
-        "teamLogo": "",
-        "teamColor": ""
+        "team": "Cadillac F1 Team",
+        "points": 0.0
       }
     ],
     "teams": [
@@ -953,91 +838,70 @@
         "position": 1,
         "name": "Mercedes",
         "team": "Mercedes",
-        "points": 556.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 556.0
       },
       {
         "position": 2,
         "name": "Ferrari",
         "team": "Ferrari",
-        "points": 405.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 405.0
       },
       {
         "position": 3,
         "name": "McLaren",
         "team": "McLaren",
-        "points": 316.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 316.0
       },
       {
         "position": 4,
         "name": "Red Bull",
         "team": "Red Bull",
-        "points": 298.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 298.0
       },
       {
         "position": 5,
         "name": "RB F1 Team",
         "team": "RB F1 Team",
-        "points": 90.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 90.0
       },
       {
         "position": 6,
         "name": "Alpine F1 Team",
         "team": "Alpine F1 Team",
-        "points": 68.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 68.0
       },
       {
         "position": 7,
         "name": "Haas F1 Team",
         "team": "Haas F1 Team",
-        "points": 27.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 27.0
       },
       {
         "position": 8,
         "name": "Audi",
         "team": "Audi",
-        "points": 17.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 17.0
       },
       {
         "position": 9,
         "name": "Williams",
         "team": "Williams",
-        "points": 12.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 12.0
       },
       {
         "position": 10,
         "name": "Aston Martin",
         "team": "Aston Martin",
-        "points": 7.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 7.0
       },
       {
         "position": 11,
         "name": "Cadillac F1 Team",
         "team": "Cadillac F1 Team",
-        "points": 0.0,
-        "logo": "",
-        "teamColor": ""
+        "points": 0.0
       }
-    ]
+    ],
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
   },
   "moto": {
     "races": [
@@ -2493,195 +2357,128 @@
     ],
     "drivers": [],
     "teams": [],
-    "error": "HTTP Error 404: Not Found"
+    "error": "HTTP Error 404: Not Found",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
   },
   "news": {
     "f1": [
       {
-        "title": "Unleash the Lion Max Verstappen Tailgate & Party - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdFlNN0ZYdUtpWFF0d1A0UXAzZTBJVTRYdGRBanNqLUd3MTJuNVNFSmpyR191RHp2MmI4YVRvb0RzM2FJRWMyREdtVUx5TDhfc1dJaWpuR0ZfMHRKTGtyYnRwcDZ3czhqOEVHalpqYlJFVW8xU1VkbHFqMXRvOS02blU1X3RMU0JNWGhuSm5wTWQ4ZWlMN29CUDVUYUMxLXRaWHNBNUlxVEdtSTRCY0NHMWtNdk51bEw4LUxtMTZ1dVlaYnpjdGttWQ?oc=5",
-        "published": "Sat, 03 Oct 2026 06:10:52 GMT",
-        "source": "F1 Store"
+        "title": "La Fórmula E no pierde de vista a Esteban Ocon - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORmdrYkE0RDlTOWxyWmNQdGpxbUJpWFdqdDVXMlh0dTdWRE45czBSSlhBWk85YkFWakZGSVBUcHJ4NmZEQl9oTkRnRmRCVmVxSUNjeExfbFVwcy03Q3g5NUgwdFNHYkE2ZFlOMlUtbGZkS2oxZXktOTYzZnJ1NS1zM3pualhrUHZ1R2hyX2I3MA?oc=5",
+        "published": "2026-10-07T09:48:01Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Kids Hoodies, Sweatshirts - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxONl9maHdFaXZEenZUZTROenBkRXZjbVJaLVpNWEZWSnV2eF80QlJiRm1DZ29pNmd1ZmkwQnc2OV9zdlBpakdnb1pyNzBZYzBXSVZSeEUxNEtxZUtLWVhKcFJ6dk9xTkcxNGxrRS1sMVAySHY5OThpSG1Xbzc4LUJzYzFuak9BS0pKSVF1ZTh0R2dHV2ZNYUZrdHByNWktOXBXLXZDa2VacEJ5am5HUTNUVWVVcERxa2g5UXhyMGhEcEFBSmRic0JDdUtpWWNlZEVEbjVkMzgxNThTSTUwTnRPRFJWeENlQWtyODFTLW1qbFlSZHI5eU9rR1JacTNMNzltNnNrU0d5NFBZdWhjb3FF?oc=5",
-        "published": "Sat, 03 Oct 2026 05:54:20 GMT",
-        "source": "F1 Store"
+        "title": "Llega Ruanda, pero Sudáfrica no se rinde: \"Tendremos F1, incluso antes de 2030\" - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbUU3ejltSDRmVUVvYWw4VFhfT05XYWJqZlIxN1JVZ0NEZlRraTNkeHBMN0RoTHZFUVNzRHZuN1R3N2JDb3dIS0tEMjJlQ3Y1V1lqZXdVc1V3NVNaRTJkQ3NFd2J4alphZ08wZEJyTjNxcHJrbFFULXE1MGJRRUNUeVR3Uk5BclZTSTVKYW03ZnNMVjZvMnN4ME1RM25DV0FxMW9nY2dxZVRSWE0?oc=5",
+        "published": "2026-10-07T19:07:00Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Lewis Hamilton Home Decor, Office Accessories - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZDhVZlRWR2R4QzZ2NHpNME10X0hOcDQyQUpzVXpVMHd1cWd6UDZqcllIcDRMZkZRSHBmUzQzaWxMdUMzbWpva2xFc3BTdjB1VHJGTFBxNlFuRzdWakNTN2ptaW9oaHZtWkpVanBWeVNmbV9KaUxLcWYxaHFlaDNUV3ppSUpCVzBxcWtNMzJrbVpLUzdUd1VkbGpTVlhHWG1HQzFpZ3BpUlIxRFBUU0pRQnI3dFBSWFIzTlRjY3J1QUYxTTQ?oc=5",
-        "published": "Mon, 05 Oct 2026 16:28:23 GMT",
-        "source": "F1 Store"
+        "title": "Verstappen explica los motivos que le llevaron a descartar Ferrari y renovar con Red Bull - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONlZHOHNXQzItWm5iV3ZLNjdyWTJrLVRoZkZtU2VHeVhIVGhiY2s2M0diLXFteDFxRUJBZS03VS11bng3Q21LYThrWkV6NjhITTFseWFRRnJ3bGhnSS1TR2liMDJsbFFLaFFfWVlObFR6QVR2TU8xdVJjZjM0NG1kaUtKalRzZ05DYnp0MEtqSk5sUk5lZFQzZzFxZGJkZmVsSXhjVV94R0xMUS1fdGpOV1V2emNwcnpURzdTQw?oc=5",
+        "published": "2026-10-07T16:33:43Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Kick Sauber Gifts For Him , Gifts For Him - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMHFwS01xVGFuSF9vazRuTUc1OVRhU21HRGdiSXMxb1FNY3p4RGd0MW1FNUNDblE1NWhuN2hnTi0tdUxYdUVSS3ZqZUtKYnMtX29GSnpueGt5OFlxcTdSQnMtZnNRZnZBaWc0cnlsU1R6N2I4Z1RUSnNLeDhpVDBHZk9MamstQkl0M1ZBZmVTeE5xZU5WeTVaM1Q3THhaeENHN251SjJCdUQtX0JPeWJvRkwwZWkzQzhyT0t4RTB2a05CYkxKTkRmSE43UQ?oc=5",
-        "published": "Tue, 06 Oct 2026 04:46:10 GMT",
-        "source": "F1 Store"
+        "title": "¡Más de 100 millones de euros! Las cifras de la increíble indemnización de Red Bull a Horner - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2Etc1ZWZFFvMmVZZ2xJby0wYTAtMWdDT3lJR2NzbWo3djR0OW1vUWNULWNTVEp6RXFOSVAtQVBVZ1YwSi1PdjZKU1o1M3ZrbHgybzdiN1pLR1dpbWtWalQxQXJndFNsUEFGWG9JZGE4SnNoYmNUNWpTckd1TVh4aUU4RmQ5cHNaNWNUWmF6QWR2U3Yxbm02dGp3TXQyMDdnZi1FcVl5STFMRFBzd00tb2pzdDg?oc=5",
+        "published": "2026-10-07T15:30:00Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Liquidación Ropa, Ofertas, Ropa en oferta - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVHpPZy1Qc1lXQkZjUTJYTTMwYWQ0TVBfeTBUc0VJMFRwajdfZHB1RzBNUEppMGhZbk1qWmVTbWFwakV2UnpVR2xXcHB2aGZNYnFISTlaM3hYeG5GMWVrWEpXUnZjNFdwYWZxcmUxYTdYc1FnNFE3M0txOFBkWlBCaF9FY2xYMzBZRGtXWHpTQ1pKanZVb3B4UQ?oc=5",
-        "published": "Mon, 05 Oct 2026 21:18:34 GMT",
-        "source": "F1 Store"
+        "title": "Así es la propuesta que ya tiene la F1 para cambiar el límite de presupuesto en 2027 - SoyMotor.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ2ZrdHdqQi1sc2RHb2tEVEVISnA2T1UxV3A3TGNCa2psSmZ1ZGVMQ092S3hxYXMwLWVvckRsQVZrMzd6cEJNczZQZVZSekZ6dEFHeUg2TGxvRXdFVjFPeXY2VUk1MWFlMmhuWEs1WkoxSG82M1A3U0xHOVB2dGRYTXh2UlBpcmdxOUlKLWpiS0FVNG5ZSTNMbUdaUUtadHdfNGJaay1SQWFJMmNDTHpUMXlxaVRnYnYz?oc=5",
+        "published": "2026-10-07T09:35:00Z",
+        "source": "SoyMotor.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Bandera Lando Norris de McLaren - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDJWTTNHbDZwME5ZTzZ0SjRSWS13R2lEVGJrdElFWTcza0YzdUpqajVfRkF6dF9PMzZ3S2pOREdJUGRKaEhnX2FTbDhHQ1J2RUF5V0xQWXVnMzdISXhMeS1UVGVkSXdnUzQyQVE2Tzc3c2JWeC1tZ1dFUV8zS1RTM25DQXBvVS1DM1N2d0dTT1ltUnNEWW5HX0pUNTZLLTMyZlE?oc=5",
-        "published": "Sun, 04 Oct 2026 07:00:51 GMT",
-        "source": "F1 Store"
+        "title": "Entonces... ¿qué mejora Honda con el ADUO2 en el motor del Aston Martin? - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qMU1WYW1mX0tYRlNXbmVZZF8zcldVaGFpWjRiSzJoSEVlWVZWOFp5cHhUWE9aOXJXb0RHekdRQ1E0M3FVVjNUanRsZVRhRmxJODRfTTE4UG4xeGJWLUJPdzVtUmZHQnZ3MlR6TEdoRzdSZVJINWJ4aDNDMA?oc=5",
+        "published": "2026-10-06T14:23:31Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "F1 Max Verstappen Mens Home Decor, Formula 1 Office Accessories - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVVU2akVDSm5zc1FHQkFVNU1qUWhJcldxTkU1LU0xRXVlRk5kMGgtejBhZG1La1dnRUhxR3RGcXdfUTFHazN5N0ZUNU5KVThNTlZTZU5OOWh6T0FPUDBXRDloUHpqZGhSeFdULVFBUEhCZE1kaVM5YUdGbDI2MWxXT0RoYjA3SmNjREo2cE56dGVxN2pTT2U1Z2F6Y25PakRKOW9R?oc=5",
-        "published": "Sun, 04 Oct 2026 03:37:08 GMT",
-        "source": "F1 Store"
+        "title": "Audi habla sobre una posible venta de su equipo de F1: \"El interés es muy grande\" - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbllDdC00cUEtQTRaQzduZFFEbWhFMzl0QWs5WXBjWnNuQ0tvOTAwRy1CMHRZbjJDOFJ4b1AzLXh0YlBkSFkya0tCY19VWnR4OW9SZGgtYlFQcjZLbTRMZ3JJbXdfWHhVeVlpSUE5U1F2dGVJOVpnZkhsS0dBdlZtUw?oc=5",
+        "published": "2026-10-07T13:25:39Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       },
       {
-        "title": "Home Decor, Office Accessories - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTzJFb3RRalFiV2o0RnF5c0VmYnpPVWhBeUF2MFJzTW1hdl9lNUlZM3BRLVhrTXY4QUMyRFgzbE11MExLVjl1NFJyT05abEpVSHpaZ0FHVThiYWtYTEduY3pHa3htSlBMbnZPbjNEajJtY19sR21CSmh3REtQUGdXWUxmNDd3N3lWZ3FJZGJFUTQzSk94SW1LZzRRMjYyeVIwR3c?oc=5",
-        "published": "Sun, 04 Oct 2026 10:52:00 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Clearance Event - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRGVsa2o3anFqVmxLUjZFRVduUWVjbUtwc1VnNW95SDYtN09wLTdJRW95d1NNR1J5UzV0UjdBaWZrUUdKWmpHTk9mYlpsZmZ3R25hNTVGbGtwZURQYTN3cF9TQ3FYVUpfWHVpaXl2SDV0ODV6WVN0aWNHWW9IODJVcmhVbTkwdFBkazhHVEVzTzY0MVQ0MW5jdHVyNlFDdzBVVDdyemhB?oc=5",
-        "published": "Mon, 05 Oct 2026 19:24:31 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Ladies Home Decor, Office Accessories - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb2YyVWRJLTJqaEg5aGxKSjF6MHJmbFc0RlFPdTY1V09MeHVkbUhSR0EwdXNYUzJ5bXVYaU5qSllqbVQtY2hWR1VFNmlJUXhRUTZNNjBVRS05bVlfWkxqeFlvd29na1d4dUFUaFZsZS1UMEZORXZiMmIzT2RsU2loMHhFdkJCb2N1N2ZUX0RJdnZkRUU2VmI1OFR0Tk5ER2NSSHRYNXlYMnBkMVlaNnh4R3NjT0o1b0haWGkzS3d2M3EyN0VZSmVJXzhKS2o2Zw?oc=5",
-        "published": "Mon, 05 Oct 2026 10:36:29 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Carlos Sainz Wall Art, Posters - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWTQtT05aQ2d6dXZqU2tyOEVOQk9pb01IeVhYeHphMm54ZTBSOUM0dUU5VGh1ekZTYlFKaUpjWmNvVnlNMGNCUFFzcGM1bWdCeTVjRkl3WS1ldG5jUDQzc2k2YzN6a0dKc2JURm54ZlNyWFJGSG81dEtFX21sU1FRRGRtNTk4eVdJdjdsQmVZVW9FQmJWY3Eyc2ZZbjQ1ZXhDTHR4cWE4Z0ZDMzlkUE1OTzJ0ejQxalA4blhmT2JrSTV1ajQ?oc=5",
-        "published": "Sun, 04 Oct 2026 05:23:32 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Ladies Accessories, Gifts - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTTVFR0xibGVibUE2MTBjY3VHTVhkbnl0VXBadnlUbXVaT0pjT09hN0RFWEhmYmVuYUxHNVdmdGgxUm1US1lVeXRzVFZ3VkxjelRfZ0l4VzYxaTVqQy1zb21JYjN5VjZzdElzcVl1aXdBQjc1ZUR0Y0hJYWE5NzY2UTIzYnMzV3VMV1BwTXpKUkJTWFhpRVNKUXR6VktLTkliaGtrdGpDM24wM2dENnZMeXdxS0U?oc=5",
-        "published": "Mon, 05 Oct 2026 08:16:49 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Hot New Arrivals , Hot New Arrivals - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT3dMbHdxaktReDZfVGN4d3RqRUFmTndqMGdEMW96SVZZQURIWlcyZHlSOG5yUG92enYzNG5uT1pDQmxrTEM3Mzd2eGRtXzBCQVFZNXFPWlVOX0NVaFk2czVyaXI1ZU85dnhPUGdrSFZrckU3ZVVpV3BaNlExTHdicndPanlWNEdDcE1HcUhTWGlpenV4OGl3NGo0QzRwSEpaUnFyS09odWxFXzdiWW1DdHBmY1k5OXpQSE91M0ZTU3NYZlF0dlBQcjM4N0E2bTlnZWRyRGsyOA?oc=5",
-        "published": "Sat, 03 Oct 2026 05:00:08 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "New Era Merchandise, New Era Apparel, Clothing - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOV3ZONzd5aHFkVVZUQXMxQUpKTlFUSDlxeDllcVE5WlRpNWNtcHFZNDlWazRzeXVkeFQ5SUNFYWhINjRjWFF0ZXA1VG1qOW5EYXAxSEVrNkgzNzd0eVNQSFVlWmlzWVRKQWp4dmhTbENzQ19TLUhHOW9KMG5vRS1zU1FRc0s3dw?oc=5",
-        "published": "Sat, 03 Oct 2026 03:36:35 GMT",
-        "source": "F1 Store"
-      },
-      {
-        "title": "Kimi Antonelli Figurines & Bobbleheads - F1 Store",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWZBRXZJd002cEp2UWVKVzY3WlN6ZDd3YnBVa1JqcTBMMmFJZWtHejB2VTR4amFnT2J6UlNkTUJqT0Uydk1iQ29fdVBLUk5fOFNJYVExTXdjakhpSFlvV1pSalJwUGRDSnJDSjB6NGFrNFRDbDV0aTZEZDVvN1Z3eGdSMjJpMFRmZTZHaGhDWXZfVmI5RGFiMElfQ2JLQzl2clhmTnZCMmlNdU1TZE02YjVR?oc=5",
-        "published": "Tue, 06 Oct 2026 07:08:02 GMT",
-        "source": "F1 Store"
+        "title": "Honda llega a Singapur \"con ilusión\"; Aston confía... con un aviso - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRjkzeXQxWWlSaURrZnc3ZVVjalVNbkMydlpTWjVHd01UcDl0WV8wWkVwNVM3ZTM4WDVoVmo3Wm1CaUhCOHZ4eFNTdmp6QUxmUkQ2bWNKZnRhb0dJYldUTHB0bGxGcll6MHV5a1g1N1F6VzhNdzlyOXhhLWw5VllaeFNCY2w?oc=5",
+        "published": "2026-10-07T16:13:32Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lewis%20Hamilton%20Ferrari%20F1%20Car%20%2855383746481%29.jpg?width=1280"
       }
     ],
     "moto": [
       {
-        "title": "MotoGP introduce un nuevo formato de fin de semana a partir de 2027 - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IenZKT3lYdFdLcElTYXRBRFZCbUFnSWJqMlFrUXZQc0h4NHg4akV5WFc0cGdvZkp3YnRnbENEczBxVnV2bmUwSXhFUWlLR2pUd3duVkJaalMyQUUwYTNV?oc=5",
-        "published": "Thu, 08 Oct 2026 00:09:11 GMT",
-        "source": "www.motogp.com"
+        "title": "¿Por qué fueron sancionados Martín y Bastianini tras el Tissot Sprint? - motogp.com",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUHllMlVCYmYzaXRiM053VjY0NUl5UWwtclplQjlxVUVXdXcxYkNGSUY5SE8zaVh6T2JvT25ScU1JWmI2U3lCbmdHMGhOUksyNU9HRVpnR0NzRE15N25HMEt3SldYalI5eUxHbEd1TkFRTlpXU1lUZThHdWFaSDJ0aFNVVFdXUFZLc0dzaXYwWF94VVpLSW54SFZOY01RNkhRamdLSkJlLWQtNXF6U19HRFlNLTJ5Q19KUk41MTFIUG1aQTYzOXZqYVJDaHRXVE0?oc=5",
+        "published": "2026-10-03T06:37:00Z",
+        "source": "motogp.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
         "title": "Mataram enloquece con la presencia de las estrellas de MotoGP - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPejFGNUVMX29nWFUzWEJyNFlFYjhSa29fNXp0Wk5qMU9Nelo1dDhQOVdKbnltclJnRGVrS2N0Skw3NGEyZXFxMjhOZ1dYNVBfZm1MM2hPYjNIX1BFVUczcDE3UkFMaE1vZ1Q3SjZsVGtWWlNjaWJmRmFyenV3TGZWcnRLT1hSX0E0ZlFBSGhvWlpBS1Voa055alprNXJjTE9zUUlmUlk4RC1mTzBnRzZGaHc5MA?oc=5",
-        "published": "Wed, 07 Oct 2026 11:39:00 GMT",
-        "source": "www.motogp.com"
-      },
-      {
-        "title": "Carlos Ezpeleta explica el nuevo formato para 2027 - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNWZsN0RpeUthc29wZ0VpQjBLNXJVLVlmTmhwQzdrcnpDa3ZsQzJFdlRJY1BacDRsbkRRVnBRWXctZXVUbmtSaUVVeDFzSkZFclBLamQ1ZDc1NV9HbER1X3hmbVliamktQnhRcENkRlRCc1kteTdEVEZDVGRwRnJDTV9NSmV4aWp6VFpmV0pGOFJZcUZQb0g3VlAzbDFNZVFlTllJVQ?oc=5",
-        "published": "Wed, 07 Oct 2026 10:30:00 GMT",
-        "source": "www.motogp.com"
-      },
-      {
-        "title": "UNSEEN: El 'Karting Challenge' desde las cámaras OnBoard - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ2VNazlka1JoV2RiSnVWc0x4T250enlZM2pzMUl6SzBGT1RHemNiUzdEeHROcVlCOUh5cktXSDgzYjc4eDJ6dzlCUDJzTEh3Nkh0MEFNUFh5QTFTVTRxZFNLUmhwWHFDTTNlTTZ4ZFl4U0dxT2Z1cENGa25sLWxLQ2MzR2Zjckd3TTFVM09nOUhubGtHOHNBVFV6Qm5FWlZjdEtqRnNFdXA?oc=5",
-        "published": "Wed, 07 Oct 2026 09:40:00 GMT",
-        "source": "www.motogp.com"
-      },
-      {
-        "title": "HORARIOS: Gran Premio Pertamina de Indonesia - MotoGP",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3J2VTlZR3FTaUxVVzBoenRoWnZfVEg5Tnc5TjVUT0Nrc1ZsUzhpd2IxQkhrbmpoX2t0aXo5MEg0dnZPSnlxZ1VGd1pXUXFrdFRyeFh5YmZGd0N4cUN0WWVhOW9uWE9zQXhjRXZ0UmVtcHNhY3cwd3JNT0lhN0pJVExpTWktTUxlRGp3Q2dPSjR0TzZwTXhYYjRWVWpsdw?oc=5",
-        "published": "Wed, 07 Oct 2026 14:47:06 GMT",
-        "source": "MotoGP"
-      },
-      {
-        "title": "Guevara logra una 'pole' crucial en Motegi - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRXNZQnZfRUtXWkJZX1piMjlvRGtHMVY5bFdPOVc1cGlPMU9aS1VPdVk5ZmQzY2RhdUY5TGZMSExvTTBPWGdHWW5aUV9talRaZEY5cFBjNXJzenk5QlFyVDhxQUcwUGdKM2UzZ0tESkE1cjF1dWFCb0ZOclh0TjVZMHh5QURlN3MwZ3FYQW82MU1ZWGpVaDJBYTA2Y3JWd2s?oc=5",
-        "published": "Sat, 03 Oct 2026 07:00:00 GMT",
-        "source": "www.motogp.com"
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX2xNeFY5SktZclB1TWlkb3VhVXVpYkl1S05hSzBYTVA0Z0Mtb2pRcVhWNzJzZFBWbnhVbEJGWHhtNzdidnVPd3N0THdYRWNIb2M1bWhvMklNUjhmdXZiTE5kTjFuMGVsUmtybi04OEhzaWVidkVJMjg5N0ZiaWNRbGI2YzlwNEpDT1dpTmJIM1BnNHA5bm10ajRpckR1RU9zakNIajZUM0dETUZ1aEFIYWx0NVhybjM5UTRZZmJVY2d0RTU2eG50c1pZNA?oc=5",
+        "published": "2026-10-07T11:39:00Z",
+        "source": "www.motogp.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
         "title": "LA PREVIA: Dos puntos separan a Martín y Márquez en la llegada de MotoGP a Lombok - MotoGP",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXVvTC1xTUx1SGFvNnNMUDJCWkZ4RTNqUVhPZkthVEM5T0ZNc053alhYRHdTQnYtRUtoYW5HNFJ6LUxIZy1USEYxbzZGSmNQeEduS0J6dzNLdGtOTUkxTWlTdHBxRjhfTUxSRFZRUmlhQ1laaWNIZ2d5UnBLUWZKNkdFSFJ1eHVQamtOWno1dDcxTEdYQ2dVNE9Jek9LeFl6Q2l6VHdPejNiT1dheXJSeUhjQ205ZHhpNkw3Y21Lbld2MnpJNlFFS2VB?oc=5",
-        "published": "Wed, 07 Oct 2026 15:23:59 GMT",
-        "source": "MotoGP"
+        "published": "2026-10-07T15:23:59Z",
+        "source": "MotoGP",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "Quiles se proclamará Campeón del Mundo de Moto3™ si... - MotoGP",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVzhyaElPVEM5TTVhQUk0TEVJYkliRlJYZlcwRjVub2c0eTRZUkxscDFTSDBwXy1UOGVOVDYzVDJ4bHpSa2hrSTBWRklxU1hvWjN6WURSMEpPNjhzc3Bmc2hNd3k0TzZ3MktISUxERlozanFjaXZSWFFTakdYdjlwSHdkQXJncDJCVS1jY2hhaEwxb1pHYlpj?oc=5",
-        "published": "Sat, 03 Oct 2026 07:00:00 GMT",
-        "source": "MotoGP"
+        "title": "El nuevo formato de MotoGP™ para 2027, al detalle - www.motogp.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaEd3SGx2R0dubjd1ZHUyUXBMUlBkZlRmN0x0VDBSR0pLdDdydWRxbnFZeE9tRDUxamo3ZnV4V29PT2ZRcV90V1NiaXRucWJ2Q3hMRXp3MkpGS2E2RDlqXzdYUk5VdjhvUlZULWVnSlFBMnBRbzFYbWk4TllpYWRpTTN1OWVqS2dtdHdHQmxncW1HVl9rRF9vZGpZR1ZSYnVl?oc=5",
+        "published": "2026-10-07T10:30:00Z",
+        "source": "www.motogp.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "Prepárate para las sorpresas: ¡el GP de Indonesia ya está aquí! - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZjc2TEtISVk2ZjBVOGxYWmlMU0s2Z3BTRlAtQkYzRU0xaV95VEhQeHp5MXRFRG5TbGtrdWhGQ29ZVXBpSHhyUEtBc3NiMDdXemtVUXlGckh2VGtwMk5wZ0lFeE1oaWJwVlkyUXVtdUozb2ZLdmZsVU1QTkIyY2xlU0tQZi1LMi01QS00T2I2c3BaUDF6TG5SNkdfMVlYNTVFclJ6bVphMzJabFNhQ2NCdnlR?oc=5",
-        "published": "Wed, 07 Oct 2026 07:17:00 GMT",
-        "source": "www.motogp.com"
+        "title": "UNSEEN: \"Puedo recortar la pista\" - www.motogp.com",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa3lNOWxIaFFvZHdIQXgwMGgxRk1FRWMxYk9lOXpJTjFzbENad0pTaGtDSEFBUDQtUXQzenNBS05zQjJJdzZQSzNZazJhdjltd0xhMmo5RHg3Wll6UFFzR2xqa1cyN0EzVnpmbmhuVjk1LWlJQklVOHlManRjY2s2Ml9FTHBqZ0hlX1E?oc=5",
+        "published": "2026-10-07T09:45:00Z",
+        "source": "www.motogp.com",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "¿DE QUÉ HABLARON? - \"El objetivo eran los 37 puntos\" - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakx4MF90dnhhX2p6Y3hWZWQ4ZHdseWp5cm9zbkxmc2xOcV9XY1l4eHRfS3FVME1BQWxsZjRiRTdSX1RLZHBMeW1rcHE2bnFZeDlYWnJObEFmTGRBYlhvc2tJb0RaU2JGQ2kzLVdPNHE3Nm4zUDJVXzhUSFpqeWw4R0pjUDFEU1V5bzZ3cEVKOFcwTHZjU0YzMEdITWNFZw?oc=5",
-        "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "source": "www.motogp.com"
+        "title": "F1, MotoGP y toda la actualidad del motor | Motorsport.com España - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1KNGg3aVBoUmE2UEtwREdwSVVtTjMxRWdWZTV6d19ndDZEc040VGRrRWFNbHZaeGxtbURSNGhtSQ?oc=5",
+        "published": "2017-02-17T11:13:31Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "GP Motul de Japón: 'Highlights' de MotoGP™ - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRkJMeTF6TnlBNzAzV2ppVVdqNlR0UkdvV1dNc2xSYy00dndlNERXcE9KeFlJQVN5ejFfdWNaUHpzVG1DZVVhRHBSVVBnbFhCTmNHR21BMXB3RncySFl5b3BmSGM5TWFCOFFNR3pHUDcxTmt4Zm9CRkFUM0FnMWc0VHlpMk82dEdnMjdpYkI3MC1WM25IbUFV?oc=5",
-        "published": "Sun, 04 Oct 2026 07:00:00 GMT",
-        "source": "www.motogp.com"
+        "title": "A qué hora fue la carrera de MotoGP en Motegi (GP de Japón) y cómo se vio - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNlZnQjdLNkFCeTl0bmt3TFJTbnk2QTFvaFBZYlhQSU1IUXlLRk5uVk10bG9uR0Rpdk0tQmZhSEQybDFlVEhQMkN4WDJGLUJRREU3S3czaEVjbjZwR1J5LVh3bU94VmVNakxjam9RQ01CbUdSQmhtVnltT21ZSlJHME9oMkhuM0phLXZWQnpUZ290eUhFenR3WEln?oc=5",
+        "published": "2026-10-05T01:47:07Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       },
       {
-        "title": "Mandalika, una cuenta pendiente: Marc Márquez busca pasar página - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00N3pfZkduek9Jc0pvZ2l6SGs3MVNfLTIzU2hyNV9acThwWVQ5ejVLYUN0Y3pvMmlzalBRQWZvWl9fRWFqSGZkYlkwVmxVNU92cV9Qcjk0WUNGb3NVZHc?oc=5",
-        "published": "Tue, 06 Oct 2026 20:02:12 GMT",
-        "source": "www.motogp.com"
-      },
-      {
-        "title": "UNSEEN: \"Veo algunas canas\" - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY1dWVFAtd2JGeENnenItcnF3Wi00Ty1yZ2pBRHBzWmtmYzctVEVZbUlkazRRZG4tY3Y2TnpLcnByYmFmd0hPQndNVDd2LUduMVJxX3lzU2ZyUUR1RFd4ci1YVTZxUURuTVZCTjJxOWNlanBBSnBvYzZVNUU2NDZCdWFn?oc=5",
-        "published": "Tue, 06 Oct 2026 11:11:00 GMT",
-        "source": "www.motogp.com"
-      },
-      {
-        "title": "Aleix Espargaró sustituirá a Mir en el GP de Indonesia - MotoGP",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFlfNXJMZzVVVkdKdlFIenJBbVJ6MXVObGRWOG80bnpkTUJJZWswenNieFJRelo4UkZfOGotTlVMd0VBMHAwV3lfa0lVSTU5NDFRNkFqX2oxSi1FQnA0YmtMZVBoY2V0bUZoQ1l3Z2RUYTRvdjRMbnlvT0xtdHptR1NUbkZEZzdPSjl0MHVwX2V6Z2dYb0ZmZVA5WHBwcXNET240?oc=5",
-        "published": "Tue, 06 Oct 2026 11:13:09 GMT",
-        "source": "MotoGP"
-      },
-      {
-        "title": "Solo dos puntos: Márquez culmina el doblete en Motegi y aprieta a Martín - www.motogp.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcnk2SmV1Y0xaOGR1Vk9KemV0UVBiWDg2S19OS0FYN3ZoZTBSQ3ZXY0N3Z3pPcEJOeFZiZ3cxTTQ2Q0lxWjJmQkhNOHdmb0lVWWd6Vjd0bjVaZ0N1dk1yRzg3eXRqNkxmNmZSQnlhenJDb2VlWklhR3FBWVFmQWJ3VUF2a1NkUmhFTzRta1VaMVpLQmdEZC0waGJUdnhkTVhUX2duR0lpRXRHcVYxeldVal9oZDFPWVJGWHg2Zzhn?oc=5",
-        "published": "Sun, 04 Oct 2026 07:00:00 GMT",
-        "source": "www.motogp.com"
+        "title": "¿Por qué está tan serio Marc Márquez? - Motorsport.com España",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWjlSWE5Sd3o1Ml9qelVfRVJOVHRRaDJKeHV2MkZteXdYT1IwZHhFTlg3eTBnb1dVaEg1M3c1S2NoZzN0YjRtQ1ZsYkVPYWNRWkY1NzBGV3gxZ3F6S1RiVmExSzgtTDRKYmk4Smc5ZnFQbzFsVFhaNU5MM2h5SkRlVWYwX2JPSko1ZXhJ?oc=5",
+        "published": "2026-10-05T08:00:32Z",
+        "source": "Motorsport.com España",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MotoGP%202026%20season%20launch%20Kuala%20Lumpur%2001.jpg?width=1280"
       }
     ]
   },
   "errors": [
-    "MotoGP: HTTP Error 400: Bad Request"
+    "MotoGP: No se pudo descargar https://api.motogp.pulselive.com/motogp/v1/results/categories: HTTP Error 400: Bad Request"
   ]
 }
