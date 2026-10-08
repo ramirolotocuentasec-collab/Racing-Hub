@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
@@ -10,6 +11,7 @@
 <title>Racing Hub AR</title>
 
 <style>
+
 :root{
     --bg:#090b10;
     --panel:#11151d;
@@ -31,7 +33,11 @@
 
 body{
     background:
-        radial-gradient(circle at top,#171b25 0,#090b10 45%);
+        radial-gradient(
+            circle at top,
+            #171b25 0,
+            #090b10 45%
+        );
     color:var(--text);
     font-family:
         Arial,
@@ -106,7 +112,12 @@ header{
 }
 
 .sport-btn.active{
-    background:linear-gradient(135deg,#281012,#17151a);
+    background:
+        linear-gradient(
+            135deg,
+            #281012,
+            #17151a
+        );
     color:white;
     border-color:#7e2424;
 }
@@ -175,7 +186,12 @@ main{
 /* CARDS */
 
 .card{
-    background:linear-gradient(145deg,var(--panel),#0e1218);
+    background:
+        linear-gradient(
+            145deg,
+            var(--panel),
+            #0e1218
+        );
     border:1px solid var(--border);
     border-radius:16px;
     padding:16px;
@@ -262,7 +278,12 @@ main{
 }
 
 .action.primary{
-    background:linear-gradient(135deg,#a50000,#e10600);
+    background:
+        linear-gradient(
+            135deg,
+            #a50000,
+            #e10600
+        );
     border-color:#e10600;
 }
 
@@ -434,6 +455,7 @@ footer{
     color:#626b78;
     font-size:10px;
 }
+
 </style>
 </head>
 
@@ -452,6 +474,7 @@ footer{
     </div>
 
     <div class="sports">
+
         <button
             id="f1Btn"
             class="sport-btn active"
@@ -465,6 +488,7 @@ footer{
             onclick="setSport('moto')">
             🏍️ MOTOGP
         </button>
+
     </div>
 
 </header>
@@ -507,116 +531,124 @@ footer{
 
 <main>
 
-    <!-- PRÓXIMO GP -->
+<section
+    id="page-next"
+    class="page active">
 
-    <section
-        id="page-next"
-        class="page active">
+    <div id="nextContent">
 
-        <div id="nextContent">
+        <div class="loading">
+
+            <div class="spinner"></div>
+
+            Cargando datos...
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section
+    id="page-calendar"
+    class="page">
+
+    <div class="card">
+
+        <div class="card-title">
+            Calendario
+        </div>
+
+        <div id="calendarContent">
+
             <div class="loading">
-                <div class="spinner"></div>
-                Cargando datos...
-            </div>
-        </div>
-
-    </section>
-
-    <!-- CALENDARIO -->
-
-    <section
-        id="page-calendar"
-        class="page">
-
-        <div class="card">
-
-            <div class="card-title">
-                Calendario
-            </div>
-
-            <div id="calendarContent">
-                <div class="loading">
-                    Cargando...
-                </div>
-            </div>
-
-            <div class="actions">
-
-                <button
-                    class="action primary"
-                    onclick="syncCalendar()">
-                    📅 Sincronizar calendario
-                </button>
-
-                <button
-                    class="action"
-                    onclick="openOfficial()">
-                    🌐 Web oficial
-                </button>
-
+                Cargando...
             </div>
 
         </div>
 
-    </section>
+        <div class="actions">
 
-    <!-- CAMPEONATO -->
+            <button
+                class="action primary"
+                onclick="syncCalendar()">
+                📅 Sincronizar calendario
+            </button>
 
-    <section
-        id="page-standings"
-        class="page">
+            <button
+                class="action"
+                onclick="openOfficial()">
+                🌐 Web oficial
+            </button>
 
-        <div class="card">
+        </div>
 
-            <div class="card-title">
-                Campeonato de pilotos
-            </div>
+    </div>
 
-            <div id="driversContent">
-                <div class="loading">
-                    Cargando...
-                </div>
+</section>
+
+
+<section
+    id="page-standings"
+    class="page">
+
+    <div class="card">
+
+        <div class="card-title">
+            Campeonato de pilotos
+        </div>
+
+        <div id="driversContent">
+
+            <div class="loading">
+                Cargando...
             </div>
 
         </div>
 
-        <div class="card">
+    </div>
 
-            <div class="card-title">
-                Campeonato de equipos
-            </div>
+    <div class="card">
 
-            <div id="teamsContent">
-                <div class="loading">
-                    Cargando...
-                </div>
+        <div class="card-title">
+            Campeonato de equipos
+        </div>
+
+        <div id="teamsContent">
+
+            <div class="loading">
+                Cargando...
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- NOTICIAS -->
+</section>
 
-    <section
-        id="page-news"
-        class="page">
 
-        <div class="card">
+<section
+    id="page-news"
+    class="page">
 
-            <div class="card-title">
-                Noticias
-            </div>
+    <div class="card">
 
-            <div id="newsContent">
-                <div class="loading">
-                    Cargando noticias...
-                </div>
+        <div class="card-title">
+            Noticias
+        </div>
+
+        <div id="newsContent">
+
+            <div class="loading">
+                Cargando noticias...
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 </main>
 
@@ -626,81 +658,91 @@ footer{
 
 </div>
 
+
 <script>
+
 "use strict";
 
+
 /*
-    =====================================================
-    CONFIGURACIÓN
-    =====================================================
+=========================================================
+CONFIGURACIÓN
+=========================================================
 */
 
-const DATA_URL = "./data/current.json";
+const DATA_URL =
+    "./data/current.json";
 
 const ARGENTINA_TZ =
     "America/Argentina/Buenos_Aires";
 
 const state = {
-    sport: "f1",
-    page: "next",
-    data: null,
-    now: new Date(),
-    countdownTimer: null
+
+    sport:"f1",
+
+    page:"next",
+
+    data:null,
+
+    now:new Date(),
+
+    countdownTimer:null
+
 };
 
 
 /*
-    =====================================================
-    ARRANQUE
-    =====================================================
+=========================================================
+ARRANQUE
+=========================================================
 */
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
 
-    /*
-       IMPORTANTE:
+        setStatus(
+            "Cargando datos deportivos...",
+            "normal"
+        );
 
-       La interfaz YA EXISTE antes de pedir datos.
+        loadData();
 
-       Si current.json falla, la página NO queda en blanco.
-    */
-
-    setStatus(
-        "Cargando datos deportivos...",
-        "normal"
-    );
-
-    loadData();
-
-});
+    }
+);
 
 
 /*
-    =====================================================
-    DATOS
-    =====================================================
+=========================================================
+DATOS
+=========================================================
 */
 
 async function loadData(){
 
     try{
 
-        const response = await fetch(
-            DATA_URL + "?t=" + Date.now(),
-            {
-                cache:"no-store"
-            }
-        );
+        const response =
+            await fetch(
+                DATA_URL +
+                "?t=" +
+                Date.now(),
+                {
+                    cache:"no-store"
+                }
+            );
 
         if(!response.ok){
 
             throw new Error(
-                "HTTP " + response.status
+                "HTTP " +
+                response.status
             );
 
         }
 
-        const json = await response.json();
+        const json =
+            await response.json();
 
         if(!json){
 
@@ -710,7 +752,8 @@ async function loadData(){
 
         }
 
-        state.data = json;
+        state.data =
+            json;
 
         render();
 
@@ -726,17 +769,15 @@ async function loadData(){
             error
         );
 
-        /*
-           Nunca dejamos la aplicación en blanco.
-        */
-
         setStatus(
             "⚠️ No se pudieron cargar los datos. " +
             "La interfaz funciona, pero falta current.json.",
             "error"
         );
 
-        showDataError(error);
+        showDataError(
+            error
+        );
 
     }
 
@@ -744,21 +785,18 @@ async function loadData(){
 
 
 /*
-    =====================================================
-    RENDER GENERAL
-    =====================================================
+=========================================================
+RENDER
+=========================================================
 */
 
 function render(){
 
     renderNext();
-    renderCalendar();
-    renderStandings();
 
-    /*
-       Noticias no deben romper el resto
-       de la aplicación.
-    */
+    renderCalendar();
+
+    renderStandings();
 
     loadNews();
 
@@ -766,14 +804,15 @@ function render(){
 
 
 /*
-    =====================================================
-    DEPORTE
-    =====================================================
+=========================================================
+DEPORTE
+=========================================================
 */
 
 function setSport(sport){
 
-    state.sport = sport;
+    state.sport =
+        sport;
 
     document
         .getElementById("f1Btn")
@@ -795,45 +834,54 @@ function setSport(sport){
 
 
 /*
-    =====================================================
-    NAVEGACIÓN
-    =====================================================
+=========================================================
+NAVEGACIÓN
+=========================================================
 */
 
 function showPage(page){
 
-    state.page = page;
+    state.page =
+        page;
 
     document
         .querySelectorAll(".page")
-        .forEach(el => {
-            el.classList.remove("active");
-        });
+        .forEach(
+            el => {
+                el.classList.remove(
+                    "active"
+                );
+            }
+        );
 
     document
         .getElementById(
             "page-" + page
         )
-        .classList.add("active");
+        .classList.add(
+            "active"
+        );
 
     document
         .querySelectorAll(".nav-btn")
-        .forEach(el => {
+        .forEach(
+            el => {
 
-            el.classList.toggle(
-                "active",
-                el.dataset.page === page
-            );
+                el.classList.toggle(
+                    "active",
+                    el.dataset.page === page
+                );
 
-        });
+            }
+        );
 
 }
 
 
 /*
-    =====================================================
-    PRÓXIMO GP
-    =====================================================
+=========================================================
+PRÓXIMO GP
+=========================================================
 */
 
 function renderNext(){
@@ -862,9 +910,11 @@ function renderNext(){
 
     const future =
         races
-        .filter(r => {
-            return new Date(r.race) > now;
-        })
+        .filter(
+            r =>
+                new Date(r.race) >
+                now
+        )
         .sort(
             (a,b) =>
                 new Date(a.race) -
@@ -898,7 +948,10 @@ function renderNext(){
             </div>
 
             <div class="track">
-                ${escapeHtml(race.circuit || "Circuito no disponible")}
+                ${escapeHtml(
+                    race.circuit ||
+                    "Circuito no disponible"
+                )}
             </div>
 
             <div class="date">
@@ -921,19 +974,22 @@ function renderNext(){
             </div>
 
         </div>
+
     `;
 
     startCountdown(
-        new Date(race.race)
+        new Date(
+            race.race
+        )
     );
 
 }
 
 
 /*
-    =====================================================
-    SESIONES
-    =====================================================
+=========================================================
+SESIONES
+=========================================================
 */
 
 function renderSessions(race){
@@ -952,31 +1008,39 @@ function renderSessions(race){
     }
 
     return sessions
-        .filter(s => s.date)
-        .map(s => `
+        .filter(
+            s => s.date
+        )
+        .map(
+            s => `
 
-            <div class="session">
+                <div class="session">
 
-                <div class="session-name">
-                    ${escapeHtml(s.name)}
+                    <div class="session-name">
+                        ${escapeHtml(
+                            s.name
+                        )}
+                    </div>
+
+                    <div class="session-time">
+                        ${formatDateTime(
+                            s.date
+                        )}
+                    </div>
+
                 </div>
 
-                <div class="session-time">
-                    ${formatDateTime(s.date)}
-                </div>
-
-            </div>
-
-        `)
+            `
+        )
         .join("");
 
 }
 
 
 /*
-    =====================================================
-    CUENTA REGRESIVA
-    =====================================================
+=========================================================
+CUENTA REGRESIVA
+=========================================================
 */
 
 function startCountdown(target){
@@ -996,7 +1060,9 @@ function startCountdown(target){
                 "countdown"
             );
 
-        if(!element) return;
+        if(!element){
+            return;
+        }
 
         let diff =
             target.getTime() -
@@ -1005,9 +1071,11 @@ function startCountdown(target){
         if(diff <= 0){
 
             element.innerHTML =
-                `<div class="empty">
+                `
+                <div class="empty">
                     🏁 ¡La carrera comenzó!
-                 </div>`;
+                </div>
+                `;
 
             return;
 
@@ -1019,7 +1087,8 @@ function startCountdown(target){
                 86400000
             );
 
-        diff %= 86400000;
+        diff %=
+            86400000;
 
         const hours =
             Math.floor(
@@ -1027,7 +1096,8 @@ function startCountdown(target){
                 3600000
             );
 
-        diff %= 3600000;
+        diff %=
+            3600000;
 
         const minutes =
             Math.floor(
@@ -1035,7 +1105,8 @@ function startCountdown(target){
                 60000
             );
 
-        diff %= 60000;
+        diff %=
+            60000;
 
         const seconds =
             Math.floor(
@@ -1080,6 +1151,7 @@ function startCountdown(target){
                     SEG
                 </div>
             </div>
+
         `;
 
     }
@@ -1096,9 +1168,9 @@ function startCountdown(target){
 
 
 /*
-    =====================================================
-    CALENDARIO
-    =====================================================
+=========================================================
+CALENDARIO
+=========================================================
 */
 
 function renderCalendar(){
@@ -1110,6 +1182,7 @@ function renderCalendar(){
 
     const races =
         getRaces()
+        .slice()
         .sort(
             (a,b) =>
                 new Date(a.race) -
@@ -1129,56 +1202,64 @@ function renderCalendar(){
 
     container.innerHTML =
         races
-        .map((race,index) => `
+        .map(
+            (race,index) => `
 
-            <div class="calendar-item">
+                <div class="calendar-item">
 
-                <div class="round">
-                    GP ${race.round || index + 1}
-                </div>
-
-                <div>
-
-                    <div class="calendar-name">
-                        ${escapeHtml(race.name)}
+                    <div class="round">
+                        GP ${
+                            race.round ||
+                            index + 1
+                        }
                     </div>
 
-                    <div class="calendar-date">
-                        ${formatDate(race.race)}
+                    <div>
+
+                        <div class="calendar-name">
+                            ${escapeHtml(
+                                race.name
+                            )}
+                        </div>
+
+                        <div class="calendar-date">
+                            ${formatDate(
+                                race.race
+                            )}
+                        </div>
+
+                    </div>
+
+                    <div class="calendar-time">
+                        ${formatTime(
+                            race.race
+                        )}
                     </div>
 
                 </div>
 
-                <div class="calendar-time">
-                    ${formatTime(race.race)}
-                </div>
-
-            </div>
-
-        `)
+            `
+        )
         .join("");
 
 }
 
 
 /*
-    =====================================================
-    CAMPEONATO
-    =====================================================
+=========================================================
+CAMPEONATO
+=========================================================
 */
 
 function renderStandings(){
 
-    const sport =
-        state.sport;
-
     const data =
-        state.data?.[sport];
+        state.data?.[
+            state.sport
+        ];
 
     if(!data){
-
         return;
-
     }
 
     const drivers =
@@ -1188,7 +1269,9 @@ function renderStandings(){
         data.teams || [];
 
     document
-        .getElementById("driversContent")
+        .getElementById(
+            "driversContent"
+        )
         .innerHTML =
         renderStandingList(
             drivers,
@@ -1196,7 +1279,9 @@ function renderStandings(){
         );
 
     document
-        .getElementById("teamsContent")
+        .getElementById(
+            "teamsContent"
+        )
         .innerHTML =
         renderStandingList(
             teams,
@@ -1221,213 +1306,183 @@ function renderStandingList(
 
     return list
         .slice(0,20)
-        .map((item,index) => {
+        .map(
+            (item,index) => {
 
-            const position =
-                item.position ||
-                index + 1;
+                const position =
+                    item.position ||
+                    index + 1;
 
-            const name =
-                item.name ||
-                item.driver ||
-                item.team ||
-                "Sin nombre";
+                const name =
+                    item.name ||
+                    item.driver ||
+                    item.team ||
+                    "Sin nombre";
 
-            const extra =
-                item.team ||
-                "";
+                const extra =
+                    item.team ||
+                    "";
 
-            const points =
-                item.points ??
-                "-";
+                const points =
+                    item.points ??
+                    "-";
 
-            return `
+                return `
 
-                <div class="standing">
+                    <div class="standing">
 
-                    <div class="pos">
-                        ${position}
-                    </div>
-
-                    <div>
-
-                        <div class="driver">
-                            ${escapeHtml(name)}
+                        <div class="pos">
+                            ${position}
                         </div>
 
-                        ${
-                            extra
-                            ?
-                            `<div class="team">
-                                ${escapeHtml(extra)}
-                             </div>`
-                            :
-                            ""
-                        }
+                        <div>
+
+                            <div class="driver">
+                                ${escapeHtml(
+                                    name
+                                )}
+                            </div>
+
+                            ${
+                                extra
+                                ?
+                                `
+                                <div class="team">
+                                    ${escapeHtml(
+                                        extra
+                                    )}
+                                </div>
+                                `
+                                :
+                                ""
+                            }
+
+                        </div>
+
+                        <div class="points">
+                            ${points}
+                        </div>
 
                     </div>
 
-                    <div class="points">
-                        ${points}
-                    </div>
+                `;
 
-                </div>
-            `;
-
-        })
+            }
+        )
         .join("");
 
 }
 
 
 /*
-    =====================================================
-    NOTICIAS
-    =====================================================
+=========================================================
+NOTICIAS
+=========================================================
+
+IMPORTANTE:
+
+Ya NO usamos:
+
+Google News
+AllOrigins
+fetch externo desde el navegador
+
+Las noticias vienen desde current.json,
+generado por GitHub Actions.
+=========================================================
 */
 
-async function loadNews(){
+function loadNews(){
 
     const container =
         document.getElementById(
             "newsContent"
         );
 
-    const domain =
-        state.sport === "f1"
-        ? "formula1.com"
-        : "motogp.com";
-
-    const url =
-        "https://news.google.com/rss/search" +
-        "?q=site%3A" +
-        encodeURIComponent(domain) +
-        "+when%3A7d" +
-        "&hl=es-419" +
-        "&gl=AR" +
-        "&ceid=AR%3Aes-419";
-
-    try{
-
-        /*
-           Google News RSS no siempre permite
-           acceso directo desde GitHub Pages.
-
-           Por eso usamos AllOrigins como proxy.
-        */
-
-        const proxy =
-            "https://api.allorigins.win/raw?url=" +
-            encodeURIComponent(url);
-
-        const response =
-            await fetch(
-                proxy,
-                {
-                    cache:"no-store"
-                }
-            );
-
-        if(!response.ok){
-
-            throw new Error(
-                "Noticias HTTP " +
-                response.status
-            );
-
-        }
-
-        const xml =
-            await response.text();
-
-        const parser =
-            new DOMParser();
-
-        const doc =
-            parser.parseFromString(
-                xml,
-                "text/xml"
-            );
-
-        const items =
-            [...doc.querySelectorAll(
-                "item"
-            )]
-            .slice(0,15);
-
-        if(!items.length){
-
-            throw new Error(
-                "Sin noticias"
-            );
-
-        }
+    if(!state.data){
 
         container.innerHTML =
-            items
-            .map(item => {
+            emptyMessage(
+                "Todavía no hay datos disponibles."
+            );
 
-                const title =
-                    item.querySelector(
-                        "title"
-                    )?.textContent ||
-                    "Noticia";
+        return;
 
-                const link =
-                    item.querySelector(
-                        "link"
-                    )?.textContent ||
-                    "#";
+    }
 
-                const date =
-                    item.querySelector(
-                        "pubDate"
-                    )?.textContent ||
-                    "";
+    const news =
+        state.data.news ||
+        {};
+
+    const items =
+        state.sport === "f1"
+        ? (
+            news.f1 ||
+            []
+        )
+        : (
+            news.moto ||
+            []
+        );
+
+    if(!items.length){
+
+        container.innerHTML =
+            emptyMessage(
+                "No hay noticias disponibles en este momento."
+            );
+
+        return;
+
+    }
+
+    container.innerHTML =
+        items
+        .slice(0,15)
+        .map(
+            item => {
 
                 return `
 
                     <a
                         class="news"
-                        href="${escapeAttribute(link)}"
+                        href="${escapeAttribute(
+                            item.url
+                        )}"
                         target="_blank"
                         rel="noopener">
 
                         <div class="news-title">
-                            ${escapeHtml(title)}
+                            ${escapeHtml(
+                                item.title
+                            )}
                         </div>
 
                         <div class="news-meta">
-                            ${escapeHtml(date)}
+
+                            ${
+                                state.sport === "f1"
+                                ? "Motorsport.com"
+                                : "MotoGP.com"
+                            }
+
                         </div>
 
                     </a>
+
                 `;
 
-            })
-            .join("");
-
-    }catch(error){
-
-        console.error(
-            "Noticias:",
-            error
-        );
-
-        container.innerHTML =
-            emptyMessage(
-                "Las noticias no están disponibles en este momento."
-            );
-
-    }
+            }
+        )
+        .join("");
 
 }
 
 
 /*
-    =====================================================
-    CALENDARIO ANDROID / ICS
-    =====================================================
+=========================================================
+CALENDARIO ANDROID / ICS
+=========================================================
 */
 
 function syncCalendar(){
@@ -1446,10 +1501,11 @@ function syncCalendar(){
     }
 
     /*
-       Si algún día lo convertimos en APK,
-       AndroidBridge será usado aquí.
+       APK:
+       utiliza AndroidBridge.
 
-       En una web normal se descarga ICS.
+       WEB:
+       descarga archivo ICS.
     */
 
     if(
@@ -1459,7 +1515,9 @@ function syncCalendar(){
     ){
 
         window.AndroidBridge.syncCalendar(
-            JSON.stringify(races)
+            JSON.stringify(
+                races
+            )
         );
 
         return;
@@ -1467,7 +1525,9 @@ function syncCalendar(){
     }
 
     const ics =
-        createICS(races);
+        createICS(
+            races
+        );
 
     const blob =
         new Blob(
@@ -1479,23 +1539,34 @@ function syncCalendar(){
         );
 
     const url =
-        URL.createObjectURL(blob);
+        URL.createObjectURL(
+            blob
+        );
 
     const link =
-        document.createElement("a");
+        document.createElement(
+            "a"
+        );
 
-    link.href = url;
+    link.href =
+        url;
 
     link.download =
         "RacingHubAR-calendario.ics";
 
-    document.body.appendChild(link);
+    document
+        .body
+        .appendChild(
+            link
+        );
 
     link.click();
 
     link.remove();
 
-    URL.revokeObjectURL(url);
+    URL.revokeObjectURL(
+        url
+    );
 
     alert(
         "Calendario generado.\n\n" +
@@ -1513,28 +1584,39 @@ function getAllFutureRaces(){
 
     }
 
-    const result = [];
+    const result =
+        [];
 
-    for(const sport of ["f1","moto"]){
+    for(
+        const sport
+        of ["f1","moto"]
+    ){
 
         const races =
-            state.data?.[sport]?.races ||
-            state.data?.[sport]?.events ||
+            state.data?.[
+                sport
+            ]?.races ||
             [];
 
-        for(const race of races){
+        for(
+            const race
+            of races
+        ){
 
             if(!race.race){
-
                 continue;
-
             }
 
             const date =
-                new Date(race.race);
+                new Date(
+                    race.race
+                );
 
             if(
-                !Number.isNaN(date.getTime()) &&
+                !Number.isNaN(
+                    date.getTime()
+                )
+                &&
                 date > new Date()
             ){
 
@@ -1555,7 +1637,8 @@ function getAllFutureRaces(){
                         race.name,
 
                     circuit:
-                        race.circuit || "",
+                        race.circuit ||
+                        "",
 
                     race:
                         race.race
@@ -1580,40 +1663,60 @@ function getAllFutureRaces(){
 function createICS(events){
 
     const lines = [
+
         "BEGIN:VCALENDAR",
+
         "VERSION:2.0",
+
         "PRODID:-//Racing Hub AR//ES",
+
         "CALSCALE:GREGORIAN",
+
         "METHOD:PUBLISH"
+
     ];
 
-    for(const event of events){
+    for(
+        const event
+        of events
+    ){
 
         const start =
             toICSDate(
-                new Date(event.race)
+                new Date(
+                    event.race
+                )
             );
 
         const end =
             toICSDate(
                 new Date(
-                    new Date(event.race)
-                    .getTime()
+                    new Date(
+                        event.race
+                    ).getTime()
                     +
-                    2 * 60 * 60 * 1000
+                    2 *
+                    60 *
+                    60 *
+                    1000
                 )
             );
 
         const title =
             event.sport === "f1"
-            ? "🏎️ F1 · " + event.name
-            : "🏍️ MotoGP · " + event.name;
+            ? "🏎️ F1 · " +
+              event.name
+            : "🏍️ MotoGP · " +
+              event.name;
 
         lines.push(
+
             "BEGIN:VEVENT",
 
             "UID:" +
-            escapeICS(event.uid) +
+            escapeICS(
+                event.uid
+            ) +
             "@racinghubar",
 
             "DTSTAMP:" +
@@ -1628,7 +1731,9 @@ function createICS(events){
             end,
 
             "SUMMARY:" +
-            escapeICS(title),
+            escapeICS(
+                title
+            ),
 
             "DESCRIPTION:" +
             escapeICS(
@@ -1638,24 +1743,35 @@ function createICS(events){
             ),
 
             "BEGIN:VALARM",
+
             "TRIGGER:-P1D",
+
             "ACTION:DISPLAY",
+
             "DESCRIPTION:" +
             escapeICS(
-                "Mañana: " + title
+                "Mañana: " +
+                title
             ),
+
             "END:VALARM",
 
             "BEGIN:VALARM",
+
             "TRIGGER:-PT1H",
+
             "ACTION:DISPLAY",
+
             "DESCRIPTION:" +
             escapeICS(
-                "En 1 hora: " + title
+                "En 1 hora: " +
+                title
             ),
+
             "END:VALARM",
 
             "END:VEVENT"
+
         );
 
     }
@@ -1664,15 +1780,17 @@ function createICS(events){
         "END:VCALENDAR"
     );
 
-    return lines.join("\r\n");
+    return lines.join(
+        "\r\n"
+    );
 
 }
 
 
 /*
-    =====================================================
-    DATOS
-    =====================================================
+=========================================================
+DATOS
+=========================================================
 */
 
 function getRaces(){
@@ -1684,7 +1802,9 @@ function getRaces(){
     }
 
     const sport =
-        state.data[state.sport];
+        state.data[
+            state.sport
+        ];
 
     if(!sport){
 
@@ -1702,15 +1822,17 @@ function getRaces(){
 
 
 /*
-    =====================================================
-    FORMATO DE FECHAS
-    =====================================================
+=========================================================
+FORMATO DE FECHAS
+=========================================================
 */
 
 function formatDate(value){
 
     const date =
-        new Date(value);
+        new Date(
+            value
+        );
 
     if(
         Number.isNaN(
@@ -1727,12 +1849,22 @@ function formatDate(value){
         {
             timeZone:
                 ARGENTINA_TZ,
-            weekday:"long",
-            day:"2-digit",
-            month:"long",
-            year:"numeric"
+
+            weekday:
+                "long",
+
+            day:
+                "2-digit",
+
+            month:
+                "long",
+
+            year:
+                "numeric"
         }
-    ).format(date);
+    ).format(
+        date
+    );
 
 }
 
@@ -1740,7 +1872,9 @@ function formatDate(value){
 function formatTime(value){
 
     const date =
-        new Date(value);
+        new Date(
+            value
+        );
 
     if(
         Number.isNaN(
@@ -1757,11 +1891,19 @@ function formatTime(value){
         {
             timeZone:
                 ARGENTINA_TZ,
-            hour:"2-digit",
-            minute:"2-digit",
-            hour12:false
+
+            hour:
+                "2-digit",
+
+            minute:
+                "2-digit",
+
+            hour12:
+                false
         }
-    ).format(date) +
+    ).format(
+        date
+    ) +
     " ART";
 
 }
@@ -1770,23 +1912,31 @@ function formatTime(value){
 function formatDateTime(value){
 
     return (
-        formatDate(value) +
-        " · " +
-        formatTime(value)
+        formatDate(
+            value
+        )
+        +
+        " · "
+        +
+        formatTime(
+            value
+        )
     );
 
 }
 
 
 /*
-    =====================================================
-    WEB OFICIAL
-    =====================================================
+=========================================================
+WEB OFICIAL
+=========================================================
 */
 
 function openOfficial(){
 
-    if(state.sport === "f1"){
+    if(
+        state.sport === "f1"
+    ){
 
         window.open(
             "https://www.formula1.com/en/racing/2026",
@@ -1806,15 +1956,17 @@ function openOfficial(){
 
 
 /*
-    =====================================================
-    ERRORES
-    =====================================================
+=========================================================
+ERRORES
+=========================================================
 */
 
 function showDataError(error){
 
     document
-        .getElementById("nextContent")
+        .getElementById(
+            "nextContent"
+        )
         .innerHTML = `
 
             <div class="card">
@@ -1843,10 +1995,13 @@ function showDataError(error){
                 </div>
 
             </div>
+
         `;
 
     document
-        .getElementById("calendarContent")
+        .getElementById(
+            "calendarContent"
+        )
         .innerHTML =
         emptyMessage(
             "Esperando datos deportivos."
@@ -1858,18 +2013,24 @@ function showDataError(error){
 function emptyMessage(message){
 
     return `
+
         <div class="empty">
-            ${escapeHtml(message)}
+
+            ${escapeHtml(
+                message
+            )}
+
         </div>
+
     `;
 
 }
 
 
 /*
-    =====================================================
-    UTILIDADES
-    =====================================================
+=========================================================
+UTILIDADES
+=========================================================
 */
 
 function setStatus(
@@ -1882,16 +2043,19 @@ function setStatus(
             "status"
         );
 
-    el.textContent = text;
+    el.textContent =
+        text;
 
     el.className =
         "status " +
         (
             type === "ok"
             ? "ok"
-            : type === "error"
+            :
+            type === "error"
             ? "error"
-            : ""
+            :
+            ""
         );
 
 }
@@ -1902,18 +2066,35 @@ function escapeHtml(value){
     return String(
         value ?? ""
     )
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#039;");
+    .replaceAll(
+        "&",
+        "&amp;"
+    )
+    .replaceAll(
+        "<",
+        "&lt;"
+    )
+    .replaceAll(
+        ">",
+        "&gt;"
+    )
+    .replaceAll(
+        '"',
+        "&quot;"
+    )
+    .replaceAll(
+        "'",
+        "&#039;"
+    );
 
 }
 
 
 function escapeAttribute(value){
 
-    return escapeHtml(value);
+    return escapeHtml(
+        value
+    );
 
 }
 
@@ -1923,10 +2104,22 @@ function escapeICS(value){
     return String(
         value ?? ""
     )
-    .replaceAll("\\","\\\\")
-    .replaceAll(";","\\;")
-    .replaceAll(",","\\,")
-    .replaceAll("\n","\\n");
+    .replaceAll(
+        "\\",
+        "\\\\"
+    )
+    .replaceAll(
+        ";",
+        "\\;"
+    )
+    .replaceAll(
+        ",",
+        "\\,"
+    )
+    .replaceAll(
+        "\n",
+        "\\n"
+    );
 
 }
 
@@ -1935,13 +2128,22 @@ function toICSDate(date){
 
     return date
         .toISOString()
-        .replaceAll("-","")
-        .replaceAll(":","")
-        .replace(".000","");
+        .replaceAll(
+            "-",
+            ""
+        )
+        .replaceAll(
+            ":",
+            ""
+        )
+        .replace(
+            ".000",
+            ""
+        );
 
 }
 
 </script>
 
 </body>
-</html>
+      </html>
