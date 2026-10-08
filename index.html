@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="Racing Hub AR - F1 y MotoGP en horario argentino">
+<link rel="manifest" href="manifest.json">
+<title>Racing Hub AR</title>
+<style>
+:root{--bg:#070707;--card:#111;--card2:#181818;--txt:#f5f5f5;--muted:#9b9b9b;--red:#e10600;--orange:#ff7900;--line:#292929}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{min-height:100vh;background:radial-gradient(circle at 50% -20%,#251010 0,#070707 42%)}
+header{position:sticky;top:0;z-index:20;padding:18px 15px 12px;text-align:center;background:rgba(7,7,7,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:24px;letter-spacing:.4px}h1 span{color:var(--red)}
+.subtitle{font-size:11px;color:var(--muted);margin-top:4px}
+.clock{margin-top:10px;font-weight:800;font-size:16px}.clock small{display:block;color:var(--muted);font-weight:500;font-size:10px;margin-top:2px}
+.switch,.tabs{display:flex;gap:7px;overflow:auto;padding:10px 14px 4px;max-width:950px;margin:auto}
+button{font:inherit}.switch button,.tabs button{border:1px solid var(--line);background:var(--card);color:var(--txt);border-radius:12px;padding:10px 13px;font-weight:800;white-space:nowrap}
+.switch button{flex:1}.switch button.active{background:var(--red);border-color:var(--red)}
+.tabs button.active{border-color:var(--orange)}
+main{max-width:950px;margin:auto;padding:5px 14px 40px}.status{color:var(--muted);font-size:11px;padding:7px 2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:15px;margin:9px 0;overflow:hidden}
+.hero{text-align:center;background:radial-gradient(circle at 85% 0,rgba(225,6,0,.25),transparent 48%),var(--card)}
+.eyebrow{color:var(--orange);font-size:11px;font-weight:900;text-transform:uppercase}
+.race{font-size:27px;font-weight:950;margin:7px 0}.circuit{color:var(--muted)}
+.count{font-size:27px;font-weight:950;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:13px}.session{background:var(--card2);padding:10px;border-radius:12px;text-align:left}
+.session b{font-size:11px}.session span{display:block;margin-top:4px;font-size:13px}.session small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+.item{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}
+.item b{font-size:13px}.item span{color:var(--muted);font-size:11px;text-align:right}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:9px 5px;border-bottom:1px solid var(--line);text-align:left}th{font-size:10px;color:var(--muted)}.right{text-align:right}
+.news a{color:var(--txt);text-decoration:none}.source{color:var(--muted);font-size:10px;margin-top:4px}
+.error{background:#2a0d0d;border-color:#622020;color:#ffbaba;padding:13px;border-radius:12px;font-size:12px}
+.loading{text-align:center;padding:30px;color:var(--muted)}
+.actions{display:flex;gap:8px;margin-top:12px}.actions button{flex:1;background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:9px;font-size:11px;font-weight:800}
+footer{text-align:center;color:#555;font-size:9px;padding:15px}
+@media(min-width:650px){.grid{grid-template-columns:repeat(3,1fr)}.race{font-size:34px}}
+</style>
+</head>
+<body>
+<header>
+<h1>🏎️ RACING<span>HUB</span> 🏍️</h1>
+<div class="subtitle">F1 + MotoGP · datos actualizados por Internet · hora Argentina</div>
+<div class="clock" id="clock">Consultando…<small id="clockInfo"></small></div>
+</header>
+<div class="switch">
+<button id="f1" class="active">🏎️ F1</button>
+<button id="moto">🏍️ MotoGP</button>
+</div>
+<div class="tabs">
+<button class="active" data-tab="next">Próximo GP</button>
+<button data-tab="calendar">Calendario</button>
+<button data-tab="standings">Campeonato</button>
+<button data-tab="news">Noticias</button>
+</div>
+<main>
+<div class="status" id="status">Cargando datos…</div>
+<section id="content"><div class="loading">Cargando…</div></section>
+</main>
+<footer>Los datos deportivos se generan desde fuentes externas. La página no contiene un calendario de carreras escrito manualmente.</footer>
+
+<script>
+const TZ="America/Argentina/Buenos_Aires";
+const S={sport:"f1",tab:"next",data:null,serverOffset:0};
+
+const $=x=>document.getElementById(x);
+const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function fmt(iso,full=true){
+ const o=full?{weekday:"long",day:"2-digit",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit",hour12:false}:{weekday:"short",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false};
+ return new Intl.DateTimeFormat("es-AR",{timeZone:TZ,...o}).format(new Date(iso));
+}
+function now(){return Date.now()+S.serverOffset}
+function cd(iso){
+ let x=new Date(iso).getTime()-now();if(x<=0)return "EN VIVO / FINALIZADO";
+ const d=Math.floor(x/86400000);x%=86400000;const h=Math.floor(x/3600000);x%=3600000;const m=Math.floor(x/60000);const s=Math.floor(x/1000)%60;
+ return `${d}d ${String(h).padStart(2,"0")}h ${String(m).padStart(2,"0")}m ${String(s).padStart(2,"0")}s`;
+}
+async function json(url){const r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
+async function clock(){
+ try{
+  const x=await json("https://timeapi.io/api/time/current/zone?timeZone=America/Argentina/Buenos_Aires");
+  const t=new Date(x.dateTime).getTime();S.serverOffset=t-Date.now();
+  $("clockInfo").textContent="Hora por Internet · America/Argentina/Buenos_Aires";
+ }catch(e){S.serverOffset=0;$("clockInfo").textContent="Hora del dispositivo · respaldo"}
+}
+function drawClock(){const t=new Date(now());$("clock").firstChild.textContent=t.toLocaleTimeString("es-AR",{hour12:false})}
+function f1Sessions(r){
+ const a=[["Práctica 1",r.FirstPractice],["Práctica 2",r.SecondPractice],["Práctica 3",r.ThirdPractice],["Sprint",r.Sprint],["Clasificación sprint",r.SprintQualifying],["Clasificación",r.Qualifying],["Carrera",{date:r.date,time:r.time}]];
+ return a.filter(x=>x[1]).map(x=>({name:x[0],iso:`${x[1].date}T${x[1].time||"00:00:00Z"}`}));
+}
+function nextF1(){
+ return S.data?.f1?.races?.map(r=>({r,iso:`${r.date}T${r.time||"00:00:00Z"}`,name:r.raceName,circuit:r.Circuit?.circuitName})).filter(x=>new Date(x.iso)>new Date(now())).sort((a,b)=>new Date(a.iso)-new Date(b.iso))[0];
+}
+function nextMoto(){
+ return S.data?.moto?.events?.map(e=>e).filter(e=>e.race_start&&new Date(e.race_start)>new Date(now())).sort((a,b)=>new Date(a.race_start)-new Date(b.race_start))[0];
+}
+function next(){
+ return S.sport==="f1"?nextF1():nextMoto();
+}
+function nextHTML(){
+ const n=next();if(!n)return `<div class="error">No hay un próximo GP disponible en los datos recibidos.</div>`;
+ const sessions=S.sport==="f1"?f1Sessions(n.r):n.sessions||[];
+ return `<div class="card hero">
+ <div class="eyebrow">Próximo Gran Premio · ${S.sport==="f1"?"F1":"MotoGP"}</div>
+ <div class="race">${esc(n.name)}</div><div class="circuit">${esc(n.circuit||"")}</div>
+ <div class="count" id="count">${cd(S.sport==="f1"?n.iso:n.race_start)}</div>
+ <div>${fmt(S.sport==="f1"?n.iso:n.race_start)}</div>
+ <div class="grid">${sessions.map(s=>`<div class="session"><b>${esc(s.name)}</b><span>${fmt(s.iso,false)}</span></div>`).join("")}</div>
+ <div class="actions">
+ <button onclick="openOfficial()">🌐 Fuente oficial</button>
+ <button onclick="syncCalendar()">📅 Sincronizar calendario</button>
+ <button onclick="location.reload()">🔄 Actualizar</button>
+ </div>
+ </div>`;
+}
+function calendarHTML(){
+ if(S.sport==="f1")return `<div class="card"><h3>Calendario ${S.data.year}</h3><div class="actions"><button onclick="syncCalendar()">📅 Sincronizar todas las carreras</button></div>${S.data.f1.races.map(r=>`<div class="item"><b>${esc(r.round)} · ${esc(r.raceName)}</b><span>${fmt(`${r.date}T${r.time||"00:00:00Z"}`,false)}</span></div>`).join("")}</div>`;
+ return `<div class="card"><h3>Calendario MotoGP ${S.data.year}</h3>${S.data.moto.events.map(e=>`<div class="item"><b>${esc(e.name)}</b><span>${fmt(e.race_start,false)}</span></div>`).join("")}</div>`;
+}
+function standingsHTML(){
+ if(S.sport==="f1"){
+  return `<div class="card"><h3>F1 · Pilotos ${S.data.year}</h3><table><tr><th>#</th><th>Piloto</th><th>Equipo</th><th class="right">Pts</th></tr>${S.data.f1.drivers.map(x=>`<tr><td>${x.position}</td><td>${esc(x.name)}</td><td>${esc(x.team)}</td><td class="right">${x.points}</td></tr>`).join("")}</table></div>
+  <div class="card"><h3>F1 · Constructores</h3><table><tr><th>#</th><th>Equipo</th><th class="right">Pts</th></tr>${S.data.f1.teams.map(x=>`<tr><td>${x.position}</td><td>${esc(x.name)}</td><td class="right">${x.points}</td></tr>`).join("")}</table></div>`;
+ }
+ return `<div class="card"><h3>MotoGP · Campeonato ${S.data.year}</h3><table><tr><th>#</th><th>Piloto</th><th>Equipo</th><th class="right">Pts</th></tr>${S.data.moto.standings.map(x=>`<tr><td>${x.position}</td><td>${esc(x.name)}</td><td>${esc(x.team)}</td><td class="right">${x.points}</td></tr>`).join("")}</table></div>`;
+}
+async function newsHTML(){
+ const source=S.sport==="f1"?"formula1.com":"motogp.com";
+ try{
+  const x=await json(`https://api.allorigins.win/raw?url=${encodeURIComponent(`https://news.google.com/rss/search?q=site%3A${source}&hl=es-419&gl=AR&ceid=AR%3Aes-419`)}`);
+  const xml=new DOMParser().parseFromString(x,"text/xml");
+  const items=[...xml.querySelectorAll("item")].slice(0,15);
+  return `<div class="card news"><h3>Noticias recientes · ${S.sport==="f1"?"F1":"MotoGP"}</h3>${items.map(i=>`<div class="item"><a target="_blank" rel="noopener" href="${esc(i.querySelector("link")?.textContent||"#")}"><b>${esc(i.querySelector("title")?.textContent||"Sin título")}</b><div class="source">${esc(i.querySelector("pubDate")?.textContent||"")} · Google News</div></a></div>`).join("")}</div>`;
+ }catch(e){return `<div class="error">Google News no respondió. Volvé a intentar en unos segundos.</div>`}
+}
+
+function icsEscape(v){
+ return String(v??"").replace(/\\/g,"\\\\").replace(/\r?\n/g,"\\n").replace(/;/g,"\\;").replace(/,/g,"\\,");
+}
+function icsDate(iso){
+ const d=new Date(iso);
+ const p=n=>String(n).padStart(2,"0");
+ return d.getUTCFullYear()+p(d.getUTCMonth()+1)+p(d.getUTCDate())+"T"+p(d.getUTCHours())+p(d.getUTCMinutes())+p(d.getUTCSeconds())+"Z";
+}
+function uidFor(name,iso){return btoa(unescape(encodeURIComponent(name+"|"+iso))).replace(/[^a-zA-Z0-9]/g,"").slice(0,32)+"@racinghubar";}
+function eventListForCalendar(){
+ if(!S.data)return [];
+ if(S.sport==="f1"){
+  return S.data.f1.races.map(r=>{
+   const race=`${r.date}T${r.time||"00:00:00Z"}`;
+   return {name:"F1 · "+r.raceName,location:r.Circuit?.circuitName||"",start:race,source:"Formula 1"};
+  }).filter(x=>new Date(x.start)>new Date(now()));
+ }
+ return S.data.moto.events.map(e=>({
+   name:"MotoGP · "+e.name,location:e.circuit||"",start:e.race_start,source:"MotoGP"
+ })).filter(x=>x.start&&new Date(x.start)>new Date(now()));
+}
+function buildICS(events){
+ const stamp=icsDate(new Date().toISOString());
+ let out="BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Racing Hub AR//ES-AR//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:Racing Hub AR\r\nX-WR-TIMEZONE:America/Argentina/Buenos_Aires\r\n";
+ for(const e of events){
+  const start=new Date(e.start);
+  const end=new Date(start.getTime()+2*60*60*1000);
+  const uid=uidFor(e.name,e.start);
+  out+="BEGIN:VEVENT\r\n";
+  out+="UID:"+uid+"\r\n";
+  out+="DTSTAMP:"+stamp+"\r\n";
+  out+="DTSTART:"+icsDate(e.start)+"\r\n";
+  out+="DTEND:"+icsDate(end.toISOString())+"\r\n";
+  out+="SUMMARY:"+icsEscape(e.name)+"\r\n";
+  out+="LOCATION:"+icsEscape(e.location)+"\r\n";
+  out+="DESCRIPTION:"+icsEscape("Racing Hub AR · Horario Argentina. Fuente: "+e.source)+ "\r\n";
+  out+="BEGIN:VALARM\r\nTRIGGER:-P1D\r\nACTION:DISPLAY\r\nDESCRIPTION:"+icsEscape(e.name+" comienza en 1 día")+"\r\nEND:VALARM\r\n";
+  out+="BEGIN:VALARM\r\nTRIGGER:-PT1H\r\nACTION:DISPLAY\r\nDESCRIPTION:"+icsEscape(e.name+" comienza en 1 hora")+"\r\nEND:VALARM\r\n";
+  out+="END:VEVENT\r\n";
+ }
+ out+="END:VCALENDAR\r\n";
+ return out;
+}
+function syncCalendar(){
+ const events=eventListForCalendar();
+ if(!events.length){alert("No hay carreras futuras disponibles para sincronizar.");return;}
+ const blob=new Blob([buildICS(events)],{type:"text/calendar;charset=utf-8"});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement("a");
+ a.href=url;
+ a.download=`RacingHubAR-${S.sport}-${S.data.year}-calendario.ics`;
+ document.body.appendChild(a);a.click();a.remove();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+ alert(`Se generó el calendario con ${events.length} carreras futuras. Al importarlo, cada evento incluye recordatorios de 24 horas y 1 hora antes.`);
+}
+
+function openOfficial(){window.open(S.sport==="f1"?"https://www.formula1.com/en/racing/2026":"https://www.motogp.com/es/calendar/2026","_blank")}
+async function render(){
+ $("status").textContent="Datos actualizados desde Internet";
+ if(S.tab==="next")$("content").innerHTML=nextHTML();
+ if(S.tab==="calendar")$("content").innerHTML=calendarHTML();
+ if(S.tab==="standings")$("content").innerHTML=standingsHTML();
+ if(S.tab==="news")$("content").innerHTML=await newsHTML();
+}
+async function load(){
+ try{S.data=await json("data/current.json");await render()}
+ catch(e){$("status").textContent="No se pudo cargar data/current.json";$("content").innerHTML='<div class="error">GitHub todavía no generó los datos. Entrá a Actions y ejecutá "Actualizar datos deportivos" una vez.</div>'}
+}
+$("f1").onclick=()=>{S.sport="f1";$("f1").classList.add("active");$("moto").classList.remove("active");render()}
+$("moto").onclick=()=>{S.sport="moto";$("moto").classList.add("active");$("f1").classList.remove("active");render()}
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=async()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");S.tab=b.dataset.tab;await render()});
+setInterval(drawClock,1000);setInterval(()=>{const c=$("count"),n=next();if(c&&n)c.textContent=cd(S.sport==="f1"?n.iso:n.race_start)},1000);
+clock();drawClock();load();
+if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
