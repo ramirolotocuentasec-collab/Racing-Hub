@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
 
 <meta name="viewport"
@@ -12,54 +14,108 @@
 
 <style>
 
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
 :root{
+
     --bg:#090b10;
     --panel:#11151d;
     --panel2:#171c25;
+    --panel3:#0b0e14;
+
     --border:#252c38;
+    --border-soft:#1b212b;
+
     --text:#f4f5f7;
     --muted:#9da6b5;
+
     --red:#e10600;
     --orange:#ff6b00;
     --green:#28c76f;
     --blue:#4da3ff;
+
 }
 
+
+/* =========================================================
+   RESET
+   ========================================================= */
+
 *{
+
     box-sizing:border-box;
     margin:0;
     padding:0;
+
 }
 
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
 body{
+
     background:
         radial-gradient(
             circle at top,
             #171b25 0,
             #090b10 45%
         );
+
     color:var(--text);
+
     font-family:
         Arial,
         Helvetica,
         sans-serif;
+
     min-height:100vh;
+
 }
+
 
 button{
+
     font:inherit;
+
 }
+
+
+img{
+
+    max-width:100%;
+
+}
+
+
+/* =========================================================
+   APP
+   ========================================================= */
 
 .app{
+
     width:100%;
     max-width:900px;
+
     margin:auto;
+
     padding-bottom:40px;
+
 }
 
-/* HEADER */
+
+/* =========================================================
+   HEADER
+   ========================================================= */
 
 header{
+
     padding:
         calc(18px + env(safe-area-inset-top))
         18px
@@ -70,591 +126,1630 @@ header{
     background:rgba(9,11,16,.92);
 
     position:sticky;
+
     top:0;
+
     z-index:50;
 
     backdrop-filter:blur(14px);
+
 }
+
 
 .logo{
+
     font-size:24px;
+
     font-weight:900;
+
     letter-spacing:1px;
+
 }
+
 
 .logo span{
+
     color:var(--red);
+
 }
+
 
 .subtitle{
+
     color:var(--muted);
+
     font-size:12px;
+
     margin-top:4px;
+
 }
 
-/* SPORT SELECTOR */
+
+/* =========================================================
+   SPORT SELECTOR
+   ========================================================= */
 
 .sports{
+
     display:grid;
+
     grid-template-columns:1fr 1fr;
+
     gap:8px;
+
     margin-top:15px;
+
 }
+
 
 .sport-btn{
+
     border:1px solid var(--border);
+
     background:var(--panel);
+
     color:var(--muted);
+
     padding:12px;
+
     border-radius:12px;
+
     font-weight:800;
+
     cursor:pointer;
+
+    transition:
+        .2s ease;
+
 }
 
+
 .sport-btn.active{
+
     background:
         linear-gradient(
             135deg,
             #281012,
             #17151a
         );
+
     color:white;
+
     border-color:#7e2424;
+
+    box-shadow:
+        0 0 0 1px rgba(225,6,0,.08);
+
 }
 
-/* NAV */
+
+/* =========================================================
+   NAV
+   ========================================================= */
 
 nav{
+
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+
+    grid-template-columns:
+        repeat(4,1fr);
+
     gap:5px;
+
     padding:10px 12px;
+
     border-bottom:1px solid var(--border);
+
 }
+
 
 .nav-btn{
+
     background:transparent;
+
     border:0;
+
     color:var(--muted);
+
     padding:9px 4px;
+
     font-size:12px;
+
     border-radius:9px;
+
     cursor:pointer;
+
 }
+
 
 .nav-btn.active{
+
     color:white;
+
     background:var(--panel2);
+
 }
 
-/* STATUS */
+
+/* =========================================================
+   STATUS
+   ========================================================= */
 
 .status{
+
     margin:12px;
+
     padding:10px 12px;
+
     border:1px solid var(--border);
+
     border-radius:10px;
+
     background:var(--panel);
+
     font-size:12px;
+
     color:var(--muted);
+
+    opacity:1;
+
+    max-height:100px;
+
+    overflow:hidden;
+
+    transition:
+        opacity .45s ease,
+        max-height .45s ease,
+        margin .45s ease,
+        padding .45s ease;
+
 }
+
 
 .status.ok{
+
     border-color:#1d633f;
+
     color:#7de2a7;
+
 }
+
 
 .status.error{
+
     border-color:#713333;
+
     color:#ff9999;
+
 }
 
-/* CONTENT */
+
+/*
+   Cuando el mensaje de "Datos actualizados"
+   desaparece después de 3 segundos.
+*/
+
+.status.hidden{
+
+    opacity:0;
+
+    max-height:0;
+
+    margin-top:0;
+
+    margin-bottom:0;
+
+    padding-top:0;
+
+    padding-bottom:0;
+
+    border-width:0;
+
+}
+
+
+/* =========================================================
+   CONTENT
+   ========================================================= */
 
 main{
+
     padding:0 12px;
+
 }
+
 
 .page{
+
     display:none;
+
 }
+
 
 .page.active{
+
     display:block;
+
 }
 
-/* CARDS */
+
+/* =========================================================
+   CARDS
+   ========================================================= */
 
 .card{
+
     background:
         linear-gradient(
             145deg,
             var(--panel),
             #0e1218
         );
+
     border:1px solid var(--border);
+
     border-radius:16px;
+
     padding:16px;
+
     margin-bottom:12px;
+
 }
+
 
 .card-title{
+
     font-size:13px;
+
     color:var(--muted);
+
     text-transform:uppercase;
+
     letter-spacing:.7px;
+
     margin-bottom:10px;
+
 }
+
+
+/* =========================================================
+   NEXT GP HERO
+   ========================================================= */
+
+.gp-hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    min-height:360px;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    padding:0;
+
+    background:#0d1118;
+
+}
+
+
+.gp-hero-image{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    opacity:.52;
+
+    z-index:0;
+
+    transition:
+        opacity .3s ease;
+
+}
+
+
+.gp-hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:1;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(9,11,16,.08),
+            rgba(9,11,16,.45) 35%,
+            rgba(9,11,16,.97) 100%
+        );
+
+}
+
+
+.gp-hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    width:100%;
+
+    padding:20px;
+
+}
+
+
+.gp-hero .card-title{
+
+    margin-bottom:8px;
+
+    color:#d9dee7;
+
+}
+
 
 .gp-name{
-    font-size:25px;
+
+    font-size:27px;
+
     font-weight:900;
-    margin-bottom:5px;
+
+    line-height:1.05;
+
+    margin-bottom:6px;
+
 }
+
 
 .track{
-    color:var(--muted);
+
+    color:#d0d5dd;
+
     font-size:13px;
+
 }
+
 
 .date{
+
     margin-top:15px;
+
     font-size:16px;
+
     font-weight:800;
+
 }
+
 
 .time{
+
     color:var(--orange);
-    font-size:25px;
+
+    font-size:26px;
+
     font-weight:900;
+
     margin-top:3px;
+
 }
 
-/* COUNTDOWN */
+
+/* =========================================================
+   IMAGE FALLBACK
+   ========================================================= */
+
+.image-fallback{
+
+    display:none;
+
+}
+
+
+/* =========================================================
+   COUNTDOWN
+   ========================================================= */
 
 .countdown{
+
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+
+    grid-template-columns:
+        repeat(4,1fr);
+
     gap:7px;
+
     margin-top:15px;
+
 }
+
 
 .time-box{
-    background:#0a0d12;
+
+    background:rgba(10,13,18,.9);
+
     border:1px solid var(--border);
+
     border-radius:10px;
+
     padding:10px 4px;
+
     text-align:center;
+
 }
+
 
 .time-number{
+
     font-size:20px;
+
     font-weight:900;
+
 }
+
 
 .time-label{
+
     color:var(--muted);
+
     font-size:9px;
+
     margin-top:3px;
+
 }
 
-/* BUTTONS */
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
 
 .actions{
+
     display:grid;
+
     grid-template-columns:1fr 1fr;
+
     gap:8px;
+
     margin-top:12px;
+
 }
+
 
 .action{
+
     border:1px solid var(--border);
+
     background:var(--panel2);
+
     color:white;
+
     padding:11px;
+
     border-radius:10px;
+
     cursor:pointer;
+
     font-weight:700;
+
 }
 
+
 .action.primary{
+
     background:
         linear-gradient(
             135deg,
             #a50000,
             #e10600
         );
+
     border-color:#e10600;
+
 }
 
-/* SESSION LIST */
+
+/* =========================================================
+   SESSION GROUPS
+   ========================================================= */
+
+.session-day{
+
+    margin-top:16px;
+
+}
+
+
+.session-day:first-child{
+
+    margin-top:0;
+
+}
+
+
+.session-day-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#e7eaf0;
+
+    font-size:12px;
+
+    font-weight:900;
+
+    text-transform:uppercase;
+
+    letter-spacing:.8px;
+
+    margin-bottom:7px;
+
+    padding-bottom:6px;
+
+    border-bottom:1px solid var(--border-soft);
+
+}
+
+
+.session-day-title::before{
+
+    content:"";
+
+    width:4px;
+
+    height:18px;
+
+    border-radius:4px;
+
+    background:var(--orange);
+
+}
+
 
 .sessions{
-    margin-top:15px;
+
     display:grid;
+
     gap:6px;
+
 }
+
 
 .session{
+
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
+
+    gap:12px;
+
     background:#0b0e14;
+
     border:1px solid var(--border);
+
     border-radius:9px;
-    padding:9px 11px;
+
+    padding:10px 11px;
+
 }
+
 
 .session-name{
+
     font-size:12px;
+
+    line-height:1.2;
+
 }
+
 
 .session-time{
-    font-size:12px;
+
+    font-size:11px;
+
     color:var(--orange);
+
     font-weight:800;
+
+    text-align:right;
+
+    white-space:nowrap;
+
 }
 
-/* CALENDAR */
+
+/* =========================================================
+   CALENDAR
+   ========================================================= */
 
 .calendar-item{
+
     display:grid;
-    grid-template-columns:60px 1fr auto;
+
+    grid-template-columns:
+        60px
+        1fr
+        auto;
+
     gap:10px;
+
     align-items:center;
 
     padding:12px 0;
 
     border-bottom:1px solid var(--border);
+
 }
+
 
 .calendar-item:last-child{
+
     border-bottom:0;
+
 }
+
 
 .round{
+
     color:var(--orange);
+
     font-weight:900;
+
     font-size:11px;
+
 }
+
 
 .calendar-name{
+
     font-weight:800;
+
     font-size:14px;
+
 }
+
 
 .calendar-date{
+
     color:var(--muted);
+
     font-size:11px;
+
     margin-top:3px;
+
 }
+
 
 .calendar-time{
+
     font-weight:900;
+
     font-size:13px;
+
 }
 
-/* STANDINGS */
+
+/* =========================================================
+   STANDINGS
+   ========================================================= */
 
 .standing{
+
     display:grid;
-    grid-template-columns:32px 1fr 55px;
-    gap:8px;
+
+    grid-template-columns:
+        30px
+        44px
+        1fr
+        60px;
+
+    gap:9px;
+
     align-items:center;
 
-    padding:10px 0;
+    padding:11px 0;
+
     border-bottom:1px solid var(--border);
+
 }
+
 
 .standing:last-child{
+
     border-bottom:0;
+
 }
+
 
 .pos{
+
     color:var(--muted);
+
     font-weight:900;
+
+    text-align:center;
+
 }
+
+
+.standing-logo{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:9px;
+
+    background:#0a0d12;
+
+    border:1px solid var(--border);
+
+    object-fit:contain;
+
+    padding:4px;
+
+}
+
+
+.standing-logo-placeholder{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:9px;
+
+    background:#0a0d12;
+
+    border:1px solid var(--border);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:18px;
+
+}
+
 
 .driver{
-    font-weight:700;
+
+    font-weight:800;
+
+    line-height:1.2;
+
 }
+
+
+.driver-number{
+
+    color:var(--muted);
+
+    font-size:10px;
+
+    margin-left:5px;
+
+}
+
 
 .team{
+
     color:var(--muted);
+
     font-size:10px;
-    margin-top:2px;
+
+    margin-top:3px;
+
 }
+
 
 .points{
+
     text-align:right;
+
     font-weight:900;
+
 }
 
-/* NEWS */
+
+.points-label{
+
+    display:block;
+
+    color:var(--muted);
+
+    font-size:8px;
+
+    font-weight:500;
+
+    margin-top:2px;
+
+}
+
+
+/* =========================================================
+   TEAM STANDINGS
+   ========================================================= */
+
+.team-standing{
+
+    display:grid;
+
+    grid-template-columns:
+        30px
+        48px
+        1fr
+        60px;
+
+    gap:9px;
+
+    align-items:center;
+
+    padding:11px 0;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+
+.team-standing:last-child{
+
+    border-bottom:0;
+
+}
+
+
+.team-logo{
+
+    width:44px;
+
+    height:44px;
+
+    border-radius:9px;
+
+    background:#0a0d12;
+
+    border:1px solid var(--border);
+
+    object-fit:contain;
+
+    padding:5px;
+
+}
+
+
+.team-logo-placeholder{
+
+    width:44px;
+
+    height:44px;
+
+    border-radius:9px;
+
+    background:#0a0d12;
+
+    border:1px solid var(--border);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:20px;
+
+}
+
+
+/* =========================================================
+   MACHINES
+   ========================================================= */
+
+.machine-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:10px;
+
+}
+
+
+.machine-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    min-height:190px;
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #121720,
+            #090c11
+        );
+
+}
+
+
+.machine-image{
+
+    width:100%;
+
+    height:135px;
+
+    object-fit:contain;
+
+    display:block;
+
+    padding:8px;
+
+}
+
+
+.machine-info{
+
+    padding:9px 10px;
+
+    border-top:1px solid var(--border-soft);
+
+}
+
+
+.machine-rider{
+
+    font-size:12px;
+
+    font-weight:900;
+
+}
+
+
+.machine-team{
+
+    color:var(--muted);
+
+    font-size:10px;
+
+    margin-top:3px;
+
+}
+
+
+.machine-placeholder{
+
+    height:135px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:38px;
+
+    opacity:.35;
+
+}
+
+
+/* =========================================================
+   NEWS
+   ========================================================= */
 
 .news{
+
     display:block;
+
     text-decoration:none;
+
     color:white;
 
     padding:13px 0;
 
     border-bottom:1px solid var(--border);
+
 }
+
 
 .news:last-child{
+
     border-bottom:0;
+
 }
+
 
 .news-title{
+
     font-weight:800;
+
     line-height:1.3;
+
 }
+
 
 .news-meta{
+
     color:var(--muted);
+
     font-size:10px;
+
     margin-top:5px;
+
 }
 
-/* EMPTY / LOADING */
+
+/* =========================================================
+   EMPTY / LOADING
+   ========================================================= */
 
 .empty{
+
     padding:30px 15px;
+
     text-align:center;
+
     color:var(--muted);
+
 }
+
 
 .loading{
+
     padding:40px 10px;
+
     text-align:center;
+
     color:var(--muted);
+
 }
+
 
 .spinner{
+
     width:26px;
+
     height:26px;
+
     border:3px solid #303642;
+
     border-top-color:var(--red);
+
     border-radius:50%;
+
     animation:spin .8s linear infinite;
+
     margin:0 auto 12px;
+
 }
+
 
 @keyframes spin{
+
     to{
+
         transform:rotate(360deg);
+
     }
+
 }
 
-/* FOOTER */
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
 
 footer{
+
     padding:20px;
+
     text-align:center;
+
     color:#626b78;
+
     font-size:10px;
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media(max-width:600px){
+
+    .gp-hero{
+
+        min-height:390px;
+
+    }
+
+
+    .gp-name{
+
+        font-size:25px;
+
+    }
+
+
+    .session{
+
+        align-items:flex-start;
+
+    }
+
+
+    .session-time{
+
+        white-space:normal;
+
+        max-width:52%;
+
+    }
+
+
+    .standing{
+
+        grid-template-columns:
+            25px
+            40px
+            1fr
+            55px;
+
+        gap:7px;
+
+    }
+
+
+    .standing-logo{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+
+    .standing-logo-placeholder{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+
+    .machine-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
+
+
+@media(max-width:380px){
+
+    .logo{
+
+        font-size:21px;
+
+    }
+
+
+    .sport-btn{
+
+        font-size:11px;
+
+    }
+
+
+    .nav-btn{
+
+        font-size:10px;
+
+    }
+
+
+    .calendar-item{
+
+        grid-template-columns:
+            48px
+            1fr
+            auto;
+
+    }
+
 }
 
 </style>
+
 </head>
+
 
 <body>
 
+
 <div class="app">
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
 
 <header>
 
+
     <div class="logo">
+
         🏎️ <span>RACING</span>HUB 🏍️
+
     </div>
+
 
     <div class="subtitle">
+
         F1 + MotoGP · Horarios de Argentina
+
     </div>
 
+
     <div class="sports">
+
 
         <button
             id="f1Btn"
             class="sport-btn active"
             onclick="setSport('f1')">
+
             🏎️ FÓRMULA 1
+
         </button>
+
 
         <button
             id="motoBtn"
             class="sport-btn"
             onclick="setSport('moto')">
+
             🏍️ MOTOGP
+
         </button>
+
 
     </div>
 
+
 </header>
 
+
+<!-- =====================================================
+     NAV
+     ===================================================== -->
+
 <nav>
+
 
     <button
         class="nav-btn active"
         data-page="next"
         onclick="showPage('next')">
+
         Próximo GP
+
     </button>
+
 
     <button
         class="nav-btn"
         data-page="calendar"
         onclick="showPage('calendar')">
+
         Calendario
+
     </button>
+
 
     <button
         class="nav-btn"
         data-page="standings"
         onclick="showPage('standings')">
+
         Campeonato
+
     </button>
+
 
     <button
         class="nav-btn"
         data-page="news"
         onclick="showPage('news')">
+
         Noticias
+
     </button>
+
 
 </nav>
 
+
+<!-- =====================================================
+     STATUS
+     ===================================================== -->
+
 <div id="status" class="status">
+
     Inicializando Racing Hub...
+
 </div>
 
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
+
 <main>
+
+
+<!-- =====================================================
+     NEXT GP
+     ===================================================== -->
 
 <section
     id="page-next"
     class="page active">
 
+
     <div id="nextContent">
+
 
         <div class="loading">
 
+
             <div class="spinner"></div>
+
 
             Cargando datos...
 
+
         </div>
+
 
     </div>
 
+
 </section>
 
+
+<!-- =====================================================
+     CALENDAR
+     ===================================================== -->
 
 <section
     id="page-calendar"
     class="page">
 
+
     <div class="card">
 
+
         <div class="card-title">
+
             Calendario
+
         </div>
+
 
         <div id="calendarContent">
 
+
             <div class="loading">
+
                 Cargando...
+
             </div>
+
 
         </div>
 
+
         <div class="actions">
+
 
             <button
                 class="action primary"
                 onclick="syncCalendar()">
+
                 📅 Sincronizar calendario
+
             </button>
+
 
             <button
                 class="action"
                 onclick="openOfficial()">
+
                 🌐 Web oficial
+
             </button>
+
 
         </div>
 
+
     </div>
+
 
 </section>
 
+
+<!-- =====================================================
+     STANDINGS
+     ===================================================== -->
 
 <section
     id="page-standings"
     class="page">
 
+
     <div class="card">
 
+
         <div class="card-title">
+
             Campeonato de pilotos
+
         </div>
+
 
         <div id="driversContent">
 
+
             <div class="loading">
+
                 Cargando...
+
             </div>
+
 
         </div>
 
+
     </div>
+
 
     <div class="card">
 
+
         <div class="card-title">
+
             Campeonato de equipos
+
         </div>
+
 
         <div id="teamsContent">
 
+
             <div class="loading">
+
                 Cargando...
+
             </div>
+
 
         </div>
 
+
     </div>
+
+
+    <!-- =================================================
+         MACHINES
+         ================================================= -->
+
+    <div class="card">
+
+
+        <div class="card-title">
+
+            🏍️ Las máquinas
+
+        </div>
+
+
+        <div
+            id="machinesContent"
+            class="machine-grid">
+
+
+            <div class="loading">
+
+                Cargando máquinas...
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
 
 </section>
 
+
+<!-- =====================================================
+     NEWS
+     ===================================================== -->
 
 <section
     id="page-news"
     class="page">
 
+
     <div class="card">
 
+
         <div class="card-title">
+
             Noticias
+
         </div>
+
 
         <div id="newsContent">
 
+
             <div class="loading">
+
                 Cargando noticias...
+
             </div>
+
 
         </div>
 
+
     </div>
+
 
 </section>
 
+
 </main>
 
+
 <footer>
+
     Racing Hub AR · Datos actualizados desde Internet
+
 </footer>
+
 
 </div>
 
@@ -673,8 +1768,10 @@ CONFIGURACIÓN
 const DATA_URL =
     "./data/current.json";
 
+
 const ARGENTINA_TZ =
     "America/Argentina/Buenos_Aires";
+
 
 const state = {
 
@@ -686,7 +1783,9 @@ const state = {
 
     now:new Date(),
 
-    countdownTimer:null
+    countdownTimer:null,
+
+    statusTimer:null
 
 };
 
@@ -698,17 +1797,28 @@ ARRANQUE
 */
 
 document.addEventListener(
+
     "DOMContentLoaded",
+
     () => {
 
+
         setStatus(
+
             "Cargando datos deportivos...",
-            "normal"
+
+            "normal",
+
+            false
+
         );
+
 
         loadData();
 
+
     }
+
 );
 
 
@@ -720,64 +1830,115 @@ DATOS
 
 async function loadData(){
 
+
     try{
 
+
         const response =
+
             await fetch(
+
                 DATA_URL +
+
                 "?t=" +
+
                 Date.now(),
+
                 {
+
                     cache:"no-store"
+
                 }
+
             );
+
 
         if(!response.ok){
 
+
             throw new Error(
+
                 "HTTP " +
+
                 response.status
+
             );
+
 
         }
 
+
         const json =
+
             await response.json();
+
 
         if(!json){
 
+
             throw new Error(
+
                 "El JSON está vacío"
+
             );
+
 
         }
 
+
         state.data =
+
             json;
+
 
         render();
 
+
+        /*
+         * El mensaje verde se muestra solamente
+         * durante 3 segundos.
+         */
+
         setStatus(
+
             "✓ Datos actualizados",
-            "ok"
+
+            "ok",
+
+            true
+
         );
+
 
     }catch(error){
 
+
         console.error(
+
             "Racing Hub:",
+
             error
+
         );
+
 
         setStatus(
-            "⚠️ No se pudieron cargar los datos. " +
-            "La interfaz funciona, pero falta current.json.",
-            "error"
+
+            "⚠️ No se pudieron cargar los datos.",
+
+            "error",
+
+            false
+
         );
 
+
         showDataError(
+
             error
+
         );
+
 
     }
 
@@ -792,13 +1953,21 @@ RENDER
 
 function render(){
 
+
     renderNext();
+
 
     renderCalendar();
 
+
     renderStandings();
 
+
+    renderMachines();
+
+
     loadNews();
+
 
 }
 
@@ -811,24 +1980,40 @@ DEPORTE
 
 function setSport(sport){
 
+
     state.sport =
+
         sport;
 
-    document
-        .getElementById("f1Btn")
-        .classList.toggle(
-            "active",
-            sport === "f1"
-        );
 
     document
-        .getElementById("motoBtn")
+
+        .getElementById("f1Btn")
+
         .classList.toggle(
+
             "active",
-            sport === "moto"
+
+            sport === "f1"
+
         );
+
+
+    document
+
+        .getElementById("motoBtn")
+
+        .classList.toggle(
+
+            "active",
+
+            sport === "moto"
+
+        );
+
 
     render();
+
 
 }
 
@@ -841,39 +2026,73 @@ NAVEGACIÓN
 
 function showPage(page){
 
+
     state.page =
+
         page;
 
+
     document
+
         .querySelectorAll(".page")
+
         .forEach(
+
             el => {
+
                 el.classList.remove(
+
                     "active"
+
                 );
+
             }
+
         );
 
-    document
-        .getElementById(
+
+    const target =
+
+        document.getElementById(
+
             "page-" + page
-        )
-        .classList.add(
-            "active"
+
         );
 
+
+    if(target){
+
+        target.classList.add(
+
+            "active"
+
+        );
+
+    }
+
+
     document
+
         .querySelectorAll(".nav-btn")
+
         .forEach(
+
             el => {
+
 
                 el.classList.toggle(
+
                     "active",
+
                     el.dataset.page === page
+
                 );
 
+
             }
+
         );
+
 
 }
 
@@ -886,101 +2105,303 @@ PRÓXIMO GP
 
 function renderNext(){
 
+
     const container =
+
         document.getElementById(
+
             "nextContent"
+
         );
 
+
     const races =
+
         getRaces();
+
 
     if(!races.length){
 
+
         container.innerHTML =
+
             emptyMessage(
+
                 "No hay carreras disponibles."
+
             );
+
 
         return;
 
+
     }
 
+
     const now =
+
         new Date();
 
+
     const future =
+
         races
+
         .filter(
+
             r =>
+
+                r.race &&
+
                 new Date(r.race) >
+
                 now
+
         )
+
         .sort(
+
             (a,b) =>
+
                 new Date(a.race) -
+
                 new Date(b.race)
+
         );
+
 
     if(!future.length){
 
+
         container.innerHTML =
+
             emptyMessage(
+
                 "No quedan carreras futuras en los datos recibidos."
+
             );
+
 
         return;
 
+
     }
 
+
     const race =
+
         future[0];
+
+
+    const image =
+
+        getRaceImage(race);
+
 
     container.innerHTML = `
 
-        <div class="card">
 
-            <div class="card-title">
-                Próximo Gran Premio
+        <div class="card gp-hero">
+
+
+            ${
+                image
+
+                ?
+
+                `
+
+                <img
+
+                    class="gp-hero-image"
+
+                    src="${escapeAttribute(image)}"
+
+                    alt="Circuito ${escapeAttribute(
+                        race.circuit || race.name
+                    )}"
+
+                    loading="eager"
+
+                    onerror="this.style.display='none'"
+
+                >
+
+                `
+
+                :
+
+                ""
+
+            }
+
+
+            <div class="gp-hero-overlay"></div>
+
+
+            <div class="gp-hero-content">
+
+
+                <div class="card-title">
+
+                    Próximo Gran Premio
+
+                </div>
+
+
+                <div class="gp-name">
+
+                    ${escapeHtml(
+
+                        cleanGrandPrixName(
+
+                            race.name
+
+                        )
+
+                    )}
+
+                </div>
+
+
+                <div class="track">
+
+                    ${escapeHtml(
+
+                        race.circuit ||
+
+                        "Circuito no disponible"
+
+                    )}
+
+                </div>
+
+
+                <div class="date">
+
+                    ${formatDate(
+
+                        race.race
+
+                    )}
+
+                </div>
+
+
+                <div class="time">
+
+                    ${formatTime(
+
+                        race.race
+
+                    )}
+
+                </div>
+
+
+                <div
+
+                    id="countdown"
+
+                    class="countdown">
+
+                </div>
+
+
+                <div class="sessions">
+
+                    ${renderSessions(race)}
+
+                </div>
+
+
             </div>
 
-            <div class="gp-name">
-                ${escapeHtml(race.name)}
-            </div>
-
-            <div class="track">
-                ${escapeHtml(
-                    race.circuit ||
-                    "Circuito no disponible"
-                )}
-            </div>
-
-            <div class="date">
-                ${formatDate(race.race)}
-            </div>
-
-            <div class="time">
-                ${formatTime(race.race)}
-            </div>
-
-            <div
-                id="countdown"
-                class="countdown">
-            </div>
-
-            <div class="sessions">
-
-                ${renderSessions(race)}
-
-            </div>
 
         </div>
 
+
     `;
 
+
     startCountdown(
+
         new Date(
+
             race.race
+
         )
+
+    );
+
+
+}
+
+
+/*
+=========================================================
+NOMBRE DEL GP
+=========================================================
+*/
+
+function cleanGrandPrixName(name){
+
+
+    if(!name){
+
+        return "Gran Premio";
+
+    }
+
+
+    let result =
+
+        String(name);
+
+
+    result =
+
+        result.replace(
+
+            /Grand Prix/gi,
+
+            "Grand Prix"
+
+        );
+
+
+    return result;
+
+}
+
+
+/*
+=========================================================
+IMAGEN DEL CIRCUITO
+=========================================================
+*/
+
+function getRaceImage(race){
+
+
+    return (
+
+        race.circuitImage ||
+
+        race.circuit_image ||
+
+        race.trackImage ||
+
+        race.track_image ||
+
+        race.image ||
+
+        race.imageUrl ||
+
+        race.image_url ||
+
+        ""
+
     );
 
 }
@@ -994,45 +2415,485 @@ SESIONES
 
 function renderSessions(race){
 
+
     const sessions =
-        race.sessions || [];
+
+        (race.sessions || [])
+
+        .filter(
+
+            s =>
+
+                s &&
+
+                s.date
+
+        );
+
 
     if(!sessions.length){
 
+
         return `
+
             <div class="empty">
+
                 Horarios de sesiones no disponibles.
+
             </div>
+
         `;
+
 
     }
 
-    return sessions
-        .filter(
-            s => s.date
-        )
+
+    /*
+     * Normalizamos y ordenamos.
+     */
+
+    const normalized =
+
+        sessions
+
         .map(
-            s => `
 
-                <div class="session">
+            s => ({
 
-                    <div class="session-name">
-                        ${escapeHtml(
-                            s.name
-                        )}
-                    </div>
+                ...s,
 
-                    <div class="session-time">
-                        ${formatDateTime(
-                            s.date
-                        )}
-                    </div>
+                displayName:
 
-                </div>
+                    normalizeSessionName(
 
-            `
+                        s.name
+
+                    )
+
+            })
+
         )
+
+        .sort(
+
+            (a,b) =>
+
+                new Date(a.date) -
+
+                new Date(b.date)
+
+        );
+
+
+    /*
+     * Agrupación por día.
+     */
+
+    const groups = {};
+
+
+    normalized.forEach(
+
+        session => {
+
+
+            const key =
+
+                getArgentinaDateKey(
+
+                    session.date
+
+                );
+
+
+            if(!groups[key]){
+
+                groups[key] = [];
+
+            }
+
+
+            groups[key].push(
+
+                session
+
+            );
+
+
+        }
+
+    );
+
+
+    return Object.keys(groups)
+
+        .map(
+
+            key => {
+
+
+                const sessionsForDay =
+
+                    groups[key];
+
+
+                const dayTitle =
+
+                    formatDayOnly(
+
+                        sessionsForDay[0].date
+
+                    );
+
+
+                return `
+
+
+                    <div class="session-day">
+
+
+                        <div class="session-day-title">
+
+                            ${escapeHtml(
+
+                                dayTitle
+
+                            )}
+
+                        </div>
+
+
+                        <div class="sessions">
+
+
+                            ${sessionsForDay
+
+                                .map(
+
+                                    session => `
+
+                                        <div class="session">
+
+
+                                            <div class="session-name">
+
+                                                ${escapeHtml(
+
+                                                    session.displayName
+
+                                                )}
+
+                                            </div>
+
+
+                                            <div class="session-time">
+
+                                                ${formatTime(
+
+                                                    session.date
+
+                                                )}
+
+                                            </div>
+
+
+                                        </div>
+
+                                    `
+
+                                )
+
+                                .join("")}
+
+
+                        </div>
+
+
+                    </div>
+
+
+                `;
+
+
+            }
+
+        )
+
         .join("");
+
+}
+
+
+/*
+=========================================================
+TRADUCCIÓN DE SESIONES MOTOGP
+=========================================================
+*/
+
+function normalizeSessionName(name){
+
+
+    if(!name){
+
+        return "Sesión";
+
+    }
+
+
+    const original =
+
+        String(name).trim();
+
+
+    const lower =
+
+        original.toLowerCase();
+
+
+    const translations = [
+
+        [
+            "free practice nr. 1",
+            "Práctica libre 1"
+        ],
+
+        [
+            "free practice nr. 2",
+            "Práctica libre 2"
+        ],
+
+        [
+            "free practice 1",
+            "Práctica libre 1"
+        ],
+
+        [
+            "free practice 2",
+            "Práctica libre 2"
+        ],
+
+        [
+            "free practice",
+            "Práctica libre"
+        ],
+
+        [
+            "practice nr. 1",
+            "Práctica 1"
+        ],
+
+        [
+            "practice nr. 2",
+            "Práctica 2"
+        ],
+
+        [
+            "practice",
+            "Práctica"
+        ],
+
+        [
+            "qualifying nr. 1",
+            "Clasificación 1"
+        ],
+
+        [
+            "qualifying nr. 2",
+            "Clasificación 2"
+        ],
+
+        [
+            "qualifying 1",
+            "Clasificación 1"
+        ],
+
+        [
+            "qualifying 2",
+            "Clasificación 2"
+        ],
+
+        [
+            "qualifying",
+            "Clasificación"
+        ],
+
+        [
+            "tissot sprint",
+            "Sprint"
+        ],
+
+        [
+            "sprint",
+            "Sprint"
+        ],
+
+        [
+            "warm up",
+            "Warm Up"
+        ],
+
+        [
+            "rider parade",
+            "Desfile de pilotos"
+        ],
+
+        [
+            "grand prix",
+            "Gran Premio"
+        ],
+
+        [
+            "race",
+            "Carrera"
+        ],
+
+        [
+            "ducati & aprilia press conference",
+            "Conferencia Ducati y Aprilia"
+        ],
+
+        [
+            "pre-event press conference",
+            "Conferencia de prensa previa"
+        ],
+
+        [
+            "press conference",
+            "Conferencia de prensa"
+        ],
+
+        [
+            "gearup",
+            "GearUp"
+        ]
+
+    ];
+
+
+    for(
+
+        const pair
+
+        of translations
+
+    ){
+
+        if(
+
+            lower === pair[0]
+
+        ){
+
+            return pair[1];
+
+        }
+
+    }
+
+
+    /*
+     * Reglas adicionales para nombres
+     * que puedan venir con pequeñas
+     * diferencias de la API.
+     */
+
+    if(
+
+        lower.includes("free practice") &&
+
+        lower.includes("1")
+
+    ){
+
+        return "Práctica libre 1";
+
+    }
+
+
+    if(
+
+        lower.includes("free practice") &&
+
+        lower.includes("2")
+
+    ){
+
+        return "Práctica libre 2";
+
+    }
+
+
+    if(
+
+        lower.includes("qualifying") &&
+
+        lower.includes("1")
+
+    ){
+
+        return "Clasificación 1";
+
+    }
+
+
+    if(
+
+        lower.includes("qualifying") &&
+
+        lower.includes("2")
+
+    ){
+
+        return "Clasificación 2";
+
+    }
+
+
+    if(
+
+        lower.includes("sprint")
+
+    ){
+
+        return "Sprint";
+
+    }
+
+
+    if(
+
+        lower.includes("warm up")
+
+    ){
+
+        return "Warm Up";
+
+    }
+
+
+    if(
+
+        lower.includes("rider parade")
+
+    ){
+
+        return "Desfile de pilotos";
+
+    }
+
+
+    if(
+
+        lower.includes("grand prix")
+
+    ){
+
+        return "Gran Premio";
+
+    }
+
+
+    return original;
 
 }
 
@@ -1045,123 +2906,211 @@ CUENTA REGRESIVA
 
 function startCountdown(target){
 
+
     if(state.countdownTimer){
 
         clearInterval(
+
             state.countdownTimer
+
         );
 
     }
 
+
     function update(){
 
+
         const element =
+
             document.getElementById(
+
                 "countdown"
+
             );
 
+
         if(!element){
+
             return;
+
         }
 
+
         let diff =
+
             target.getTime() -
+
             Date.now();
+
 
         if(diff <= 0){
 
+
             element.innerHTML =
+
                 `
+
                 <div class="empty">
+
                     🏁 ¡La carrera comenzó!
+
                 </div>
+
                 `;
+
 
             return;
 
         }
 
+
         const days =
+
             Math.floor(
+
                 diff /
+
                 86400000
+
             );
 
+
         diff %=
+
             86400000;
 
+
         const hours =
+
             Math.floor(
+
                 diff /
+
                 3600000
+
             );
 
+
         diff %=
+
             3600000;
 
+
         const minutes =
+
             Math.floor(
+
                 diff /
+
                 60000
+
             );
+
 
         diff %=
+
             60000;
 
+
         const seconds =
+
             Math.floor(
+
                 diff /
+
                 1000
+
             );
+
 
         element.innerHTML = `
 
+
             <div class="time-box">
+
                 <div class="time-number">
+
                     ${days}
+
                 </div>
+
                 <div class="time-label">
+
                     DÍAS
+
                 </div>
+
             </div>
 
+
             <div class="time-box">
+
                 <div class="time-number">
+
                     ${hours}
+
                 </div>
+
                 <div class="time-label">
+
                     HORAS
+
                 </div>
+
             </div>
 
+
             <div class="time-box">
+
                 <div class="time-number">
+
                     ${minutes}
+
                 </div>
+
                 <div class="time-label">
+
                     MIN
+
                 </div>
+
             </div>
 
+
             <div class="time-box">
+
                 <div class="time-number">
+
                     ${seconds}
+
                 </div>
+
                 <div class="time-label">
+
                     SEG
+
                 </div>
+
             </div>
+
 
         `;
 
     }
 
+
     update();
 
+
     state.countdownTimer =
+
         setInterval(
+
             update,
+
             1000
+
         );
 
 }
@@ -1175,71 +3124,121 @@ CALENDARIO
 
 function renderCalendar(){
 
+
     const container =
+
         document.getElementById(
+
             "calendarContent"
+
         );
 
+
     const races =
+
         getRaces()
+
         .slice()
+
         .sort(
+
             (a,b) =>
+
                 new Date(a.race) -
+
                 new Date(b.race)
+
         );
+
 
     if(!races.length){
 
+
         container.innerHTML =
+
             emptyMessage(
+
                 "No hay calendario disponible."
+
             );
+
 
         return;
 
     }
 
+
     container.innerHTML =
+
         races
+
         .map(
+
             (race,index) => `
+
 
                 <div class="calendar-item">
 
+
                     <div class="round">
+
                         GP ${
+
                             race.round ||
+
                             index + 1
+
                         }
+
                     </div>
+
 
                     <div>
 
+
                         <div class="calendar-name">
+
                             ${escapeHtml(
+
                                 race.name
+
                             )}
+
                         </div>
+
 
                         <div class="calendar-date">
+
                             ${formatDate(
+
                                 race.race
+
                             )}
+
                         </div>
 
+
                     </div>
 
+
                     <div class="calendar-time">
+
                         ${formatTime(
+
                             race.race
+
                         )}
+
                     </div>
+
 
                 </div>
 
+
             `
+
         )
+
         .join("");
 
 }
@@ -1253,122 +3252,806 @@ CAMPEONATO
 
 function renderStandings(){
 
+
     const data =
+
         state.data?.[
+
             state.sport
+
         ];
 
+
     if(!data){
+
         return;
+
     }
 
+
     const drivers =
-        data.drivers || [];
+
+        data.drivers ||
+
+        data.riders ||
+
+        data.driverStandings ||
+
+        [];
+
 
     const teams =
-        data.teams || [];
+
+        data.teams ||
+
+        data.constructors ||
+
+        data.teamStandings ||
+
+        [];
+
 
     document
+
         .getElementById(
+
             "driversContent"
+
         )
+
         .innerHTML =
-        renderStandingList(
-            drivers,
-            "driver"
+
+        renderDriverStandingList(
+
+            drivers
+
         );
 
+
     document
+
         .getElementById(
+
             "teamsContent"
+
         )
+
         .innerHTML =
-        renderStandingList(
-            teams,
-            "team"
+
+        renderTeamStandingList(
+
+            teams
+
         );
 
 }
 
 
-function renderStandingList(
-    list,
-    type
-){
+/*
+=========================================================
+PILOTOS
+=========================================================
+*/
 
-    if(!list.length){
+function renderDriverStandingList(list){
+
+
+    if(!Array.isArray(list) || !list.length){
+
 
         return emptyMessage(
+
             "Clasificación no disponible."
+
         );
 
     }
 
+
     return list
-        .slice(0,20)
+
+        .slice(0,30)
+
         .map(
+
             (item,index) => {
 
+
                 const position =
+
                     item.position ||
+
+                    item.pos ||
+
                     index + 1;
 
+
                 const name =
+
                     item.name ||
+
                     item.driver ||
-                    item.team ||
+
+                    item.rider ||
+
+                    item.fullName ||
+
                     "Sin nombre";
 
-                const extra =
+
+                const team =
+
                     item.team ||
+
+                    item.teamName ||
+
+                    item.constructor ||
+
+                    item.constructorName ||
+
                     "";
 
+
                 const points =
+
                     item.points ??
+
+                    item.score ??
+
                     "-";
+
+
+                const logo =
+
+                    item.teamLogo ||
+
+                    item.team_logo ||
+
+                    item.logo ||
+
+                    "";
+
+
+                const color =
+
+                    item.teamColor ||
+
+                    item.team_color ||
+
+                    "";
+
+
+                const number =
+
+                    item.number ||
+
+                    item.riderNumber ||
+
+                    "";
+
 
                 return `
 
-                    <div class="standing">
+
+                    <div
+
+                        class="standing"
+
+                        style="${
+                            color
+                            ?
+                            `border-left:3px solid ${escapeAttribute(color)};padding-left:8px;`
+                            :
+                            ""
+                        }">
+
 
                         <div class="pos">
-                            ${position}
+
+                            ${escapeHtml(
+
+                                position
+
+                            )}
+
                         </div>
+
+
+                        ${
+
+                            renderLogo(
+
+                                logo,
+
+                                "🏁",
+
+                                "standing-logo"
+
+                            )
+
+                        }
+
 
                         <div>
 
+
                             <div class="driver">
+
                                 ${escapeHtml(
+
                                     name
+
                                 )}
+
+                                ${
+
+                                    number
+
+                                    ?
+
+                                    `
+
+                                    <span class="driver-number">
+
+                                        #${escapeHtml(number)}
+
+                                    </span>
+
+                                    `
+
+                                    :
+
+                                    ""
+
+                                }
+
                             </div>
 
+
                             ${
-                                extra
+
+                                team
+
                                 ?
+
                                 `
+
                                 <div class="team">
-                                    ${escapeHtml(
-                                        extra
-                                    )}
+
+                                    ${escapeHtml(team)}
+
                                 </div>
+
                                 `
+
                                 :
+
                                 ""
+
                             }
 
+
                         </div>
+
 
                         <div class="points">
-                            ${points}
+
+                            ${escapeHtml(
+
+                                points
+
+                            )}
+
+                            <span class="points-label">
+
+                                PTS
+
+                            </span>
+
                         </div>
 
+
                     </div>
+
 
                 `;
 
             }
+
         )
+
+        .join("");
+
+}
+
+
+/*
+=========================================================
+EQUIPOS
+=========================================================
+*/
+
+function renderTeamStandingList(list){
+
+
+    if(!Array.isArray(list) || !list.length){
+
+
+        return emptyMessage(
+
+            "Clasificación no disponible."
+
+        );
+
+    }
+
+
+    return list
+
+        .slice(0,20)
+
+        .map(
+
+            (item,index) => {
+
+
+                const position =
+
+                    item.position ||
+
+                    item.pos ||
+
+                    index + 1;
+
+
+                const name =
+
+                    item.name ||
+
+                    item.team ||
+
+                    item.teamName ||
+
+                    item.constructor ||
+
+                    "Sin nombre";
+
+
+                const points =
+
+                    item.points ??
+
+                    item.score ??
+
+                    "-";
+
+
+                const logo =
+
+                    item.logo ||
+
+                    item.teamLogo ||
+
+                    item.team_logo ||
+
+                    "";
+
+
+                const color =
+
+                    item.teamColor ||
+
+                    item.team_color ||
+
+                    "";
+
+
+                return `
+
+
+                    <div
+
+                        class="team-standing"
+
+                        style="${
+                            color
+                            ?
+                            `border-left:3px solid ${escapeAttribute(color)};padding-left:8px;`
+                            :
+                            ""
+                        }">
+
+
+                        <div class="pos">
+
+                            ${escapeHtml(
+
+                                position
+
+                            )}
+
+                        </div>
+
+
+                        ${
+
+                            renderLogo(
+
+                                logo,
+
+                                "🏆",
+
+                                "team-logo"
+
+                            )
+
+                        }
+
+
+                        <div>
+
+
+                            <div class="driver">
+
+                                ${escapeHtml(
+
+                                    name
+
+                                )}
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="points">
+
+                            ${escapeHtml(
+
+                                points
+
+                            )}
+
+                            <span class="points-label">
+
+                                PTS
+
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+
+                `;
+
+            }
+
+        )
+
+        .join("");
+
+}
+
+
+/*
+=========================================================
+LOGOS
+=========================================================
+*/
+
+function renderLogo(
+
+    url,
+
+    fallback,
+
+    className
+
+){
+
+
+    if(!url){
+
+
+        return `
+
+            <div class="${className}-placeholder">
+
+                ${fallback}
+
+            </div>
+
+        `;
+
+    }
+
+
+    return `
+
+        <img
+
+            class="${className}"
+
+            src="${escapeAttribute(url)}"
+
+            alt=""
+
+            loading="lazy"
+
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+
+        >
+
+        <div
+
+            class="${className}-placeholder"
+
+            style="display:none">
+
+            ${fallback}
+
+        </div>
+
+    `;
+
+}
+
+
+/*
+=========================================================
+MÁQUINAS
+=========================================================
+*/
+
+function renderMachines(){
+
+
+    const container =
+
+        document.getElementById(
+
+            "machinesContent"
+
+        );
+
+
+    const data =
+
+        state.data?.[
+
+            state.sport
+
+        ];
+
+
+    if(!data){
+
+
+        container.innerHTML =
+
+            emptyMessage(
+
+                "No hay datos disponibles."
+
+            );
+
+
+        return;
+
+    }
+
+
+    const drivers =
+
+        data.drivers ||
+
+        data.riders ||
+
+        [];
+
+
+    /*
+     * Solamente mostramos la sección si
+     * existen imágenes de máquinas o pilotos.
+     */
+
+    const machines =
+
+        drivers.filter(
+
+            driver =>
+
+                driver.bikeImage ||
+
+                driver.bike_image ||
+
+                driver.vehicleImage ||
+
+                driver.vehicle_image ||
+
+                driver.riderImage ||
+
+                driver.rider_image ||
+
+                driver.image ||
+
+                driver.photo
+
+        );
+
+
+    if(!machines.length){
+
+
+        container.innerHTML = `
+
+            <div class="empty" style="grid-column:1/-1">
+
+                Las imágenes de pilotos y máquinas
+                aparecerán cuando estén disponibles
+                en los datos de MotoGP.
+
+            </div>
+
+        `;
+
+
+        return;
+
+    }
+
+
+    container.innerHTML =
+
+        machines
+
+        .slice(0,30)
+
+        .map(
+
+            driver => {
+
+
+                const bikeImage =
+
+                    driver.bikeImage ||
+
+                    driver.bike_image ||
+
+                    driver.vehicleImage ||
+
+                    driver.vehicle_image;
+
+
+                const riderImage =
+
+                    driver.riderImage ||
+
+                    driver.rider_image ||
+
+                    driver.image ||
+
+                    driver.photo;
+
+
+                const name =
+
+                    driver.name ||
+
+                    driver.driver ||
+
+                    driver.rider ||
+
+                    "Piloto";
+
+
+                const team =
+
+                    driver.team ||
+
+                    driver.teamName ||
+
+                    "";
+
+
+                const image =
+
+                    bikeImage ||
+
+                    riderImage;
+
+
+                return `
+
+
+                    <div class="machine-card">
+
+
+                        ${
+
+                            image
+
+                            ?
+
+                            `
+
+                            <img
+
+                                class="machine-image"
+
+                                src="${escapeAttribute(image)}"
+
+                                alt="${escapeAttribute(name)}"
+
+                                loading="lazy"
+
+                                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+
+                            >
+
+                            <div
+
+                                class="machine-placeholder"
+
+                                style="display:none">
+
+                                🏍️
+
+                            </div>
+
+                            `
+
+                            :
+
+                            `
+
+                            <div class="machine-placeholder">
+
+                                🏍️
+
+                            </div>
+
+                            `
+
+                        }
+
+
+                        <div class="machine-info">
+
+
+                            <div class="machine-rider">
+
+                                ${escapeHtml(name)}
+
+                            </div>
+
+
+                            <div class="machine-team">
+
+                                ${escapeHtml(
+
+                                    team
+
+                                )}
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                `;
+
+            }
+
+        )
+
         .join("");
 
 }
@@ -1379,101 +4062,163 @@ function renderStandingList(
 NOTICIAS
 =========================================================
 
-IMPORTANTE:
-
-Ya NO usamos:
-
-Google News
-AllOrigins
-fetch externo desde el navegador
-
-Las noticias vienen desde current.json,
-generado por GitHub Actions.
+Las noticias vienen desde current.json.
 =========================================================
 */
 
 function loadNews(){
 
+
     const container =
+
         document.getElementById(
+
             "newsContent"
+
         );
+
 
     if(!state.data){
 
+
         container.innerHTML =
+
             emptyMessage(
+
                 "Todavía no hay datos disponibles."
+
             );
+
 
         return;
 
     }
 
+
     const news =
+
         state.data.news ||
+
         {};
 
+
     const items =
+
         state.sport === "f1"
-        ? (
+
+        ?
+
+        (
+
             news.f1 ||
+
             []
+
         )
-        : (
+
+        :
+
+        (
+
             news.moto ||
+
             []
+
         );
+
 
     if(!items.length){
 
+
         container.innerHTML =
+
             emptyMessage(
+
                 "No hay noticias disponibles en este momento."
+
             );
+
 
         return;
 
     }
 
+
     container.innerHTML =
+
         items
+
         .slice(0,15)
+
         .map(
+
             item => {
+
+
+                const source =
+
+                    item.source ||
+
+                    (
+
+                        state.sport === "f1"
+
+                        ?
+
+                        "Fórmula 1"
+
+                        :
+
+                        "MotoGP"
+
+                    );
+
 
                 return `
 
+
                     <a
+
                         class="news"
+
                         href="${escapeAttribute(
-                            item.url
+
+                            item.url || "#"
+
                         )}"
+
                         target="_blank"
+
                         rel="noopener">
 
+
                         <div class="news-title">
+
                             ${escapeHtml(
+
                                 item.title
+
                             )}
+
                         </div>
+
 
                         <div class="news-meta">
 
-                            ${
-                                state.sport === "f1"
-                                ? "Motorsport.com"
-                                : "MotoGP.com"
-                            }
+                            ${escapeHtml(source)}
 
                         </div>
 
+
                     </a>
+
 
                 `;
 
             }
+
         )
+
         .join("");
 
 }
@@ -1487,18 +4232,26 @@ CALENDARIO ANDROID / ICS
 
 function syncCalendar(){
 
+
     const races =
+
         getAllFutureRaces();
+
 
     if(!races.length){
 
+
         alert(
+
             "No hay carreras futuras para sincronizar."
+
         );
+
 
         return;
 
     }
+
 
     /*
        APK:
@@ -1508,69 +4261,118 @@ function syncCalendar(){
        descarga archivo ICS.
     */
 
+
     if(
+
         window.AndroidBridge &&
+
         typeof window.AndroidBridge.syncCalendar ===
+
         "function"
+
     ){
 
+
         window.AndroidBridge.syncCalendar(
+
             JSON.stringify(
+
                 races
+
             )
+
         );
+
 
         return;
 
     }
 
+
     const ics =
+
         createICS(
+
             races
+
         );
+
 
     const blob =
+
         new Blob(
+
             [ics],
+
             {
+
                 type:
+
                     "text/calendar;charset=utf-8"
+
             }
+
         );
+
 
     const url =
+
         URL.createObjectURL(
+
             blob
+
         );
+
 
     const link =
+
         document.createElement(
+
             "a"
+
         );
+
 
     link.href =
+
         url;
 
+
     link.download =
+
         "RacingHubAR-calendario.ics";
 
+
     document
+
         .body
+
         .appendChild(
+
             link
+
         );
+
 
     link.click();
 
+
     link.remove();
 
+
     URL.revokeObjectURL(
+
         url
+
     );
 
+
     alert(
+
         "Calendario generado.\n\n" +
+
         "Incluye alarmas de 24 horas y 1 hora antes."
+
     );
 
 }
@@ -1578,72 +4380,125 @@ function syncCalendar(){
 
 function getAllFutureRaces(){
 
+
     if(!state.data){
 
         return [];
 
     }
 
+
     const result =
+
         [];
 
+
     for(
+
         const sport
+
         of ["f1","moto"]
+
     ){
 
+
         const races =
+
             state.data?.[
+
                 sport
+
             ]?.races ||
+
+            state.data?.[
+
+                sport
+
+            ]?.events ||
+
             [];
 
+
         for(
+
             const race
+
             of races
+
         ){
 
+
             if(!race.race){
+
                 continue;
+
             }
 
+
             const date =
+
                 new Date(
+
                     race.race
+
                 );
 
+
             if(
+
                 !Number.isNaN(
+
                     date.getTime()
+
                 )
+
                 &&
+
                 date > new Date()
+
             ){
+
 
                 result.push({
 
                     uid:
+
                         sport +
+
                         "-" +
+
                         (
+
                             race.id ||
+
                             race.round ||
+
                             race.name
+
                         ),
+
 
                     sport,
 
+
                     name:
+
                         race.name,
 
+
                     circuit:
+
                         race.circuit ||
+
                         "",
 
+
                     race:
+
                         race.race
 
                 });
+
 
             }
 
@@ -1651,10 +4506,15 @@ function getAllFutureRaces(){
 
     }
 
+
     return result.sort(
+
         (a,b) =>
+
             new Date(a.race) -
+
             new Date(b.race)
+
     );
 
 }
@@ -1662,7 +4522,9 @@ function getAllFutureRaces(){
 
 function createICS(events){
 
+
     const lines = [
+
 
         "BEGIN:VCALENDAR",
 
@@ -1674,114 +4536,199 @@ function createICS(events){
 
         "METHOD:PUBLISH"
 
+
     ];
 
+
     for(
+
         const event
+
         of events
+
     ){
 
+
         const start =
+
             toICSDate(
+
                 new Date(
+
                     event.race
+
                 )
+
             );
+
 
         const end =
+
             toICSDate(
+
                 new Date(
+
                     new Date(
+
                         event.race
+
                     ).getTime()
+
                     +
+
                     2 *
+
                     60 *
+
                     60 *
+
                     1000
+
                 )
+
             );
 
+
         const title =
+
             event.sport === "f1"
-            ? "🏎️ F1 · " +
-              event.name
-            : "🏍️ MotoGP · " +
-              event.name;
+
+            ?
+
+            "🏎️ F1 · " +
+
+            event.name
+
+            :
+
+            "🏍️ MotoGP · " +
+
+            event.name;
+
 
         lines.push(
 
+
             "BEGIN:VEVENT",
 
+
             "UID:" +
+
             escapeICS(
+
                 event.uid
+
             ) +
+
             "@racinghubar",
 
+
             "DTSTAMP:" +
+
             toICSDate(
+
                 new Date()
+
             ),
+
 
             "DTSTART:" +
+
             start,
 
+
             "DTEND:" +
+
             end,
 
+
             "SUMMARY:" +
+
             escapeICS(
+
                 title
+
             ),
+
 
             "DESCRIPTION:" +
+
             escapeICS(
+
                 "Racing Hub AR · " +
+
                 event.circuit +
+
                 " · Hora de Argentina"
+
             ),
 
+
             "BEGIN:VALARM",
+
 
             "TRIGGER:-P1D",
 
+
             "ACTION:DISPLAY",
 
+
             "DESCRIPTION:" +
+
             escapeICS(
+
                 "Mañana: " +
+
                 title
+
             ),
 
+
             "END:VALARM",
+
 
             "BEGIN:VALARM",
 
+
             "TRIGGER:-PT1H",
+
 
             "ACTION:DISPLAY",
 
+
             "DESCRIPTION:" +
+
             escapeICS(
+
                 "En 1 hora: " +
+
                 title
+
             ),
+
 
             "END:VALARM",
 
+
             "END:VEVENT"
+
 
         );
 
     }
 
+
     lines.push(
+
         "END:VCALENDAR"
+
     );
 
+
     return lines.join(
+
         "\r\n"
+
     );
 
 }
@@ -1795,16 +4742,22 @@ DATOS
 
 function getRaces(){
 
+
     if(!state.data){
 
         return [];
 
     }
 
+
     const sport =
+
         state.data[
+
             state.sport
+
         ];
+
 
     if(!sport){
 
@@ -1812,10 +4765,15 @@ function getRaces(){
 
     }
 
+
     return (
+
         sport.races ||
+
         sport.events ||
+
         []
+
     );
 
 }
@@ -1829,41 +4787,130 @@ FORMATO DE FECHAS
 
 function formatDate(value){
 
+
     const date =
+
         new Date(
+
             value
+
         );
 
+
     if(
+
         Number.isNaN(
+
             date.getTime()
+
         )
+
     ){
 
         return "Fecha no disponible";
 
     }
 
+
     return new Intl.DateTimeFormat(
+
         "es-AR",
+
         {
+
             timeZone:
+
                 ARGENTINA_TZ,
 
+
             weekday:
+
                 "long",
+
 
             day:
+
                 "2-digit",
 
+
             month:
+
                 "long",
 
+
             year:
+
                 "numeric"
+
         }
+
     ).format(
+
         date
+
+    );
+
+}
+
+
+function formatDayOnly(value){
+
+
+    const date =
+
+        new Date(
+
+            value
+
+        );
+
+
+    if(
+
+        Number.isNaN(
+
+            date.getTime()
+
+        )
+
+    ){
+
+        return "Día";
+
+    }
+
+
+    return new Intl.DateTimeFormat(
+
+        "es-AR",
+
+        {
+
+            timeZone:
+
+                ARGENTINA_TZ,
+
+
+            weekday:
+
+                "long",
+
+
+            day:
+
+                "2-digit",
+
+
+            month:
+
+                "long"
+
+        }
+
+    ).format(
+
+        date
+
     );
 
 }
@@ -1871,39 +4918,64 @@ function formatDate(value){
 
 function formatTime(value){
 
+
     const date =
+
         new Date(
+
             value
+
         );
 
+
     if(
+
         Number.isNaN(
+
             date.getTime()
+
         )
+
     ){
 
         return "--:--";
 
     }
 
+
     return new Intl.DateTimeFormat(
+
         "es-AR",
+
         {
+
             timeZone:
+
                 ARGENTINA_TZ,
 
+
             hour:
+
                 "2-digit",
+
 
             minute:
+
                 "2-digit",
 
+
             hour12:
+
                 false
+
         }
+
     ).format(
+
         date
+
     ) +
+
     " ART";
 
 }
@@ -1911,16 +4983,126 @@ function formatTime(value){
 
 function formatDateTime(value){
 
+
     return (
+
         formatDate(
+
             value
+
         )
+
         +
+
         " · "
+
         +
+
         formatTime(
+
             value
+
         )
+
+    );
+
+}
+
+
+/*
+=========================================================
+DÍA ARGENTINO
+=========================================================
+*/
+
+function getArgentinaDateKey(value){
+
+
+    const date =
+
+        new Date(
+
+            value
+
+        );
+
+
+    if(
+
+        Number.isNaN(
+
+            date.getTime()
+
+        )
+
+    ){
+
+        return "unknown";
+
+    }
+
+
+    const parts =
+
+        new Intl.DateTimeFormat(
+
+            "en-CA",
+
+            {
+
+                timeZone:
+
+                    ARGENTINA_TZ,
+
+
+                year:
+
+                    "numeric",
+
+
+                month:
+
+                    "2-digit",
+
+
+                day:
+
+                    "2-digit"
+
+            }
+
+        ).formatToParts(
+
+            date
+
+        );
+
+
+    const get =
+
+        type =>
+
+            parts.find(
+
+                p =>
+
+                    p.type === type
+
+            )?.value || "";
+
+
+    return (
+
+        get("year") +
+
+        "-" +
+
+        get("month") +
+
+        "-" +
+
+        get("day")
+
     );
 
 }
@@ -1934,20 +5116,43 @@ WEB OFICIAL
 
 function openOfficial(){
 
+
+    const year =
+
+        new Date()
+
+            .getFullYear();
+
+
     if(
+
         state.sport === "f1"
+
     ){
 
+
         window.open(
-            "https://www.formula1.com/en/racing/2026",
+
+            "https://www.formula1.com/en/racing/" +
+
+            year,
+
             "_blank"
+
         );
+
 
     }else{
 
+
         window.open(
-            "https://www.motogp.com/es/calendar/2026",
+
+            "https://www.motogp.com/es/calendar/" +
+
+            year,
+
             "_blank"
+
         );
 
     }
@@ -1963,64 +5168,159 @@ ERRORES
 
 function showDataError(error){
 
+
     document
+
         .getElementById(
+
             "nextContent"
+
         )
+
         .innerHTML = `
+
 
             <div class="card">
 
+
                 <div class="card-title">
+
                     Racing Hub está funcionando
+
                 </div>
+
 
                 <div class="empty">
 
+
                     La interfaz cargó correctamente,
+
                     pero no recibió los datos deportivos.
+
 
                     <br><br>
 
+
                     <strong>
+
                         Error:
+
                     </strong>
+
 
                     <br>
 
+
                     ${escapeHtml(
+
                         error.message
+
                     )}
+
 
                 </div>
 
+
             </div>
+
 
         `;
 
+
     document
+
         .getElementById(
+
             "calendarContent"
+
         )
+
         .innerHTML =
+
         emptyMessage(
+
             "Esperando datos deportivos."
+
+        );
+
+
+    document
+
+        .getElementById(
+
+            "driversContent"
+
+        )
+
+        .innerHTML =
+
+        emptyMessage(
+
+            "Esperando datos deportivos."
+
+        );
+
+
+    document
+
+        .getElementById(
+
+            "teamsContent"
+
+        )
+
+        .innerHTML =
+
+        emptyMessage(
+
+            "Esperando datos deportivos."
+
+        );
+
+
+    document
+
+        .getElementById(
+
+            "machinesContent"
+
+        )
+
+        .innerHTML =
+
+        emptyMessage(
+
+            "Esperando datos deportivos."
+
         );
 
 }
 
 
+/*
+=========================================================
+EMPTY
+=========================================================
+*/
+
 function emptyMessage(message){
+
 
     return `
 
+
         <div class="empty">
 
+
             ${escapeHtml(
+
                 message
+
             )}
 
+
         </div>
+
 
     `;
 
@@ -2029,62 +5329,165 @@ function emptyMessage(message){
 
 /*
 =========================================================
-UTILIDADES
+STATUS
 =========================================================
 */
 
 function setStatus(
+
     text,
-    type
+
+    type,
+
+    autoHide = false
+
 ){
 
+
     const el =
+
         document.getElementById(
+
             "status"
+
         );
+
+
+    if(state.statusTimer){
+
+        clearTimeout(
+
+            state.statusTimer
+
+        );
+
+    }
+
 
     el.textContent =
+
         text;
 
+
     el.className =
+
         "status " +
+
         (
+
             type === "ok"
-            ? "ok"
+
+            ?
+
+            "ok"
+
             :
+
             type === "error"
-            ? "error"
+
+            ?
+
+            "error"
+
             :
+
             ""
+
         );
+
+
+    /*
+     * Si es el mensaje verde de actualización,
+     * desaparece después de 3 segundos.
+     */
+
+    if(
+
+        autoHide &&
+
+        type === "ok"
+
+    ){
+
+
+        state.statusTimer =
+
+            setTimeout(
+
+                () => {
+
+
+                    el.classList.add(
+
+                        "hidden"
+
+                    );
+
+
+                },
+
+                3000
+
+            );
+
+    }
 
 }
 
 
+/*
+=========================================================
+ESCAPES
+=========================================================
+*/
+
 function escapeHtml(value){
 
+
     return String(
+
         value ?? ""
+
     )
+
     .replaceAll(
+
         "&",
+
         "&amp;"
+
     )
+
     .replaceAll(
+
         "<",
+
         "&lt;"
+
     )
+
     .replaceAll(
+
         ">",
+
         "&gt;"
+
     )
+
     .replaceAll(
+
         '"',
+
         "&quot;"
+
     )
+
     .replaceAll(
+
         "'",
+
         "&#039;"
+
     );
 
 }
@@ -2092,8 +5495,11 @@ function escapeHtml(value){
 
 function escapeAttribute(value){
 
+
     return escapeHtml(
+
         value
+
     );
 
 }
@@ -2101,24 +5507,43 @@ function escapeAttribute(value){
 
 function escapeICS(value){
 
+
     return String(
+
         value ?? ""
+
     )
+
     .replaceAll(
+
         "\\",
+
         "\\\\"
+
     )
+
     .replaceAll(
+
         ";",
+
         "\\;"
+
     )
+
     .replaceAll(
+
         ",",
+
         "\\,"
+
     )
+
     .replaceAll(
+
         "\n",
+
         "\\n"
+
     );
 
 }
@@ -2126,24 +5551,40 @@ function escapeICS(value){
 
 function toICSDate(date){
 
+
     return date
+
         .toISOString()
+
         .replaceAll(
+
             "-",
+
             ""
+
         )
+
         .replaceAll(
+
             ":",
+
             ""
+
         )
+
         .replace(
+
             ".000",
+
             ""
+
         );
 
 }
 
 </script>
 
+
 </body>
+
       </html>
