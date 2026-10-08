@@ -1,20 +1,17 @@
-from __future__ import annotations
-
 import json
 import re
 import time
-from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
-from html import unescape
+import html
 from pathlib import Path
-from urllib.parse import quote, urlencode
+from datetime import datetime, timezone
 from urllib.request import Request, urlopen
-import xml.etree.ElementTree as ET
+from urllib.parse import urlencode
+from xml.etree import ElementTree as ET
 
 
-# ============================================================
+# =========================================================
 # CONFIGURACIÓN
-# ============================================================
+# =========================================================
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -31,216 +28,366 @@ TIMEOUT = 25
 RETRIES = 3
 
 
-# ============================================================
-# IMÁGENES
-# ============================================================
-#
-# Son imágenes generales del deporte. No dependemos de que cada
-# noticia tenga una fotografía propia.
-#
-# Wikimedia Commons permite utilizar imágenes mediante sus URLs.
-#
+# =========================================================
+# URLS
+# =========================================================
 
-F1_IMAGE = (
-    "https://commons.wikimedia.org/wiki/Special:FilePath/"
-    + quote("Lewis Hamilton Ferrari F1 Car (55383746481).jpg")
-    + "?width=1280"
+F1_BASE = "https://api.jolpi.ca/ergast/f1"
+
+MOTOGP_BASE = (
+    "https://api.motogp.pulselive.com/motogp/v1"
 )
 
-MOTOGP_IMAGE = (
-    "https://commons.wikimedia.org/wiki/Special:FilePath/"
-    + quote("MotoGP 2026 season launch Kuala Lumpur 01.jpg")
-    + "?width=1280"
+MOTOGP_SEASONS_URL = (
+    MOTOGP_BASE + "/results/seasons"
+)
+
+MOTOGP_CATEGORIES_URL = (
+    MOTOGP_BASE + "/results/categories"
+)
+
+MOTOGP_EVENTS_URL = (
+    MOTOGP_BASE + "/events"
+)
+
+MOTOGP_RESULTS_EVENTS_URL = (
+    MOTOGP_BASE + "/results/events"
+)
+
+MOTOGP_STANDINGS_URL = (
+    MOTOGP_BASE + "/results/standings"
 )
 
 
-# ============================================================
-# UTILIDADES HTTP
-# ============================================================
+# =========================================================
+# NOTICIAS EN ESPAÑOL
+# =========================================================
 
-def fetch_bytes(url: str, headers: dict | None = None) -> bytes:
-    final_headers = {
+NEWS_FEEDS = {
+    "f1": [
+        (
+            "https://espanol.motorsport.com/"
+            "rss/f1/news/"
+        )
+    ],
+
+    "moto": [
+        (
+            "https://espanol.motorsport.com/"
+            "rss/category/moto/news/"
+        )
+    ]
+}
+
+
+# =========================================================
+# HTTP
+# =========================================================
+
+def http_get(
+    url,
+    headers=None,
+    timeout=TIMEOUT,
+    retries=RETRIES
+):
+    last_error = None
+
+    request_headers = {
         "User-Agent": USER_AGENT,
         "Accept": "*/*",
+        "Accept-Language": "es-AR,es;q=0.9,en;q=0.5",
     }
 
     if headers:
-        final_headers.update(headers)
+        request_headers.update(headers)
 
-    last_error = None
-
-    for attempt in range(RETRIES):
+    for attempt in range(retries):
         try:
-            request = Request(url, headers=final_headers)
+            request = Request(
+                url,
+                headers=request_headers
+            )
 
-            with urlopen(request, timeout=TIMEOUT) as response:
+            with urlopen(
+                request,
+                timeout=timeout
+            ) as response:
+
                 return response.read()
 
         except Exception as exc:
             last_error = exc
 
-            if attempt < RETRIES - 1:
-                time.sleep(2 * (attempt + 1))
+            if attempt < retries - 1:
+                time.sleep(1.5 * (attempt + 1))
 
-    raise RuntimeError(f"No se pudo descargar {url}: {last_error}")
+    raise last_error
 
 
-def fetch_json(url: str, headers: dict | None = None) -> dict | list:
-    raw = fetch_bytes(
+def get_json(
+    url,
+    headers=None
+):
+    raw = http_get(
         url,
-        headers={
-            "Accept": "application/json, text/plain, */*",
-            **(headers or {}),
-        },
+        headers=headers
     )
 
-    return json.loads(raw.decode("utf-8-sig"))
-
-
-def fetch_text(url: str, headers: dict | None = None) -> str:
-    raw = fetch_bytes(
-        url,
-        headers={
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            **(headers or {}),
-        },
+    return json.loads(
+        raw.decode(
+            "utf-8",
+            errors="replace"
+        )
     )
 
-    return raw.decode("utf-8", errors="replace")
 
-
-# ============================================================
+# =========================================================
 # UTILIDADES GENERALES
-# ============================================================
+# =========================================================
 
-def load_existing_data() -> dict:
+def first_value(obj, *keys):
+    if not isinstance(obj, dict):
+        return None
+
+    for key in keys:
+        value = obj.get(key)
+
+        if value not in (
+            None,
+            "",
+            [],
+            {}
+        ):
+            return value
+
+    return None
+
+
+def as_float(value):
+    try:
+        return float(value)
+    except Exception:
+        return 0
+
+
+def as_int(value):
+    try:
+        return int(float(value))
+    except Exception:
+        return 0
+
+
+def text_value(value):
+    if value is None:
+        return ""
+
+    if isinstance(value, str):
+        return value.strip()
+
+    if isinstance(value, (int, float)):
+        return str(value)
+
+    if isinstance(value, dict):
+        for key in (
+            "name",
+            "displayName",
+            "fullName",
+            "value",
+            "text"
+        ):
+            if value.get(key):
+                return text_value(
+                    value.get(key)
+                )
+
+    return ""
+
+
+def nested_name(obj, *paths):
+    if not isinstance(obj, dict):
+        return ""
+
+    for path in paths:
+        current = obj
+
+        for key in path:
+            if not isinstance(current, dict):
+                current = None
+                break
+
+            current = current.get(key)
+
+        value = text_value(current)
+
+        if value:
+            return value
+
+    return ""
+
+
+def find_lists(obj):
+    """
+    Devuelve listas encontradas recursivamente.
+    Se utiliza para APIs cuya estructura puede cambiar.
+    """
+
+    found = []
+
+    if isinstance(obj, list):
+        found.append(obj)
+
+        for item in obj:
+            found.extend(
+                find_lists(item)
+            )
+
+    elif isinstance(obj, dict):
+        for value in obj.values():
+            found.extend(
+                find_lists(value)
+            )
+
+    return found
+
+
+def find_dicts(obj):
+    found = []
+
+    if isinstance(obj, dict):
+        found.append(obj)
+
+        for value in obj.values():
+            found.extend(
+                find_dicts(value)
+            )
+
+    elif isinstance(obj, list):
+        for item in obj:
+            found.extend(
+                find_dicts(item)
+            )
+
+    return found
+
+
+def parse_date(value):
+    if not value:
+        return None
+
+    if isinstance(value, (int, float)):
+        try:
+            return datetime.fromtimestamp(
+                value / 1000,
+                tz=timezone.utc
+            )
+        except Exception:
+            return None
+
+    text = str(value).strip()
+
+    if not text:
+        return None
+
+    text = text.replace(
+        "Z",
+        "+00:00"
+    )
+
+    try:
+        return datetime.fromisoformat(
+            text
+        )
+    except Exception:
+        pass
+
+    formats = [
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d",
+    ]
+
+    for fmt in formats:
+        try:
+            return datetime.strptime(
+                text,
+                fmt
+            ).replace(
+                tzinfo=timezone.utc
+            )
+        except Exception:
+            pass
+
+    return None
+
+
+def iso_utc(date):
+    if not date:
+        return ""
+
+    if date.tzinfo is None:
+        date = date.replace(
+            tzinfo=timezone.utc
+        )
+
+    return date.astimezone(
+        timezone.utc
+    ).isoformat().replace(
+        "+00:00",
+        "Z"
+    )
+
+
+def normalize_url(url):
+    if not url:
+        return ""
+
+    url = html.unescape(
+        str(url).strip()
+    )
+
+    return url
+
+
+# =========================================================
+# CARGAR DATOS ANTERIORES
+# =========================================================
+
+def load_previous_data():
     if not DATA_FILE.exists():
         return {}
 
     try:
-        with DATA_FILE.open("r", encoding="utf-8") as f:
-            data = json.load(f)
+        with DATA_FILE.open(
+            "r",
+            encoding="utf-8"
+        ) as file:
 
-        return data if isinstance(data, dict) else {}
+            data = json.load(file)
 
-    except Exception:
-        return {}
-
-
-def save_data(data: dict) -> None:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-    temporary = DATA_FILE.with_suffix(".tmp")
-
-    with temporary.open("w", encoding="utf-8") as f:
-        json.dump(
-            data,
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
-
-    temporary.replace(DATA_FILE)
-
-
-def clean_text(value) -> str:
-    if value is None:
-        return ""
-
-    text = unescape(str(value))
-
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text)
-
-    return text.strip()
-
-
-def first_value(obj, *keys, default=None):
-    if not isinstance(obj, dict):
-        return default
-
-    for key in keys:
-        if key in obj and obj[key] not in (None, ""):
-            return obj[key]
-
-    return default
-
-
-def safe_number(value, default=0):
-    try:
-        if value is None or value == "":
-            return default
-
-        return float(value)
-
-    except Exception:
-        return default
-
-
-def parse_datetime(value: str | None) -> str:
-    if not value:
-        return ""
-
-    value = str(value).strip()
-
-    try:
-        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
-
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-
-        return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+        if isinstance(data, dict):
+            return data
 
     except Exception:
         pass
 
-    try:
-        dt = parsedate_to_datetime(value)
-
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-
-        return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
-
-    except Exception:
-        return value
+    return {}
 
 
-# ============================================================
-# FÓRMULA 1 - JOLPICA
-# ============================================================
+# =========================================================
+# F1 - JOLPICA
+# =========================================================
 
-JOLPICA_BASE = "https://api.jolpi.ca/ergast/f1"
+def get_f1_races():
+    url = (
+        f"{F1_BASE}/{YEAR}.json?"
+        "limit=100"
+    )
 
-
-def build_f1_session(name: str, session_data: dict) -> dict | None:
-    if not isinstance(session_data, dict):
-        return None
-
-    date = session_data.get("date")
-    time_value = session_data.get("time")
-
-    if not date:
-        return None
-
-    if time_value:
-        iso = f"{date}T{time_value}"
-    else:
-        iso = date
-
-    return {
-        "name": name,
-        "date": parse_datetime(iso),
-    }
-
-
-def get_f1_schedule(year: int) -> list:
-    url = f"{JOLPICA_BASE}/{year}.json?limit=100"
-
-    data = fetch_json(url)
+    data = get_json(url)
 
     races = (
-        data.get("MRData", {})
+        data
+        .get("MRData", {})
         .get("RaceTable", {})
         .get("Races", [])
     )
@@ -248,1093 +395,1927 @@ def get_f1_schedule(year: int) -> list:
     result = []
 
     for race in races:
-        race_name = race.get("raceName", "")
-        round_number = race.get("round", "")
 
-        circuit = race.get("Circuit", {})
-        circuit_name = circuit.get("circuitName", "")
-
-        date = race.get("date")
+        race_date = race.get("date")
         race_time = race.get("time")
 
-        if not date:
-            continue
-
-        if race_time:
-            race_datetime = f"{date}T{race_time}"
+        if race_date:
+            if race_time:
+                race_datetime = (
+                    f"{race_date}T{race_time}"
+                )
+            else:
+                race_datetime = (
+                    f"{race_date}T00:00:00Z"
+                )
         else:
-            race_datetime = date
+            race_datetime = ""
 
         sessions = []
 
-        session_map = [
-            ("FP1", "FirstPractice"),
-            ("FP2", "SecondPractice"),
-            ("FP3", "ThirdPractice"),
+        session_fields = [
+            ("FirstPractice", "FP1"),
+            ("SecondPractice", "FP2"),
+            ("ThirdPractice", "FP3"),
             ("Sprint", "Sprint"),
-            ("Q", "Qualifying"),
+            ("Qualifying", "Q"),
         ]
 
-        for display_name, source_name in session_map:
-            session = build_f1_session(
-                display_name,
-                race.get(source_name),
-            )
+        for field, name in session_fields:
 
-            if session:
-                sessions.append(session)
+            session = race.get(field)
+
+            if not isinstance(
+                session,
+                dict
+            ):
+                continue
+
+            date = session.get("date")
+            time_value = session.get("time")
+
+            if not date:
+                continue
+
+            if time_value:
+                session_date = (
+                    f"{date}T{time_value}"
+                )
+            else:
+                session_date = (
+                    f"{date}T00:00:00Z"
+                )
+
+            sessions.append({
+                "name": name,
+                "date": session_date
+            })
 
         sessions.append({
             "name": "Race",
-            "date": parse_datetime(race_datetime),
+            "date": race_datetime
         })
 
+        circuit = race.get(
+            "Circuit",
+            {}
+        )
+
         result.append({
-            "id": f"f1-{year}-{round_number}",
-            "round": str(round_number),
-            "name": race_name,
-            "circuit": circuit_name,
-            "race": parse_datetime(race_datetime),
-            "sessions": sessions,
+            "id": race.get(
+                "season",
+                str(YEAR)
+            ) + "-" + str(
+                race.get("round", "")
+            ),
+
+            "round": race.get(
+                "round",
+                ""
+            ),
+
+            "name": race.get(
+                "raceName",
+                "Gran Premio"
+            ),
+
+            "circuit": circuit.get(
+                "circuitName",
+                ""
+            ),
+
+            "race": race_datetime,
+
+            "sessions": sessions
         })
 
     return result
 
 
-def get_f1_driver_standings(year: int) -> list:
+def get_f1_drivers():
     url = (
-        f"{JOLPICA_BASE}/{year}/driverstandings.json"
-        "?limit=100"
+        f"{F1_BASE}/{YEAR}/"
+        "driverstandings.json?"
+        "limit=100"
     )
 
-    data = fetch_json(url)
+    data = get_json(url)
 
-    lists = (
-        data.get("MRData", {})
+    standings = (
+        data
+        .get("MRData", {})
         .get("StandingsTable", {})
         .get("StandingsLists", [])
     )
 
-    if not lists:
+    if not standings:
         return []
 
-    standings = lists[0].get("DriverStandings", [])
+    rows = standings[0].get(
+        "DriverStandings",
+        []
+    )
 
     result = []
 
-    for row in standings:
-        driver = row.get("Driver", {})
-        constructors = row.get("Constructors", [])
+    for row in rows:
+
+        driver = row.get(
+            "Driver",
+            {}
+        )
+
+        constructors = row.get(
+            "Constructors",
+            []
+        )
 
         team = ""
 
         if constructors:
-            team = constructors[0].get("name", "")
+            team = constructors[0].get(
+                "name",
+                ""
+            )
 
-        given = driver.get("givenName", "")
-        family = driver.get("familyName", "")
-
-        full_name = f"{given} {family}".strip()
+        name = (
+            f"{driver.get('givenName', '')} "
+            f"{driver.get('familyName', '')}"
+        ).strip()
 
         result.append({
-            "position": int(row.get("position", 0) or 0),
-            "name": full_name,
-            "driver": driver.get("code", ""),
-            "number": driver.get("permanentNumber", ""),
+            "position": row.get(
+                "position",
+                ""
+            ),
+
+            "name": name,
+
+            "driver": name,
+
             "team": team,
-            "points": safe_number(row.get("points")),
+
+            "points": row.get(
+                "points",
+                0
+            ),
+
+            "number": driver.get(
+                "permanentNumber",
+                ""
+            )
         })
 
     return result
 
 
-def get_f1_team_standings(year: int) -> list:
+def get_f1_teams():
     url = (
-        f"{JOLPICA_BASE}/{year}/constructorstandings.json"
-        "?limit=100"
+        f"{F1_BASE}/{YEAR}/"
+        "constructorstandings.json?"
+        "limit=100"
     )
 
-    data = fetch_json(url)
+    data = get_json(url)
 
-    lists = (
-        data.get("MRData", {})
+    standings = (
+        data
+        .get("MRData", {})
         .get("StandingsTable", {})
         .get("StandingsLists", [])
     )
 
-    if not lists:
+    if not standings:
         return []
 
-    standings = lists[0].get("ConstructorStandings", [])
+    rows = standings[0].get(
+        "ConstructorStandings",
+        []
+    )
 
     result = []
 
-    for row in standings:
-        constructor = row.get("Constructor", {})
+    for row in rows:
+
+        constructor = row.get(
+            "Constructor",
+            {}
+        )
 
         result.append({
-            "position": int(row.get("position", 0) or 0),
-            "name": constructor.get("name", ""),
-            "team": constructor.get("name", ""),
-            "points": safe_number(row.get("points")),
+            "position": row.get(
+                "position",
+                ""
+            ),
+
+            "name": constructor.get(
+                "name",
+                "Equipo"
+            ),
+
+            "team": constructor.get(
+                "name",
+                "Equipo"
+            ),
+
+            "points": row.get(
+                "points",
+                0
+            )
         })
 
     return result
 
 
-def get_f1_data(previous: dict) -> dict:
-    previous_f1 = previous.get("f1", {})
-
-    result = {
-        "races": previous_f1.get("races", []),
-        "drivers": previous_f1.get("drivers", []),
-        "teams": previous_f1.get("teams", []),
-        "image": F1_IMAGE,
+def get_f1_data():
+    return {
+        "races": get_f1_races(),
+        "drivers": get_f1_drivers(),
+        "teams": get_f1_teams()
     }
 
-    result["races"] = get_f1_schedule(YEAR)
-    result["drivers"] = get_f1_driver_standings(YEAR)
-    result["teams"] = get_f1_team_standings(YEAR)
 
-    return result
+# =========================================================
+# MOTOGP - API PULSELIVE
+# =========================================================
 
-
-# ============================================================
-# MOTOGP - PULSELIVE
-# ============================================================
-
-MOTOGP_BASE = "https://api.motogp.pulselive.com/motogp/v1"
-
-MOTOGP_HEADERS = {
-    "Origin": "https://www.motogp.com",
-    "Referer": "https://www.motogp.com/",
-    "Accept": "application/json, text/plain, */*",
-}
+def motogp_headers():
+    return {
+        "Origin": "https://www.motogp.com",
+        "Referer": "https://www.motogp.com/",
+        "Accept": "application/json",
+    }
 
 
-def find_list_recursive(obj):
-    if isinstance(obj, list):
-        if obj:
-            return obj
+def get_motogp_season_uuid():
+    data = get_json(
+        MOTOGP_SEASONS_URL,
+        headers=motogp_headers()
+    )
 
-        return None
+    candidates = []
 
-    if isinstance(obj, dict):
-        for value in obj.values():
-            found = find_list_recursive(value)
+    if isinstance(data, list):
+        candidates = data
 
-            if found:
-                return found
+    elif isinstance(data, dict):
+        candidates = (
+            data.get("content")
+            or data.get("seasons")
+            or data.get("results")
+            or []
+        )
 
-    return None
+    for season in candidates:
 
-
-def find_key_recursive(obj, keys: set):
-    if isinstance(obj, dict):
-
-        for key, value in obj.items():
-
-            if key.lower() in {x.lower() for x in keys}:
-                return value
-
-            found = find_key_recursive(value, keys)
-
-            if found is not None:
-                return found
-
-    elif isinstance(obj, list):
-
-        for item in obj:
-            found = find_key_recursive(item, keys)
-
-            if found is not None:
-                return found
-
-    return None
-
-
-def get_motogp_season_uuid(year: int) -> str:
-    url = f"{MOTOGP_BASE}/results/seasons"
-
-    data = fetch_json(url, MOTOGP_HEADERS)
-
-    seasons = find_list_recursive(data) or []
-
-    for season in seasons:
-        if not isinstance(season, dict):
+        if not isinstance(
+            season,
+            dict
+        ):
             continue
 
-        season_year = first_value(
+        year = first_value(
             season,
             "year",
             "seasonYear",
+            "name"
         )
 
-        uuid = first_value(
-            season,
-            "id",
-            "uuid",
-            "seasonUuid",
-        )
+        if str(year) == str(YEAR):
 
-        if str(season_year) == str(year) and uuid:
-            return str(uuid)
+            return first_value(
+                season,
+                "uuid",
+                "id",
+                "seasonUuid"
+            )
 
     raise RuntimeError(
-        f"No se encontró la temporada MotoGP {year}"
+        f"No se encontró la temporada MotoGP {YEAR}"
     )
 
 
-def get_motogp_category_uuid() -> str:
-    url = f"{MOTOGP_BASE}/results/categories"
+def get_motogp_category_uuid():
+    data = get_json(
+        MOTOGP_CATEGORIES_URL,
+        headers=motogp_headers()
+    )
 
-    data = fetch_json(url, MOTOGP_HEADERS)
+    candidates = []
 
-    categories = find_list_recursive(data) or []
+    if isinstance(data, list):
+        candidates = data
 
-    for category in categories:
-        if not isinstance(category, dict):
-            continue
-
-        name = clean_text(
-            first_value(
-                category,
-                "name",
-                "displayName",
-                "categoryName",
-                default="",
-            )
-        ).lower()
-
-        uuid = first_value(
-            category,
-            "id",
-            "uuid",
-            "categoryUuid",
+    elif isinstance(data, dict):
+        candidates = (
+            data.get("content")
+            or data.get("categories")
+            or data.get("results")
+            or []
         )
 
-        if uuid and (
+    for category in candidates:
+
+        if not isinstance(
+            category,
+            dict
+        ):
+            continue
+
+        name = " ".join([
+            text_value(
+                category.get("name")
+            ),
+            text_value(
+                category.get("displayName")
+            ),
+            text_value(
+                category.get("shortName")
+            )
+        ]).lower()
+
+        if (
             name == "motogp"
             or "motogp" in name
         ):
-            return str(uuid)
 
-    # UUID conocido/fallback habitual de MotoGP.
-    for category in categories:
-        if not isinstance(category, dict):
-            continue
-
-        uuid = first_value(
-            category,
-            "id",
-            "uuid",
-            "categoryUuid",
-        )
-
-        if uuid:
-            return str(uuid)
+            return first_value(
+                category,
+                "uuid",
+                "id",
+                "categoryUuid"
+            )
 
     raise RuntimeError(
         "No se encontró la categoría MotoGP"
     )
 
 
-def extract_name(obj: dict) -> str:
-    if not isinstance(obj, dict):
-        return ""
+def extract_event_objects(data):
+    """
+    Intenta encontrar objetos de eventos
+    independientemente de cómo venga
+    estructurada la respuesta.
+    """
 
-    name = first_value(
-        obj,
-        "name",
-        "displayName",
-        "eventName",
-        "circuitName",
-        "shortName",
-    )
+    candidates = []
 
-    if isinstance(name, dict):
-        name = first_value(
-            name,
-            "name",
-            "displayName",
-            "shortName",
-        )
+    if isinstance(data, list):
+        candidates = data
 
-    return clean_text(name)
+    elif isinstance(data, dict):
 
-
-def extract_datetime_from_object(obj: dict) -> str:
-    if not isinstance(obj, dict):
-        return ""
-
-    value = first_value(
-        obj,
-        "date",
-        "startDate",
-        "dateStart",
-        "eventDate",
-        "scheduledStart",
-        "startTime",
-        "localDate",
-    )
-
-    if isinstance(value, dict):
-        value = first_value(
-            value,
-            "date",
-            "value",
-        )
-
-    return parse_datetime(value)
-
-
-def normalize_motogp_event(event: dict, index: int) -> dict | None:
-    if not isinstance(event, dict):
-        return None
-
-    nested_event = event.get("event")
-
-    if isinstance(nested_event, dict):
-        source = nested_event
-    else:
-        source = event
-
-    event_name = extract_name(source)
-
-    if not event_name:
-        event_name = extract_name(event)
-
-    event_id = first_value(
-        source,
-        "id",
-        "uuid",
-        "eventUuid",
-        "eventId",
-        default=f"motogp-{YEAR}-{index}",
-    )
-
-    round_number = first_value(
-        source,
-        "round",
-        "roundNumber",
-        "sequence",
-        "order",
-        default=index + 1,
-    )
-
-    circuit_obj = source.get("circuit")
-
-    if not isinstance(circuit_obj, dict):
-        circuit_obj = {}
-
-    circuit_name = extract_name(circuit_obj)
-
-    if not circuit_name:
-        circuit_name = clean_text(
-            first_value(
-                source,
-                "circuitName",
-                "trackName",
-                "venueName",
-                default="",
-            )
-        )
-
-    sessions = []
-
-    possible_sessions = []
-
-    for key in (
-        "sessions",
-        "session",
-        "eventSessions",
-        "races",
-    ):
-        value = source.get(key)
-
-        if isinstance(value, list):
-            possible_sessions.extend(value)
-
-    if isinstance(event.get("sessions"), list):
-        possible_sessions.extend(event["sessions"])
-
-    for session in possible_sessions:
-        if not isinstance(session, dict):
-            continue
-
-        session_name = clean_text(
-            first_value(
-                session,
-                "name",
-                "displayName",
-                "sessionName",
-                "type",
-                default="",
-            )
-        )
-
-        session_date = extract_datetime_from_object(session)
-
-        if not session_date:
-            continue
-
-        sessions.append({
-            "name": session_name or "Sesión",
-            "date": session_date,
-        })
-
-    # Intentamos identificar específicamente la carrera.
-    race_date = ""
-
-    for session in sessions:
-        session_name = session["name"].lower()
-
-        if (
-            "motogp" in session_name
-            or "race" in session_name
-            or "carrera" in session_name
-            or session_name == "gp"
+        for key in (
+            "content",
+            "events",
+            "results",
+            "items"
         ):
-            race_date = session["date"]
+            value = data.get(key)
 
-    if not race_date:
-        race_date = extract_datetime_from_object(source)
+            if isinstance(value, list):
+                candidates.extend(value)
 
-    if not event_name:
-        return None
+    if not candidates:
 
-    return {
-        "id": str(event_id),
-        "round": str(round_number),
-        "name": event_name,
-        "circuit": circuit_name,
-        "race": race_date,
-        "sessions": sessions,
-    }
+        for item in find_lists(data):
 
+            if not item:
+                continue
 
-def get_motogp_schedule(year: int) -> list:
-    season_uuid = get_motogp_season_uuid(year)
+            if all(
+                isinstance(x, dict)
+                for x in item
+            ):
+                candidates.extend(item)
 
-    urls = [
-        (
-            f"{MOTOGP_BASE}/results/events"
-            f"?seasonUuid={season_uuid}&isFinished=false"
-        ),
-        (
-            f"{MOTOGP_BASE}/results/events"
-            f"?seasonUuid={season_uuid}&isFinished=true"
-        ),
-        (
-            f"{MOTOGP_BASE}/events"
-            f"?seasonYear={year}"
-        ),
-    ]
-
-    all_events = []
-
-    for url in urls:
-        try:
-            data = fetch_json(url, MOTOGP_HEADERS)
-
-            found = find_list_recursive(data)
-
-            if found:
-                all_events.extend(found)
-
-        except Exception:
-            continue
-
-    result = []
+    unique = []
     seen = set()
 
-    for index, event in enumerate(all_events):
-        normalized = normalize_motogp_event(
-            event,
-            index,
-        )
+    for event in candidates:
 
-        if not normalized:
+        if not isinstance(
+            event,
+            dict
+        ):
             continue
 
-        key = (
-            normalized["name"].lower(),
-            normalized["circuit"].lower(),
+        event_id = first_value(
+            event,
+            "uuid",
+            "id",
+            "eventId"
+        )
+
+        key = str(
+            event_id
+            or id(event)
         )
 
         if key in seen:
             continue
 
         seen.add(key)
-        result.append(normalized)
+        unique.append(event)
 
-    result.sort(
-        key=lambda item: (
-            safe_number(item.get("round"), 9999),
-            item.get("name", ""),
+    return unique
+
+
+def event_name(event):
+    return (
+        first_value(
+            event,
+            "name",
+            "eventName",
+            "displayName",
+            "shortName",
+            "title"
         )
+        or "Gran Premio"
     )
+
+
+def event_circuit(event):
+    direct = first_value(
+        event,
+        "circuitName",
+        "trackName",
+        "circuit"
+    )
+
+    if isinstance(
+        direct,
+        dict
+    ):
+        direct = text_value(
+            direct
+        )
+
+    if direct:
+        return str(direct)
+
+    for key in (
+        "circuit",
+        "track",
+        "venue",
+        "location"
+    ):
+
+        value = event.get(key)
+
+        if isinstance(
+            value,
+            dict
+        ):
+
+            name = first_value(
+                value,
+                "name",
+                "displayName",
+                "circuitName",
+                "trackName"
+            )
+
+            if name:
+                return str(name)
+
+    return ""
+
+
+def find_session_lists(event):
+    result = []
+
+    for key in (
+        "sessions",
+        "session",
+        "eventSessions",
+        "races",
+        "raceSessions"
+    ):
+
+        value = event.get(key)
+
+        if isinstance(
+            value,
+            list
+        ):
+            result.extend(value)
 
     return result
 
 
-def normalize_motogp_standing(row: dict, index: int) -> dict | None:
-    if not isinstance(row, dict):
+def session_name(session):
+    return (
+        first_value(
+            session,
+            "name",
+            "sessionName",
+            "displayName",
+            "type"
+        )
+        or ""
+    )
+
+
+def session_date(session):
+    for key in (
+        "startDate",
+        "dateStart",
+        "scheduledStart",
+        "start",
+        "date",
+        "localDate",
+        "sessionDate"
+    ):
+
+        value = session.get(key)
+
+        parsed = parse_date(
+            value
+        )
+
+        if parsed:
+            return parsed
+
+    return None
+
+
+def find_race_datetime(event):
+    sessions = find_session_lists(
+        event
+    )
+
+    race_candidates = []
+
+    for session in sessions:
+
+        if not isinstance(
+            session,
+            dict
+        ):
+            continue
+
+        name = session_name(
+            session
+        ).lower()
+
+        date = session_date(
+            session
+        )
+
+        if not date:
+            continue
+
+        score = 0
+
+        if (
+            "motogp" in name
+            and "race" in name
+        ):
+            score += 100
+
+        if "race" in name:
+            score += 80
+
+        if "grand prix" in name:
+            score += 30
+
+        if "sprint" in name:
+            score -= 50
+
+        if (
+            "qualifying" in name
+            or "practice" in name
+            or "warm" in name
+        ):
+            score -= 40
+
+        race_candidates.append(
+            (
+                score,
+                date
+            )
+        )
+
+    if race_candidates:
+
+        race_candidates.sort(
+            key=lambda x: (
+                -x[0],
+                x[1]
+            )
+        )
+
+        return race_candidates[0][1]
+
+    for key in (
+        "raceDate",
+        "raceStart",
+        "startDate",
+        "dateStart",
+        "date"
+    ):
+
+        parsed = parse_date(
+            event.get(key)
+        )
+
+        if parsed:
+            return parsed
+
+    return None
+
+
+def normalize_motogp_event(
+    event,
+    index
+):
+    name = event_name(
+        event
+    )
+
+    circuit = event_circuit(
+        event
+    )
+
+    race_date = find_race_datetime(
+        event
+    )
+
+    if not race_date:
         return None
 
-    rider = row.get("rider")
+    event_id = first_value(
+        event,
+        "uuid",
+        "id",
+        "eventId"
+    )
 
-    if not isinstance(rider, dict):
-        rider = row.get("riderData")
+    round_value = first_value(
+        event,
+        "round",
+        "roundNumber",
+        "eventNumber"
+    )
 
-    if not isinstance(rider, dict):
-        rider = {}
+    if not round_value:
+        round_value = index + 1
 
-    participant = row.get("participant")
+    sessions = []
 
-    if not isinstance(participant, dict):
-        participant = {}
+    for session in find_session_lists(
+        event
+    ):
 
-    name = clean_text(
-        first_value(
+        if not isinstance(
+            session,
+            dict
+        ):
+            continue
+
+        date = session_date(
+            session
+        )
+
+        name_value = session_name(
+            session
+        )
+
+        if date and name_value:
+
+            sessions.append({
+                "name": name_value,
+                "date": iso_utc(date)
+            })
+
+    if not any(
+        s["date"] == iso_utc(race_date)
+        for s in sessions
+    ):
+
+        sessions.append({
+            "name": "Race",
+            "date": iso_utc(race_date)
+        })
+
+    return {
+        "id": str(
+            event_id
+            or f"{YEAR}-moto-{index + 1}"
+        ),
+
+        "round": str(
+            round_value
+        ),
+
+        "name": str(
+            name
+        ),
+
+        "circuit": circuit,
+
+        "race": iso_utc(
+            race_date
+        ),
+
+        "sessions": sessions
+    }
+
+
+def get_motogp_races(
+    season_uuid
+):
+    errors = []
+
+    urls = [
+        (
+            MOTOGP_EVENTS_URL
+            + "?"
+            + urlencode({
+                "seasonYear": YEAR
+            })
+        ),
+
+        (
+            MOTOGP_RESULTS_EVENTS_URL
+            + "?"
+            + urlencode({
+                "seasonUuid": season_uuid,
+                "isFinished": "false"
+            })
+        ),
+
+        (
+            MOTOGP_RESULTS_EVENTS_URL
+            + "?"
+            + urlencode({
+                "seasonUuid": season_uuid,
+                "isFinished": "true"
+            })
+        )
+    ]
+
+    all_events = []
+
+    for url in urls:
+
+        try:
+
+            data = get_json(
+                url,
+                headers=motogp_headers()
+            )
+
+            all_events.extend(
+                extract_event_objects(
+                    data
+                )
+            )
+
+        except Exception as exc:
+
+            errors.append(
+                str(exc)
+            )
+
+    unique = []
+    seen = set()
+
+    for event in all_events:
+
+        key = str(
+            first_value(
+                event,
+                "uuid",
+                "id",
+                "eventId"
+            )
+            or event_name(event)
+        )
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        unique.append(event)
+
+    races = []
+
+    for index, event in enumerate(
+        unique
+    ):
+
+        normalized = (
+            normalize_motogp_event(
+                event,
+                index
+            )
+        )
+
+        if normalized:
+            races.append(
+                normalized
+            )
+
+    races.sort(
+        key=lambda race:
+            parse_date(
+                race["race"]
+            )
+            or datetime.max.replace(
+                tzinfo=timezone.utc
+            )
+    )
+
+    # Eliminamos duplicados por nombre/fecha.
+    final = []
+    seen_races = set()
+
+    for race in races:
+
+        key = (
+            race["name"].lower(),
+            race["race"]
+        )
+
+        if key in seen_races:
+            continue
+
+        seen_races.add(key)
+        final.append(race)
+
+    if not final:
+
+        if errors:
+            raise RuntimeError(
+                "No se pudieron obtener "
+                "los eventos MotoGP: "
+                + " | ".join(
+                    errors[:3]
+                )
+            )
+
+        raise RuntimeError(
+            "La API de MotoGP no devolvió carreras."
+        )
+
+    return final
+
+
+# =========================================================
+# MOTOGP - STANDINGS
+# =========================================================
+
+def extract_standing_rows(data):
+    rows = []
+
+    preferred_keys = (
+        "standings",
+        "classification",
+        "riders",
+        "riderStandings",
+        "content",
+        "results"
+    )
+
+    if isinstance(
+        data,
+        dict
+    ):
+
+        for key in preferred_keys:
+
+            value = data.get(key)
+
+            if isinstance(
+                value,
+                list
+            ):
+                rows.extend(
+                    value
+                )
+
+    if not rows:
+
+        for candidate in find_lists(
+            data
+        ):
+
+            if not candidate:
+                continue
+
+            score = 0
+
+            for item in candidate:
+
+                if not isinstance(
+                    item,
+                    dict
+                ):
+                    continue
+
+                keys = {
+                    str(k).lower()
+                    for k in item.keys()
+                }
+
+                if (
+                    "position" in keys
+                    or "pos" in keys
+                    or "rank" in keys
+                ):
+                    score += 2
+
+                if (
+                    "points" in keys
+                    or "score" in keys
+                    or "totalpoints" in keys
+                ):
+                    score += 2
+
+                if (
+                    "rider" in keys
+                    or "ridername" in keys
+                    or "competitor" in keys
+                ):
+                    score += 3
+
+            if score >= 4:
+                rows = candidate
+                break
+
+    return [
+        row
+        for row in rows
+        if isinstance(
+            row,
+            dict
+        )
+    ]
+
+
+def rider_name(row):
+    rider = first_value(
+        row,
+        "rider",
+        "riderData",
+        "competitor",
+        "riderInfo"
+    )
+
+    if isinstance(
+        rider,
+        dict
+    ):
+
+        full = first_value(
             rider,
             "fullName",
             "name",
-            "displayName",
-            default="",
+            "displayName"
         )
-    )
 
-    if not name:
+        if full:
+            return str(full)
+
         first = first_value(
             rider,
             "firstName",
-            "givenName",
-            default="",
+            "givenName"
         )
 
         last = first_value(
             rider,
             "lastName",
-            "familyName",
-            default="",
+            "familyName"
         )
 
-        name = f"{first} {last}".strip()
+        full = (
+            f"{text_value(first)} "
+            f"{text_value(last)}"
+        ).strip()
 
-    if not name:
-        name = clean_text(
-            first_value(
-                row,
-                "riderName",
+        if full:
+            return full
+
+    direct = first_value(
+        row,
+        "riderName",
+        "fullName",
+        "name",
+        "driver"
+    )
+
+    return text_value(
+        direct
+    )
+
+
+def rider_team(row):
+    for key in (
+        "team",
+        "teamName",
+        "constructor",
+        "constructorName"
+    ):
+
+        value = row.get(key)
+
+        if isinstance(
+            value,
+            dict
+        ):
+
+            name = first_value(
+                value,
                 "name",
-                "fullName",
-                default="",
+                "displayName"
             )
-        )
 
-    if not name:
-        return None
+            if name:
+                return str(name)
 
-    team_obj = row.get("team")
+        elif value:
+            return str(value)
 
-    if not isinstance(team_obj, dict):
-        team_obj = participant.get("team")
+    rider = row.get(
+        "rider"
+    )
 
-    if not isinstance(team_obj, dict):
-        team_obj = {}
+    if isinstance(
+        rider,
+        dict
+    ):
 
-    team = clean_text(
-        first_value(
-            team_obj,
-            "name",
-            "displayName",
+        for key in (
+            "team",
             "teamName",
-            default="",
-        )
-    )
+            "constructor"
+        ):
 
-    if not team:
-        team = clean_text(
-            first_value(
-                row,
-                "teamName",
-                "team",
-                default="",
+            value = rider.get(
+                key
             )
+
+            if isinstance(
+                value,
+                dict
+            ):
+
+                name = first_value(
+                    value,
+                    "name",
+                    "displayName"
+                )
+
+                if name:
+                    return str(name)
+
+            elif value:
+                return str(value)
+
+    return ""
+
+
+def get_motogp_standings(
+    season_uuid,
+    category_uuid
+):
+    url = (
+        MOTOGP_STANDINGS_URL
+        + "?"
+        + urlencode({
+            "seasonUuid": season_uuid,
+            "categoryUuid": category_uuid
+        })
+    )
+
+    data = get_json(
+        url,
+        headers=motogp_headers()
+    )
+
+    rows = extract_standing_rows(
+        data
+    )
+
+    result = []
+
+    for index, row in enumerate(
+        rows
+    ):
+
+        name = rider_name(
+            row
         )
 
-    number = first_value(
-        rider,
-        "number",
-        "riderNumber",
-        default=first_value(row, "number"),
+        if not name:
+            continue
+
+        position = first_value(
+            row,
+            "position",
+            "pos",
+            "rank"
+        )
+
+        points = first_value(
+            row,
+            "points",
+            "score",
+            "totalPoints"
+        )
+
+        rider = row.get(
+            "rider"
+        )
+
+        number = first_value(
+            row,
+            "riderNumber",
+            "number"
+        )
+
+        if isinstance(
+            rider,
+            dict
+        ):
+
+            number = (
+                number
+                or first_value(
+                    rider,
+                    "number",
+                    "riderNumber"
+                )
+            )
+
+        result.append({
+            "position": (
+                position
+                or index + 1
+            ),
+
+            "name": name,
+
+            "rider": name,
+
+            "team": rider_team(
+                row
+            ),
+
+            "points": (
+                points
+                if points is not None
+                else 0
+            ),
+
+            "number": (
+                number
+                or ""
+            ),
+
+            "bikeImage": (
+                first_value(
+                    row,
+                    "bikeImage",
+                    "bike_image",
+                    "vehicleImage",
+                    "vehicle_image"
+                )
+                or ""
+            ),
+
+            "riderImage": (
+                first_value(
+                    row,
+                    "riderImage",
+                    "rider_image",
+                    "image",
+                    "photo"
+                )
+                or ""
+            )
+        })
+
+    result.sort(
+        key=lambda x:
+            as_int(
+                x.get(
+                    "position"
+                )
+            )
+            or 999
     )
 
-    position = first_value(
-        row,
-        "position",
-        "rank",
-        "classification",
-        default=index + 1,
+    return result
+
+
+def build_motogp_teams(drivers):
+    """
+    La clasificación oficial de equipos MotoGP
+    puede no venir en la misma respuesta que
+    la de pilotos.
+
+    Si la API no entrega una clasificación
+    específica de equipos, no inventamos una.
+    """
+
+    return []
+
+
+def get_motogp_data():
+    season_uuid = (
+        get_motogp_season_uuid()
     )
 
-    points = first_value(
-        row,
-        "points",
-        "score",
-        "totalPoints",
-        "championshipPoints",
-        default=0,
+    category_uuid = (
+        get_motogp_category_uuid()
     )
 
-    image = first_value(
-        rider,
-        "image",
-        "imageUrl",
-        "photo",
-        "photoUrl",
-        "riderImage",
-        default="",
+    races = get_motogp_races(
+        season_uuid
+    )
+
+    drivers = get_motogp_standings(
+        season_uuid,
+        category_uuid
+    )
+
+    teams = build_motogp_teams(
+        drivers
     )
 
     return {
-        "position": int(safe_number(position, index + 1)),
-        "name": name,
-        "driver": str(number or ""),
-        "number": str(number or ""),
-        "team": team,
-        "points": safe_number(points),
-        "riderImage": image or "",
+        "races": races,
+        "drivers": drivers,
+        "teams": teams
     }
 
 
-def get_motogp_standings(year: int) -> list:
-    season_uuid = get_motogp_season_uuid(year)
-    category_uuid = get_motogp_category_uuid()
-
-    url = (
-        f"{MOTOGP_BASE}/results/standings"
-        f"?seasonUuid={season_uuid}"
-        f"&categoryUuid={category_uuid}"
-    )
-
-    data = fetch_json(url, MOTOGP_HEADERS)
-
-    rows = find_list_recursive(data) or []
-
-    result = []
-
-    for index, row in enumerate(rows):
-        normalized = normalize_motogp_standing(
-            row,
-            index,
-        )
-
-        if normalized:
-            result.append(normalized)
-
-    result.sort(
-        key=lambda item: (
-            item.get("position", 9999)
-        )
-    )
-
-    return result
-
-
-def get_motogp_data(previous: dict) -> dict:
-    previous_moto = previous.get("moto", {})
-
-    result = {
-        "races": previous_moto.get("races", []),
-        "drivers": previous_moto.get("drivers", []),
-        "teams": previous_moto.get("teams", []),
-        "image": MOTOGP_IMAGE,
-    }
-
-    result["races"] = get_motogp_schedule(YEAR)
-    result["drivers"] = get_motogp_standings(YEAR)
-
-    # No fabricamos una clasificación de equipos si la API no
-    # entrega una clasificación oficial compatible.
-    #
-    # Si ya teníamos datos válidos, los conservamos.
-    if "teams" not in result:
-        result["teams"] = []
-
-    return result
-
-
-# ============================================================
+# =========================================================
 # NOTICIAS
-# ============================================================
+# =========================================================
 
-GOOGLE_NEWS_BASE = "https://news.google.com/rss/search"
+def strip_html(value):
+    if not value:
+        return ""
+
+    value = html.unescape(
+        str(value)
+    )
+
+    value = re.sub(
+        r"<script.*?</script>",
+        "",
+        value,
+        flags=re.I | re.S
+    )
+
+    value = re.sub(
+        r"<style.*?</style>",
+        "",
+        value,
+        flags=re.I | re.S
+    )
+
+    value = re.sub(
+        r"<[^>]+>",
+        " ",
+        value
+    )
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value
+    )
+
+    return value.strip()
 
 
-def google_news_url(query: str) -> str:
-    params = {
-        "q": query,
-        "hl": "es-419",
-        "gl": "AR",
-        "ceid": "AR:es-419",
+def extract_image_from_html(value):
+    if not value:
+        return ""
+
+    decoded = html.unescape(
+        str(value)
+    )
+
+    patterns = [
+        r'<img[^>]+src=["\']([^"\']+)',
+        r'<img[^>]+data-src=["\']([^"\']+)',
+        r'<source[^>]+src=["\']([^"\']+)'
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            decoded,
+            flags=re.I
+        )
+
+        if match:
+            return normalize_url(
+                match.group(1)
+            )
+
+    return ""
+
+
+def xml_text(element):
+    if element is None:
+        return ""
+
+    return "".join(
+        element.itertext()
+    ).strip()
+
+
+def find_child_text(
+    element,
+    names
+):
+    names = {
+        name.lower()
+        for name in names
     }
 
-    return GOOGLE_NEWS_BASE + "?" + urlencode(params)
+    for child in list(element):
+
+        tag = child.tag
+
+        if "}" in tag:
+            tag = tag.split(
+                "}",
+                1
+            )[1]
+
+        if tag.lower() in names:
+            return xml_text(
+                child
+            )
+
+    return ""
 
 
-def parse_rss_news(xml_data: bytes, limit: int = 8) -> list:
-    root = ET.fromstring(xml_data)
+def find_media_image(item):
+    """
+    Busca imágenes en:
+    - media:content
+    - media:thumbnail
+    - enclosure
+    - description/content HTML
+    """
 
-    result = []
+    for child in list(item):
 
-    for item in root.iter():
-        tag = item.tag.lower()
+        tag = child.tag
 
-        if not tag.endswith("item"):
-            continue
+        if "}" in tag:
+            namespace, local = tag.rsplit(
+                "}",
+                1
+            )
+        else:
+            namespace = ""
+            local = tag
 
-        title = ""
-        link = ""
-        published = ""
-        source = ""
+        local = local.lower()
 
-        for child in item:
-            child_tag = child.tag.lower()
+        if local in (
+            "content",
+            "thumbnail"
+        ):
 
-            if child_tag.endswith("title"):
-                title = clean_text(child.text)
+            url = child.attrib.get(
+                "url"
+            )
 
-            elif child_tag.endswith("link"):
-                link = clean_text(child.text)
-
-                if not link:
-                    link = clean_text(
-                        child.attrib.get("href", "")
-                    )
-
-            elif child_tag.endswith("pubdate"):
-                published = parse_datetime(
-                    clean_text(child.text)
+            if url:
+                return normalize_url(
+                    url
                 )
 
-            elif child_tag.endswith("source"):
-                source = clean_text(child.text)
+        if local == "enclosure":
+
+            url = child.attrib.get(
+                "url"
+            )
+
+            media_type = (
+                child.attrib.get(
+                    "type",
+                    ""
+                )
+                .lower()
+            )
+
+            if (
+                url
+                and (
+                    media_type.startswith(
+                        "image/"
+                    )
+                    or re.search(
+                        r"\.(jpg|jpeg|png|webp)(\?|$)",
+                        url,
+                        re.I
+                    )
+                )
+            ):
+                return normalize_url(
+                    url
+                )
+
+    for child in list(item):
+
+        tag = child.tag
+
+        if "}" in tag:
+            tag = tag.split(
+                "}",
+                1
+            )[1]
+
+        if tag.lower() in (
+            "description",
+            "encoded",
+            "content"
+        ):
+
+            image = (
+                extract_image_from_html(
+                    xml_text(child)
+                )
+            )
+
+            if image:
+                return image
+
+    return ""
+
+
+def parse_rss_feed(
+    raw,
+    sport
+):
+    root = ET.fromstring(
+        raw
+    )
+
+    items = []
+
+    for item in root.iter():
+
+        tag = item.tag
+
+        if "}" in tag:
+            tag = tag.split(
+                "}",
+                1
+            )[1]
+
+        if tag.lower() not in (
+            "item",
+            "entry"
+        ):
+            continue
+
+        title = find_child_text(
+            item,
+            {
+                "title"
+            }
+        )
+
+        link = ""
+
+        for child in list(item):
+
+            child_tag = child.tag
+
+            if "}" in child_tag:
+                child_tag = child_tag.split(
+                    "}",
+                    1
+                )[1]
+
+            if child_tag.lower() == "link":
+
+                href = child.attrib.get(
+                    "href"
+                )
+
+                if href:
+                    link = href
+                    break
+
+                text = xml_text(
+                    child
+                )
+
+                if text:
+                    link = text
+                    break
+
+        published = (
+            find_child_text(
+                item,
+                {
+                    "pubDate",
+                    "published",
+                    "updated",
+                    "date"
+                }
+            )
+        )
+
+        description = (
+            find_child_text(
+                item,
+                {
+                    "description",
+                    "encoded",
+                    "summary"
+                }
+            )
+        )
+
+        image = find_media_image(
+            item
+        )
+
+        title = strip_html(
+            title
+        )
 
         if not title or not link:
             continue
 
-        result.append({
+        source = (
+            "Motorsport.com"
+        )
+
+        published_iso = ""
+
+        parsed = parse_date(
+            published
+        )
+
+        if parsed:
+            published_iso = iso_utc(
+                parsed
+            )
+
+        items.append({
             "title": title,
-            "url": link,
-            "published": published,
+            "url": normalize_url(
+                link
+            ),
+            "published": published_iso,
             "source": source,
+            "image": image,
+            "sport": sport
         })
 
-        if len(result) >= limit:
-            break
-
-    return result
+    return items
 
 
-def get_google_news(query: str, limit: int = 8) -> list:
-    url = google_news_url(query)
+def get_news_for_sport(
+    sport
+):
+    errors = []
 
-    raw = fetch_bytes(
-        url,
-        headers={
-            "Accept": "application/rss+xml, application/xml, text/xml",
-        },
-    )
+    all_items = []
 
-    return parse_rss_news(raw, limit)
+    for feed_url in NEWS_FEEDS.get(
+        sport,
+        []
+    ):
 
-
-def get_f1_news(previous: dict) -> list:
-    queries = [
-        'Fórmula 1 noticias site:soymotor.com',
-        'Fórmula 1 noticias site:es.motorsport.com',
-        'Fórmula 1 noticias site:caranddriver.com/es',
-        'Fórmula 1 noticias español',
-    ]
-
-    result = []
-
-    for query in queries:
         try:
-            articles = get_google_news(
-                query,
-                limit=5,
+
+            raw = http_get(
+                feed_url,
+                headers={
+                    "Accept": (
+                        "application/rss+xml,"
+                        "application/xml,"
+                        "text/xml,*/*"
+                    )
+                }
             )
 
-            result.extend(articles)
-
-        except Exception:
-            continue
-
-        if len(result) >= 8:
-            break
-
-    return deduplicate_news(result)[:8]
-
-
-def get_motogp_news(previous: dict) -> list:
-    queries = [
-        'MotoGP site:motogp.com/es',
-        'MotoGP noticias español site:es.motorsport.com',
-        'MotoGP noticias español',
-    ]
-
-    result = []
-
-    for query in queries:
-        try:
-            articles = get_google_news(
-                query,
-                limit=5,
+            items = parse_rss_feed(
+                raw,
+                sport
             )
 
-            result.extend(articles)
+            all_items.extend(
+                items
+            )
 
-        except Exception:
-            continue
+        except Exception as exc:
 
-        if len(result) >= 8:
-            break
+            errors.append(
+                f"{feed_url}: {exc}"
+            )
 
-    return deduplicate_news(result)[:8]
-
-
-def deduplicate_news(items: list) -> list:
-    result = []
+    # Deduplicar por URL
+    unique = []
     seen = set()
 
-    for item in items:
-        title = clean_text(
-            item.get("title", "")
+    for item in all_items:
+
+        url = item.get(
+            "url",
+            ""
         )
 
-        url = item.get("url", "")
-
-        key = (
-            re.sub(
-                r"[^a-z0-9áéíóúüñ]+",
-                " ",
-                title.lower(),
-            ).strip()
-        )
-
-        if not key or key in seen:
+        if not url:
             continue
 
-        seen.add(key)
+        if url in seen:
+            continue
 
-        result.append({
-            "title": title,
-            "url": url,
-            "published": item.get("published", ""),
-            "source": item.get("source", ""),
-        })
+        seen.add(url)
 
-    return result
+        unique.append(
+            item
+        )
 
+    unique.sort(
+        key=lambda item:
+            parse_date(
+                item.get(
+                    "published"
+                )
+            )
+            or datetime.min.replace(
+                tzinfo=timezone.utc
+            ),
+        reverse=True
+    )
 
-def add_news_images(
-    articles: list,
-    sport_image: str,
-) -> list:
-    result = []
+    if not unique:
 
-    for article in articles:
-        item = dict(article)
+        if errors:
+            raise RuntimeError(
+                "No se pudieron obtener "
+                "noticias en español: "
+                + " | ".join(
+                    errors
+                )
+            )
 
-        # Imagen general del deporte.
-        # De esta manera nunca queda una noticia sin imagen
-        # aunque el feed no proporcione una fotografía.
-        item["image"] = sport_image
+        raise RuntimeError(
+            "El RSS no devolvió noticias."
+        )
 
-        result.append(item)
-
-    return result
-
-
-def get_news(previous: dict) -> dict:
-    previous_news = previous.get("news", {})
-
-    f1_previous = previous_news.get("f1", [])
-    moto_previous = previous_news.get("moto", [])
-
-    f1_news = get_f1_news(previous)
-    moto_news = get_motogp_news(previous)
-
-    # Si una fuente falla y no devuelve nada, conservamos
-    # las noticias anteriores.
-    if not f1_news:
-        f1_news = f1_previous
-
-    if not moto_news:
-        moto_news = moto_previous
-
-    return {
-        "f1": add_news_images(
-            f1_news,
-            F1_IMAGE,
-        ),
-        "moto": add_news_images(
-            moto_news,
-            MOTOGP_IMAGE,
-        ),
-    }
+    return unique[:15]
 
 
-# ============================================================
-# PROGRAMA PRINCIPAL
-# ============================================================
+def get_all_news(previous):
+    news = {}
+
+    previous_news = (
+        previous.get(
+            "news",
+            {}
+        )
+        if isinstance(
+            previous,
+            dict
+        )
+        else {}
+    )
+
+    for sport in (
+        "f1",
+        "moto"
+    ):
+
+        try:
+
+            news[sport] = (
+                get_news_for_sport(
+                    sport
+                )
+            )
+
+        except Exception as exc:
+
+            print(
+                f"[NEWS {sport.upper()}] "
+                f"Error: {exc}"
+            )
+
+            old = previous_news.get(
+                sport,
+                []
+            )
+
+            news[sport] = (
+                old
+                if isinstance(
+                    old,
+                    list
+                )
+                else []
+            )
+
+    return news
+
+
+# =========================================================
+# GUARDAR JSON
+# =========================================================
+
+def save_data(data):
+    DATA_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    temporary = (
+        DATA_FILE.with_suffix(
+            ".tmp"
+        )
+    )
+
+    with temporary.open(
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
+
+        file.write("\n")
+
+    temporary.replace(
+        DATA_FILE
+    )
+
+
+# =========================================================
+# MAIN
+# =========================================================
 
 def main():
-    previous = load_existing_data()
+
+    print(
+        "========================================"
+    )
+    print(
+        "RACING HUB AR - ACTUALIZADOR"
+    )
+    print(
+        f"Temporada: {YEAR}"
+    )
+    print(
+        "========================================"
+    )
+
+    previous = (
+        load_previous_data()
+    )
 
     errors = []
 
-    data = {
-        "updatedAt": datetime.now(timezone.utc)
-        .isoformat()
-        .replace("+00:00", "Z"),
+    data = (
+        previous
+        if isinstance(
+            previous,
+            dict
+        )
+        else {}
+    )
 
-        "year": YEAR,
+    data["year"] = YEAR
 
-        "f1": previous.get("f1", {
-            "races": [],
-            "drivers": [],
-            "teams": [],
-            "image": F1_IMAGE,
-        }),
-
-        "moto": previous.get("moto", {
-            "races": [],
-            "drivers": [],
-            "teams": [],
-            "image": MOTOGP_IMAGE,
-        }),
-
-        "news": previous.get("news", {
-            "f1": [],
-            "moto": [],
-        }),
-
-        "errors": [],
-    }
-
-    # --------------------------------------------------------
+    # -----------------------------------------------------
     # F1
-    # --------------------------------------------------------
+    # -----------------------------------------------------
 
     try:
-        data["f1"] = get_f1_data(previous)
 
         print(
-            f"F1 OK: "
-            f"{len(data['f1'].get('races', []))} carreras, "
-            f"{len(data['f1'].get('drivers', []))} pilotos."
+            "[F1] Consultando Jolpica..."
+        )
+
+        data["f1"] = (
+            get_f1_data()
+        )
+
+        print(
+            "[F1] OK"
         )
 
     except Exception as exc:
-        message = f"F1: {exc}"
 
-        print(f"ERROR {message}")
-
-        errors.append(message)
-
-        # Conservamos la última información válida.
-        data["f1"] = previous.get(
-            "f1",
-            {
-                "races": [],
-                "drivers": [],
-                "teams": [],
-                "image": F1_IMAGE,
-            },
+        message = (
+            f"F1: {exc}"
         )
 
-        data["f1"]["image"] = F1_IMAGE
+        print(
+            "[F1] ERROR:",
+            exc
+        )
 
-    # --------------------------------------------------------
+        errors.append(
+            message
+        )
+
+    # -----------------------------------------------------
     # MotoGP
-    # --------------------------------------------------------
+    # -----------------------------------------------------
 
     try:
-        data["moto"] = get_motogp_data(previous)
 
         print(
-            f"MotoGP OK: "
-            f"{len(data['moto'].get('races', []))} carreras, "
-            f"{len(data['moto'].get('drivers', []))} pilotos."
+            "[MotoGP] Consultando PulseLive..."
+        )
+
+        data["moto"] = (
+            get_motogp_data()
+        )
+
+        print(
+            "[MotoGP] OK"
         )
 
     except Exception as exc:
-        message = f"MotoGP: {exc}"
 
-        print(f"ERROR {message}")
-
-        errors.append(message)
-
-        data["moto"] = previous.get(
-            "moto",
-            {
-                "races": [],
-                "drivers": [],
-                "teams": [],
-                "image": MOTOGP_IMAGE,
-            },
-        )
-
-        data["moto"]["image"] = MOTOGP_IMAGE
-
-    # --------------------------------------------------------
-    # NOTICIAS
-    # --------------------------------------------------------
-
-    try:
-        data["news"] = get_news(previous)
-
-        print(
-            f"Noticias F1: "
-            f"{len(data['news'].get('f1', []))}"
+        message = (
+            f"MotoGP: {exc}"
         )
 
         print(
-            f"Noticias MotoGP: "
-            f"{len(data['news'].get('moto', []))}"
+            "[MotoGP] ERROR:",
+            exc
         )
 
-    except Exception as exc:
-        message = f"Noticias: {exc}"
-
-        print(f"ERROR {message}")
-
-        errors.append(message)
-
-        data["news"] = previous.get(
-            "news",
-            {
-                "f1": [],
-                "moto": [],
-            },
+        errors.append(
+            message
         )
+
+    # -----------------------------------------------------
+    # Noticias
+    # -----------------------------------------------------
+
+    print(
+        "[NEWS] Consultando noticias en español..."
+    )
+
+    data["news"] = (
+        get_all_news(
+            previous
+        )
+    )
+
+    # -----------------------------------------------------
+    # Metadata
+    # -----------------------------------------------------
+
+    data["updatedAt"] = (
+        datetime.now(
+            timezone.utc
+        ).isoformat().replace(
+            "+00:00",
+            "Z"
+        )
+    )
 
     data["errors"] = errors
 
-    save_data(data)
+    # -----------------------------------------------------
+    # Guardar
+    # -----------------------------------------------------
 
-    print("")
-    print("========================================")
-    print(" Racing Hub AR - actualización completa")
-    print("========================================")
-    print(f"Año: {YEAR}")
-    print(f"Archivo: {DATA_FILE}")
-    print(f"Errores: {len(errors)}")
-    print("========================================")
+    save_data(
+        data
+    )
+
+    print(
+        "========================================"
+    )
+    print(
+        "Datos guardados en:"
+    )
+    print(
+        DATA_FILE
+    )
+    print(
+        "========================================"
+    )
 
 
 if __name__ == "__main__":
