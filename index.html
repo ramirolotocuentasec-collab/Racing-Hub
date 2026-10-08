@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Racing Hub Argentina</title>
+    <style>
+        :root {
+            --primary-f1: #e10600;
+            --primary-motogp: #ff6600;
+            --bg-dark: #0a0b10;
+            --card-bg: #14161f;
+            --card-border: #222533;
+            --text-main: #ffffff;
+            --text-muted: #9a9eb0;
+            --accent-yellow: #ffb703;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg-dark); color: var(--text-main); padding-bottom: 30px; -webkit-tap-highlight-color: transparent; }
+
+        header {
+            background: linear-gradient(180deg, #181a26 0%, #0a0b10 100%);
+            padding: 16px;
+            text-align: center;
+            border-bottom: 1px solid var(--card-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .app-title { font-size: 19px; font-weight: 900; letter-spacing: 1px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .app-title span { color: var(--primary-f1); }
+        .subtitle { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+
+        /* Selector F1 / MotoGP */
+        .category-tabs {
+            display: flex;
+            background: #181a26;
+            margin: 12px 16px;
+            border-radius: 12px;
+            padding: 4px;
+            border: 1px solid var(--card-border);
+        }
+        .cat-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            font-weight: 800;
+            font-size: 13px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .cat-btn.active-f1 { background: var(--primary-f1); color: #fff; box-shadow: 0 4px 12px rgba(225, 6, 0, 0.4); }
+        .cat-btn.active-motogp { background: var(--primary-motogp); color: #fff; box-shadow: 0 4px 12px rgba(255, 102, 0, 0.4); }
+
+        /* Sub-Navegación */
+        .sub-nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 0 16px 14px 16px;
+        }
+        .sub-btn {
+            background: transparent;
+            border: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .sub-btn.active { background: #222636; color: #fff; border-color: #3b415a; }
+
+        .container { padding: 0 16px; }
+
+        /* Tarjetas */
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            overflow: hidden;
+            margin-bottom: 14px;
+            border: 1px solid var(--card-border);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .card-header {
+            padding: 12px 14px;
+            background: #181a24;
+            font-weight: 800;
+            font-size: 15px;
+            border-bottom: 1px solid var(--card-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-body { padding: 14px; }
+        .date-badge { color: var(--accent-yellow); font-weight: 700; font-size: 13px; margin-bottom: 10px; display: block; }
+        .tv-channels { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+        .tv-tag { background: #202536; color: #00d2be; font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 6px; border: 1px solid rgba(0,210,190,0.2); }
+        
+        .btn-remind {
+            background: linear-gradient(90deg, #e10600 0%, #b00400 100%);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            width: 100%;
+            cursor: pointer;
+        }
+        .btn-remind.motogp { background: linear-gradient(90deg, #ff6600 0%, #cc5200 100%); }
+
+        /* Sección Noticias */
+        .news-tag { font-size: 10px; text-transform: uppercase; color: var(--primary-f1); font-weight: 800; margin-bottom: 4px; }
+        .news-tag.motogp { color: var(--primary-motogp); }
+        .news-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; line-height: 1.3; }
+        .news-desc { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.4; }
+        .news-link { color: #00d2be; font-size: 12px; font-weight: 700; text-decoration: none; display: inline-block; }
+
+        .loading { text-align: center; padding: 30px; color: var(--text-muted); font-size: 13px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="app-title">🏎️ RACING<span>HUB</span> 🏍️</div>
+        <div class="subtitle">Horarios Argentina (UTC-3) • Notificaciones Integradas</div>
+    </header>
+
+    <div class="category-tabs">
+        <button id="btn-f1" class="cat-btn active-f1" onclick="setCategory('f1')">🏎️ FÓRMULA 1</button>
+        <button id="btn-motogp" class="cat-btn" onclick="setCategory('motogp')">🏍️ MOTOGP</button>
+    </div>
+
+    <div class="sub-nav">
+        <button id="sub-sched" class="sub-btn active" onclick="setView('schedule')">📅 Calendario GP</button>
+        <button id="sub-news" class="sub-btn" onclick="setView('news')">📰 Noticias Oficiales</button>
+    </div>
+
+    <div class="container" id="main-content"></div>
+
+    <script>
+        let currentCategory = 'f1';
+        let currentView = 'schedule';
+
+        const f1DataBackup = [
+            { raceName: "Gran Premio de Bahréin", date: "2026-03-08T15:00:00Z" },
+            { raceName: "Gran Premio de Arabia Saudita", date: "2026-03-22T17:00:00Z" },
+            { raceName: "Gran Premio de Australia", date: "2026-04-05T05:00:00Z" },
+            { raceName: "Gran Premio de Japón", date: "2026-04-19T06:00:00Z" },
+            { raceName: "Gran Premio de China", date: "2026-05-03T06:00:00Z" },
+            { raceName: "Gran Premio de Miami", date: "2026-05-17T20:30:00Z" },
+            { raceName: "Gran Premio de Mónaco", date: "2026-05-24T13:00:00Z" }
+        ];
+
+        const motogpDataBackup = [
+            { raceName: "Gran Premio de Qatar", date: "2026-03-08T14:00:00Z" },
+            { raceName: "Gran Premio de Portugal", date: "2026-03-22T12:00:00Z" },
+            { raceName: "Gran Premio de las Américas (EE.UU.)", date: "2026-04-12T18:00:00Z" },
+            { raceName: "Gran Premio de España (Jerez)", date: "2026-04-26T12:00:00Z" },
+            { raceName: "Gran Premio de Francia (Le Mans)", date: "2026-05-10T12:00:00Z" },
+            { raceName: "Gran Premio de Italia (Mugello)", date: "2026-05-31T12:00:00Z" }
+        ];
+
+        function downloadICS(title, startDate) {
+            const endDate = new Date(startDate.getTime() + (2 * 60 * 60 * 1000));
+            const formatDate = (d) => d.toISOString().replace(/-|:|\.\d+/g, "");
+
+            const icsData = 
+`BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RacingHub Arg//ES
+BEGIN:VEVENT
+SUMMARY:${title}
+DESCRIPTION:Transmisión oficial en Argentina: Fox Sports / Disney+ / ESPN / VideoPass
+DTSTART:${formatDate(startDate)}
+DTEND:${formatDate(endDate)}
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio de carrera (1 día antes)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio de carrera (1 hora antes)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR`;
+
+            const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.setAttribute('download', `${title}.ics`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function setCategory(cat) {
+            currentCategory = cat;
+            document.getElementById('btn-f1').className = cat === 'f1' ? 'cat-btn active-f1' : 'cat-btn';
+            document.getElementById('btn-motogp').className = cat === 'motogp' ? 'cat-btn active-motogp' : 'cat-btn';
+            render();
+        }
+
+        function setView(v) {
+            currentView = v;
+            document.getElementById('sub-sched').className = v === 'schedule' ? 'sub-btn active' : 'sub-btn';
+            document.getElementById('sub-news').className = v === 'news' ? 'sub-btn active' : 'sub-btn';
+            render();
+        }
+
+        function renderRaces(races, isF1) {
+            const container = document.getElementById('main-content');
+            container.innerHTML = '';
+            races.forEach(race => {
+                const utcTime = new Date(race.date || `${race.date}T${race.time || '12:00:00Z'}`);
+                const localDate = utcTime.toLocaleDateString('es-AR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+                const localTime = utcTime.toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit' });
+                const prefix = isF1 ? '🏎️ F1' : '🏍️ MotoGP';
+
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="card-header">
+                        <span>${prefix}: ${race.raceName}</span>
+                    </div>
+                    <div class="card-body">
+                        <span class="date-badge">📅 ${localDate} — ⏰ ${localTime} hs (Arg)</span>
+                        <div class="tv-channels">
+                            ${isF1 ? '<span class="tv-tag">📺 Fox Sports</span><span class="tv-tag">📺 Disney+</span><span class="tv-tag">📺 F1 TV Pro</span>' 
+                                  : '<span class="tv-tag">📺 ESPN</span><span class="tv-tag">📺 Disney+</span><span class="tv-tag">📺 VideoPass</span>'}
+                        </div>
+                        <button class="btn-remind ${isF1 ? '' : 'motogp'}">🔔 Programar Alarmas (1d y 1h antes)</button>
+                    </div>
+                `;
+                card.querySelector('.btn-remind').addEventListener('click', () => {
+                    downloadICS(`${prefix}: ${race.raceName}`, utcTime);
+                });
+                container.appendChild(card);
+            });
+        }
+
+        async function loadF1Data() {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 2000);
+
+            try {
+                const res = await fetch('https://api.jolpica.net/ergast/f1/current.json', { signal: controller.signal });
+                clearTimeout(timeoutId);
+                const data = await res.json();
+                renderRaces(data.MRData.RaceTable.Races, true);
+            } catch (err) {
+                renderRaces(f1DataBackup, true);
+            }
+        }
+
+        async function loadNews() {
+            const container = document.getElementById('main-content');
+            container.innerHTML = '<div class="loading">Cargando noticias oficiales...</div>';
+
+            const isF1 = currentCategory === 'f1';
+            const rssUrl = isF1 
+                ? 'https://www.formula1.com/content/fom-website/en/latest/all.xml'
+                : 'https://www.motogp.com/en/news/rss';
+
+            const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 2500);
+
+                const res = await fetch(apiUrl, { signal: controller.signal });
+                clearTimeout(timeoutId);
+                const data = await res.json();
+
+                if (data.status === 'ok' && data.items.length > 0) {
+                    container.innerHTML = '';
+                    data.items.slice(0, 6).forEach(item => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.innerHTML = `
+                            <div class="card-body">
+                                <div class="${isF1 ? 'news-tag' : 'news-tag motogp'}">${isF1 ? 'Formula1.com Oficial' : 'MotoGP.com Oficial'}</div>
+                                <div class="news-title">${item.title}</div>
+                                <div class="news-desc">${item.description.replace(/<[^>]*>?/gm, '').slice(0, 120)}...</div>
+                                <a class="news-link" href="${item.link}" target="_blank">Leer nota completa ↗</a>
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                } else {
+                    throw new Error('Sin feed');
+                }
+            } catch (e) {
+                // Fallback limpio a portales oficiales directos si falla RSS
+                const officialUrl = isF1 ? 'https://www.formula1.com/en/latest' : 'https://www.motogp.com/es/news';
+                container.innerHTML = `
+                    <div class="card">
+                        <div class="card-header">${isF1 ? '🏎️ Portal Oficial F1' : '🏍️ Portal Oficial MotoGP'}</div>
+                        <div class="card-body">
+                            <div class="news-title">Últimas novedades del campeonato</div>
+                            <div class="news-desc">Accede a declaraciones, cronogramas de pruebas y cobertura técnica en tiempo real desde el sitio oficial.</div>
+                            <a class="news-link" href="${officialUrl}" target="_blank">Abrir ${officialUrl} ↗</a>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        function render() {
+            if (currentView === 'schedule') {
+                if (currentCategory === 'f1') {
+                    loadF1Data();
+                } else {
+                    renderRaces(motogpDataBackup, false);
+                }
+            } else {
+                loadNews();
+            }
+        }
+
+        render();
+    </script>
+</body>
+</html>
