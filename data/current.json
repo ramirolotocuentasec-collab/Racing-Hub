@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T14:10:03.644450Z",
+  "updatedAt": "2026-10-09T14:38:07.956268Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2314,12 +2314,28 @@
   "news": {
     "f1": [
       {
+        "title": "Franco Colapinto, a las puertas del top 10 en Singapur y promete más: \"Vamos a estar mejor mañana\"",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-clasificacion-sprint-singapur/10863487/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 14:33:56 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/01QN4aZ0/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "El doble error de la FIA en la clasificación sprint de Singapur que afectó a los pilotos",
+        "url": "https://espanol.motorsport.com/f1/news/fia-admite-errores-clasificacion-sprint-gp-singapur-f1/10863475/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 14:16:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/25dLQ7E0/s6/carlos-sainz-williams.jpg"
+      },
+      {
         "title": "Los resultados completos del viernes del GP de Singapur de F1 2026: clasificación sprint y práctica libre",
         "url": "https://espanol.motorsport.com/f1/news/singapur-resultados-completos-viernes-clasificacion-sprint/10863459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 09 Oct 2026 13:51:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
       },
       {
         "title": "Verstappen logra la pole para la sprint en Singapur; Colapinto 11° y Sergio Pérez en 20°",
@@ -2327,7 +2343,7 @@
         "published": "Fri, 09 Oct 2026 13:40:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6zoDvve0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDvve0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "La parrilla de salida para la carrera sprint GP de Singapur de F1 2026 en Marina Bay",
@@ -2335,7 +2351,7 @@
         "published": "Fri, 09 Oct 2026 13:38:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YN7v4qV6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YN7v4qV6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Checo Pérez explica su choque en Singapur: \"El auto tocó fondo y no pude controlarlo\"",
@@ -2343,7 +2359,7 @@
         "published": "Fri, 09 Oct 2026 13:20:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Max Verstappen será investigado tras la clasificación sprint en Singapur",
@@ -2351,7 +2367,7 @@
         "published": "Fri, 09 Oct 2026 13:20:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6grQGGbY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6grQGGbY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Sergio Pérez sufre un accidente en la SQ1 del Gran Premio de Singapur",
@@ -2359,7 +2375,7 @@
         "published": "Fri, 09 Oct 2026 12:48:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2jEAGxg0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2jEAGxg0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Por qué Antonelli y Russell son \"pilotos de pruebas\" de Mercedes en el Gran Premio de Singapur",
@@ -2367,7 +2383,7 @@
         "published": "Fri, 09 Oct 2026 12:30:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6lmAGlm0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6lmAGlm0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Wolff responde a la \"estúpida\" teoría de conspiración contra Russell en Mercedes",
@@ -2375,7 +2391,7 @@
         "published": "Fri, 09 Oct 2026 12:09:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6O7zpGJ6/s6/george-russell-mercedes-andrea-2.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6O7zpGJ6/s6/george-russell-mercedes-andrea-2.jpg"
       },
       {
         "title": "Pirelli anuncia los compuestos para las carreras en Estados Unidos, México y Brasil de 2026",
@@ -2383,7 +2399,7 @@
         "published": "Fri, 09 Oct 2026 12:01:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/01QNJam0/s6/gomme-pirelli-f1.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/01QNJam0/s6/gomme-pirelli-f1.jpg"
       },
       {
         "title": "Racing Bulls \"no tiene apuro\" por decidir entre tres pilotos \"fantásticos\" para la F1 2027",
@@ -2391,7 +2407,7 @@
         "published": "Fri, 09 Oct 2026 11:48:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YWKAEqxY/s6/arvid-lindblad-racing-bulls-li.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKAEqxY/s6/arvid-lindblad-racing-bulls-li.jpg"
       },
       {
         "title": "Steiner critica a Ferrari por no admitir errores que perjudican a Hamilton y Leclerc",
@@ -2399,7 +2415,7 @@
         "published": "Fri, 09 Oct 2026 11:39:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/901DOEv6/s6/guenther-steiner-erklaert-das-ist-das-grosse-ferrari-problem-26100907.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/901DOEv6/s6/guenther-steiner-erklaert-das-ist-das-grosse-ferrari-problem-26100907.jpg"
       },
       {
         "title": "Mercedes, Red Bull y McLaren, los únicos equipos que presentan novedades en Singapur",
@@ -2407,7 +2423,7 @@
         "published": "Fri, 09 Oct 2026 11:24:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0rVPvVy0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0rVPvVy0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Los pilotos de F1 no se ponen de acuerdo sobre los chalecos refrigerantes: ¿prohibirlos o mejorarlos?",
@@ -2415,23 +2431,7 @@
         "published": "Fri, 09 Oct 2026 11:23:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0R7BDqv2/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Los resultados completos de la única práctica libre del Gran Premio de Singapur de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/singapur-pracitca-resultados-completos/10863349/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 10:46:24 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0arE1by2/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Russell se niega a culpar a la “mala suerte” por su enorme déficit con Antonelli en la F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/russell-rechaza-mala-suerte-por-enorme-deficit-con-antonelli/10863341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 10:40:48 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0R7BDqv2/s6/george-russell-mercedes.jpg"
       }
     ],
     "moto": [
@@ -2441,7 +2441,7 @@
         "published": "Fri, 09 Oct 2026 13:52:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Bastianini minimiza sus caídas en Indonesia y confía en mejorar el sábado",
@@ -2449,7 +2449,7 @@
         "published": "Fri, 09 Oct 2026 11:49:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
       },
       {
         "title": "Bezzecchi convencido de que \"encontrará la chispa\" tras ser segundo el viernes en Indonesia",
@@ -2457,7 +2457,7 @@
         "published": "Fri, 09 Oct 2026 11:29:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marc Marquez: Ducati “no puede esconderse” del déficit de medio segundo con Aprilia en Indonesia",
@@ -2473,7 +2473,7 @@
         "published": "Fri, 09 Oct 2026 09:19:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Aprilia domina el viernes de MotoGP en Indonesia con un 1-2-3",
@@ -2481,7 +2481,7 @@
         "published": "Fri, 09 Oct 2026 08:57:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b8jQaL2/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6b8jQaL2/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "MotoGP responde a quienes dicen que los pilotos no tuvieron “opción” sobre el formato de 2027",
@@ -2489,7 +2489,7 @@
         "published": "Fri, 09 Oct 2026 08:24:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Jefe de LCR: La nueva clasificación sprint de MotoGP no será tan frenética como se temía",
@@ -2497,7 +2497,7 @@
         "published": "Fri, 09 Oct 2026 00:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0LdeOWm0/s6/lucio-cecchinello.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0LdeOWm0/s6/lucio-cecchinello.jpg"
       },
       {
         "title": "Maverick Viñales “piensa cada noche” en su futuro en MotoGP y avisa: “Aún no me he rendido”",
@@ -2513,7 +2513,7 @@
         "published": "Thu, 08 Oct 2026 11:20:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2jEAplE0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2jEAplE0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "MotoGP cambiará sus fines de semana en 2027 y la parrilla no comparte una misma visión",
@@ -2521,7 +2521,7 @@
         "published": "Thu, 08 Oct 2026 10:48:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/27vdOaE0/s6/paddock.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/27vdOaE0/s6/paddock.jpg"
       },
       {
         "title": "Massimo Rivola responde a las preocupaciones por la velocidad de las MotoGP de 850cc: \"Lo hecho, hecho está\"",
@@ -2529,7 +2529,7 @@
         "published": "Thu, 08 Oct 2026 09:48:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YBVjMvnY/s6/massimo-rivola-aprilia-racing-.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVjMvnY/s6/massimo-rivola-aprilia-racing-.jpg"
       },
       {
         "title": "Casey Stoner quiere \"luchar\" para que Phillip Island regrese al calendario de MotoGP",
@@ -2545,7 +2545,7 @@
         "published": "Thu, 08 Oct 2026 08:27:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68Vw9B92/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/68Vw9B92/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Bezzecchi explica por qué le falta algo para estar al nivel de Márquez y Martín en MotoGP",
@@ -2553,7 +2553,7 @@
         "published": "Wed, 07 Oct 2026 14:20:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9EyZwY/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YE9EyZwY/s6/marco-bezzecchi-aprilia-racing.jpg"
       }
     ]
   },
