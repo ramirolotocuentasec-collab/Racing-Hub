@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T21:07:12.154198Z",
+  "updatedAt": "2026-10-09T21:29:56.978909Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2436,12 +2436,20 @@
     ],
     "moto": [
       {
+        "title": "Honda se ve “muy mal” en Indonesia tras quedar por detrás del ritmo de 2025",
+        "url": "https://espanol.motorsport.com/motogp/news/honda-se-ve-muy-mal-en-indonesia-viernes/10863598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 21:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/YpbAGLg0/s6/diogo-moreira-team-lcr-honda.jpg"
+      },
+      {
         "title": "Las escapatorias de grava de Mandalika, bajo críticas de nuevo tras la caída de Fabio Quartararo",
         "url": "https://espanol.motorsport.com/motogp/news/escapatorias-de-grava-de-mandalika-bajo-criticas-de-nuevo/10863511/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Fri, 09 Oct 2026 19:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0o5Av7aY/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0o5Av7aY/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "Bagnaia termina con su mala racha y se clasifica directo a la Q2 en Indonesia",
@@ -2449,7 +2457,7 @@
         "published": "Fri, 09 Oct 2026 17:58:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0R7BNpB2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0R7BNpB2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Fernández se mostró sorprendido por la ventaja de las Aprilia el viernes en Indonesia",
@@ -2457,7 +2465,7 @@
         "published": "Fri, 09 Oct 2026 17:45:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6x7LdzJY/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6x7LdzJY/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Jorge Martín \"tiene dificultades\" en Mandalika y afirma que el ritmo de Marc Márquez es \"mejor\"",
@@ -2465,7 +2473,7 @@
         "published": "Fri, 09 Oct 2026 13:52:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Bastianini minimiza sus caídas en Indonesia y confía en mejorar el sábado",
@@ -2473,7 +2481,7 @@
         "published": "Fri, 09 Oct 2026 11:49:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
       },
       {
         "title": "Bezzecchi convencido de que \"encontrará la chispa\" tras ser segundo el viernes en Indonesia",
@@ -2481,7 +2489,7 @@
         "published": "Fri, 09 Oct 2026 11:29:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marc Marquez: Ducati “no puede esconderse” del déficit de medio segundo con Aprilia en Indonesia",
@@ -2489,7 +2497,7 @@
         "published": "Fri, 09 Oct 2026 11:04:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8yWL6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8yWL6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los pilotos se resignan al GP de Qatar mientras MotoGP supervisa la seguridad",
@@ -2497,7 +2505,7 @@
         "published": "Fri, 09 Oct 2026 09:19:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Aprilia domina el viernes de MotoGP en Indonesia con un 1-2-3",
@@ -2505,7 +2513,7 @@
         "published": "Fri, 09 Oct 2026 08:57:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b8jQaL2/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6b8jQaL2/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "MotoGP responde a quienes dicen que los pilotos no tuvieron “opción” sobre el formato de 2027",
@@ -2513,7 +2521,7 @@
         "published": "Fri, 09 Oct 2026 08:24:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Jefe de LCR: La nueva clasificación sprint de MotoGP no será tan frenética como se temía",
@@ -2521,7 +2529,7 @@
         "published": "Fri, 09 Oct 2026 00:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LdeOWm0/s6/lucio-cecchinello.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0LdeOWm0/s6/lucio-cecchinello.jpg"
       },
       {
         "title": "Maverick Viñales “piensa cada noche” en su futuro en MotoGP y avisa: “Aún no me he rendido”",
@@ -2529,7 +2537,7 @@
         "published": "Thu, 08 Oct 2026 20:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6VyKj8VY/s6/maverick-vinales-red-bull-ktm-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6VyKj8VY/s6/maverick-vinales-red-bull-ktm-.jpg"
       },
       {
         "title": "Batir a Marc Márquez en MotoGP es “la tarea más difícil que podríamos tener”, dice el jefe de Aprilia",
@@ -2545,15 +2553,7 @@
         "published": "Thu, 08 Oct 2026 10:48:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/27vdOaE0/s6/paddock.jpg"
-      },
-      {
-        "title": "Massimo Rivola responde a las preocupaciones por la velocidad de las MotoGP de 850cc: \"Lo hecho, hecho está\"",
-        "url": "https://espanol.motorsport.com/motogp/news/rivola-responde-preocupaciones-por-velocidad-850cc/10862957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 08 Oct 2026 09:48:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjMvnY/s6/massimo-rivola-aprilia-racing-.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/27vdOaE0/s6/paddock.jpg"
       }
     ]
   },
