@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T15:29:07.170318Z",
+  "updatedAt": "2026-10-09T15:53:01.279046Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2314,12 +2314,36 @@
   "news": {
     "f1": [
       {
+        "title": "Max Verstappen libra sanción en Singapur: Los comisarios confirman su pole para la sprint",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-libra-sancion-singapur-pole-sprint/10863548/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 15:48:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/6O7zNAm6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "El caos de la clasificación sprint de Singapur deja furiosos a los equipos de F1 y Aston Martin considera protestar",
+        "url": "https://espanol.motorsport.com/f1/news/caos-clasificacion-sprint-singapur-equipos-furiosos/10863531/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 15:39:16 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Carlos Sainz acusa a la FIA de \"desigualdad deportiva\" en Singapur y siembra sospechas",
+        "url": "https://espanol.motorsport.com/f1/news/sainz-enojo-fia-clasificacion-sprint-singapur/10863528/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 09 Oct 2026 15:29:14 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/6x7L84JY/s6/carlos-sainz-williams.jpg"
+      },
+      {
         "title": "Antonelli es pesimista en Singapur con un Mercedes actualizado que califica de \"impredecible\"",
         "url": "https://espanol.motorsport.com/f1/news/antonelli-singapur-problemas-mercedes-actualizado/10863494/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 09 Oct 2026 14:56:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDvke0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDvke0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Leclerc decepcionado en Singapur: \"Llevamos varias carreras perdiendo rendimiento\"",
@@ -2327,7 +2351,7 @@
         "published": "Fri, 09 Oct 2026 14:45:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/68VwadG2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/68VwadG2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Franco Colapinto, a las puertas del top 10 en Singapur y promete más: \"Vamos a estar mejor mañana\"",
@@ -2335,7 +2359,7 @@
         "published": "Fri, 09 Oct 2026 14:33:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/01QN4aZ0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/01QN4aZ0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "El doble error de la FIA en la clasificación sprint de Singapur que afectó a los pilotos",
@@ -2343,7 +2367,7 @@
         "published": "Fri, 09 Oct 2026 14:16:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLQ7E0/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/25dLQ7E0/s6/carlos-sainz-williams.jpg"
       },
       {
         "title": "Los resultados completos del viernes del GP de Singapur de F1 2026: clasificación sprint y práctica libre",
@@ -2351,7 +2375,7 @@
         "published": "Fri, 09 Oct 2026 13:51:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
       },
       {
         "title": "Verstappen logra la pole para la sprint en Singapur; Colapinto 11° y Sergio Pérez en 20°",
@@ -2359,7 +2383,7 @@
         "published": "Fri, 09 Oct 2026 13:40:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6zoDvve0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDvve0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "La parrilla de salida para la carrera sprint GP de Singapur de F1 2026 en Marina Bay",
@@ -2367,7 +2391,7 @@
         "published": "Fri, 09 Oct 2026 13:38:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YN7v4qV6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YN7v4qV6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Checo Pérez explica su choque en Singapur: \"El auto tocó fondo y no pude controlarlo\"",
@@ -2375,7 +2399,7 @@
         "published": "Fri, 09 Oct 2026 13:20:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Max Verstappen será investigado tras la clasificación sprint en Singapur",
@@ -2391,7 +2415,7 @@
         "published": "Fri, 09 Oct 2026 12:48:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2jEAGxg0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2jEAGxg0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Por qué Antonelli y Russell son \"pilotos de pruebas\" de Mercedes en el Gran Premio de Singapur",
@@ -2399,7 +2423,7 @@
         "published": "Fri, 09 Oct 2026 12:30:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6lmAGlm0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmAGlm0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Wolff responde a la \"estúpida\" teoría de conspiración contra Russell en Mercedes",
@@ -2407,31 +2431,7 @@
         "published": "Fri, 09 Oct 2026 12:09:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O7zpGJ6/s6/george-russell-mercedes-andrea-2.jpg"
-      },
-      {
-        "title": "Pirelli anuncia los compuestos para las carreras en Estados Unidos, México y Brasil de 2026",
-        "url": "https://espanol.motorsport.com/f1/news/pirelli-anuncia-compuestos-carreras-estados-unidos-mexico-brasil-2026/10863383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 12:01:25 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/01QNJam0/s6/gomme-pirelli-f1.jpg"
-      },
-      {
-        "title": "Racing Bulls \"no tiene apuro\" por decidir entre tres pilotos \"fantásticos\" para la F1 2027",
-        "url": "https://espanol.motorsport.com/f1/news/racing-bulls-decision-pilotos-2027/10863396/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 11:48:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YWKAEqxY/s6/arvid-lindblad-racing-bulls-li.jpg"
-      },
-      {
-        "title": "Steiner critica a Ferrari por no admitir errores que perjudican a Hamilton y Leclerc",
-        "url": "https://espanol.motorsport.com/f1/news/gunther-steiner-explica-gran-problema-ferrari-hamilton-leclerc/10863379/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 11:39:39 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/901DOEv6/s6/guenther-steiner-erklaert-das-ist-das-grosse-ferrari-problem-26100907.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6O7zpGJ6/s6/george-russell-mercedes-andrea-2.jpg"
       }
     ],
     "moto": [
