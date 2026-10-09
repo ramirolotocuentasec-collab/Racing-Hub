@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:41:52.691047Z",
+  "updatedAt": "2026-10-09T06:02:33.000217Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -579,7 +579,8 @@
             "name": "Race",
             "date": "2026-10-11T12:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg/1920px-Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-18-americas",
@@ -1772,7 +1773,8 @@
             "name": "Race",
             "date": "2026-10-11T15:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg/1920px-%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-c1dea7a7-e35e-4363-9e28-7997e3bc6fbf",
@@ -2317,7 +2319,7 @@
         "published": "Thu, 08 Oct 2026 21:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNq172/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNq172/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "El desafío sin precedentes que Singapur plantea a los pilotos de F1",
@@ -2325,7 +2327,7 @@
         "published": "Thu, 08 Oct 2026 17:21:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKMKY/s6/franco-colapinto-alpine-6.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YBVjKMKY/s6/franco-colapinto-alpine-6.jpg"
       },
       {
         "title": "Dónde ver la carrera del domingo del GP de Singapur de la F1 2026: Horarios y canales en Latinoamérica",
@@ -2333,7 +2335,7 @@
         "published": "Thu, 08 Oct 2026 17:20:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2Qe8vW32/s6/george-russell-mercedes-amg-pe-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2Qe8vW32/s6/george-russell-mercedes-amg-pe-2.jpg"
       },
       {
         "title": "¿Solucionó Red Bull por fin sus problemas en Singapur? Verstappen tiene \"asuntos pendientes\"",
@@ -2341,7 +2343,7 @@
         "published": "Thu, 08 Oct 2026 16:54:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6AlvBzoY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6AlvBzoY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Hadjar reclama prohibir los chalecos refrigerantes en la F1: \"Se supone que debe ser duro\"",
@@ -2349,7 +2351,7 @@
         "published": "Thu, 08 Oct 2026 15:59:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/01QNrJo0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/01QNrJo0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "A qué hora y cómo ver la FP1 y la clasificación sprint del GP de Singapur de F1 2026 desde Latinoamérica",
@@ -2357,7 +2359,7 @@
         "published": "Thu, 08 Oct 2026 15:41:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6AErQoG6/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6AErQoG6/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Ferrari emite un 'comunicado no oficial' tras el caos de Hamilton y Leclerc en las redes sociales",
@@ -2373,7 +2375,7 @@
         "published": "Thu, 08 Oct 2026 14:54:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YE9ENeqY/s6/vista-general-del-fullerton-ho.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9ENeqY/s6/vista-general-del-fullerton-ho.jpg"
       },
       {
         "title": "McLaren hace cambios para Singapur tras los problemas de motor de Lando Norris",
@@ -2381,7 +2383,7 @@
         "published": "Thu, 08 Oct 2026 14:30:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/24QGlNqY/s6/lando-norris-mclaren-oscar-pia.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/24QGlNqY/s6/lando-norris-mclaren-oscar-pia.jpg"
       },
       {
         "title": "Lewis Hamilton: Los pilotos jóvenes de F1 son “cada vez más cautelosos” para correr en lluvia",
@@ -2389,7 +2391,7 @@
         "published": "Thu, 08 Oct 2026 14:24:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0JXRVlNY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0JXRVlNY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lando Norris pone en duda el valor de una carrera sprint en Singapur",
@@ -2397,7 +2399,7 @@
         "published": "Thu, 08 Oct 2026 13:58:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0arEyyr2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEyyr2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Ocon quiere seguir sí o sí en la F1, como titular o como reserva: \"Aquí es donde pertenezco\"",
@@ -2405,7 +2407,7 @@
         "published": "Thu, 08 Oct 2026 13:40:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2wlKvPVY/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2wlKvPVY/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "Los pilotos de Audi F1 revelan su mayor limitación y cómo abordarla en Singapur",
@@ -2413,7 +2415,7 @@
         "published": "Thu, 08 Oct 2026 13:32:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg"
       },
       {
         "title": "Para Russell es \"obvio\" cambiar al Mercedes anterior para el GP de Singapur",
@@ -2421,7 +2423,7 @@
         "published": "Thu, 08 Oct 2026 12:53:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6lmAGd80/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6lmAGd80/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Por qué el antecedente de Bakú es la esperanza para Alpine en el GP de Singapur de F1",
@@ -2429,7 +2431,7 @@
         "published": "Thu, 08 Oct 2026 12:03:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/24QGdv5Y/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/24QGdv5Y/s6/franco-colapinto-alpine.jpg"
       }
     ],
     "moto": [
