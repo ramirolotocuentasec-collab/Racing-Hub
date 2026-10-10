@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T18:19:16.147209Z",
+  "updatedAt": "2026-10-10T18:43:27.645938Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,36 @@
   "news": {
     "f1": [
       {
+        "title": "Qué tiene de tan \"grave\" para McLaren la colisión Norris-Piastri en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/que-tiene-de-tan-grave-para-mclaren-colision-norris-piastri-singapur/10864074/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 10 Oct 2026 18:36:15 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/0JXRvxOY/s6/lando-norris-mclaren-oscar-pia.jpg"
+      },
+      {
+        "title": "Lo que la carrera sprint y la clasificación revelan para el GP de Singapur de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/lo-que-la-sprint-y-la-clasificacion-revelan-para-gp-singapur-2026/10864069/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 10 Oct 2026 18:26:31 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
+      },
+      {
+        "title": "Red Bull tiene un problema en los arranques y Verstappen pide solución en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/red-bull-problema-arranques-verstappen-pide-solucion-singapur/10864065/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 10 Oct 2026 18:17:16 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Mercedes encuentra algunas respuestas en Singapur para su actualización",
         "url": "https://espanol.motorsport.com/f1/news/mercedes-actualizacion-coche-respuestas-singapur/10864029/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 10 Oct 2026 17:57:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Polémica en redes por la actitud de Lando Norris en una entrevista tras el choque con Piastri",
@@ -2336,7 +2360,7 @@
         "published": "Sat, 10 Oct 2026 17:51:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Gasly señala la diferencia de los comisarios tras la falta de sanción a Norris: \"Colapinto recibió una dura\"",
@@ -2344,7 +2368,7 @@
         "published": "Sat, 10 Oct 2026 17:29:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YK15NWD0/s6/pierre-gasly-alpine-franco-col.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YK15NWD0/s6/pierre-gasly-alpine-franco-col.jpg"
       },
       {
         "title": "Honda decide cambiar el motor de Alonso para la carrera de Singapur tras el difícil sábado",
@@ -2360,7 +2384,7 @@
         "published": "Sat, 10 Oct 2026 16:50:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0mXyKrX6/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0mXyKrX6/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Stella advierte a Norris y Piastri tras su choque en Singapur: \"nadie por encima del equipo\"",
@@ -2368,7 +2392,7 @@
         "published": "Sat, 10 Oct 2026 16:49:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/63QalPg2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/63QalPg2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Antonelli ve potencial en el nuevo paquete de Mercedes, pero admite margen de uso muy reducido",
@@ -2376,7 +2400,7 @@
         "published": "Sat, 10 Oct 2026 16:34:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwaXQ2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68VwaXQ2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "La respuesta de Alpine a las dificultades de Colapinto en Singapur: \"Estamos trabajando para comprender\"",
@@ -2384,7 +2408,7 @@
         "published": "Sat, 10 Oct 2026 16:31:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6VyKBWNY/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6VyKBWNY/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Fernando Alonso señala que los equipos top de F1 quieren que las sprint \"sean aburridas\"",
@@ -2392,7 +2416,7 @@
         "published": "Sat, 10 Oct 2026 16:09:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6grQGDmY/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6grQGDmY/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Russell, sin rodeos tras chocar cuando lideraba en Singapur: \"Un día muy malo por culpa de mi propio error\"",
@@ -2400,7 +2424,7 @@
         "published": "Sat, 10 Oct 2026 16:05:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/24QGlVqY/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/24QGlVqY/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Hadjar explota por las fallas de Red Bull en Singapur: “Todo se está rompiendo”",
@@ -2408,7 +2432,7 @@
         "published": "Sat, 10 Oct 2026 15:57:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YP74NjB2/s6/laurent-mekies-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YP74NjB2/s6/laurent-mekies-red-bull-racing.jpg"
       },
       {
         "title": "Colapinto queda desconcertado con su Alpine tras la clasificación en Singapur: \"Fue un desastre\"",
@@ -2416,31 +2440,7 @@
         "published": "Sat, 10 Oct 2026 15:18:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVPvKd0/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Checo Pérez admite que Cadillac tiene pocas opciones en Singapur: \"Estamos demasiado lejos\"",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-admite-cadillac-pocas-opciones-singapur-carrera-2026/10863957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 10 Oct 2026 15:08:37 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLQOQ0/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Los resultados completos de la clasificación para el GP de Singapur de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/singapur-clasificacion-resultados-completos/10863925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 10 Oct 2026 14:37:47 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/68Vwa1Q2/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Verstappen repite la dosis y gana la pole para el GP de Singapur, Colapinto 15° y Sergio Pérez 19°",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-gana-pole-carrera-singapur-colapinto-15-sergio-perez-19/10863933/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 10 Oct 2026 14:36:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9ENLpY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPvKd0/s6/franco-colapinto-alpine.jpg"
       }
     ],
     "moto": [
