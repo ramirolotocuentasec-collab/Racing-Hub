@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T08:39:40.780505Z",
+  "updatedAt": "2026-10-10T08:57:26.690190Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -579,7 +579,8 @@
             "name": "Race",
             "date": "2026-10-11T12:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg/1920px-Marina_Bay_Street_Circuit%2C_May_8%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-18-americas",
@@ -1772,7 +1773,8 @@
             "name": "Race",
             "date": "2026-10-11T15:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg/1920px-%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-c1dea7a7-e35e-4363-9e28-7997e3bc6fbf",
@@ -2326,7 +2328,7 @@
         "published": "Sat, 10 Oct 2026 02:23:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2GdKNqEY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdKNqEY/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Audi lamenta la oportunidad perdida en la clasificación sprint en Singapur",
@@ -2334,7 +2336,7 @@
         "published": "Fri, 09 Oct 2026 19:17:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/static/img/amp/0/0/0/0//s6_.jpg"
+        "image": "https://cdn-7.motorsport.com/static/img/amp/0/0/0/0//s6_.jpg"
       },
       {
         "title": "La duda de Gasly en Alpine tras llegar al top 10 en la clasificación sprint de Singapur",
@@ -2342,7 +2344,7 @@
         "published": "Fri, 09 Oct 2026 17:50:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6b8Zo3E2/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8Zo3E2/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Por qué Antonelli no puede volver a la versión anterior de Mercedes en Singapur",
@@ -2350,7 +2352,7 @@
         "published": "Fri, 09 Oct 2026 17:18:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2eZxlnjY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2eZxlnjY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Por qué la estrategia de Verstappen con las Pirelli en la clasificación sprint de Singapur funcionó",
@@ -2358,7 +2360,7 @@
         "published": "Fri, 09 Oct 2026 17:02:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNlEY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdKNlEY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Hamilton reconoce que tomó una decisión equivocada en la SQ3 de Singapur",
@@ -2374,7 +2376,7 @@
         "published": "Fri, 09 Oct 2026 16:08:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0R7BNMV2/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0R7BNMV2/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Max Verstappen libra sanción en Singapur: Los comisarios confirman su pole para la sprint",
@@ -2382,7 +2384,7 @@
         "published": "Fri, 09 Oct 2026 15:48:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O7zNAm6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6O7zNAm6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "El caos de la clasificación sprint de Singapur deja furiosos a los equipos de F1",
@@ -2390,7 +2392,7 @@
         "published": "Fri, 09 Oct 2026 15:39:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKKJY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Carlos Sainz acusa a la FIA de \"desigualdad deportiva\" en Singapur y siembra sospechas",
@@ -2398,7 +2400,7 @@
         "published": "Fri, 09 Oct 2026 15:29:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6x7L84JY/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6x7L84JY/s6/carlos-sainz-williams.jpg"
       },
       {
         "title": "Antonelli es pesimista en Singapur con un Mercedes actualizado que califica de \"impredecible\"",
@@ -2406,7 +2408,7 @@
         "published": "Fri, 09 Oct 2026 14:56:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDvke0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6zoDvke0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Leclerc decepcionado en Singapur: \"Llevamos varias carreras perdiendo rendimiento\"",
@@ -2414,7 +2416,7 @@
         "published": "Fri, 09 Oct 2026 14:45:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwadG2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/68VwadG2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Franco Colapinto, a las puertas del top 10 en Singapur y promete más: \"Vamos a estar mejor mañana\"",
@@ -2422,7 +2424,7 @@
         "published": "Fri, 09 Oct 2026 14:33:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/01QN4aZ0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/01QN4aZ0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "El doble error de la FIA en la clasificación sprint de Singapur que afectó a los pilotos",
@@ -2430,7 +2432,7 @@
         "published": "Fri, 09 Oct 2026 14:16:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLQ7E0/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLQ7E0/s6/carlos-sainz-williams.jpg"
       },
       {
         "title": "Los resultados completos del viernes del GP de Singapur de F1 2026: clasificación sprint y práctica libre",
@@ -2438,17 +2440,33 @@
         "published": "Fri, 09 Oct 2026 13:51:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0mXyKoz6/s6/alexander-albon-williams-lewis.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "El campeonato de MotoGP tras el sprint en Indonesia: Márquez toma el mando con algunos puntos de ventaja",
+        "url": "https://espanol.motorsport.com/motogp/news/campeonato-tras-carrera-sprint-indonesia-marquez-lider/10863739/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 10 Oct 2026 08:44:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/6Alvb9GY/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Márquez emerge de un sprint caótico, Martín sufre, Bezzecchi y Fernández al suelo!",
+        "url": "https://espanol.motorsport.com/motogp/news/marquez-gana-sprint-indonesia-resultados/10863735/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 10 Oct 2026 08:41:56 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNgE82/s6/whatsapp-image-2026-10-09-at-1-2.jpg"
+      },
       {
         "title": "Raúl Fernández celebra una pole esperada en MotoGP tras más de cuatro años sin conseguirla",
         "url": "https://espanol.motorsport.com/motogp/news/raul-fernandez-declaraciones-primera-pole-motogp-historia/10863663/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Sat, 10 Oct 2026 04:45:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0Ldeglv0/s6/raul-fernandez-trackhouse-raci-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Ldeglv0/s6/raul-fernandez-trackhouse-raci-2.jpg"
       },
       {
         "title": "La parrilla de salida del Gran Premio de Indonesia de MotoGP 2026",
@@ -2456,7 +2474,7 @@
         "published": "Sat, 10 Oct 2026 04:43:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0kZXGB86/s6/raul-fernandez-trackhouse.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0kZXGB86/s6/raul-fernandez-trackhouse.jpg"
       },
       {
         "title": "Raúl Fernández logra su primera pole en MotoGP en Indonesia; Márquez cuarto por delante de Martín",
@@ -2464,7 +2482,7 @@
         "published": "Sat, 10 Oct 2026 04:41:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YWKAElDY/s6/raul-fernandez-trackhouse-raci-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKAElDY/s6/raul-fernandez-trackhouse-raci-2.jpg"
       },
       {
         "title": "Zarco califica que sus ajustes en Indonesia fueron incorrectos, pero aún ve posibilidades",
@@ -2472,7 +2490,7 @@
         "published": "Fri, 09 Oct 2026 23:45:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2dEoGmZY/s6/johann-zarco-team-lcr-honda.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2dEoGmZY/s6/johann-zarco-team-lcr-honda.jpg"
       },
       {
         "title": "Honda se ve “muy mal” en Indonesia tras quedar por detrás del ritmo de 2025",
@@ -2480,7 +2498,7 @@
         "published": "Fri, 09 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YpbAGLg0/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YpbAGLg0/s6/diogo-moreira-team-lcr-honda.jpg"
       },
       {
         "title": "Las escapatorias de grava de Mandalika, bajo críticas de nuevo tras la caída de Fabio Quartararo",
@@ -2488,7 +2506,7 @@
         "published": "Fri, 09 Oct 2026 19:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0o5Av7aY/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5Av7aY/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "Bagnaia termina con su mala racha y se clasifica directo a la Q2 en Indonesia",
@@ -2496,7 +2514,7 @@
         "published": "Fri, 09 Oct 2026 17:58:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0R7BNpB2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0R7BNpB2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Fernández se mostró sorprendido por la ventaja de las Aprilia el viernes en Indonesia",
@@ -2504,7 +2522,7 @@
         "published": "Fri, 09 Oct 2026 17:45:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6x7LdzJY/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6x7LdzJY/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Jorge Martín \"tiene dificultades\" en Mandalika y afirma que el ritmo de Marc Márquez es \"mejor\"",
@@ -2512,7 +2530,7 @@
         "published": "Fri, 09 Oct 2026 13:52:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YpbAGVj0/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Bastianini minimiza sus caídas en Indonesia y confía en mejorar el sábado",
@@ -2520,7 +2538,7 @@
         "published": "Fri, 09 Oct 2026 11:49:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6AlvbLNY/s6/enea-bastianini-red-bull-ktm-t.jpg"
       },
       {
         "title": "Bezzecchi convencido de que \"encontrará la chispa\" tras ser segundo el viernes en Indonesia",
@@ -2528,7 +2546,7 @@
         "published": "Fri, 09 Oct 2026 11:29:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNgqL2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marc Marquez: Ducati “no puede esconderse” del déficit de medio segundo con Aprilia en Indonesia",
@@ -2536,7 +2554,7 @@
         "published": "Fri, 09 Oct 2026 11:04:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8yWL6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8yWL6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los pilotos se resignan al GP de Qatar mientras MotoGP supervisa la seguridad",
@@ -2544,23 +2562,7 @@
         "published": "Fri, 09 Oct 2026 09:19:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
-      },
-      {
-        "title": "Aprilia domina el viernes de MotoGP en Indonesia con un 1-2-3",
-        "url": "https://espanol.motorsport.com/motogp/news/aprilia-lidera-viernes-indonesia/10863295/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 08:57:41 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b8jQaL2/s6/raul-fernandez-trackhouse-raci.jpg"
-      },
-      {
-        "title": "MotoGP responde a quienes dicen que los pilotos no tuvieron “opción” sobre el formato de 2027",
-        "url": "https://espanol.motorsport.com/motogp/news/motogp-responde-quienes-dicen-que-pilotos-no-tuvieron-opcion-sobre-cambios-2027/10863276/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 09 Oct 2026 08:24:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YXyKVX76/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       }
     ]
   },
