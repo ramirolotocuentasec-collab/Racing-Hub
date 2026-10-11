@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T14:41:08.894640Z",
+  "updatedAt": "2026-10-11T15:00:13.041319Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1773,8 +1773,7 @@
             "name": "Race",
             "date": "2026-10-11T15:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg/1920px-%27Merese%27_Hill_near_Mandalika_Pertamina_International_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-c1dea7a7-e35e-4363-9e28-7997e3bc6fbf",
@@ -1818,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2323,28 @@
   "news": {
     "f1": [
       {
-        "title": "Colapinto, dolido tras otro abandono en Singapur: \"El peor triplete de mi carrera en F1\"",
+        "title": "Las combinaciones para que Antonelli salga campeón de la F1 2026 en Estados Unidos",
+        "url": "https://espanol.motorsport.com/f1/news/que-necesita-kimi-antonelli-campeon-f1-gp-estados-unidos-austin/10864366/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 11 Oct 2026 14:53:08 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/0qgKoPyY/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Lewis Hamilton asume la culpa por la mala estrategia en el GP de Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-asume-culpa-por-mala-estrategia-en-singapur/10864358/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 11 Oct 2026 14:46:30 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/YBVjKnJY/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
+        "title": "El dolor de Franco Colapinto tras otro abandono en Singapur: \"El peor triplete de mi carrera en F1\"",
         "url": "https://espanol.motorsport.com/f1/news/colapinto-abandono-singapur-peor-triplete-de-mi-carrera/10864346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 11 Oct 2026 14:30:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dL7LD0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/25dL7LD0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Los resultados completos del GP de Singapur de F1 2026",
@@ -2336,7 +2352,7 @@
         "published": "Sun, 11 Oct 2026 14:08:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2jEAobq0/s6/charles-leclerc-ferrari-max-ve.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2jEAobq0/s6/charles-leclerc-ferrari-max-ve.jpg"
       },
       {
         "title": "Así queda el campeonato de pilotos y constructores tras el GP de Singapur de la F1 2026: Antonelli, cerca del título",
@@ -2352,7 +2368,7 @@
         "published": "Sun, 11 Oct 2026 13:54:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6DGgoB9Y/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6DGgoB9Y/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Verstappen domina el GP de Singapur, Colapinto abandona con otra falla en el Alpine y Checo Pérez es 17º",
@@ -2360,7 +2376,7 @@
         "published": "Sun, 11 Oct 2026 13:48:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0JXRq4AY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0JXRq4AY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Franco Colapinto abandona el GP de Singapur por otra falla y Alpine da un primer diagnóstico",
@@ -2368,7 +2384,7 @@
         "published": "Sun, 11 Oct 2026 13:05:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "George Russell recibe otra sanción de 20 posiciones antes del GP de Singapur",
@@ -2376,7 +2392,7 @@
         "published": "Sun, 11 Oct 2026 11:28:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0kZXG4j6/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZXG4j6/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "FIA reconoce que el error en dirección de carrera perjudicó a pilotos en Singapur",
@@ -2384,7 +2400,7 @@
         "published": "Sun, 11 Oct 2026 10:57:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPvzd0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0rVPvzd0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Cambios en la parrilla de salida antes del GP de Singapur de F1 2026",
@@ -2392,7 +2408,7 @@
         "published": "Sun, 11 Oct 2026 10:32:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0R7BNmO2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0R7BNmO2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "El jet privado de Kardashian recorre 10 mil kilómetros para asistir al Gran Premio de Singapur",
@@ -2400,7 +2416,7 @@
         "published": "Sun, 11 Oct 2026 04:20:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKwKY/s6/kim-kardashian.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjKwKY/s6/kim-kardashian.jpg"
       },
       {
         "title": "Leclerc ve \"dificíl\" superar a Verstappen en la arrancada el domingo en Singapur",
@@ -2408,7 +2424,7 @@
         "published": "Sat, 10 Oct 2026 18:44:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2wlKvb3Y/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2wlKvb3Y/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Qué tiene de tan \"grave\" para McLaren la colisión Norris-Piastri en Singapur",
@@ -2416,7 +2432,7 @@
         "published": "Sat, 10 Oct 2026 18:36:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0JXRvxOY/s6/lando-norris-mclaren-oscar-pia.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0JXRvxOY/s6/lando-norris-mclaren-oscar-pia.jpg"
       },
       {
         "title": "Lo que la carrera sprint y la clasificación revelan para el GP de Singapur de F1 2026",
@@ -2424,23 +2440,7 @@
         "published": "Sat, 10 Oct 2026 18:26:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
-      },
-      {
-        "title": "Red Bull tiene un problema en los arranques y Verstappen pide solución en Singapur",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-problema-arranques-verstappen-pide-solucion-singapur/10864065/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 10 Oct 2026 18:17:16 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Mercedes encuentra algunas respuestas en Singapur para su actualización",
-        "url": "https://espanol.motorsport.com/f1/news/mercedes-actualizacion-coche-respuestas-singapur/10864029/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 10 Oct 2026 17:57:47 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
       }
     ],
     "moto": [
