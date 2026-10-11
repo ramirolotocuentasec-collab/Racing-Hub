@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T07:47:23.955440Z",
+  "updatedAt": "2026-10-11T08:02:30.040236Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2002,8 +2002,8 @@
         "position": 1,
         "name": "Piloto 1",
         "driver": "",
-        "team": "Ducati",
-        "points": 343.0,
+        "team": "Aprilia",
+        "points": 355.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2011,8 +2011,8 @@
         "position": 2,
         "name": "Piloto 2",
         "driver": "",
-        "team": "Aprilia",
-        "points": 339.0,
+        "team": "Ducati",
+        "points": 353.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2021,7 +2021,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 284.0,
+        "points": 309.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2029,8 +2029,8 @@
         "position": 4,
         "name": "Piloto 4",
         "driver": "",
-        "team": "KTM",
-        "points": 247.0,
+        "team": "Aprilia",
+        "points": 259.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2038,8 +2038,8 @@
         "position": 5,
         "name": "Piloto 5",
         "driver": "",
-        "team": "Aprilia",
-        "points": 246.0,
+        "team": "KTM",
+        "points": 258.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2048,7 +2048,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 237.0,
+        "points": 245.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2057,7 +2057,7 @@
         "name": "Piloto 7",
         "driver": "",
         "team": "Aprilia",
-        "points": 216.0,
+        "points": 236.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2066,7 +2066,7 @@
         "name": "Piloto 8",
         "driver": "",
         "team": "Ducati",
-        "points": 166.0,
+        "points": 172.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2075,7 +2075,7 @@
         "name": "Piloto 9",
         "driver": "",
         "team": "Ducati",
-        "points": 163.0,
+        "points": 166.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2093,7 +2093,7 @@
         "name": "Piloto 11",
         "driver": "",
         "team": "KTM",
-        "points": 116.0,
+        "points": 122.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2102,7 +2102,7 @@
         "name": "Piloto 12",
         "driver": "",
         "team": "Honda",
-        "points": 104.0,
+        "points": 108.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2111,7 +2111,7 @@
         "name": "Piloto 13",
         "driver": "",
         "team": "KTM",
-        "points": 99.0,
+        "points": 104.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2119,7 +2119,7 @@
         "position": 14,
         "name": "Piloto 14",
         "driver": "",
-        "team": "Honda",
+        "team": "Yamaha",
         "points": 74.0,
         "riderImage": "",
         "bikeImage": ""
@@ -2128,8 +2128,8 @@
         "position": 15,
         "name": "Piloto 15",
         "driver": "",
-        "team": "Yamaha",
-        "points": 67.0,
+        "team": "Honda",
+        "points": 74.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2138,7 +2138,7 @@
         "name": "Piloto 16",
         "driver": "",
         "team": "Ducati",
-        "points": 57.0,
+        "points": 59.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2147,7 +2147,7 @@
         "name": "Piloto 17",
         "driver": "",
         "team": "Honda",
-        "points": 48.0,
+        "points": 51.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2174,7 +2174,7 @@
         "name": "Piloto 20",
         "driver": "",
         "team": "Yamaha",
-        "points": 24.0,
+        "points": 25.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2289,33 +2289,33 @@
     ],
     "teams": [
       {
-        "name": "Ducati",
-        "team": "Ducati",
-        "points": 1100.0,
+        "name": "Aprilia",
+        "team": "Aprilia",
+        "points": 1159.0,
         "position": 1
       },
       {
-        "name": "Aprilia",
-        "team": "Aprilia",
-        "points": 1085.0,
+        "name": "Ducati",
+        "team": "Ducati",
+        "points": 1129.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 479.0,
+        "points": 501.0,
         "position": 3
       },
       {
         "name": "Honda",
         "team": "Honda",
-        "points": 265.0,
+        "points": 272.0,
         "position": 4
       },
       {
         "name": "Yamaha",
         "team": "Yamaha",
-        "points": 143.0,
+        "points": 151.0,
         "position": 5
       }
     ]
