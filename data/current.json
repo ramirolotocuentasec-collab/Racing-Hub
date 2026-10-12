@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T05:19:58.820947Z",
+  "updatedAt": "2026-10-12T05:43:44.907817Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1817,8 +1816,7 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ]
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2450,7 +2448,7 @@
         "published": "Sun, 11 Oct 2026 11:40:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Bezzecchi ve el título \"más perdido que ganado\" pese a ganar en Indonesia",
@@ -2458,7 +2456,7 @@
         "published": "Sun, 11 Oct 2026 10:53:48 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
       },
       {
         "title": "\"No sé cómo hice eso\", dice Raúl Fernández tras subir al podio en Indonesia con un dedo roto",
@@ -2466,7 +2464,7 @@
         "published": "Sun, 11 Oct 2026 10:26:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2QedNVJ2/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2QedNVJ2/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Marc Márquez califica de \"redondo\" su GP de Indonesia",
@@ -2482,7 +2480,7 @@
         "published": "Sun, 11 Oct 2026 10:18:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "El campeonato de MotoGP después del GP de Indonesia: Al final no cambia nada entre Martín y Márquez",
@@ -2490,7 +2488,7 @@
         "published": "Sun, 11 Oct 2026 10:09:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
       },
       {
         "title": "Bezzecchi lidera un 1-2-3-4 de Aprilia en Indonesia; Martín recupera el liderato en MotoGP",
@@ -2498,7 +2496,7 @@
         "published": "Sun, 11 Oct 2026 10:03:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdKN8EY/s6/jorge-martin-aprilia-racing-te-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2GdKN8EY/s6/jorge-martin-aprilia-racing-te-2.jpg"
       },
       {
         "title": "MotoGP aplicará multas económicas a los pilotos que no cumplan con los eventos promocionales",
@@ -2514,7 +2512,7 @@
         "published": "Sun, 11 Oct 2026 04:15:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNgZG2/s6/aleix-espargaro-honda-hrc.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/Y9lNgZG2/s6/aleix-espargaro-honda-hrc.jpg"
       },
       {
         "title": "Fernández lidera el warm-up pesar de tener una mano lesionada en Indonesia",
@@ -2522,7 +2520,7 @@
         "published": "Sun, 11 Oct 2026 04:11:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6lmAGEL0/s6/raul-fernandez-trackhouse-raci-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6lmAGEL0/s6/raul-fernandez-trackhouse-raci-2.jpg"
       },
       {
         "title": "Martín asume el fallo de Aprilia en Indonesia: \"Estamos aquí para ganar y perder juntos\"",
@@ -2538,7 +2536,7 @@
         "published": "Sat, 10 Oct 2026 11:33:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLQrD0/s6/johann-zarco-team-lcr-honda.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLQrD0/s6/johann-zarco-team-lcr-honda.jpg"
       },
       {
         "title": "Bagnaia sufre sin agarre trasero y acaba octavo en la Sprint de Mandalika",
@@ -2546,7 +2544,7 @@
         "published": "Sat, 10 Oct 2026 11:08:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YBVjKR7Y/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjKR7Y/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Bezzecchi y el accidente en la sprint de Indonesia: \"Raúl Fernández no tiene motivos para enfadarse\"",
@@ -2554,7 +2552,7 @@
         "published": "Sat, 10 Oct 2026 10:23:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0rVPvk50/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0rVPvk50/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Raúl Fernández dispara contra Bezzecchi en Indonesia: \"No es profesional lo que ha hecho\"",
@@ -2562,7 +2560,7 @@
         "published": "Sat, 10 Oct 2026 09:27:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8yOM6/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8yOM6/s6/raul-fernandez-trackhouse-raci.jpg"
       }
     ]
   },
