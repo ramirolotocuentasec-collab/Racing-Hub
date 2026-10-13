@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T18:04:03.550690Z",
+  "updatedAt": "2026-10-13T18:36:20.787661Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "\"Se vio su inteligencia\": cómo Hulkenberg mantuvo detrás a Russell en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/inteligencia-como-hulkenberg-mantuvo-detras-russell-singapur/10865011/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 13 Oct 2026 18:21:07 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/68VwalD2/s6/nico-hulkenberg-audi-f1-team.jpg"
+      },
+      {
         "title": "Por qué el error de Hamilton en Singapur podría haber sido una señal de que estaba mal",
         "url": "https://espanol.motorsport.com/f1/news/por-que-error-hamilton-singapur-senal-estaba-mal/10865005/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 13 Oct 2026 16:56:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Toto Wolff admite que la polémica entre Rosberg y Hamilton de Abu Dhabi en 2016 fue \"culpa mía\"",
@@ -2336,7 +2344,7 @@
         "published": "Tue, 13 Oct 2026 16:25:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0JBnWyR0/s6/el-campeon-del-mundo-nico-rosb.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0JBnWyR0/s6/el-campeon-del-mundo-nico-rosb.jpg"
       },
       {
         "title": "Bottas explica por qué Checo Pérez casi le sacaba una vuelta de diferencia en Singapur",
@@ -2344,7 +2352,7 @@
         "published": "Tue, 13 Oct 2026 15:17:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "McLaren admite que solo cambios profundos en 2027 podrán corregir el manejo del MCL41",
@@ -2360,7 +2368,7 @@
         "published": "Tue, 13 Oct 2026 13:27:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "30 años después: Damon Hill recuerda el día en que fue campeón de Fórmula 1",
@@ -2368,7 +2376,7 @@
         "published": "Tue, 13 Oct 2026 12:45:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6DGqZmGY/s6/gettyimages-2263068461-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6DGqZmGY/s6/gettyimages-2263068461-2.jpg"
       },
       {
         "title": "Toto Wolff fue visto en Mónaco en un Mercedes muy particular de 10 millones de dólares",
@@ -2384,7 +2392,7 @@
         "published": "Tue, 13 Oct 2026 11:31:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YEQzRdGY/s6/christian-horner-red-bull-raci.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YEQzRdGY/s6/christian-horner-red-bull-raci.jpg"
       },
       {
         "title": "Vasseur duda de Red Bull sea actualmente el mejor equipo de la F1",
@@ -2400,7 +2408,7 @@
         "published": "Tue, 13 Oct 2026 09:19:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2GdKqV1Y/s6/imagen-de-la-pista-que-se-cons-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2GdKqV1Y/s6/imagen-de-la-pista-que-se-cons-2.jpg"
       },
       {
         "title": "McLaren introducirá mejoras por fases para la lucha de 2026 y el desarrollo del coche del 2027",
@@ -2416,7 +2424,7 @@
         "published": "Tue, 13 Oct 2026 07:30:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0R7Bqrv2/s6/lewis-hamilton-ferrari-lando-n.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0R7Bqrv2/s6/lewis-hamilton-ferrari-lando-n.jpg"
       },
       {
         "title": "Wolff revela el problema que limitó la remontada de Russell en la carrera de Singapur",
@@ -2424,7 +2432,7 @@
         "published": "Tue, 13 Oct 2026 06:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YK15qg80/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YK15qg80/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Cómo ver a Verstappen correr en la GT World Challenge Portimao: transmisión en vivo y horario",
@@ -2432,25 +2440,25 @@
         "published": "Mon, 12 Oct 2026 19:07:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2dE7xy7Y/s6/3-mercedes-amg-team-verstappen-3.jpg"
-      },
-      {
-        "title": "Verstappen y el poder de la reputación: así es como él condiciona a sus rivales",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-poder-reputacion-condiciona-rivales/10864718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 12 Oct 2026 17:58:32 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0arE7rk2/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2dE7xy7Y/s6/3-mercedes-amg-team-verstappen-3.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Acosta critica la norma de presiones y propone igualarlas antes de salir",
+        "url": "https://espanol.motorsport.com/motogp/news/acosta-critica-norma-presiones-propone-igualarlas-arrancada/10864911/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Tue, 13 Oct 2026 18:03:15 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+      },
       {
         "title": "Di Giannantonio acabó octavo en Mandalika pese a un agujero en el neumático delantero",
         "url": "https://espanol.motorsport.com/motogp/news/di-giannantonio-octavo-indonesia-agujero-neumatico-delantero/10864765/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Tue, 13 Oct 2026 00:00:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "Aprilia considera aplicar órdenes de equipo mientras se intensifica la lucha por el título de MotoGP",
@@ -2458,7 +2466,7 @@
         "published": "Mon, 12 Oct 2026 12:00:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Los pilotos responden a las sanciones en MotoGP por no ir a eventos con los aficionados",
@@ -2466,7 +2474,7 @@
         "published": "Mon, 12 Oct 2026 11:44:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Por qué no hubo sanción para Jorge Martín pese a saltarse la salida en Indonesia",
@@ -2474,7 +2482,7 @@
         "published": "Mon, 12 Oct 2026 11:27:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Toprak Razgatlioglu se someterá a una revisión en el hombro: \"Espero no necesitar cirugía\"",
@@ -2482,7 +2490,7 @@
         "published": "Mon, 12 Oct 2026 10:45:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
       },
       {
         "title": "Ganadores y perdedores del frenético Gran Premio de Indonesia de MotoGP",
@@ -2506,7 +2514,7 @@
         "published": "Sun, 11 Oct 2026 10:53:48 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
       },
       {
         "title": "\"No sé cómo hice eso\", dice Raúl Fernández tras subir al podio en Indonesia con un dedo roto",
@@ -2514,7 +2522,7 @@
         "published": "Sun, 11 Oct 2026 10:26:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2QedNVJ2/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2QedNVJ2/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Marc Márquez califica de \"redondo\" su GP de Indonesia",
@@ -2522,7 +2530,7 @@
         "published": "Sun, 11 Oct 2026 10:20:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YN7v4jm6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YN7v4jm6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Fermín Aldeguer pasará por el quirófano tras fracturarse la mano en Mandalika",
@@ -2530,7 +2538,7 @@
         "published": "Sun, 11 Oct 2026 10:18:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "El campeonato de MotoGP después del GP de Indonesia: Al final no cambia nada entre Martín y Márquez",
@@ -2538,7 +2546,7 @@
         "published": "Sun, 11 Oct 2026 10:09:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
       },
       {
         "title": "Bezzecchi lidera un 1-2-3-4 de Aprilia en Indonesia; Martín recupera el liderato en MotoGP",
@@ -2546,7 +2554,7 @@
         "published": "Sun, 11 Oct 2026 10:03:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2GdKN8EY/s6/jorge-martin-aprilia-racing-te-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2GdKN8EY/s6/jorge-martin-aprilia-racing-te-2.jpg"
       },
       {
         "title": "MotoGP aplicará multas económicas a los pilotos que no cumplan con los eventos promocionales",
@@ -2554,15 +2562,7 @@
         "published": "Sun, 11 Oct 2026 09:21:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0R7BNeV2/s6/motogp-hero-walk.jpg"
-      },
-      {
-        "title": "Aleix Espargaró no correrá en Indonesia por molestias físicas y prioriza el test de Honda en Sepang",
-        "url": "https://espanol.motorsport.com/motogp/news/aleix-espargaro-no-correra-indonesia-molestias-fisicas-test-honda/10864116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 11 Oct 2026 04:15:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNgZG2/s6/aleix-espargaro-honda-hrc.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0R7BNeV2/s6/motogp-hero-walk.jpg"
       }
     ]
   },
