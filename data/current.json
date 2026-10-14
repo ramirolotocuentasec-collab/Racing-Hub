@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:56:15.723257Z",
+  "updatedAt": "2026-10-14T11:31:56.761464Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Cómo fue el fin de semana de pesadilla de Hadjar en Singapur: \"Un desastre\"",
+        "url": "https://espanol.motorsport.com/f1/news/como-desarrollo-fin-semana-pesadilla-hadjar-singapur-2026/10864801/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 14 Oct 2026 11:05:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0Zq8y786/s6/isack-hadjar-red-bull-racing-2.jpg"
+      },
+      {
         "title": "Por qué la última actualización de Mercedes para la F1 2026 no es un paso atrás",
         "url": "https://espanol.motorsport.com/f1/news/por-que-ultima-actualizacion-de-mercedes-no-es-un-paso-atras/10865111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 14 Oct 2026 09:33:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/68VwanQ2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68VwanQ2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Red Bull avisa: su primer motor de F1 aún está a medio camino y ya muestra gran potencial",
@@ -2336,7 +2344,7 @@
         "published": "Wed, 14 Oct 2026 08:20:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNGlq2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNGlq2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Zara lanza una nueva colección de ropa de Ayrton Senna inspirada en la leyenda de la F1",
@@ -2344,7 +2352,7 @@
         "published": "Wed, 14 Oct 2026 07:25:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0kZAMqj6/s6/ayrton-senna.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0kZAMqj6/s6/ayrton-senna.jpg"
       },
       {
         "title": "Mercedes confirma: tanto Antonelli como Russell usarán el nuevo paquete de actualizaciones en Austin",
@@ -2360,7 +2368,7 @@
         "published": "Tue, 13 Oct 2026 18:45:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
       },
       {
         "title": "\"Se vio su inteligencia\": cómo Hulkenberg mantuvo detrás a Russell en Singapur",
@@ -2368,7 +2376,7 @@
         "published": "Tue, 13 Oct 2026 18:21:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwalD2/s6/nico-hulkenberg-audi-f1-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68VwalD2/s6/nico-hulkenberg-audi-f1-team.jpg"
       },
       {
         "title": "Por qué el error de Hamilton en Singapur podría haber sido una señal de que estaba mal",
@@ -2376,7 +2384,7 @@
         "published": "Tue, 13 Oct 2026 16:56:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Toto Wolff admite que la polémica entre Rosberg y Hamilton de Abu Dhabi en 2016 fue \"culpa mía\"",
@@ -2384,7 +2392,7 @@
         "published": "Tue, 13 Oct 2026 16:25:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0JBnWyR0/s6/el-campeon-del-mundo-nico-rosb.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0JBnWyR0/s6/el-campeon-del-mundo-nico-rosb.jpg"
       },
       {
         "title": "Bottas explica por qué Checo Pérez casi le sacaba una vuelta de diferencia en Singapur",
@@ -2392,7 +2400,7 @@
         "published": "Tue, 13 Oct 2026 15:17:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "McLaren admite que solo cambios profundos en 2027 podrán corregir el manejo del MCL41",
@@ -2400,7 +2408,7 @@
         "published": "Tue, 13 Oct 2026 13:58:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "¿Red Bull ha superado a Mercedes? Ahora el RB22 parece la nueva referencia de la parrilla",
@@ -2408,7 +2416,7 @@
         "published": "Tue, 13 Oct 2026 13:27:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "30 años después: Damon Hill recuerda el día en que fue campeón de Fórmula 1",
@@ -2416,7 +2424,7 @@
         "published": "Tue, 13 Oct 2026 12:45:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6DGqZmGY/s6/gettyimages-2263068461-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6DGqZmGY/s6/gettyimages-2263068461-2.jpg"
       },
       {
         "title": "Toto Wolff fue visto en Mónaco en un Mercedes muy particular de 10 millones de dólares",
@@ -2424,7 +2432,7 @@
         "published": "Tue, 13 Oct 2026 12:25:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNLpG2/s6/toto-wolff-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNLpG2/s6/toto-wolff-mercedes.jpg"
       },
       {
         "title": "Horner culpa a la muerte de Dietrich Mateschitz por el “doloroso” final de su reinado en la F1",
@@ -2432,15 +2440,7 @@
         "published": "Tue, 13 Oct 2026 11:31:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YEQzRdGY/s6/christian-horner-red-bull-raci.jpg"
-      },
-      {
-        "title": "Vasseur duda de Red Bull sea actualmente el mejor equipo de la F1",
-        "url": "https://espanol.motorsport.com/f1/news/vasseur-duda-red-bull-equipo-batir-pese-impulso-verstappen/10864807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 13 Oct 2026 09:53:45 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YpbAoQZ0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YEQzRdGY/s6/christian-horner-red-bull-raci.jpg"
       }
     ],
     "moto": [
