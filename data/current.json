@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T14:12:30.310459Z",
+  "updatedAt": "2026-10-14T14:55:23.367342Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2326,7 +2328,7 @@
         "published": "Wed, 14 Oct 2026 13:57:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6lmAxPj0/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6lmAxPj0/s6/gabriel-bortoleto-audi-f1-team.jpg"
       },
       {
         "title": "Cómo la rivalidad con Montoya llevó a que Ralf Schumacher pagara el bono de los empleados de Williams",
@@ -2334,7 +2336,7 @@
         "published": "Wed, 14 Oct 2026 13:26:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b7PmDB0/s6/ralf-schumacher-firma-autograf.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b7PmDB0/s6/ralf-schumacher-firma-autograf.jpg"
       },
       {
         "title": "Lawson: combinar Red Bull y Racing Bulls daría un coche muy rápido, pero no es posible",
@@ -2342,7 +2344,7 @@
         "published": "Wed, 14 Oct 2026 13:10:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/63Qaem42/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/63Qaem42/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Cómo fue el fin de semana de pesadilla de Hadjar en Singapur: \"Un desastre\"",
@@ -2350,7 +2352,7 @@
         "published": "Wed, 14 Oct 2026 11:05:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8y786/s6/isack-hadjar-red-bull-racing-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8y786/s6/isack-hadjar-red-bull-racing-2.jpg"
       },
       {
         "title": "Por qué la última actualización de Mercedes para la F1 2026 no es un paso atrás",
@@ -2366,7 +2368,7 @@
         "published": "Wed, 14 Oct 2026 08:20:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNGlq2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNGlq2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Zara lanza una nueva colección de ropa de Ayrton Senna inspirada en la leyenda de la F1",
@@ -2374,7 +2376,7 @@
         "published": "Wed, 14 Oct 2026 07:25:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0kZAMqj6/s6/ayrton-senna.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0kZAMqj6/s6/ayrton-senna.jpg"
       },
       {
         "title": "Mercedes confirma: tanto Antonelli como Russell usarán el nuevo paquete de actualizaciones en Austin",
@@ -2382,7 +2384,7 @@
         "published": "Wed, 14 Oct 2026 04:00:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2GdKNRVY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNRVY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Cinco conclusiones clave de la gran presentación del Gran Premio de África de F1 en Ruanda",
@@ -2390,7 +2392,7 @@
         "published": "Tue, 13 Oct 2026 18:45:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
       },
       {
         "title": "\"Se vio su inteligencia\": cómo Hulkenberg mantuvo detrás a Russell en Singapur",
@@ -2398,7 +2400,7 @@
         "published": "Tue, 13 Oct 2026 18:21:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68VwalD2/s6/nico-hulkenberg-audi-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/68VwalD2/s6/nico-hulkenberg-audi-f1-team.jpg"
       },
       {
         "title": "Por qué el error de Hamilton en Singapur podría haber sido una señal de que estaba mal",
@@ -2406,7 +2408,7 @@
         "published": "Tue, 13 Oct 2026 16:56:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Toto Wolff admite que la polémica entre Rosberg y Hamilton de Abu Dhabi en 2016 fue \"culpa mía\"",
@@ -2422,7 +2424,7 @@
         "published": "Tue, 13 Oct 2026 15:17:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "McLaren admite que solo cambios profundos en 2027 podrán corregir el manejo del MCL41",
@@ -2430,7 +2432,7 @@
         "published": "Tue, 13 Oct 2026 13:58:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "¿Red Bull ha superado a Mercedes? Ahora el RB22 parece la nueva referencia de la parrilla",
@@ -2438,7 +2440,7 @@
         "published": "Tue, 13 Oct 2026 13:27:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AvBoY/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
@@ -2448,7 +2450,7 @@
         "published": "Wed, 14 Oct 2026 14:05:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O1jGdG2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6O1jGdG2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Fermín Aldeguer fue operado de la mano",
@@ -2456,7 +2458,7 @@
         "published": "Wed, 14 Oct 2026 09:18:43 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNwvq2/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNwvq2/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "Acosta critica la norma de presiones y propone igualarlas antes de salir",
@@ -2464,7 +2466,7 @@
         "published": "Tue, 13 Oct 2026 18:03:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Di Giannantonio acabó octavo en Mandalika pese a un agujero en el neumático delantero",
@@ -2472,7 +2474,7 @@
         "published": "Tue, 13 Oct 2026 00:00:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "Aprilia considera aplicar órdenes de equipo mientras se intensifica la lucha por el título de MotoGP",
@@ -2480,7 +2482,7 @@
         "published": "Mon, 12 Oct 2026 12:00:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Los pilotos responden a las sanciones en MotoGP por no ir a eventos con los aficionados",
@@ -2488,7 +2490,7 @@
         "published": "Mon, 12 Oct 2026 11:44:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Por qué no hubo sanción para Jorge Martín pese a saltarse la salida en Indonesia",
@@ -2496,7 +2498,7 @@
         "published": "Mon, 12 Oct 2026 11:27:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Toprak Razgatlioglu se someterá a una revisión en el hombro: \"Espero no necesitar cirugía\"",
@@ -2504,7 +2506,7 @@
         "published": "Mon, 12 Oct 2026 10:45:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
       },
       {
         "title": "Ganadores y perdedores del frenético Gran Premio de Indonesia de MotoGP",
@@ -2520,7 +2522,7 @@
         "published": "Sun, 11 Oct 2026 11:40:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Bezzecchi ve el título \"más perdido que ganado\" pese a ganar en Indonesia",
@@ -2528,7 +2530,7 @@
         "published": "Sun, 11 Oct 2026 10:53:48 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0JXRvZEY/s6/marco-bezzecchi-aprilia-racing-2.jpg"
       },
       {
         "title": "\"No sé cómo hice eso\", dice Raúl Fernández tras subir al podio en Indonesia con un dedo roto",
@@ -2544,7 +2546,7 @@
         "published": "Sun, 11 Oct 2026 10:20:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YN7v4jm6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YN7v4jm6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Fermín Aldeguer pasará por el quirófano tras fracturarse la mano en Mandalika",
@@ -2552,7 +2554,7 @@
         "published": "Sun, 11 Oct 2026 10:18:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2eZxlRjY/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "El campeonato de MotoGP después del GP de Indonesia: Al final no cambia nada entre Martín y Márquez",
@@ -2560,7 +2562,7 @@
         "published": "Sun, 11 Oct 2026 10:09:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te-4.jpg"
       }
     ]
   },
