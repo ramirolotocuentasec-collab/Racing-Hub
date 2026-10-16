@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T15:09:48.487900Z",
+  "updatedAt": "2026-10-16T15:48:02.860723Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,6 +2323,14 @@
   "news": {
     "f1": [
       {
+        "title": "Por qué Mercedes cambió a George Russell a la antigua especificación en Singapur",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-mercedes-cambio-russell-antigua-especificacion-singapur/10865690/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 16 Oct 2026 15:46:40 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YpbAGaN0/s6/george-russell-mercedes.jpg"
+      },
+      {
         "title": "Mercedes detecta el fallo en su nuevo paquete: cargó demasiado el tren delantero del W17",
         "url": "https://espanol.motorsport.com/f1/news/mercedes-detecta-fallo-nuevo-paquete-cargo-demasiado-tren-delantero/10865651/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 16 Oct 2026 14:42:06 +0000",
@@ -2336,7 +2344,7 @@
         "published": "Fri, 16 Oct 2026 14:38:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6n7AaeM0/s6/clasificaciones-de-las-24-hora.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6n7AaeM0/s6/clasificaciones-de-las-24-hora.jpg"
       },
       {
         "title": "Karun Chandhok expresa preocupación por el rendimiento de la actualización de Mercedes F1",
@@ -2344,7 +2352,7 @@
         "published": "Fri, 16 Oct 2026 13:16:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "¿En qué se diferencia el liderazgo de Mekies en Red Bull del de Horner?",
@@ -2352,7 +2360,7 @@
         "published": "Fri, 16 Oct 2026 09:51:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/25dLGkJ0/s6/laurent-mekies-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/25dLGkJ0/s6/laurent-mekies-red-bull-racing.jpg"
       },
       {
         "title": "El fallo de radio en Singapur reveló la fortaleza de Max Verstappen, según Collins",
@@ -2360,7 +2368,7 @@
         "published": "Fri, 16 Oct 2026 09:37:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwdzQ2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/68VwdzQ2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "De Recife a la Fórmula 1: el sueño de Câmara que cambió la vida de toda su familia",
@@ -2368,7 +2376,7 @@
         "published": "Fri, 16 Oct 2026 09:36:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6lmdkBj0/s6/rafael-camara-pilota-fda.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6lmdkBj0/s6/rafael-camara-pilota-fda.jpg"
       },
       {
         "title": "F2 insiste: Qatar y Abu Dhabi cerrarán la temporada pese a la guerra de Irán",
@@ -2376,7 +2384,7 @@
         "published": "Fri, 16 Oct 2026 09:32:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2jEAAzN0/s6/rafael-camara-invicta-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2jEAAzN0/s6/rafael-camara-invicta-racing.jpg"
       },
       {
         "title": "Checo Pérez alaba la moderna sede de Cadillac: “Nunca había visto una fábrica así”",
@@ -2384,7 +2392,7 @@
         "published": "Fri, 16 Oct 2026 00:14:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2eZxXmaY/s6/sergio-perez-cadillac.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2eZxXmaY/s6/sergio-perez-cadillac.jpg"
       },
       {
         "title": "Nico Rosberg: Kimi Antonelli este año está al \"nivel de Michael Schumacher\"",
@@ -2392,7 +2400,7 @@
         "published": "Thu, 15 Oct 2026 19:40:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dL7al0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/25dL7al0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Test Pirelli: Mercedes completa más de 600 km con Vesti en Magny-Cours para los neumáticos 2027",
@@ -2400,7 +2408,7 @@
         "published": "Thu, 15 Oct 2026 18:40:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YpbAoBg0/s6/frederik-vesti-terzo-pilota-me.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YpbAoBg0/s6/frederik-vesti-terzo-pilota-me.jpg"
       },
       {
         "title": "Williams se salta una numeración en el chasis para celebrar con el FW50 medio siglo de historia",
@@ -2408,7 +2416,7 @@
         "published": "Thu, 15 Oct 2026 17:37:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/01QNaov0/s6/williams-fw50.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/01QNaov0/s6/williams-fw50.jpg"
       },
       {
         "title": "¿Cuál es el último estatus de las carreras de Qatar y Abu Dhabi ante los misiles en Arabia?",
@@ -2416,7 +2424,7 @@
         "published": "Thu, 15 Oct 2026 17:15:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27vkBEx0/s6/lusail-international-circuit-q.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/27vkBEx0/s6/lusail-international-circuit-q.jpg"
       },
       {
         "title": "Komatsu: Haas eligió a Camara por su velocidad y sensibilidad, no por Ferrari",
@@ -2424,7 +2432,7 @@
         "published": "Thu, 15 Oct 2026 16:20:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dL7on0/s6/rafael-camara-and-ayao-komatsu.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dL7on0/s6/rafael-camara-and-ayao-komatsu.jpg"
       },
       {
         "title": "\"Avengers: Doomsday\" llega al Gran Premio de Estados Unidos de la mano del equipo Williams",
@@ -2432,15 +2440,7 @@
         "published": "Thu, 15 Oct 2026 15:56:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2GdKN5KY/s6/alexander-albon-williams.jpg"
-      },
-      {
-        "title": "Todos los récords que Kimi Antonelli romperá si gana el título de F1 en Austin",
-        "url": "https://espanol.motorsport.com/f1/news/records-kimi-antonelli-rompera-gana-titulo-f1-austin/10865443/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 15 Oct 2026 15:49:33 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0JXRqOOY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2GdKN5KY/s6/alexander-albon-williams.jpg"
       }
     ],
     "moto": [
