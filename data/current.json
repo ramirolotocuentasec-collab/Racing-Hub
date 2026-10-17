@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T08:14:50.960294Z",
+  "updatedAt": "2026-10-17T08:49:56.264473Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2326,7 +2328,7 @@
         "published": "Fri, 16 Oct 2026 22:10:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjKgvY/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YBVjKgvY/s6/oliver-bearman-haas-f1-team.jpg"
       },
       {
         "title": "Haas vuelve a usar su 'monstruosa' decoración dedicada a Godzilla en Austin",
@@ -2334,7 +2336,7 @@
         "published": "Fri, 16 Oct 2026 19:05:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0ZqAO5o6/s6/livrea-del-team-haas-f1-per-il.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0ZqAO5o6/s6/livrea-del-team-haas-f1-per-il.jpg"
       },
       {
         "title": "Colton Herta contempla un regreso a la Indy 500 en IMSA mientras define su 2027",
@@ -2342,7 +2344,7 @@
         "published": "Fri, 16 Oct 2026 16:44:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2eZgPdKY/s6/colton-herta-hitech-gp.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2eZgPdKY/s6/colton-herta-hitech-gp.jpg"
       },
       {
         "title": "Por qué Mercedes cambió a George Russell a la antigua especificación en Singapur",
@@ -2350,7 +2352,7 @@
         "published": "Fri, 16 Oct 2026 15:46:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YpbAGaN0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YpbAGaN0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Mercedes detecta el fallo en su nuevo paquete: cargó demasiado el tren delantero del W17",
@@ -2358,7 +2360,7 @@
         "published": "Fri, 16 Oct 2026 14:42:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdKqmlY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdKqmlY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Max Verstappen: Preguntas frecuentes sobre su participación en el GTWC Europa",
@@ -2366,7 +2368,7 @@
         "published": "Fri, 16 Oct 2026 14:38:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6n7AaeM0/s6/clasificaciones-de-las-24-hora.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6n7AaeM0/s6/clasificaciones-de-las-24-hora.jpg"
       },
       {
         "title": "Karun Chandhok expresa preocupación por el rendimiento de la actualización de Mercedes F1",
@@ -2374,7 +2376,7 @@
         "published": "Fri, 16 Oct 2026 13:16:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "¿En qué se diferencia el liderazgo de Mekies en Red Bull del de Horner?",
@@ -2382,7 +2384,7 @@
         "published": "Fri, 16 Oct 2026 09:51:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/25dLGkJ0/s6/laurent-mekies-red-bull-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25dLGkJ0/s6/laurent-mekies-red-bull-racing.jpg"
       },
       {
         "title": "El fallo de radio en Singapur reveló la fortaleza de Max Verstappen, según Collins",
@@ -2390,7 +2392,7 @@
         "published": "Fri, 16 Oct 2026 09:37:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68VwdzQ2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/68VwdzQ2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "De Recife a la Fórmula 1: el sueño de Câmara que cambió la vida de toda su familia",
@@ -2398,7 +2400,7 @@
         "published": "Fri, 16 Oct 2026 09:36:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6lmdkBj0/s6/rafael-camara-pilota-fda.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmdkBj0/s6/rafael-camara-pilota-fda.jpg"
       },
       {
         "title": "F2 insiste: Qatar y Abu Dhabi cerrarán la temporada pese a la guerra de Irán",
@@ -2406,7 +2408,7 @@
         "published": "Fri, 16 Oct 2026 09:32:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2jEAAzN0/s6/rafael-camara-invicta-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2jEAAzN0/s6/rafael-camara-invicta-racing.jpg"
       },
       {
         "title": "Checo Pérez alaba la moderna sede de Cadillac: “Nunca había visto una fábrica así”",
@@ -2414,7 +2416,7 @@
         "published": "Fri, 16 Oct 2026 00:14:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2eZxXmaY/s6/sergio-perez-cadillac.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2eZxXmaY/s6/sergio-perez-cadillac.jpg"
       },
       {
         "title": "Nico Rosberg: Kimi Antonelli este año está al \"nivel de Michael Schumacher\"",
@@ -2422,7 +2424,7 @@
         "published": "Thu, 15 Oct 2026 19:40:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dL7al0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25dL7al0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Test Pirelli: Mercedes completa más de 600 km con Vesti en Magny-Cours para los neumáticos 2027",
@@ -2430,7 +2432,7 @@
         "published": "Thu, 15 Oct 2026 18:40:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YpbAoBg0/s6/frederik-vesti-terzo-pilota-me.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YpbAoBg0/s6/frederik-vesti-terzo-pilota-me.jpg"
       },
       {
         "title": "Williams se salta una numeración en el chasis para celebrar con el FW50 medio siglo de historia",
@@ -2438,7 +2440,7 @@
         "published": "Thu, 15 Oct 2026 17:37:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/01QNaov0/s6/williams-fw50.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/01QNaov0/s6/williams-fw50.jpg"
       }
     ],
     "moto": [
@@ -2448,7 +2450,7 @@
         "published": "Fri, 16 Oct 2026 21:02:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Gresini cree que las reglas de 2027 no ampliarán la brecha entre fábricas y satélites",
@@ -2456,7 +2458,7 @@
         "published": "Fri, 16 Oct 2026 19:53:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "Trackhouse anuncia un nuevo accionista: la plataforma de inversión 1936",
@@ -2472,7 +2474,7 @@
         "published": "Fri, 16 Oct 2026 13:02:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0LdeV5W0/s6/marc-marquez-ducati-team-pedro-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0LdeV5W0/s6/marc-marquez-ducati-team-pedro-2.jpg"
       },
       {
         "title": "Ducati desmiente que la MotoGP 2026 haya sido construida específicamente para Marc Márquez",
@@ -2480,7 +2482,7 @@
         "published": "Thu, 15 Oct 2026 11:03:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8zbb6/s6/marc-marquez-ducati-team-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8zbb6/s6/marc-marquez-ducati-team-2.jpg"
       },
       {
         "title": "Jorge Martín: “No siento que vaya a sufrir más” en la recta final por el título de MotoGP",
@@ -2488,7 +2490,7 @@
         "published": "Thu, 15 Oct 2026 10:16:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YK15NDk0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YK15NDk0/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Los pilotos de MotoGP dudan sobre viajar a Qatar por seguridad ante la crisis en Medio Oriente",
@@ -2496,7 +2498,7 @@
         "published": "Wed, 14 Oct 2026 14:05:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O1jGdG2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6O1jGdG2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Fermín Aldeguer fue operado de la mano",
@@ -2504,7 +2506,7 @@
         "published": "Wed, 14 Oct 2026 09:18:43 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNwvq2/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNwvq2/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "Acosta critica la norma de presiones y propone igualarlas antes de salir",
@@ -2512,7 +2514,7 @@
         "published": "Tue, 13 Oct 2026 18:03:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6b8ZowL2/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Di Giannantonio acabó octavo en Mandalika pese a un agujero en el neumático delantero",
@@ -2520,7 +2522,7 @@
         "published": "Tue, 13 Oct 2026 00:00:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6DGgNpVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "Aprilia considera aplicar órdenes de equipo mientras se intensifica la lucha por el título de MotoGP",
@@ -2528,7 +2530,7 @@
         "published": "Mon, 12 Oct 2026 12:00:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YXyKZ356/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Los pilotos responden a las sanciones en MotoGP por no ir a eventos con los aficionados",
@@ -2536,7 +2538,7 @@
         "published": "Mon, 12 Oct 2026 11:44:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0qgKvMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Por qué no hubo sanción para Jorge Martín pese a saltarse la salida en Indonesia",
@@ -2544,7 +2546,7 @@
         "published": "Mon, 12 Oct 2026 11:27:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YBVjKLBY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Toprak Razgatlioglu se someterá a una revisión en el hombro: \"Espero no necesitar cirugía\"",
@@ -2552,7 +2554,7 @@
         "published": "Mon, 12 Oct 2026 10:45:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2dEoGr7Y/s6/toprak-razgatlioglu-pramac-rac-2.jpg"
       },
       {
         "title": "Ganadores y perdedores del frenético Gran Premio de Indonesia de MotoGP",
@@ -2560,7 +2562,7 @@
         "published": "Mon, 12 Oct 2026 10:33:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YXyKZMK6/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YXyKZMK6/s6/raul-fernandez-trackhouse-raci.jpg"
       }
     ]
   },
