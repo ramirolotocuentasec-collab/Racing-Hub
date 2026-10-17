@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T21:54:31.315674Z",
+  "updatedAt": "2026-10-17T22:22:47.485628Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
