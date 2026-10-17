@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T19:26:47.143360Z",
+  "updatedAt": "2026-10-17T19:54:09.732056Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Ferrari asciende a piloto de F2 al rol de piloto de reserva en F1",
+        "url": "https://espanol.motorsport.com/f1/news/ferrari-asciende-piloto-de-f2-a-piloto-reserva-en-f1/10865887/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 17 Oct 2026 19:44:58 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/2wlEdyWY/s6/dino-beganovic-ferrari.jpg"
+      },
+      {
         "title": "Cadillac F1 presenta una colección de Tommy Hilfiger inspirada en Texas para el GP de Estados Unidos",
         "url": "https://espanol.motorsport.com/f1/news/cadillac-presenta-coleccion-tommy-hilfiger-para-austin/10865948/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 17 Oct 2026 19:09:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0qgKvqOY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0qgKvqOY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Convierten parte de un Alpine de F1 en una pieza de exhibición única que saldrá a subasta",
@@ -2336,7 +2344,7 @@
         "published": "Sat, 17 Oct 2026 18:49:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YK15p180/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YK15p180/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Steiner critica a Lando Norris: \"No fue una maniobra de campeón del mundo\"",
@@ -2344,7 +2352,7 @@
         "published": "Sat, 17 Oct 2026 17:12:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Los compañeros de equipo de Max Verstappen en Portimao: ¿quiénes son Chris Lulham y Ben Barnicoat?",
@@ -2368,7 +2376,7 @@
         "published": "Sat, 17 Oct 2026 14:45:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVjpM7Y/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YBVjpM7Y/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Mercedes comparte la emotiva llamada entre Joshua Dürksen y el presidente de Paraguay",
@@ -2376,7 +2384,7 @@
         "published": "Sat, 17 Oct 2026 14:42:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2Qedm1X2/s6/joshua-durksen.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2Qedm1X2/s6/joshua-durksen.jpg"
       },
       {
         "title": "Horner pide replantear el límite presupuestario de la F1: \"Los equipos gastan $500 o $600 millones\"",
@@ -2384,7 +2392,7 @@
         "published": "Sat, 17 Oct 2026 13:42:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/68VwdaV2/s6/christian-horner.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68VwdaV2/s6/christian-horner.jpg"
       },
       {
         "title": "Ferrari publica caóticas imágenes de la toma de sus redes sociales por Hamilton y Leclerc",
@@ -2392,7 +2400,7 @@
         "published": "Sat, 17 Oct 2026 10:23:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwL442/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/68VwL442/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "¿Sabía ya Verstappen el impacto de la gran mejora de Red Bull cuando firmó su nuevo acuerdo?",
@@ -2400,7 +2408,7 @@
         "published": "Sat, 17 Oct 2026 10:18:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6zoDkQ70/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6zoDkQ70/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Ollie Bearman fue visto conduciendo un superdeportivo Ferrari de más de 1,000 CV por Mónaco",
@@ -2408,7 +2416,7 @@
         "published": "Fri, 16 Oct 2026 22:10:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YBVjKgvY/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjKgvY/s6/oliver-bearman-haas-f1-team.jpg"
       },
       {
         "title": "Haas vuelve a usar su 'monstruosa' decoración dedicada a Godzilla en Austin",
@@ -2416,7 +2424,7 @@
         "published": "Fri, 16 Oct 2026 19:05:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0ZqAO5o6/s6/livrea-del-team-haas-f1-per-il.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0ZqAO5o6/s6/livrea-del-team-haas-f1-per-il.jpg"
       },
       {
         "title": "Colton Herta contempla un regreso a la Indy 500 en IMSA mientras define su 2027",
@@ -2424,7 +2432,7 @@
         "published": "Fri, 16 Oct 2026 16:44:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2eZgPdKY/s6/colton-herta-hitech-gp.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2eZgPdKY/s6/colton-herta-hitech-gp.jpg"
       },
       {
         "title": "Por qué Mercedes cambió a George Russell a la antigua especificación en Singapur",
@@ -2433,14 +2441,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-3.motorsport.com/images/amp/YpbAGaN0/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Mercedes detecta el fallo en su nuevo paquete: cargó demasiado el tren delantero del W17",
-        "url": "https://espanol.motorsport.com/f1/news/mercedes-detecta-fallo-nuevo-paquete-cargo-demasiado-tren-delantero/10865651/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 16 Oct 2026 14:42:06 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdKqmlY/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
