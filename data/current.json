@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:35:25.269919Z",
+  "updatedAt": "2026-10-18T12:00:26.096456Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,44 @@
   "news": {
     "f1": [
       {
+        "title": "Revelan la gorra especial de Lewis Hamilton para el GP de Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/revelan-gorra-especial-lewis-hamilton-para-brasil/10866063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 18 Oct 2026 11:54:56 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/6lmA9yk0/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
+        "title": "Mercedes revela por qué descartó el alerón Macarena hace más de un año",
+        "url": "https://espanol.motorsport.com/f1/news/mercedes-por-que-descarto-aleron-macarena/10865910/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 18 Oct 2026 11:49:05 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/68VwKlx2/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Ricciardo insinúa un regreso al paddock de la F1 para el GP de Estados Unidos",
+        "url": "https://espanol.motorsport.com/f1/news/ricciardo-insinua-regreso-al-paddock-de-la-f1-en-austin/10865908/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 18 Oct 2026 11:42:25 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
+      },
+      {
+        "title": "Red Bull explica cómo la IA influye en sus estrategias para las carreras de F1",
+        "url": "https://espanol.motorsport.com/f1/news/red-bull-explica-como-ia-influye-en-sus-estrategias-de-f1/10865906/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 18 Oct 2026 11:39:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/24QGgv5Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Lando Norris desata la polémica tras parecer burlarse de Lance Stroll en un video viral",
         "url": "https://espanol.motorsport.com/f1/news/norris-burla-lance-stroll-video/10865904/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 18 Oct 2026 10:35:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YP74qRj2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YP74qRj2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Max Verstappen presenta un casco especial con temática de Texas para el GP de Estados Unidos de F1",
@@ -2344,7 +2376,7 @@
         "published": "Sun, 18 Oct 2026 10:29:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9EjgMY/s6/zak-brown-mclaren.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YE9EjgMY/s6/zak-brown-mclaren.jpg"
       },
       {
         "title": "Entrevista exclusiva con el jefe de HRC: ¿Qué pasa realmente entre Honda y Aston Martin en la F1?",
@@ -2352,7 +2384,7 @@
         "published": "Sun, 18 Oct 2026 10:26:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNGE72/s6/koji-watanabe-honda-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNGE72/s6/koji-watanabe-honda-racing.jpg"
       },
       {
         "title": "¿Cuándo se convertirá Mercedes en campeón del mundo de F1 en 2026?",
@@ -2360,7 +2392,7 @@
         "published": "Sun, 18 Oct 2026 10:04:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2jED8MM0/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2jED8MM0/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Liam Lawson actuará con un set de música en vivo antes del Gran Premio de Estados Unidos",
@@ -2368,7 +2400,7 @@
         "published": "Sun, 18 Oct 2026 09:25:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZoRr2/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6b8ZoRr2/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Mercedes F1 revela sus millonarios ingresos y el reparto de dinero a los accionistas",
@@ -2376,7 +2408,7 @@
         "published": "Sun, 18 Oct 2026 00:15:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YWKA5geY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YWKA5geY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Colton Herta “quizá subestimó la diferencia” con IndyCar, lanza el jefe de la F2",
@@ -2384,7 +2416,7 @@
         "published": "Sun, 18 Oct 2026 00:10:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2y7QPOK6/s6/colton-herta-hitech.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2y7QPOK6/s6/colton-herta-hitech.jpg"
       },
       {
         "title": "Analista de la F1 advierte ante crecientes problemas de confianza entre Hamilton y Ferrari",
@@ -2392,7 +2424,7 @@
         "published": "Sun, 18 Oct 2026 00:06:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6VyKwjdY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "El GP de Estados Unidos de F1 tendrá una nueva y extraña atracción en Austin",
@@ -2400,7 +2432,7 @@
         "published": "Sun, 18 Oct 2026 00:03:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Yv87qrG0/s6/liam-lawson-racing-bulls-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/Yv87qrG0/s6/liam-lawson-racing-bulls-team.jpg"
       },
       {
         "title": "Ferrari asciende a piloto de F2 al rol de piloto de reserva en F1",
@@ -2408,39 +2440,7 @@
         "published": "Sat, 17 Oct 2026 19:44:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2wlEdyWY/s6/dino-beganovic-ferrari.jpg"
-      },
-      {
-        "title": "Cadillac F1 presenta una colección de Tommy Hilfiger inspirada en Texas para el GP de Estados Unidos",
-        "url": "https://espanol.motorsport.com/f1/news/cadillac-presenta-coleccion-tommy-hilfiger-para-austin/10865948/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 17 Oct 2026 19:09:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0qgKvqOY/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Convierten parte de un Alpine de F1 en una pieza de exhibición única que saldrá a subasta",
-        "url": "https://espanol.motorsport.com/f1/news/alpine-f1-pieza-de-exhibicion/10865946/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 17 Oct 2026 18:49:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YK15p180/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Steiner critica a Lando Norris: \"No fue una maniobra de campeón del mundo\"",
-        "url": "https://espanol.motorsport.com/f1/news/steiner-critica-a-lando-norris-por-choque-piastr-singapur/10865883/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 17 Oct 2026 17:12:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Los compañeros de equipo de Max Verstappen en Portimao: ¿quiénes son Chris Lulham y Ben Barnicoat?",
-        "url": "https://espanol.motorsport.com/f1/news/companeros-de-equipo-de-max-verstappen-en-portimao/10865881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 17 Oct 2026 15:44:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6AErZ7q6/s6/max-verstappen-y-christopher-l.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2wlEdyWY/s6/dino-beganovic-ferrari.jpg"
       }
     ],
     "moto": [
