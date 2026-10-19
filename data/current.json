@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T10:35:51.503109Z",
+  "updatedAt": "2026-10-19T11:11:29.539141Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2321,12 +2323,36 @@
   "news": {
     "f1": [
       {
+        "title": "McLaren mantiene a Leonardo Fornaroli en la F1 y lo suma al WEC para 2027",
+        "url": "https://espanol.motorsport.com/f1/news/mclaren-mantiene-a-fornaroli-en-f1-y-le-suma-el-wec-para-2027/10866253/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Mon, 19 Oct 2026 11:03:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
+      },
+      {
+        "title": "Checo Pérez califica su 2026 en Cadillac como: \"Sin duda, uno de mis mejores años\"",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-cadillac-formula-1-2026-mejores-anos/10866165/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Mon, 19 Oct 2026 10:50:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/0JXw7vMY/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Por qué Horner ve que la historia se repite para Newey en Aston Martin",
+        "url": "https://espanol.motorsport.com/f1/news/horner-ve-que-historia-se-repite-para-newey-en-aston-martin/10866237/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Mon, 19 Oct 2026 10:35:25 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/Yv8nmLv0/s6/adrian-newey-chief-technology-.jpg"
+      },
+      {
         "title": "Horner admite que le ordenaron beneficiar a Verstappen sobre Checo Pérez",
         "url": "https://espanol.motorsport.com/f1/news/horner-admite-ordenaron-beneficiar-verstappen-sobre-checo-perez/10866146/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 18 Oct 2026 23:19:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6l987VN0/s6/christian-horner-director-del-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6l987VN0/s6/christian-horner-director-del-.jpg"
       },
       {
         "title": "Los 10 pilotos en la pole position más inesperados de la F1",
@@ -2334,7 +2360,7 @@
         "published": "Sun, 18 Oct 2026 19:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0rVPQrO0/s6/rubens-barrichello-jordan-gran.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0rVPQrO0/s6/rubens-barrichello-jordan-gran.jpg"
       },
       {
         "title": "Ruanda recurre a la F1 mientras avanza desde un pasado turbulento",
@@ -2342,7 +2368,7 @@
         "published": "Sun, 18 Oct 2026 17:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YvKBwde6/s6/rwanda-african-gp.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YvKBwde6/s6/rwanda-african-gp.jpg"
       },
       {
         "title": "Cómo afrontará Kimi Antonelli la presión de sellar el título de F1 en el GP de Estados Unidos",
@@ -2350,7 +2376,7 @@
         "published": "Sun, 18 Oct 2026 15:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6lmAovD0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmAovD0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Cómo Geri Halliwell ayudó a Christian Horner a lidiar con el odio de los aficionados de la F1",
@@ -2358,7 +2384,7 @@
         "published": "Sun, 18 Oct 2026 14:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2wB9xN30/s6/geri-horner-with-christian-hor.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2wB9xN30/s6/geri-horner-with-christian-hor.jpg"
       },
       {
         "title": "Alpine, mejor en clasificación que en carrera: las razones del problema en el A526",
@@ -2366,7 +2392,7 @@
         "published": "Sun, 18 Oct 2026 13:31:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVPvzP0/s6/pierre-gasly-alpine-franco-col.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0rVPvzP0/s6/pierre-gasly-alpine-franco-col.jpg"
       },
       {
         "title": "Max Verstappen responde a los expilotos de F1 por las críticas al reglamento de 2026",
@@ -2374,7 +2400,7 @@
         "published": "Sun, 18 Oct 2026 12:42:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6DGgo34Y/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6DGgo34Y/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "La F2 aún no decide si acepta el equipo de Norris: \"Lo como examinamos cualquier otra petición\"",
@@ -2382,7 +2408,7 @@
         "published": "Sun, 18 Oct 2026 12:05:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2eZx9m3Y/s6/diseno-ln4-fusion-f4.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2eZx9m3Y/s6/diseno-ln4-fusion-f4.jpg"
       },
       {
         "title": "El espectacular Aston Martin inspirado en la F1 fue visto en pruebas mientras surgen afirmaciones de récord",
@@ -2390,7 +2416,7 @@
         "published": "Sun, 18 Oct 2026 11:59:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YMXbvRv2/s6/009-aston-martin-thor-team-ast.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YMXbvRv2/s6/009-aston-martin-thor-team-ast.jpg"
       },
       {
         "title": "Revelan la gorra especial de Lewis Hamilton para el GP de Brasil",
@@ -2398,7 +2424,7 @@
         "published": "Sun, 18 Oct 2026 11:54:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6lmA9yk0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmA9yk0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Mercedes revela por qué descartó el alerón Macarena hace más de un año",
@@ -2406,7 +2432,7 @@
         "published": "Sun, 18 Oct 2026 11:49:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/68VwKlx2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/68VwKlx2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Ricciardo insinúa un regreso al paddock de la F1 para el GP de Estados Unidos",
@@ -2414,31 +2440,7 @@
         "published": "Sun, 18 Oct 2026 11:42:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
-      },
-      {
-        "title": "Red Bull explica cómo la IA influye en sus estrategias para las carreras de F1",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-explica-como-ia-influye-en-sus-estrategias-de-f1/10865906/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 18 Oct 2026 11:39:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/24QGgv5Y/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Lando Norris desata la polémica tras parecer burlarse de Lance Stroll en un video viral",
-        "url": "https://espanol.motorsport.com/f1/news/norris-burla-lance-stroll-video/10865904/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 18 Oct 2026 10:35:04 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YP74qRj2/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Max Verstappen presenta un casco especial con temática de Texas para el GP de Estados Unidos de F1",
-        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-presenta-casco-especial-para-el-gp-de-estados-unidos/10865902/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 18 Oct 2026 10:31:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2wlKwEbY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
       }
     ],
     "moto": [
