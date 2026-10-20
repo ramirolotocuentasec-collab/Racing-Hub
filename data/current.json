@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T11:53:27.244499Z",
+  "updatedAt": "2026-10-20T12:36:19.322951Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1817,8 +1816,7 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ]
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,6 +2321,22 @@
   "news": {
     "f1": [
       {
+        "title": "Verstappen o Antonelli: ¿Quién sumó más puntos desde las vacaciones de la F1?",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-o-antonelli-quien-sumo-mas-puntos-desde-vacaciones-de-f1/10866495/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 20 Oct 2026 12:23:14 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7v8BP6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      },
+      {
+        "title": "Horner revela la presión que ejerció sobre Michael Masi para lograr el gran final Abu Dhabi 2021",
+        "url": "https://espanol.motorsport.com/f1/news/horner-revela-presion-michael-masi-abu-dhabi-2021/10866491/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 20 Oct 2026 12:11:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/YBeagEB2/s6/christian-horner-team-principa.jpg"
+      },
+      {
         "title": "Ferrari llega a tiempo con el paquete de mejoras previsto para Austin",
         "url": "https://espanol.motorsport.com/f1/news/ferrari-tiene-listo-paquete-mejoras-para-austin/10866484/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 20 Oct 2026 11:26:33 +0000",
@@ -2336,7 +2350,7 @@
         "published": "Tue, 20 Oct 2026 09:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6lmAx5j0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6lmAx5j0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Dentro de la competición que construye el futuro talento de ingeniería de la F1",
@@ -2344,7 +2358,7 @@
         "published": "Tue, 20 Oct 2026 08:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
       },
       {
         "title": "Christian Horner: Construir el motor de F1 de Red Bull fue “aterrador”",
@@ -2352,7 +2366,7 @@
         "published": "Tue, 20 Oct 2026 00:16:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YKEDxnb0/s6/christian-horner-director-de-r.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YKEDxnb0/s6/christian-horner-director-de-r.jpg"
       },
       {
         "title": "McLaren usará las últimas evoluciones de 2026 para probar ideas de 2027",
@@ -2360,7 +2374,7 @@
         "published": "Tue, 20 Oct 2026 00:10:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Williams tiene los mejores chalecos refrigerantes de la F1, dice Alex Albon",
@@ -2368,7 +2382,7 @@
         "published": "Mon, 19 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YvKBvmE6/s6/alexander-albon-williams-carlo.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YvKBvmE6/s6/alexander-albon-williams-carlo.jpg"
       },
       {
         "title": "Mercedes explica por qué su actualización hizo que su auto fuera más difícil de manejar",
@@ -2376,7 +2390,7 @@
         "published": "Mon, 19 Oct 2026 20:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Valtteri Bottas recauda 50.000 euros para una organización benéfica de rinocerontes",
@@ -2384,7 +2398,7 @@
         "published": "Mon, 19 Oct 2026 18:40:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YN7v1gj6/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YN7v1gj6/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "Fernando Alonso subasta una experiencia de 'hot-lap' con fines benéficos",
@@ -2400,7 +2414,7 @@
         "published": "Mon, 19 Oct 2026 14:55:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7v4Q46/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YN7v4Q46/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Max Verstappen revela su próximo objetivo para las carreras de GT",
@@ -2408,7 +2422,7 @@
         "published": "Mon, 19 Oct 2026 13:34:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/01QNa8m0/s6/3-mercedes-amg-team-verstappen.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/01QNa8m0/s6/3-mercedes-amg-team-verstappen.jpg"
       },
       {
         "title": "Bortoleto revela sus preguntas a Max Verstappen mientras compiten en carreras virtuales",
@@ -2416,7 +2430,7 @@
         "published": "Mon, 19 Oct 2026 13:30:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7QBDe6/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y7QBDe6/s6/gabriel-bortoleto-audi-f1-team.jpg"
       },
       {
         "title": "¿El premio consuelo para George Russell? Es el 'campeón' de las carreras sprint en la F1 2026",
@@ -2424,23 +2438,7 @@
         "published": "Mon, 19 Oct 2026 13:26:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2dEo3AeY/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Los horarios para el GP de Estados Unidos de F1 2026 y cómo verlo en vivo",
-        "url": "https://espanol.motorsport.com/f1/news/horarios-gp-estados-unidos-2026-formula-1/10866300/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 19 Oct 2026 12:59:32 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2d1kvepY/s6/pierre-gasly-alpine.jpg"
-      },
-      {
-        "title": "Reportan que habrá un documental sobre el histórico duelo entre Hamilton y Alonso en la F1 2007",
-        "url": "https://espanol.motorsport.com/f1/news/alonso-hamilton-documental-2007/10866279/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 19 Oct 2026 12:23:21 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2eZgQE3Y/s6/lewis-hamilton-mclaren-fernand.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2dEo3AeY/s6/george-russell-mercedes.jpg"
       }
     ],
     "moto": [
