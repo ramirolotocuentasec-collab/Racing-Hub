@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T02:11:27.247191Z",
+  "updatedAt": "2026-10-21T02:54:23.033335Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2321,12 +2323,36 @@
   "news": {
     "f1": [
       {
+        "title": "Max Verstappen recibe una nueva invitación de la Fórmula E antes del debut del Gen4",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-recibe-nueva-invitacion-de-la-formula-e/10866610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 21 Oct 2026 02:36:51 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/0kZXGJj6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Max Verstappen respalda a Isack Hadjar para asumir su puesto en Red Bull F1",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-respalda-a-isack-hadjar-para-asumir-su-puesto-en-red-bull/10866608/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 21 Oct 2026 02:31:00 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdKNOQY/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Max Verstappen bromea con que necesitará una \"columna nueva\" por los baches de Austin",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-bromea-necesitara-una-columna-nueva-austin/10866498/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 21 Oct 2026 00:23:04 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/6DGgo34Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Exclusivo: Checo Pérez dice que \"podría seguir 10 años\", pero revela \"hay un precio que pagar\" en F1",
         "url": "https://espanol.motorsport.com/f1/news/checo-perez-analiza-su-futuro-admite-no-me-queda-mucho/10866575/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 20 Oct 2026 21:41:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwoQ82/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/68VwoQ82/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Lawson no se fía de Alpine con el recuerdo de 2024: \"No hay nada garantizado\"",
@@ -2334,7 +2360,7 @@
         "published": "Tue, 20 Oct 2026 17:51:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjpMvY/s6/pierre-gasly-alpine-liam-lawso-3.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YBVjpMvY/s6/pierre-gasly-alpine-liam-lawso-3.jpg"
       },
       {
         "title": "La FIA insiste en que las carreras de F1 en Qatar y Abu Dhabi se disputen según lo previsto",
@@ -2342,7 +2368,7 @@
         "published": "Tue, 20 Oct 2026 17:07:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6grBrLmY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6grBrLmY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Colapinto: \"Todos trabajamos duro en Alpine para que las próximas carreras sean mucho mejores\"",
@@ -2350,7 +2376,7 @@
         "published": "Tue, 20 Oct 2026 15:51:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6lmAGvj0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6lmAGvj0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Cadillac presenta la Escalade-V Edición Checo Pérez; ¿cuánto cuesta?",
@@ -2358,7 +2384,7 @@
         "published": "Tue, 20 Oct 2026 15:47:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2y7QwXe6/s6/cadillac-escalade-v-edicion-es.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2y7QwXe6/s6/cadillac-escalade-v-edicion-es.jpg"
       },
       {
         "title": "El antiguo proveedor de medidores de flujo de combustible de la F1 demanda a su reemplazo",
@@ -2366,7 +2392,7 @@
         "published": "Tue, 20 Oct 2026 14:51:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9EqQLY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YE9EqQLY/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Cadillac presenta una decoración especial para el GP de los Estados Unidos en Austin",
@@ -2374,7 +2400,7 @@
         "published": "Tue, 20 Oct 2026 14:50:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0qgKoQQY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Verstappen o Antonelli: ¿Quién sumó más puntos desde las vacaciones de la F1?",
@@ -2390,7 +2416,7 @@
         "published": "Tue, 20 Oct 2026 12:11:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YBeagEB2/s6/christian-horner-team-principa.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YBeagEB2/s6/christian-horner-team-principa.jpg"
       },
       {
         "title": "Ferrari llega a tiempo con el paquete de mejoras previsto para Austin",
@@ -2398,7 +2424,7 @@
         "published": "Tue, 20 Oct 2026 11:26:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8Z37p2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8Z37p2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Mekies bajo la lupa: ¿En qué se diferencia su liderazgo en Red Bull del de Horner?",
@@ -2414,31 +2440,7 @@
         "published": "Tue, 20 Oct 2026 08:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
-      },
-      {
-        "title": "Christian Horner: Construir el motor de F1 de Red Bull fue “aterrador”",
-        "url": "https://espanol.motorsport.com/f1/news/horner-construir-motor-de-f1-de-red-bull-fue-aterrador/10866391/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 20 Oct 2026 00:16:39 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YKEDxnb0/s6/christian-horner-director-de-r.jpg"
-      },
-      {
-        "title": "McLaren usará las últimas evoluciones de 2026 para probar ideas de 2027",
-        "url": "https://espanol.motorsport.com/f1/news/mclaren-usara-ultimas-evoluciones-2026-para-ideas-2027/10866389/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 20 Oct 2026 00:10:17 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdKNrKY/s6/oscar-piastri-mclaren.jpg"
-      },
-      {
-        "title": "Williams tiene los mejores chalecos refrigerantes de la F1, dice Alex Albon",
-        "url": "https://espanol.motorsport.com/f1/news/williams-tiene-mejores-chalecos-refrigerantes-dice-albon/10866312/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 19 Oct 2026 21:05:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YvKBvmE6/s6/alexander-albon-williams-carlo.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
       }
     ],
     "moto": [
@@ -2448,7 +2450,7 @@
         "published": "Tue, 20 Oct 2026 14:15:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
       },
       {
         "title": "Honda confirma a Diogo Moreira en su equipo oficial para el MotoGP 2027; David Alonso irá a LCR",
@@ -2464,7 +2466,7 @@
         "published": "Tue, 20 Oct 2026 09:47:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Toprak Razgatlioglu se pierde lo que resta de la temporada 2026 de MotoGP",
@@ -2480,7 +2482,7 @@
         "published": "Mon, 19 Oct 2026 13:50:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6b8Zovv2/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6b8Zovv2/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "Márquez destaca el nivel de Jorge Martín, su rival por el título de MotoGP",
@@ -2488,7 +2490,7 @@
         "published": "Sun, 18 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6b8Zo1v2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6b8Zo1v2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "El jefe de Yamaha, sobre los cambios en MotoGP con Liberty: \"Debemos tener cuidado de no perder a nuestros fans\"",
@@ -2496,7 +2498,7 @@
         "published": "Sun, 18 Oct 2026 18:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YE9w1M5Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YE9w1M5Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
       },
       {
         "title": "Los pilotos de MotoGP dicen que las motos de 850cc serán menos físicas y más divertidas de pilotar",
@@ -2504,7 +2506,7 @@
         "published": "Sun, 18 Oct 2026 16:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8jeD32/s6/michele-pirro-ducati-gp27-850c.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8jeD32/s6/michele-pirro-ducati-gp27-850c.jpg"
       },
       {
         "title": "Morbidelli, sobre conseguir la plaza más codiciada de WSBK pese a sus dificultades en MotoGP",
@@ -2512,7 +2514,7 @@
         "published": "Sat, 17 Oct 2026 10:29:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0R7BM7r2/s6/franco-morbidelli-vr46-racing-.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7BM7r2/s6/franco-morbidelli-vr46-racing-.jpg"
       },
       {
         "title": "Marc Márquez tendrá que hacer un \"acto de malabarismo\" en las próximas carreras de MotoGP",
@@ -2520,7 +2522,7 @@
         "published": "Fri, 16 Oct 2026 21:02:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Gresini cree que las reglas de 2027 no ampliarán la brecha entre fábricas y satélites",
@@ -2528,7 +2530,7 @@
         "published": "Fri, 16 Oct 2026 19:53:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
       },
       {
         "title": "Trackhouse anuncia un nuevo accionista: la plataforma de inversión 1936",
@@ -2536,7 +2538,7 @@
         "published": "Fri, 16 Oct 2026 18:19:43 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YpbAdDZ0/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YpbAdDZ0/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Acosta irá a Ducati para aprender de Márquez, no por dinero ni por ganarle con la misma moto",
@@ -2544,7 +2546,7 @@
         "published": "Fri, 16 Oct 2026 13:02:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0LdeV5W0/s6/marc-marquez-ducati-team-pedro-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0LdeV5W0/s6/marc-marquez-ducati-team-pedro-2.jpg"
       },
       {
         "title": "Ducati desmiente que la MotoGP 2026 haya sido construida específicamente para Marc Márquez",
@@ -2560,7 +2562,7 @@
         "published": "Thu, 15 Oct 2026 10:16:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YK15NDk0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YK15NDk0/s6/jorge-martin-aprilia-racing-te.jpg"
       }
     ]
   },
