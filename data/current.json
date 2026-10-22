@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T19:56:34.263956Z",
+  "updatedAt": "2026-10-22T20:30:56.245004Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Isack Hadjar: Max Verstappen habría ganado el GP de Singapur por más margen en un Ferrari",
+        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-max-verstappen-habria-ganado-singapur-ferrari/10867130/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 19:52:34 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Oscar Piastri: Lo que me hizo rápido la temporada pasada ahora es mi “perdición”",
         "url": "https://espanol.motorsport.com/f1/news/oscar-piastri-me-hizo-rapido-temporada-pasada-ahora-perdicion/10867125/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 19:38:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Carlos Sainz pone en duda que la F1 2026 pueda terminar en Medio Oriente: \"es difícil estar convencido\"",
@@ -2336,7 +2344,7 @@
         "published": "Thu, 22 Oct 2026 19:34:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
       },
       {
         "title": "Un día como hoy: Fernando Alonso gana el título mundial, Michael Schumacher se retira de la F1",
@@ -2344,7 +2352,7 @@
         "published": "Thu, 22 Oct 2026 19:28:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGgoX7Y/s6/fernando-alonso-renault-michae.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6DGgoX7Y/s6/fernando-alonso-renault-michae.jpg"
       },
       {
         "title": "\"Es básicamente mi segundo padre\": Checo Pérez sobre la influencia de Carlos Slim en su carrera",
@@ -2352,7 +2360,7 @@
         "published": "Thu, 22 Oct 2026 19:22:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/254gkpx0/s6/podio-carlos-slim-jr-y-tercer-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/254gkpx0/s6/podio-carlos-slim-jr-y-tercer-.jpg"
       },
       {
         "title": "\"¿Correr en MotoGP? ¡Mi papá no me dejaría!\", bromea Colapinto tras subirse a una Yamaha en Austin",
@@ -2360,7 +2368,7 @@
         "published": "Thu, 22 Oct 2026 19:09:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6b8ZgvL2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZgvL2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Austin apuesta por el lujo: el COTA será un club privado para solo 250 socios desde 2027",
@@ -2376,7 +2384,7 @@
         "published": "Thu, 22 Oct 2026 18:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "Colapinto quiere cambiar la historia de Alpine en Austin: \"Perdimos el último triplete y necesitamos ganar este\"",
@@ -2384,7 +2392,7 @@
         "published": "Thu, 22 Oct 2026 18:10:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Checo Pérez y Bottas lucirán uniformes estilo viejo oeste en Austin",
@@ -2392,7 +2400,7 @@
         "published": "Thu, 22 Oct 2026 17:59:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6zoDqz70/s6/hvp2bswwqaag4hp.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6zoDqz70/s6/hvp2bswwqaag4hp.jpg"
       },
       {
         "title": "Gasly descarta que Alpine necesite un cambio radical pese a sus últimos resultados en la F1",
@@ -2400,7 +2408,7 @@
         "published": "Thu, 22 Oct 2026 17:52:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNWlG2/s6/pierre-gasly-alpine-franco-col.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNWlG2/s6/pierre-gasly-alpine-franco-col.jpg"
       },
       {
         "title": "Cadillac revela la fecha de apertura de la fábrica de motores de F1 y agradece a sus pilotos por ser “pacientes”",
@@ -2408,7 +2416,7 @@
         "published": "Thu, 22 Oct 2026 16:56:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
       },
       {
         "title": "Alpine estrenará nueva decoración en el coche de Colapinto para la gira en América",
@@ -2416,7 +2424,7 @@
         "published": "Thu, 22 Oct 2026 16:45:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6AEr1PN6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6AEr1PN6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Horarios y dónde ver las Prácticas Libres del GP de Estados Unidos 2026 de F1 este viernes",
@@ -2424,7 +2432,7 @@
         "published": "Thu, 22 Oct 2026 15:51:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YP3v5rQ2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YP3v5rQ2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Audi le da al subcampeón de F3 Freddie Slater su debut en la F1 en México",
@@ -2432,15 +2440,7 @@
         "published": "Thu, 22 Oct 2026 15:32:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
-      },
-      {
-        "title": "Mercedes trae un nuevo alerón delantero a Austin: por qué la actualización es tan importante",
-        "url": "https://espanol.motorsport.com/f1/news/mercedes-nuevo-aleron-delantero-austin-actualizacion-importante/10866999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 14:55:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Q68XoD86/s6/mercedes-bringt-neuen-frontfluegel-warum-das-update-so-wichtig-ist-26102207.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
       }
     ],
     "moto": [
@@ -2450,7 +2450,7 @@
         "published": "Thu, 22 Oct 2026 17:29:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6x7Lqw1Y/s6/marc-marquez-ducati-team-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7Lqw1Y/s6/marc-marquez-ducati-team-2.jpg"
       },
       {
         "title": "Bagnaia: \"Phillip Island es una pista de verdad, pero ahora se va en una dirección diferente\"",
@@ -2458,7 +2458,7 @@
         "published": "Thu, 22 Oct 2026 13:42:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2QedgdO2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2QedgdO2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Raul Fernández sigue mermado tras la lesión en el dedo de Indonesia: “No estoy al 100%”",
@@ -2466,7 +2466,7 @@
         "published": "Thu, 22 Oct 2026 13:24:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YpbA3AA0/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YpbA3AA0/s6/raul-fernandez-trackhouse-raci.jpg"
       },
       {
         "title": "Márquez mete presión a Martín antes del GP de Australia con sus declaraciones",
@@ -2482,7 +2482,7 @@
         "published": "Thu, 22 Oct 2026 13:09:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
       },
       {
         "title": "Bezzecchi: \"¿Órdenes de equipo? Aprilia no ha dicho nada\"",
@@ -2490,7 +2490,7 @@
         "published": "Thu, 22 Oct 2026 12:28:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YP74ArB2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YP74ArB2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Alex Márquez, sobre ir a correr a Qatar: \"No creo que sea una decisión que se deba tomar ahora\"",
@@ -2498,7 +2498,7 @@
         "published": "Thu, 22 Oct 2026 10:26:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6grQdQbY/s6/alex-marquez-gresini-racing-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6grQdQbY/s6/alex-marquez-gresini-racing-2.jpg"
       },
       {
         "title": "David Alonso, duro contra Dani Holgado: \"Cuando uno no es buena persona no se puede hacer nada\"",
@@ -2506,7 +2506,7 @@
         "published": "Thu, 22 Oct 2026 10:22:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNWLP2/s6/david-alonso-aspar.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNWLP2/s6/david-alonso-aspar.jpg"
       },
       {
         "title": "Marc Márquez no se achica con su objetivo en un Phillip Island favorable para Aprilia",
@@ -2514,7 +2514,7 @@
         "published": "Thu, 22 Oct 2026 10:19:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2jEAvDg0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2jEAvDg0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los pilotos de MotoGP lamentan la pérdida de Phillip Island: “Será muy triste”",
@@ -2522,7 +2522,7 @@
         "published": "Thu, 22 Oct 2026 10:10:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YpNRryW0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YpNRryW0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "KTM ve 2027 como un reinicio para crear una MotoGP nueva desde cero y pelear por el campeonato",
@@ -2530,7 +2530,7 @@
         "published": "Wed, 21 Oct 2026 15:54:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
       },
       {
         "title": "Honda afrontará el GP de Australia con Marini por la baja médica de Joan Mir",
@@ -2538,7 +2538,7 @@
         "published": "Wed, 21 Oct 2026 13:20:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YWKA9JKY/s6/joan-mir-honda-hrc.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YWKA9JKY/s6/joan-mir-honda-hrc.jpg"
       },
       {
         "title": "Dovizioso revela una seria preocupación por Bagnaia: \"Nunca había vivido algo así\"",
@@ -2554,7 +2554,7 @@
         "published": "Tue, 20 Oct 2026 14:15:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
       },
       {
         "title": "Honda confirma a Diogo Moreira en su equipo oficial para el MotoGP 2027; David Alonso irá a LCR",
@@ -2562,7 +2562,7 @@
         "published": "Tue, 20 Oct 2026 10:22:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7z8xG6/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6O7z8xG6/s6/diogo-moreira-team-lcr-honda.jpg"
       }
     ]
   },
