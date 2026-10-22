@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T17:51:34.128314Z",
+  "updatedAt": "2026-10-22T18:31:32.772211Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2321,12 +2323,44 @@
   "news": {
     "f1": [
       {
+        "title": "Esteban Ocon responde al fichaje de Rafael Camara por Haas para la F1 2027",
+        "url": "https://espanol.motorsport.com/f1/news/esteban-ocon-responde-fichaje-rafael-camara-haas-f1-2027/10867075/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 18:28:20 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
+      },
+      {
+        "title": "Colapinto quiere cambiar la historia de Alpine en Austin: \"Perdimos el último triplete y necesitamos ganar este\"",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-alpine-en-austin-perdimos-el-ultimo-triplete-necesitamos-ganar-este/10867072/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 18:10:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Checo Pérez y Bottas lucirán uniformes estilo viejo oeste en Austin",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-bottas-luciran-uniformes-estilo-viejo-oeste-austin/10867066/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 17:59:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/6zoDqz70/s6/hvp2bswwqaag4hp.jpg"
+      },
+      {
+        "title": "Gasly descarta que Alpine necesite un cambio radical pese a sus últimos resultados en la F1",
+        "url": "https://espanol.motorsport.com/f1/news/gasly-descarta-alpine-necesite-cambio-radical-pese-a-ultimos-resultados/10867064/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 17:52:36 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNWlG2/s6/pierre-gasly-alpine-franco-col.jpg"
+      },
+      {
         "title": "Cadillac revela la fecha de apertura de la fábrica de motores de F1 y agradece a sus pilotos por ser “pacientes”",
         "url": "https://espanol.motorsport.com/f1/news/cadillac-revela-fecha-apertura-fabrica-motores-f1/10867018/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 16:56:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
       },
       {
         "title": "Alpine estrenará nueva decoración en el coche de Colapinto para la gira en América",
@@ -2334,7 +2368,7 @@
         "published": "Thu, 22 Oct 2026 16:45:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6AEr1PN6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6AEr1PN6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Horarios y dónde ver las Prácticas Libres del GP de Estados Unidos 2026 de F1 este viernes",
@@ -2342,7 +2376,7 @@
         "published": "Thu, 22 Oct 2026 15:51:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YP3v5rQ2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YP3v5rQ2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Audi le da al subcampeón de F3 Freddie Slater su debut en la F1 en México",
@@ -2350,7 +2384,7 @@
         "published": "Thu, 22 Oct 2026 15:32:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
       },
       {
         "title": "Mercedes trae un nuevo alerón delantero a Austin: por qué la actualización es tan importante",
@@ -2358,7 +2392,7 @@
         "published": "Thu, 22 Oct 2026 14:55:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/Q68XoD86/s6/mercedes-bringt-neuen-frontfluegel-warum-das-update-so-wichtig-ist-26102207.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/Q68XoD86/s6/mercedes-bringt-neuen-frontfluegel-warum-das-update-so-wichtig-ist-26102207.jpg"
       },
       {
         "title": "El lounge \"Smooth Operator\" de Carlos Sainz regresa para el GP de Las Vegas de F1",
@@ -2374,7 +2408,7 @@
         "published": "Thu, 22 Oct 2026 13:26:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YvKQnje6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YvKQnje6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Budkowski explica cómo su etapa en TV le ayuda ahora como jefe de Cadillac F1",
@@ -2382,7 +2416,7 @@
         "published": "Thu, 22 Oct 2026 13:22:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLaMQ0/s6/marcin-budkowski-director-del-.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/25dLaMQ0/s6/marcin-budkowski-director-del-.jpg"
       },
       {
         "title": "Ralf Schumacher: \"Una de las debilidades de Leclerc es que comete errores una y otra vez\"",
@@ -2390,7 +2424,7 @@
         "published": "Thu, 22 Oct 2026 13:14:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9EqKqY/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9EqKqY/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Por qué MotoGP no puede simplemente copiar el éxito de Drive to Survive de la F1",
@@ -2406,39 +2440,7 @@
         "published": "Thu, 22 Oct 2026 12:18:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6grQpraY/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "La F1 en Austin podría generar un asombroso impulso económico de 1.000 millones de dólares",
-        "url": "https://espanol.motorsport.com/f1/news/f1-en-austin-podria-generar-impulso-economico-de-1000-millones-de-dolares/10866957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 11:53:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6gplgeb0/s6/pierre-gasly-alpine-gabriel-bo.jpg"
-      },
-      {
-        "title": "Kimi Antonelli revela el hábito sencillo que mantiene mientras se acerca al título de la F1",
-        "url": "https://espanol.motorsport.com/f1/news/kimi-antonelli-revela-habito-que-mantiene-mientras-se-acerca-al-titulo-de-f1/10866955/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 11:45:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QGlePY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Red Bull llamó a Christian Horner para agradecerle por el proyecto del motor de F1 tras su primera victoria",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-llamo-a-horner-para-agradecerle-por-motor-de-f1-tras-victoria/10866951/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 11:39:22 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8dw46/s6/errol-barnett-and-christian-ho-2.jpg"
-      },
-      {
-        "title": "Ferrari presenta un diseño especial de lo que no se ve para el GP de Estados Unidos en Austin",
-        "url": "https://espanol.motorsport.com/f1/news/ferrari-diseno-especial-el-gp-de-estados-unidos/10866923/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 10:33:53 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2y7Q4Qn6/s6/decoracion-especial-de-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6grQpraY/s6/franco-colapinto-alpine.jpg"
       }
     ],
     "moto": [
