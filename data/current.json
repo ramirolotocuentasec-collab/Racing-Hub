@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T03:57:28.260335Z",
+  "updatedAt": "2026-10-22T04:32:55.653705Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,28 @@
   "news": {
     "f1": [
       {
+        "title": "TAG Heuer presenta una edición especial del reloj Red Bull F1 para celebrar el décimo aniversario",
+        "url": "https://espanol.motorsport.com/f1/news/tag-heuer-presenta-reloj-red-bull-f1-decimo-aniversario/10866828/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 04:17:09 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "La F1 presenta una cámara Leica de edición limitada con un precio desorbitado de 9,950 dólares",
+        "url": "https://espanol.motorsport.com/f1/news/f1-presenta-camara-leica-edicion-limitada-precio-9950-dolares/10866825/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 04:09:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/YvKBwqn6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Norris corre el riesgo de batir un récord indeseado en la F1 mientras está cerca de perder su cetro",
         "url": "https://espanol.motorsport.com/f1/news/norris-corre-riesgo-batir-record-indeseado-campeonato/10866817/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 03:00:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Ferrari desvela una decoración especial para el Gran Premio de Estados Unidos",
@@ -2344,7 +2360,7 @@
         "published": "Wed, 21 Oct 2026 20:44:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0rVPoKO0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Los equipos de F1 revelan colecciones especiales para el GP de Estados Unidos con denim, sombreros de vaquero y Godzilla",
@@ -2352,7 +2368,7 @@
         "published": "Wed, 21 Oct 2026 20:42:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2d1kvepY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2d1kvepY/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Vasseur confía en el SF-26 tras dos fines de semana alentadores en Asia",
@@ -2360,7 +2376,7 @@
         "published": "Wed, 21 Oct 2026 18:12:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YK15EZ10/s6/frederic-vasseur-scuderia-ferr.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YK15EZ10/s6/frederic-vasseur-scuderia-ferr.jpg"
       },
       {
         "title": "Cómo detrás de los trajes con decoraciones especiales hay más tecnología de la que parece",
@@ -2368,7 +2384,7 @@
         "published": "Wed, 21 Oct 2026 17:55:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YN7vqx46/s6/tuta-one-art-air-di-omp.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YN7vqx46/s6/tuta-one-art-air-di-omp.jpg"
       },
       {
         "title": "Oscar Piastri emite un preocupante veredicto sobre McLaren con seis carreras restantes",
@@ -2376,7 +2392,7 @@
         "published": "Wed, 21 Oct 2026 17:26:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JXRvxOY/s6/lando-norris-mclaren-oscar-pia.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0JXRvxOY/s6/lando-norris-mclaren-oscar-pia.jpg"
       },
       {
         "title": "Cinco cosas a tener en cuenta en el GP de Estados Unidos de F1 2026",
@@ -2384,7 +2400,7 @@
         "published": "Wed, 21 Oct 2026 16:16:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/254MqXD0/s6/atmosphere.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/254MqXD0/s6/atmosphere.jpg"
       },
       {
         "title": "El Centro de Operaciones Remoto de la FIA; el cerebro con IA para detectar infracciones en F1",
@@ -2400,7 +2416,7 @@
         "published": "Wed, 21 Oct 2026 15:43:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNGE72/s6/koji-watanabe-honda-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNGE72/s6/koji-watanabe-honda-racing.jpg"
       },
       {
         "title": "Hockenheim negocia con la F1, pero ve casi nula la financiación pública para volver al calendario",
@@ -2408,7 +2424,7 @@
         "published": "Wed, 21 Oct 2026 14:07:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2GdKqMQY/s6/robert-kubica-williams.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2GdKqMQY/s6/robert-kubica-williams.jpg"
       },
       {
         "title": "Las cifras que muestran que Mercedes ha perdido su supremacía en la F1 2026",
@@ -2416,7 +2432,7 @@
         "published": "Wed, 21 Oct 2026 13:24:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVPwOP0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVPwOP0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Antonelli revela cuándo espera ser campeón de F1 en su visita a la NBA",
@@ -2424,23 +2440,7 @@
         "published": "Wed, 21 Oct 2026 12:05:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YP74mQo2/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Por qué a Isack Hadjar ya no le gustan las carreras sprints de F1",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-a-isack-hadjar-ya-no-le-gustan-las-carreras-sprints/10866563/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 21 Oct 2026 11:49:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/24QGlOAY/s6/isack-hadjar-red-bull-racing.jpg"
-      },
-      {
-        "title": "Mercedes: “En Singapur tuvimos gente que no había hecho una parada en boxes en 15 años”",
-        "url": "https://espanol.motorsport.com/f1/news/mercedes-singapur-tuvimos-gente-que-no-habia-hecho-una-parada-en-boxes-en-15-anos/10866561/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 21 Oct 2026 11:44:09 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O7zqeO6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YP74mQo2/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
