@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T20:30:56.245004Z",
+  "updatedAt": "2026-10-22T21:12:15.063353Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2323,36 @@
   "news": {
     "f1": [
       {
+        "title": "Franco Colapinto explica el por qué de su video tras los abusos en línea dirigidos al personal de Alpine F1",
+        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-explica-abusos-en-linea-dirigidos-a-personal-de-alpine/10867159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 21:03:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDkDj0/s6/franco-colapinto-alpine-2.jpg"
+      },
+      {
+        "title": "Hamilton, “obligado a quedarse mucho más tiempo” en la F1 para correr en África",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-obligado-quedarse-mucho-mas-tiempo-f1-correr-africa/10867149/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 20:50:09 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDqzj0/s6/lewis-hamilton-ferrari-3.jpg"
+      },
+      {
+        "title": "Fernando Alonso aclara los rumores sobre correr el Rally Dakar en el 2027",
+        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-aclara-rumores-correr-rally-dakar-2027/10867147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 20:33:09 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/2QedgEm2/s6/fernando-alonso-aston-martin-r.jpg"
+      },
+      {
         "title": "Isack Hadjar: Max Verstappen habría ganado el GP de Singapur por más margen en un Ferrari",
         "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-max-verstappen-habria-ganado-singapur-ferrari/10867130/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 19:52:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Oscar Piastri: Lo que me hizo rápido la temporada pasada ahora es mi “perdición”",
@@ -2336,7 +2360,7 @@
         "published": "Thu, 22 Oct 2026 19:38:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Carlos Sainz pone en duda que la F1 2026 pueda terminar en Medio Oriente: \"es difícil estar convencido\"",
@@ -2344,7 +2368,7 @@
         "published": "Thu, 22 Oct 2026 19:34:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
       },
       {
         "title": "Un día como hoy: Fernando Alonso gana el título mundial, Michael Schumacher se retira de la F1",
@@ -2352,7 +2376,7 @@
         "published": "Thu, 22 Oct 2026 19:28:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6DGgoX7Y/s6/fernando-alonso-renault-michae.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6DGgoX7Y/s6/fernando-alonso-renault-michae.jpg"
       },
       {
         "title": "\"Es básicamente mi segundo padre\": Checo Pérez sobre la influencia de Carlos Slim en su carrera",
@@ -2360,7 +2384,7 @@
         "published": "Thu, 22 Oct 2026 19:22:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/254gkpx0/s6/podio-carlos-slim-jr-y-tercer-.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/254gkpx0/s6/podio-carlos-slim-jr-y-tercer-.jpg"
       },
       {
         "title": "\"¿Correr en MotoGP? ¡Mi papá no me dejaría!\", bromea Colapinto tras subirse a una Yamaha en Austin",
@@ -2368,7 +2392,7 @@
         "published": "Thu, 22 Oct 2026 19:09:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZgvL2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8ZgvL2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Austin apuesta por el lujo: el COTA será un club privado para solo 250 socios desde 2027",
@@ -2376,7 +2400,7 @@
         "published": "Thu, 22 Oct 2026 18:43:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/63QaLql2/s6/dettaglio-del-cota.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/63QaLql2/s6/dettaglio-del-cota.jpg"
       },
       {
         "title": "Esteban Ocon responde al fichaje de Rafael Camara por Haas para la F1 2027",
@@ -2384,7 +2408,7 @@
         "published": "Thu, 22 Oct 2026 18:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "Colapinto quiere cambiar la historia de Alpine en Austin: \"Perdimos el último triplete y necesitamos ganar este\"",
@@ -2392,7 +2416,7 @@
         "published": "Thu, 22 Oct 2026 18:10:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Checo Pérez y Bottas lucirán uniformes estilo viejo oeste en Austin",
@@ -2400,7 +2424,7 @@
         "published": "Thu, 22 Oct 2026 17:59:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6zoDqz70/s6/hvp2bswwqaag4hp.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6zoDqz70/s6/hvp2bswwqaag4hp.jpg"
       },
       {
         "title": "Gasly descarta que Alpine necesite un cambio radical pese a sus últimos resultados en la F1",
@@ -2408,7 +2432,7 @@
         "published": "Thu, 22 Oct 2026 17:52:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNWlG2/s6/pierre-gasly-alpine-franco-col.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNWlG2/s6/pierre-gasly-alpine-franco-col.jpg"
       },
       {
         "title": "Cadillac revela la fecha de apertura de la fábrica de motores de F1 y agradece a sus pilotos por ser “pacientes”",
@@ -2416,31 +2440,7 @@
         "published": "Thu, 22 Oct 2026 16:56:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
-      },
-      {
-        "title": "Alpine estrenará nueva decoración en el coche de Colapinto para la gira en América",
-        "url": "https://espanol.motorsport.com/f1/news/alpine-estrenara-nueva-decoracion-coche-colapinto-gira-america-2026/10867046/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 16:45:50 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6AEr1PN6/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Horarios y dónde ver las Prácticas Libres del GP de Estados Unidos 2026 de F1 este viernes",
-        "url": "https://espanol.motorsport.com/f1/news/horarios-practicas-libres-gp-estados-unidos-f1-2026/10867026/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 15:51:38 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YP3v5rQ2/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Audi le da al subcampeón de F3 Freddie Slater su debut en la F1 en México",
-        "url": "https://espanol.motorsport.com/f1/news/audi-subcampeon-f3-freddie-slater-debut-f1-mexico/10867016/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 15:32:14 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoJmJk0/s6/general-motors-president-mark-.jpg"
       }
     ],
     "moto": [
