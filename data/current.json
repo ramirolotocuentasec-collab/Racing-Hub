@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:42:56.741329Z",
+  "updatedAt": "2026-10-22T10:20:40.588620Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1817,8 +1816,7 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2445,12 +2443,20 @@
     ],
     "moto": [
       {
+        "title": "Los pilotos de MotoGP lamentan la pérdida de Phillip Island: “Será muy triste”",
+        "url": "https://espanol.motorsport.com/motogp/news/pilotos-de-motogp-lamentan-perdida-de-phillip-island/10866908/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 10:10:06 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/YpNRryW0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+      },
+      {
         "title": "KTM ve 2027 como un reinicio para crear una MotoGP nueva desde cero y pelear por el campeonato",
         "url": "https://espanol.motorsport.com/motogp/news/ktm-2027-reinicio-crear-motogp-nueva-pelear-campeonato/10866758/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Wed, 21 Oct 2026 15:54:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
       },
       {
         "title": "Honda afrontará el GP de Australia con Marini por la baja médica de Joan Mir",
@@ -2458,7 +2464,7 @@
         "published": "Wed, 21 Oct 2026 13:20:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YWKA9JKY/s6/joan-mir-honda-hrc.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YWKA9JKY/s6/joan-mir-honda-hrc.jpg"
       },
       {
         "title": "Dovizioso revela una seria preocupación por Bagnaia: \"Nunca había vivido algo así\"",
@@ -2466,7 +2472,7 @@
         "published": "Wed, 21 Oct 2026 11:41:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/X0k4qLK2/s6/dovizioso-in-sorge-um-bagnaia-so-etwas-habe-ich-noch-nie-erlebt-26102101.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/X0k4qLK2/s6/dovizioso-in-sorge-um-bagnaia-so-etwas-habe-ich-noch-nie-erlebt-26102101.jpg"
       },
       {
         "title": "MotoGP hará una exhibición en el GP de Estados Unidos de Fórmula 1",
@@ -2474,7 +2480,7 @@
         "published": "Tue, 20 Oct 2026 14:15:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
       },
       {
         "title": "Honda confirma a Diogo Moreira en su equipo oficial para el MotoGP 2027; David Alonso irá a LCR",
@@ -2482,7 +2488,7 @@
         "published": "Tue, 20 Oct 2026 10:22:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7z8xG6/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6O7z8xG6/s6/diogo-moreira-team-lcr-honda.jpg"
       },
       {
         "title": "MotoGP ratifica a los equipos su intención de disputar el Gran Premio de Qatar",
@@ -2490,7 +2496,7 @@
         "published": "Tue, 20 Oct 2026 09:47:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y99KkdxY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Toprak Razgatlioglu se pierde lo que resta de la temporada 2026 de MotoGP",
@@ -2498,7 +2504,7 @@
         "published": "Tue, 20 Oct 2026 09:45:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YP74m4j2/s6/toprak-razgatlioglu-pramac-rac.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YP74m4j2/s6/toprak-razgatlioglu-pramac-rac.jpg"
       },
       {
         "title": "Por qué Alex Marquez no pudo repetir en 2026 su gran nivel de 2025",
@@ -2514,7 +2520,7 @@
         "published": "Sun, 18 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b8Zo1v2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6b8Zo1v2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "El jefe de Yamaha, sobre los cambios en MotoGP con Liberty: \"Debemos tener cuidado de no perder a nuestros fans\"",
@@ -2522,7 +2528,7 @@
         "published": "Sun, 18 Oct 2026 18:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9w1M5Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YE9w1M5Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
       },
       {
         "title": "Los pilotos de MotoGP dicen que las motos de 850cc serán menos físicas y más divertidas de pilotar",
@@ -2530,7 +2536,7 @@
         "published": "Sun, 18 Oct 2026 16:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6b8jeD32/s6/michele-pirro-ducati-gp27-850c.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8jeD32/s6/michele-pirro-ducati-gp27-850c.jpg"
       },
       {
         "title": "Morbidelli, sobre conseguir la plaza más codiciada de WSBK pese a sus dificultades en MotoGP",
@@ -2538,7 +2544,7 @@
         "published": "Sat, 17 Oct 2026 10:29:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0R7BM7r2/s6/franco-morbidelli-vr46-racing-.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0R7BM7r2/s6/franco-morbidelli-vr46-racing-.jpg"
       },
       {
         "title": "Marc Márquez tendrá que hacer un \"acto de malabarismo\" en las próximas carreras de MotoGP",
@@ -2546,7 +2552,7 @@
         "published": "Fri, 16 Oct 2026 21:02:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2GdKNMEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Gresini cree que las reglas de 2027 no ampliarán la brecha entre fábricas y satélites",
@@ -2554,15 +2560,7 @@
         "published": "Fri, 16 Oct 2026 19:53:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
-      },
-      {
-        "title": "Trackhouse anuncia un nuevo accionista: la plataforma de inversión 1936",
-        "url": "https://espanol.motorsport.com/motogp/news/trackhouse-anuncia-nuevo-accionista-plataforma-inversion-1936/10865724/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 16 Oct 2026 18:19:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YpbAdDZ0/s6/raul-fernandez-trackhouse-raci.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNw472/s6/fermin-aldeguer-gresini-racing.jpg"
       }
     ]
   },
