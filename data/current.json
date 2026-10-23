@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:39:36.975324Z",
+  "updatedAt": "2026-10-23T22:12:40.907658Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1817,8 +1816,7 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ]
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2321,28 @@
   "news": {
     "f1": [
       {
+        "title": "Leclerc domina el viernes en Austin seguido por Antonelli, Colapinto 15° y Checo Pérez en 21°",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-domina-viernes-austin-colapinto-15-checo-perez-21/10867576/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 22:02:34 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/YXyKd7P6/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Horarios y dónde ver la FP3 y clasificación del GP de Estados Unidos 2026 de F1 este sábado",
+        "url": "https://espanol.motorsport.com/f1/news/horarios-clasificacion-gp-estados-unidos-f1-2026/10867580/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 21:57:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YMXbAkV2/s6/franco-colapinto-alpine.jpg"
+      },
+      {
         "title": "Por qué las mejoras de Austin de Ferrari solo equivalen a una décima de segundo de mejora",
         "url": "https://espanol.motorsport.com/f1/news/explicacion-mejoras-austin-ferrari-equivalen-decima-segundo-mejora/10867551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 23 Oct 2026 20:19:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNWxx2/s6/ferrari-sidepod-detail.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNWxx2/s6/ferrari-sidepod-detail.jpg"
       },
       {
         "title": "Los pilotos de Ferrari emiten un veredicto decepcionante sobre las mejoras en Austin",
@@ -2336,7 +2350,7 @@
         "published": "Fri, 23 Oct 2026 20:13:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Colton Herta, a un solo punto de la superlicencia para llegar a la F1 con Cadillac",
@@ -2344,7 +2358,7 @@
         "published": "Fri, 23 Oct 2026 19:49:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
       },
       {
         "title": "Este Lego Red Bull RB20 de 1.639 piezas está repleto de tecnología de F1 funcional",
@@ -2352,7 +2366,7 @@
         "published": "Fri, 23 Oct 2026 19:14:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Colapinto no es el único con sanción en la parrilla de Austin: dos pilotos se suman a la lista",
@@ -2360,7 +2374,7 @@
         "published": "Fri, 23 Oct 2026 19:10:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6O7zA5J6/s6/arvid-lindblad-racing-bulls.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6O7zA5J6/s6/arvid-lindblad-racing-bulls.jpg"
       },
       {
         "title": "Los aficionados se vuelven locos al ver a Daniel Ricciardo apoyando a Liam Lawson en Austin",
@@ -2368,7 +2382,7 @@
         "published": "Fri, 23 Oct 2026 19:01:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
       },
       {
         "title": "Leclerc lidera por poco sobre Verstappen la FP1 del GP de Estados Unidos y Colapinto es 17º",
@@ -2384,7 +2398,7 @@
         "published": "Fri, 23 Oct 2026 17:52:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dLmpk0/s6/franco-colapinto-alpine-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLmpk0/s6/franco-colapinto-alpine-2.jpg"
       },
       {
         "title": "La reacción de Colapinto al ver una tarjeta inédita de F1 en su hotel de Austin",
@@ -2392,7 +2406,7 @@
         "published": "Fri, 23 Oct 2026 16:11:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0R7BAZo2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0R7BAZo2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Lewis Hamilton: Kimi Antonelli “merece ser el campeón”",
@@ -2400,7 +2414,7 @@
         "published": "Fri, 23 Oct 2026 15:44:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6n7AJ7X0/s6/lewis-hamilton-ferrari-andrea-.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6n7AJ7X0/s6/lewis-hamilton-ferrari-andrea-.jpg"
       },
       {
         "title": "Antonelli: \"El W17 tiene más carga, pero se ha vuelto más difícil de conducir\"",
@@ -2416,7 +2430,7 @@
         "published": "Fri, 23 Oct 2026 14:45:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YE9EmmGY/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YE9EmmGY/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "La sentencia de Lawson sobre Alpine y el aviso de Lindblad: \"Necesitan un resultado especial\"",
@@ -2424,23 +2438,7 @@
         "published": "Fri, 23 Oct 2026 12:59:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6x7Ld85Y/s6/franco-colapinto-alpine-arvid-.jpg"
-      },
-      {
-        "title": "Jim Beam revela el impacto en las ventas de su asociación con Cadillac F1",
-        "url": "https://espanol.motorsport.com/f1/news/jim-beam-revela-impacto-en-ventas-por-asociacion-con-cadillac-f1/10867375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 11:42:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0rVPvdq0/s6/valtteri-bottas-cadillac-racin.jpg"
-      },
-      {
-        "title": "Martin Brundle presenta un increíble Porsche 911 de 860 CV",
-        "url": "https://espanol.motorsport.com/f1/news/martin-brundle-presenta-increible-porsche-911-de-860-cv/10867372/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 11:34:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2y3eBVp6/s6/martin-brundle.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7Ld85Y/s6/franco-colapinto-alpine-arvid-.jpg"
       }
     ],
     "moto": [
