@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T00:04:41.606148Z",
+  "updatedAt": "2026-10-23T00:53:14.851799Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Norris revela que usa pastillas para el dolor de cabeza por los baches en los circuitos de F1",
+        "url": "https://espanol.motorsport.com/f1/news/norris-revela-usa-pastillas-dolor-cabeza-baches-circuitos-f1/10867202/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 00:36:10 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YN7v8K46/s6/lando-norris-mclaren.jpg"
+      },
+      {
         "title": "Lando Norris sobre la polémica de Coca-Cola en Madrid: “Puedo beber lo que quiera”",
         "url": "https://espanol.motorsport.com/f1/news/lando-norris-polemica-coca-cola-madrid/10867210/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 23:45:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2eZxdqpY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2eZxdqpY/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "McLaren abre su bóveda para vender cinco extraordinarios coches de Formula 1",
@@ -2336,7 +2344,7 @@
         "published": "Thu, 22 Oct 2026 23:44:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QGlKdY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/24QGlKdY/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Charles Leclerc tacha de \"tontería\" la afirmación de Hadjar sobre Verstappen y Ferrari",
@@ -2344,7 +2352,7 @@
         "published": "Thu, 22 Oct 2026 23:37:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2QedgzA2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2QedgzA2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "El exCEO de F1 revela la tercera ciudad de EE. UU. que fue objetivo junto a Miami y Las Vegas",
@@ -2352,7 +2360,7 @@
         "published": "Thu, 22 Oct 2026 23:35:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-y-chase-carey.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-y-chase-carey.jpg"
       },
       {
         "title": "Christian Horner revela qué llevó a su salida 'abrupta y brutal' de Red Bull F1",
@@ -2360,7 +2368,7 @@
         "published": "Thu, 22 Oct 2026 23:32:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0JBNakM0/s6/christian-horner-team-principa.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0JBNakM0/s6/christian-horner-team-principa.jpg"
       },
       {
         "title": "Russell responde a la revelación de Horner sobre su uso del simulador de Red Bull: \"Es lo único que diré\"",
@@ -2368,7 +2376,7 @@
         "published": "Thu, 22 Oct 2026 23:06:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEAvjP0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2jEAvjP0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Max Verstappen explota contra los “inaceptables” baches de la pista de F1 en Austin: “Está fuera de control”",
@@ -2376,7 +2384,7 @@
         "published": "Thu, 22 Oct 2026 22:43:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b7dGyj0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6b7dGyj0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Antonelli listo para \"terminar el trabajo\" ante su primer chance de ganar el campeonato de F1",
@@ -2384,7 +2392,7 @@
         "published": "Thu, 22 Oct 2026 21:29:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2y7Q4lX6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2y7Q4lX6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Kimi Antonelli se sincera sobre los temores de su padre por su carrera en la F1",
@@ -2392,7 +2400,7 @@
         "published": "Thu, 22 Oct 2026 21:20:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0LdeAdv0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0LdeAdv0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Franco Colapinto explica el por qué de su video tras los abusos en línea dirigidos al personal de Alpine F1",
@@ -2408,7 +2416,7 @@
         "published": "Thu, 22 Oct 2026 20:50:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDqzj0/s6/lewis-hamilton-ferrari-3.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDqzj0/s6/lewis-hamilton-ferrari-3.jpg"
       },
       {
         "title": "Fernando Alonso aclara los rumores sobre correr el Rally Dakar en el 2027",
@@ -2416,7 +2424,7 @@
         "published": "Thu, 22 Oct 2026 20:33:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2QedgEm2/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2QedgEm2/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Isack Hadjar: Max Verstappen habría ganado el GP de Singapur por más margen en un Ferrari",
@@ -2424,7 +2432,7 @@
         "published": "Thu, 22 Oct 2026 19:52:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Oscar Piastri: Lo que me hizo rápido la temporada pasada ahora es mi “perdición”",
@@ -2432,18 +2440,18 @@
         "published": "Thu, 22 Oct 2026 19:38:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
-      },
-      {
-        "title": "Carlos Sainz pone en duda que la F1 2026 pueda terminar en Medio Oriente: \"es difícil estar convencido\"",
-        "url": "https://espanol.motorsport.com/f1/news/sainz-dificil-estar-convencido-de-que-la-f1-2026-pueda-terminar-en-medio-oriente/10867123/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 19:34:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Márquez por delante de Fernández y la sorpresa Miller en la FP1 en Phillip Island",
+        "url": "https://espanol.motorsport.com/motogp/news/marquez-delante-fernandez-sorpresa-miller-fp1-australia/10867222/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 00:51:14 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKAER5Y/s6/marc-marquez-ducati-team.jpg"
+      },
       {
         "title": "Marc Marquez cifra en un 70% sus probabilidades de retirarse en un plazo de tres años",
         "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-probabilidades-retirarse-plazo-tres-anos/10867060/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2458,7 +2466,7 @@
         "published": "Thu, 22 Oct 2026 13:42:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2QedgdO2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2QedgdO2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Raul Fernández sigue mermado tras la lesión en el dedo de Indonesia: “No estoy al 100%”",
@@ -2474,7 +2482,7 @@
         "published": "Thu, 22 Oct 2026 13:23:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6zoDEBL0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6zoDEBL0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Por qué MotoGP no puede simplemente copiar el éxito de Drive to Survive de la F1",
@@ -2482,7 +2490,7 @@
         "published": "Thu, 22 Oct 2026 13:09:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
       },
       {
         "title": "Bezzecchi: \"¿Órdenes de equipo? Aprilia no ha dicho nada\"",
@@ -2490,7 +2498,7 @@
         "published": "Thu, 22 Oct 2026 12:28:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YP74ArB2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YP74ArB2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Alex Márquez, sobre ir a correr a Qatar: \"No creo que sea una decisión que se deba tomar ahora\"",
@@ -2498,7 +2506,7 @@
         "published": "Thu, 22 Oct 2026 10:26:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6grQdQbY/s6/alex-marquez-gresini-racing-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6grQdQbY/s6/alex-marquez-gresini-racing-2.jpg"
       },
       {
         "title": "David Alonso, duro contra Dani Holgado: \"Cuando uno no es buena persona no se puede hacer nada\"",
@@ -2506,7 +2514,7 @@
         "published": "Thu, 22 Oct 2026 10:22:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNWLP2/s6/david-alonso-aspar.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/Y9lNWLP2/s6/david-alonso-aspar.jpg"
       },
       {
         "title": "Marc Márquez no se achica con su objetivo en un Phillip Island favorable para Aprilia",
@@ -2514,7 +2522,7 @@
         "published": "Thu, 22 Oct 2026 10:19:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2jEAvDg0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEAvDg0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los pilotos de MotoGP lamentan la pérdida de Phillip Island: “Será muy triste”",
@@ -2522,7 +2530,7 @@
         "published": "Thu, 22 Oct 2026 10:10:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YpNRryW0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YpNRryW0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "KTM ve 2027 como un reinicio para crear una MotoGP nueva desde cero y pelear por el campeonato",
@@ -2530,7 +2538,7 @@
         "published": "Wed, 21 Oct 2026 15:54:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/5YXW1G52/s6/ktm-sieht-2027-als-neustart-hatten-nie-die-chance-auf-ein-neues-bike-26101702.jpg"
       },
       {
         "title": "Honda afrontará el GP de Australia con Marini por la baja médica de Joan Mir",
@@ -2546,7 +2554,7 @@
         "published": "Wed, 21 Oct 2026 11:41:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/X0k4qLK2/s6/dovizioso-in-sorge-um-bagnaia-so-etwas-habe-ich-noch-nie-erlebt-26102101.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/X0k4qLK2/s6/dovizioso-in-sorge-um-bagnaia-so-etwas-habe-ich-noch-nie-erlebt-26102101.jpg"
       },
       {
         "title": "MotoGP hará una exhibición en el GP de Estados Unidos de Fórmula 1",
@@ -2554,15 +2562,7 @@
         "published": "Tue, 20 Oct 2026 14:15:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
-      },
-      {
-        "title": "Honda confirma a Diogo Moreira en su equipo oficial para el MotoGP 2027; David Alonso irá a LCR",
-        "url": "https://espanol.motorsport.com/motogp/news/honda-confirma-a-diogo-moreira-equipo-oficial-2027-david-alonso-a-lcr/10866472/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 20 Oct 2026 10:22:42 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O7z8xG6/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6b8jy3v2/s6/franco-morbidelli-vr46-racing-.jpg"
       }
     ]
   },
