@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T19:50:25.890608Z",
+  "updatedAt": "2026-10-23T20:27:43.762151Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,12 +2323,36 @@
   "news": {
     "f1": [
       {
+        "title": "Por qué las mejoras de Austin de Ferrari solo equivalen a una décima de segundo de mejora",
+        "url": "https://espanol.motorsport.com/f1/news/explicacion-mejoras-austin-ferrari-equivalen-decima-segundo-mejora/10867551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 20:19:34 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNWxx2/s6/ferrari-sidepod-detail.jpg"
+      },
+      {
+        "title": "Los pilotos de Ferrari emiten un veredicto decepcionante sobre las mejoras en Austin",
+        "url": "https://espanol.motorsport.com/f1/news/pilotos-ferrari-veredicto-decepcionante-mejoras-austin/10867530/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 20:13:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Colton Herta, a un solo punto de la superlicencia para llegar a la F1 con Cadillac",
+        "url": "https://espanol.motorsport.com/f1/news/colton-herta-superlicencia-f1-cadillac-planes-2027/10867540/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 23 Oct 2026 19:49:13 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
+      },
+      {
         "title": "Este Lego Red Bull RB20 de 1.639 piezas está repleto de tecnología de F1 funcional",
         "url": "https://espanol.motorsport.com/f1/news/lego-red-bull-rb20-repleto-tecnologia-f1-funcional/10867085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 23 Oct 2026 19:14:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Colapinto no es el único con sanción en la parrilla de Austin: dos pilotos se suman a la lista",
@@ -2344,7 +2368,7 @@
         "published": "Fri, 23 Oct 2026 19:01:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6n9ZRNMY/s6/daniel-ricciardo-embajador-glo.jpg"
       },
       {
         "title": "Leclerc lidera por poco sobre Verstappen la FP1 del GP de Estados Unidos y Colapinto es 17º",
@@ -2352,7 +2376,7 @@
         "published": "Fri, 23 Oct 2026 18:30:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0rVPqeG0/s6/charles-leclerc-ferrari-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPqeG0/s6/charles-leclerc-ferrari-2.jpg"
       },
       {
         "title": "Franco Colapinto recibe una sanción para la parrilla de Estados Unidos por cambios en su Alpine",
@@ -2360,7 +2384,7 @@
         "published": "Fri, 23 Oct 2026 17:52:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLmpk0/s6/franco-colapinto-alpine-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25dLmpk0/s6/franco-colapinto-alpine-2.jpg"
       },
       {
         "title": "La reacción de Colapinto al ver una tarjeta inédita de F1 en su hotel de Austin",
@@ -2368,7 +2392,7 @@
         "published": "Fri, 23 Oct 2026 16:11:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0R7BAZo2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0R7BAZo2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Lewis Hamilton: Kimi Antonelli “merece ser el campeón”",
@@ -2376,7 +2400,7 @@
         "published": "Fri, 23 Oct 2026 15:44:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6n7AJ7X0/s6/lewis-hamilton-ferrari-andrea-.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6n7AJ7X0/s6/lewis-hamilton-ferrari-andrea-.jpg"
       },
       {
         "title": "Antonelli: \"El W17 tiene más carga, pero se ha vuelto más difícil de conducir\"",
@@ -2384,7 +2408,7 @@
         "published": "Fri, 23 Oct 2026 15:02:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Alonso celebra la llegada de IndyCar a Barcelona, pero pide cautela con la expansión global",
@@ -2392,7 +2416,7 @@
         "published": "Fri, 23 Oct 2026 14:45:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9EmmGY/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YE9EmmGY/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "La sentencia de Lawson sobre Alpine y el aviso de Lindblad: \"Necesitan un resultado especial\"",
@@ -2400,7 +2424,7 @@
         "published": "Fri, 23 Oct 2026 12:59:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6x7Ld85Y/s6/franco-colapinto-alpine-arvid-.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6x7Ld85Y/s6/franco-colapinto-alpine-arvid-.jpg"
       },
       {
         "title": "Jim Beam revela el impacto en las ventas de su asociación con Cadillac F1",
@@ -2408,7 +2432,7 @@
         "published": "Fri, 23 Oct 2026 11:42:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0rVPvdq0/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVPvdq0/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "Martin Brundle presenta un increíble Porsche 911 de 860 CV",
@@ -2416,31 +2440,7 @@
         "published": "Fri, 23 Oct 2026 11:34:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2y3eBVp6/s6/martin-brundle.jpg"
-      },
-      {
-        "title": "George Russell ve su 2026 en la F1 como una prueba de \"carácter y resiliencia\"",
-        "url": "https://espanol.motorsport.com/f1/news/george-russell-ve-2026-prueba-de-caracter-y-resiliencia/10867366/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 11:29:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/63QaLW72/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Colapinto rechaza que la F1 en África quite chances a Argentina: \"Están las mismas probabilidades que antes\"",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-rechaza-que-f1-en-africa-quite-chances-a-argentina/10867358/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 11:09:23 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YE9EmODY/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Por qué ahora es Oliver Bearman contra Rafael Camara por la próxima vacante en Ferrari",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-es-bearman-contra-camara-proxima-vacante-en-ferrari/10867339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 10:01:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0R7BN3v2/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y3eBVp6/s6/martin-brundle.jpg"
       }
     ],
     "moto": [
