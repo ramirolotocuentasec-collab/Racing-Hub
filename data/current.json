@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:37:28.872005Z",
+  "updatedAt": "2026-10-23T00:04:41.606148Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,7 +613,8 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1816,7 +1817,8 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2321,12 +2323,52 @@
   "news": {
     "f1": [
       {
+        "title": "Lando Norris sobre la polémica de Coca-Cola en Madrid: “Puedo beber lo que quiera”",
+        "url": "https://espanol.motorsport.com/f1/news/lando-norris-polemica-coca-cola-madrid/10867210/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 23:45:00 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/2eZxdqpY/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "McLaren abre su bóveda para vender cinco extraordinarios coches de Formula 1",
+        "url": "https://espanol.motorsport.com/f1/news/mclaren-vende-cinco-extraordinarios-coches-de-formula-1/10867208/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 23:44:29 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGlKdY/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "Charles Leclerc tacha de \"tontería\" la afirmación de Hadjar sobre Verstappen y Ferrari",
+        "url": "https://espanol.motorsport.com/f1/news/charles-leclerc-tacha-tonteria-afirmacion-hadjar-verstappen-ferrari/10867200/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 23:37:56 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/2QedgzA2/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "El exCEO de F1 revela la tercera ciudad de EE. UU. que fue objetivo junto a Miami y Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/exceo-f1-revela-tercera-ciudad-de-ee-uu-que-fue-objetivo/10867206/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 23:35:53 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-y-chase-carey.jpg"
+      },
+      {
+        "title": "Christian Horner revela qué llevó a su salida 'abrupta y brutal' de Red Bull F1",
+        "url": "https://espanol.motorsport.com/f1/news/christian-horner-revela-que-llevo-a-su-salida-abrupta-y-brutal-de-red-bull-f1/10867204/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 22 Oct 2026 23:32:34 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/0JBNakM0/s6/christian-horner-team-principa.jpg"
+      },
+      {
         "title": "Russell responde a la revelación de Horner sobre su uso del simulador de Red Bull: \"Es lo único que diré\"",
         "url": "https://espanol.motorsport.com/f1/news/russell-responde-horner-sobre-simulador-de-red-bull/10867196/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 22 Oct 2026 23:06:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2jEAvjP0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2jEAvjP0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Max Verstappen explota contra los “inaceptables” baches de la pista de F1 en Austin: “Está fuera de control”",
@@ -2342,7 +2384,7 @@
         "published": "Thu, 22 Oct 2026 21:29:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7Q4lX6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y7Q4lX6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Kimi Antonelli se sincera sobre los temores de su padre por su carrera en la F1",
@@ -2350,7 +2392,7 @@
         "published": "Thu, 22 Oct 2026 21:20:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LdeAdv0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0LdeAdv0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Franco Colapinto explica el por qué de su video tras los abusos en línea dirigidos al personal de Alpine F1",
@@ -2358,7 +2400,7 @@
         "published": "Thu, 22 Oct 2026 21:03:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDkDj0/s6/franco-colapinto-alpine-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDkDj0/s6/franco-colapinto-alpine-2.jpg"
       },
       {
         "title": "Hamilton, “obligado a quedarse mucho más tiempo” en la F1 para correr en África",
@@ -2366,7 +2408,7 @@
         "published": "Thu, 22 Oct 2026 20:50:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6zoDqzj0/s6/lewis-hamilton-ferrari-3.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDqzj0/s6/lewis-hamilton-ferrari-3.jpg"
       },
       {
         "title": "Fernando Alonso aclara los rumores sobre correr el Rally Dakar en el 2027",
@@ -2374,7 +2416,7 @@
         "published": "Thu, 22 Oct 2026 20:33:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2QedgEm2/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2QedgEm2/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Isack Hadjar: Max Verstappen habría ganado el GP de Singapur por más margen en un Ferrari",
@@ -2382,7 +2424,7 @@
         "published": "Thu, 22 Oct 2026 19:52:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq83qR6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Oscar Piastri: Lo que me hizo rápido la temporada pasada ahora es mi “perdición”",
@@ -2390,7 +2432,7 @@
         "published": "Thu, 22 Oct 2026 19:38:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YvKBmAG6/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Carlos Sainz pone en duda que la F1 2026 pueda terminar en Medio Oriente: \"es difícil estar convencido\"",
@@ -2398,47 +2440,7 @@
         "published": "Thu, 22 Oct 2026 19:34:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
-      },
-      {
-        "title": "Un día como hoy: Fernando Alonso gana el título mundial, Michael Schumacher se retira de la F1",
-        "url": "https://espanol.motorsport.com/f1/news/alonso-gana-el-titulo-mundial-michael-schumacher-se-retira-de-la-f1/10867113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 19:28:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6DGgoX7Y/s6/fernando-alonso-renault-michae.jpg"
-      },
-      {
-        "title": "\"Es básicamente mi segundo padre\": Checo Pérez sobre la influencia de Carlos Slim en su carrera",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-influencia-carlos-slim-carrera-f1/10867107/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 19:22:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/254gkpx0/s6/podio-carlos-slim-jr-y-tercer-.jpg"
-      },
-      {
-        "title": "\"¿Correr en MotoGP? ¡Mi papá no me dejaría!\", bromea Colapinto tras subirse a una Yamaha en Austin",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-correr-en-motogp-mi-papa-no-me-dejaria/10867096/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 19:09:30 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6b8ZgvL2/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Austin apuesta por el lujo: el COTA será un club privado para solo 250 socios desde 2027",
-        "url": "https://espanol.motorsport.com/f1/news/austin-apuesta-lujo-cota-club-privado-250-socios-2027/10867031/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 18:43:30 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/63QaLql2/s6/dettaglio-del-cota.jpg"
-      },
-      {
-        "title": "Esteban Ocon responde al fichaje de Rafael Camara por Haas para la F1 2027",
-        "url": "https://espanol.motorsport.com/f1/news/esteban-ocon-responde-fichaje-rafael-camara-haas-f1-2027/10867075/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 22 Oct 2026 18:28:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YN7vAde6/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YvKBva16/s6/carlos-sainz-williams.jpg"
       }
     ],
     "moto": [
