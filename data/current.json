@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T10:38:27.591225Z",
+  "updatedAt": "2026-10-24T11:08:06.559374Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1818,7 +1818,7 @@
             "date": "2026-10-25T14:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2017_Paul_Dumbrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2323,6 +2323,14 @@
   "news": {
     "f1": [
       {
+        "title": "Antonelli celebra el \"paso adelante\" en Estados Unidos mientras Mercedes pule las mejoras",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-celebra-paso-adelante-estados-unidos-mercedes-mejoras/10867686/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 24 Oct 2026 10:41:53 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YK15AVb0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
         "title": "Lo que aprendimos de los entrenamientos del viernes en el GP de Estados Unidos de F1 2026 en Austin",
         "url": "https://espanol.motorsport.com/f1/news/analisis-tandas-largas-entrenamientos-viernes-estados-unidos-2026/10867643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 24 Oct 2026 00:22:52 +0000",
@@ -2336,7 +2344,7 @@
         "published": "Sat, 24 Oct 2026 00:13:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6Alvq8EY/s6/charles-leclerc-ferrari-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6Alvq8EY/s6/charles-leclerc-ferrari-2.jpg"
       },
       {
         "title": "Lo que McLaren intenta resolver con sus últimas mejoras de 2026 en Austin",
@@ -2344,7 +2352,7 @@
         "published": "Fri, 23 Oct 2026 23:54:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O7zAKm6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6O7zAKm6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Alpine aclara que su viernes en Austin \"no fue tan malo como parece\"",
@@ -2352,7 +2360,7 @@
         "published": "Fri, 23 Oct 2026 23:30:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6lmA35k0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmA35k0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Colapinto explica las dificultades que enfrentará con la penalización en Austin",
@@ -2360,7 +2368,7 @@
         "published": "Fri, 23 Oct 2026 23:10:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6DGgmkVY/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6DGgmkVY/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Christian Horner admite que quizá nunca vuelva a la F1 tras su salida de Red Bull",
@@ -2376,7 +2384,7 @@
         "published": "Fri, 23 Oct 2026 22:47:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6lmA37N0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6lmA37N0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Los resultados completos de las prácticas del viernes del GP de Estados Unidos de F1 2026 en Austin",
@@ -2384,7 +2392,7 @@
         "published": "Fri, 23 Oct 2026 22:12:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2eZxd4mY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2eZxd4mY/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Leclerc domina el viernes en Austin seguido por Antonelli, Colapinto 15° y Checo Pérez en 21°",
@@ -2392,7 +2400,7 @@
         "published": "Fri, 23 Oct 2026 22:02:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YXyKd7P6/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YXyKd7P6/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Horarios y dónde ver la FP3 y clasificación del GP de Estados Unidos 2026 de F1 este sábado",
@@ -2408,7 +2416,7 @@
         "published": "Fri, 23 Oct 2026 20:19:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNWxx2/s6/ferrari-sidepod-detail.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNWxx2/s6/ferrari-sidepod-detail.jpg"
       },
       {
         "title": "Los pilotos de Ferrari emiten un veredicto decepcionante sobre las mejoras en Austin",
@@ -2416,7 +2424,7 @@
         "published": "Fri, 23 Oct 2026 20:13:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Colton Herta, a un solo punto de la superlicencia para llegar a la F1 con Cadillac",
@@ -2424,7 +2432,7 @@
         "published": "Fri, 23 Oct 2026 19:49:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
       },
       {
         "title": "Este Lego Red Bull RB20 de 1.639 piezas está repleto de tecnología de F1 funcional",
@@ -2432,18 +2440,18 @@
         "published": "Fri, 23 Oct 2026 19:14:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Colapinto no es el único con sanción en la parrilla de Austin: dos pilotos se suman a la lista",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-no-es-unico-con-sancion-parrilla-estados-unidos/10867524/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 19:10:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O7zA5J6/s6/arvid-lindblad-racing-bulls.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YpbAoAZ0/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "La revelación de Maverick Viñales: \"Si me quedo en casa no cobro\"",
+        "url": "https://espanol.motorsport.com/motogp/news/maverick-vinales-confesion-si-me-quedo-en-casa-no-cobro/10867802/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 24 Oct 2026 10:28:05 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/01QN7vx0/s6/maverick-vinales-red-bull-ktm-.jpg"
+      },
       {
         "title": "Raúl Fernández se suma a la larga lista de bajas en el GP de Australia tras la carrera sprint",
         "url": "https://espanol.motorsport.com/motogp/news/raul-fernandez-lesion-carrera-australia/10867800/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2458,7 +2466,7 @@
         "published": "Sat, 24 Oct 2026 10:15:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNWAG2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNWAG2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Martín, con la mano inmovilizada tras dura caída, duda para la carrera del domingo en Australia",
@@ -2466,7 +2474,7 @@
         "published": "Sat, 24 Oct 2026 05:25:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0mXy3GG6/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0mXy3GG6/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Márquez admite que arriesgó al máximo para lograr los 12 puntos en la sprint de Australia",
@@ -2474,7 +2482,7 @@
         "published": "Sat, 24 Oct 2026 05:21:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZgWE2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6b8ZgWE2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Marc Márquez gana la sprint para tomar el liderato por puntos en Australia, caída de Martín",
@@ -2482,7 +2490,7 @@
         "published": "Sat, 24 Oct 2026 04:48:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6x7Lo3mY/s6/race-start.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7Lo3mY/s6/race-start.jpg"
       },
       {
         "title": "Marc Márquez se recupera de una caída y consigue la pole en Australia en una pista mojada",
@@ -2490,7 +2498,7 @@
         "published": "Sat, 24 Oct 2026 00:55:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YpbA3qW0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YpbA3qW0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Honda se queda sin motos oficiales en el GP de Australia tras la baja de Luca Marini por un virus",
@@ -2498,7 +2506,7 @@
         "published": "Fri, 23 Oct 2026 23:59:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Ldemea0/s6/luca-marini-honda-hrc.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0Ldemea0/s6/luca-marini-honda-hrc.jpg"
       },
       {
         "title": "Buenos Aires prepara el Gálvez para MotoGP con 43.000 toneladas de asfalto y la F1 en la mira",
@@ -2514,7 +2522,7 @@
         "published": "Fri, 23 Oct 2026 13:58:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b7dPvE0/s6/el-himno-en-misano-motogp.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6b7dPvE0/s6/el-himno-en-misano-motogp.jpg"
       },
       {
         "title": "Márquez explica la gran fortaleza de Jorge Martín: \"pilota por instinto, simplemente ataca\"",
@@ -2522,7 +2530,7 @@
         "published": "Fri, 23 Oct 2026 10:53:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2jEAplE0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2jEAplE0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Jorge Martín, el más lento de Aprilia el viernes en Australia: “Estoy acostumbrado a la Ducati aquí”",
@@ -2530,7 +2538,7 @@
         "published": "Fri, 23 Oct 2026 09:50:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2jEAvxM0/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2jEAvxM0/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Ducati dice que Aprilia “puede hacer lo que quiera” en medio de las charlas sobre órdenes de equipo en MotoGP",
@@ -2538,7 +2546,7 @@
         "published": "Fri, 23 Oct 2026 09:46:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2wlKqdVY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2wlKqdVY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los resultados completos del viernes del GP de Australia de MotoGP en Phillip Island",
@@ -2546,7 +2554,7 @@
         "published": "Fri, 23 Oct 2026 09:11:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEAvGk0/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2jEAvGk0/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marco Bezzecchi lidera el 1-2-4-5 de Aprilia en la práctica del viernes en Australia",
@@ -2554,15 +2562,7 @@
         "published": "Fri, 23 Oct 2026 05:38:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0kZX3dj6/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "Márquez por delante de Fernández y la sorpresa Miller en la FP1 en Phillip Island",
-        "url": "https://espanol.motorsport.com/motogp/news/marquez-delante-fernandez-sorpresa-miller-fp1-australia/10867222/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 23 Oct 2026 00:51:14 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YWKAER5Y/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0kZX3dj6/s6/marco-bezzecchi-aprilia-racing.jpg"
       }
     ]
   },
