@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T01:16:44.004428Z",
+  "updatedAt": "2026-10-25T01:51:30.723712Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -1817,8 +1816,7 @@
             "name": "Race",
             "date": "2026-10-25T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg/1920px-Gardner_Straight_at_Phillip_Island_GP_Circuit_%2816230483074%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-ea2ba334-b943-462f-aedb-084ac38408d1",
@@ -2328,7 +2326,7 @@
         "published": "Sun, 25 Oct 2026 00:44:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YMXbEbK2/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbEbK2/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Hamilton es \"optimista\" para la carrera, a pesar de la complicada clasificación en Austin",
@@ -2344,7 +2342,7 @@
         "published": "Sun, 25 Oct 2026 00:17:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/27No4QR0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/27No4QR0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Antonelli, tras lograr la pole en Austin con un Mercedes complicado: \"Por fin estamos viendo los resultados\"",
@@ -2352,7 +2350,7 @@
         "published": "Sun, 25 Oct 2026 00:16:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YK15AVb0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YK15AVb0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Leclerc lamenta otra Q3 difícil en Austin: Ferrari se complicó con los neumáticos",
@@ -2360,7 +2358,7 @@
         "published": "Sun, 25 Oct 2026 00:00:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6grQdgVY/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6grQdgVY/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Por qué Ferrari no pudo luchar por la pole en la clasificación del GP de Estados Unidos",
@@ -2368,7 +2366,7 @@
         "published": "Sat, 24 Oct 2026 23:58:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YBVj4jnY/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVj4jnY/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Piastri compara los baches de Austin con un \"salto de motocross\" tras la clasificación",
@@ -2376,7 +2374,7 @@
         "published": "Sat, 24 Oct 2026 23:53:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Gasly admite que Alpine pierde terreno ante Racing Bulls en Austin, pero avisa: \"Tenemos que ser agresivos\"",
@@ -2384,7 +2382,7 @@
         "published": "Sat, 24 Oct 2026 23:49:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YN7vZXW6/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YN7vZXW6/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Verstappen se niega a celebrar el resultado de la clasificación en Austin: \"No hay necesidad de sonreír\"",
@@ -2392,7 +2390,7 @@
         "published": "Sat, 24 Oct 2026 23:37:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6n7brPO0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6n7brPO0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Lando Norris se reprocha por un \"muy mal trabajo\" en la clasificación de Austin",
@@ -2400,7 +2398,7 @@
         "published": "Sat, 24 Oct 2026 23:36:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0rVPqOG0/s6/lando-norris-mclaren-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0rVPqOG0/s6/lando-norris-mclaren-2.jpg"
       },
       {
         "title": "Así quedaron los duelos entre compañeros tras la clasificación de F1 2026 en Austin",
@@ -2424,7 +2422,7 @@
         "published": "Sat, 24 Oct 2026 23:15:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6zoDXMl0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6zoDXMl0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Checo Pérez tras su difícil clasificación en Austin: \"No espero nada grandioso, pero daremos lo mejor\"",
@@ -2432,7 +2430,7 @@
         "published": "Sat, 24 Oct 2026 23:00:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/01QNodQ0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/01QNodQ0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Jeremy Clarkson causa revuelo con sus comentarios contra Franco Colapinto y Kim Kardashian en Austin",
@@ -2440,7 +2438,7 @@
         "published": "Sat, 24 Oct 2026 22:56:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8d9o6/s6/jeremy-clarkson-es-entrevistad.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8d9o6/s6/jeremy-clarkson-es-entrevistad.jpg"
       }
     ],
     "moto": [
