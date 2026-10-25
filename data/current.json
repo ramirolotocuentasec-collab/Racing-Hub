@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T22:36:30.931590Z",
+  "updatedAt": "2026-10-25T23:02:55.274215Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -793,70 +793,70 @@
         "name": "Andrea Kimi Antonelli",
         "driver": "ANT",
         "team": "Mercedes",
-        "points": 340.0
+        "points": 365.0
       },
       {
         "position": 2,
         "name": "George Russell",
         "driver": "RUS",
         "team": "Mercedes",
-        "points": 238.0
+        "points": 242.0
       },
       {
         "position": 3,
         "name": "Lewis Hamilton",
         "driver": "HAM",
         "team": "Ferrari",
-        "points": 229.0
+        "points": 241.0
       },
       {
         "position": 4,
         "name": "Max Verstappen",
         "driver": "VER",
         "team": "Red Bull",
-        "points": 221.0
+        "points": 236.0
       },
       {
         "position": 5,
         "name": "Charles Leclerc",
         "driver": "LEC",
         "team": "Ferrari",
-        "points": 215.0
+        "points": 233.0
       },
       {
         "position": 6,
         "name": "Lando Norris",
         "driver": "NOR",
         "team": "McLaren",
-        "points": 201.0
+        "points": 211.0
       },
       {
         "position": 7,
         "name": "Oscar Piastri",
         "driver": "PIA",
         "team": "McLaren",
-        "points": 138.0
+        "points": 144.0
       },
       {
         "position": 8,
         "name": "Isack Hadjar",
         "driver": "HAD",
         "team": "Red Bull",
-        "points": 97.0
+        "points": 105.0
       },
       {
         "position": 9,
         "name": "Liam Lawson",
         "driver": "LAW",
         "team": "RB F1 Team",
-        "points": 75.0
+        "points": 77.0
       },
       {
         "position": 10,
         "name": "Pierre Gasly",
         "driver": "GAS",
         "team": "Alpine F1 Team",
-        "points": 41.0
+        "points": 42.0
       },
       {
         "position": 11,
@@ -955,37 +955,37 @@
         "position": 1,
         "name": "Mercedes",
         "team": "Mercedes",
-        "points": 578.0
+        "points": 607.0
       },
       {
         "position": 2,
         "name": "Ferrari",
         "team": "Ferrari",
-        "points": 444.0
+        "points": 474.0
       },
       {
         "position": 3,
-        "name": "McLaren",
-        "team": "McLaren",
-        "points": 339.0
+        "name": "Red Bull",
+        "team": "Red Bull",
+        "points": 355.0
       },
       {
         "position": 4,
-        "name": "Red Bull",
-        "team": "Red Bull",
-        "points": 332.0
+        "name": "McLaren",
+        "team": "McLaren",
+        "points": 355.0
       },
       {
         "position": 5,
         "name": "RB F1 Team",
         "team": "RB F1 Team",
-        "points": 100.0
+        "points": 102.0
       },
       {
         "position": 6,
         "name": "Alpine F1 Team",
         "team": "Alpine F1 Team",
-        "points": 68.0
+        "points": 69.0
       },
       {
         "position": 7,
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Colapinto explica el incidente con Lindblad que lo llevó al abandono en Austin: \"Me hicieron sándwich\"",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-explica-choque-con-lindblad-en-austin/10868384/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 25 Oct 2026 22:47:46 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/24QGoDNY/s6/franco-colapinto-alpine.jpg"
+      },
+      {
         "title": "Los resultados completos del Gran Premio de Estados Unidos de F1 2026 en Austin",
         "url": "https://espanol.motorsport.com/f1/news/estados-unidos-resultados-completos-carrera/10868372/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 25 Oct 2026 22:26:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YWKA155Y/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YWKA155Y/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Así queda el campeonato de pilotos y constructores de la F1 2026 tras el GP de los Estados Unidos",
@@ -2336,7 +2344,7 @@
         "published": "Sun, 25 Oct 2026 22:20:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2dEoNG7Y/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2dEoNG7Y/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Las combinaciones para que Kimi Antonelli se corone campeón de la F1 en el GP de México",
@@ -2344,7 +2352,7 @@
         "published": "Sun, 25 Oct 2026 22:08:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6n7br1R0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6n7br1R0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Cinco conclusiones rápidas del GP de Estados Unidos de F1 2026 en Austin",
@@ -2352,7 +2360,7 @@
         "published": "Sun, 25 Oct 2026 21:49:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6Alv4g1Y/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6Alv4g1Y/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "F1 GP de México 2026: Horarios completos, canal de TV y cómo ver en vivo por país",
@@ -2360,7 +2368,7 @@
         "published": "Sun, 25 Oct 2026 21:45:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/24QeeJeY/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/24QeeJeY/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Antonelli gana en Austin y apunta a ser campeón en México; Colapinto abandona y Checo Pérez es 19°",
@@ -2368,7 +2376,7 @@
         "published": "Sun, 25 Oct 2026 21:43:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9E4Z5Y/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YE9E4Z5Y/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Charles Leclerc reacciona al temor en Ferrari: \"Sabemos qué línea no cruzar\"",
@@ -2376,7 +2384,7 @@
         "published": "Sun, 25 Oct 2026 18:08:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/68VwmqX2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/68VwmqX2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Franco Colapinto y Checo Pérez ganan posiciones en la parrilla de Estados Unidos de última hora",
@@ -2384,7 +2392,7 @@
         "published": "Sun, 25 Oct 2026 17:20:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YK1585z0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YK1585z0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "La estrategia para el GP de Estados Unidos 2026: una parada con blando y medio",
@@ -2392,7 +2400,7 @@
         "published": "Sun, 25 Oct 2026 16:44:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8dmV6/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Dentro del clubhouse de la curva 1 de COTA y sus planes para construir una segunda pista",
@@ -2400,7 +2408,7 @@
         "published": "Sun, 25 Oct 2026 15:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6grQdDaY/s6/arvid-lindblad-racing-bulls.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6grQdDaY/s6/arvid-lindblad-racing-bulls.jpg"
       },
       {
         "title": "Análisis: dónde Max Verstappen perdió la pole frente a Antonelli en Austin",
@@ -2408,7 +2416,7 @@
         "published": "Sun, 25 Oct 2026 14:50:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/24QGokeY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/24QGokeY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Así es por dentro el centro de operaciones remotas de la FIA y la F1",
@@ -2416,7 +2424,7 @@
         "published": "Sun, 25 Oct 2026 13:28:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/01QN7JZ0/s6/dsc-6673-q3deloj4-jpg.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/01QN7JZ0/s6/dsc-6673-q3deloj4-jpg.jpg"
       },
       {
         "title": "Verstappen desconcertado por la Q3, pero Austin muestra el progreso de Red Bull",
@@ -2424,7 +2432,7 @@
         "published": "Sun, 25 Oct 2026 12:32:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2QedgVN2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2QedgVN2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "La apuesta de Alpine con Colapinto en Austin: una buena largada y un ritmo \"prometedor\"",
@@ -2432,15 +2440,7 @@
         "published": "Sun, 25 Oct 2026 11:59:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YK1585z0/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Verstappen responde al jefe de COTA: \"Puede conducir mi coche, después de cinco vueltas no podrá caminar\"",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-responde-jefe-cota-conducir-mi-coche-no-podra-caminar/10868112/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 25 Oct 2026 11:38:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0Zq8dLd6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YK1585z0/s6/franco-colapinto-alpine.jpg"
       }
     ],
     "moto": [
