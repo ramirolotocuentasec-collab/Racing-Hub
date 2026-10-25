@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T19:46:50.621894Z",
+  "updatedAt": "2026-10-25T20:06:54.453976Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -613,8 +613,7 @@
             "name": "Race",
             "date": "2026-10-25T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/COTA_Karting_track_during_NASCAR_event.jpg/1920px-COTA_Karting_track_during_NASCAR_event.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-19-rodriguez",
@@ -648,7 +647,8 @@
             "name": "Race",
             "date": "2026-11-01T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-20-interlagos",
