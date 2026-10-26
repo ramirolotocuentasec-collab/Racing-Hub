@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T05:56:05.816375Z",
+  "updatedAt": "2026-10-26T06:43:01.676557Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,28 @@
   "news": {
     "f1": [
       {
+        "title": "Antonelli desvela los mayores errores de 2026 mientras Max Verstappen le lanza una broma",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-desvela-mayores-errores-2026-verstappen-broma/10868496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Mon, 26 Oct 2026 06:39:01 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/68Vw4dx2/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Ganadores y perdedores del Gran Premio de Estados Unidos de Fórmula 1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/ganadores-perdedores-gran-premio-estados-unidos-2026/10868494/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Mon, 26 Oct 2026 06:36:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/YvKBRRZ6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      },
+      {
         "title": "Verstappen bromea con usar señas tras otro problema de radio en Red Bull, ahora en Austin",
         "url": "https://espanol.motorsport.com/f1/news/verstappen-bromea-senas-otro-problema-radio-red-bull-austin/10868460/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Mon, 26 Oct 2026 01:08:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9E4NDY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YE9E4NDY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Alonso califica el talento de la parte trasera de la parrilla como \"extremadamente bajo\"",
@@ -2336,7 +2352,7 @@
         "published": "Mon, 26 Oct 2026 01:03:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0o5A8v7Y/s6/alexander-albon-williams-ferna.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0o5A8v7Y/s6/alexander-albon-williams-ferna.jpg"
       },
       {
         "title": "Norris admite que McLaren ya solo es el cuarto equipo más rápido tras acabar quinto en Austin",
@@ -2344,7 +2360,7 @@
         "published": "Mon, 26 Oct 2026 00:52:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6DGg4EVY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6DGg4EVY/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Vasseur ve a Ferrari como segunda fuerza en Austin y confía en el avance para México",
@@ -2352,7 +2368,7 @@
         "published": "Mon, 26 Oct 2026 00:15:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YBVjyznY/s6/fred-vasseur-ferrari.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YBVjyznY/s6/fred-vasseur-ferrari.jpg"
       },
       {
         "title": "Hamilton revela el error de configuración de Ferrari que le costó el podio en Estados Unidos",
@@ -2360,7 +2376,7 @@
         "published": "Mon, 26 Oct 2026 00:03:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNWeZ2/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNWeZ2/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Russell le resta importancia a la lucha por el subcampeonato de la F1 2026: \"no significa nada\"",
@@ -2376,7 +2392,7 @@
         "published": "Sun, 25 Oct 2026 23:39:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2y7Q47v6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Wolff revela lo que Antonelli le dijo en su oficina antes de ganar el GP de Estados Unidos",
@@ -2384,7 +2400,7 @@
         "published": "Sun, 25 Oct 2026 23:25:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0arEdzP2/s6/toto-wolff-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEdzP2/s6/toto-wolff-mercedes.jpg"
       },
       {
         "title": "Antonelli y su victoria en Austin: \"Estamos empezando a ver los resultados de las mejoras\"",
@@ -2392,7 +2408,7 @@
         "published": "Sun, 25 Oct 2026 23:16:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Lindblad da su versión del incidente con Colapinto en Austin: \"Alpine le dijo a Franco que me retuviera\"",
@@ -2400,7 +2416,7 @@
         "published": "Sun, 25 Oct 2026 23:15:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lN4wG2/s6/arvid-lindblad-racing-bulls.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/Y9lN4wG2/s6/arvid-lindblad-racing-bulls.jpg"
       },
       {
         "title": "Banderas azules afectaron a Checo Pérez en Austin; ya piensa en su GP 300 en México",
@@ -2408,7 +2424,7 @@
         "published": "Sun, 25 Oct 2026 23:03:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0arEN1N2/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0arEN1N2/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Colapinto explica el incidente con Lindblad que lo llevó al abandono en Austin: \"Me hicieron sándwich\"",
@@ -2424,23 +2440,7 @@
         "published": "Sun, 25 Oct 2026 22:26:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YWKA155Y/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Así queda el campeonato de pilotos y constructores de la F1 2026 tras el GP de los Estados Unidos",
-        "url": "https://espanol.motorsport.com/f1/news/estado-campeonato-pilotos-constructores-f1-tras-austin-2026/10868367/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 25 Oct 2026 22:20:10 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2dEoNG7Y/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Las combinaciones para que Kimi Antonelli se corone campeón de la F1 en el GP de México",
-        "url": "https://espanol.motorsport.com/f1/news/que-necesita-antonelli-campeon-f1-gp-mexico-2026/10868354/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 25 Oct 2026 22:08:09 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6n7br1R0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YWKA155Y/s6/lando-norris-mclaren.jpg"
       }
     ],
     "moto": [
