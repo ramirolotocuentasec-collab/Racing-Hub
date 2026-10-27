@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:53:02.514780Z",
+  "updatedAt": "2026-10-27T01:40:48.746776Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "Los números que reflejan la caída de McLaren en la F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/numeros-que-reflejan-caida-de-mclaren-en-2026/10868698/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 27 Oct 2026 01:05:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/63QaoB72/s6/isack-hadjar-red-bull-racing-o.jpg"
+      },
+      {
         "title": "El futuro de George Russell en Mercedes F1, bajo análisis ante el éxito de Kimi Antonelli",
         "url": "https://espanol.motorsport.com/f1/news/futuro-de-george-russell-en-mercedes-bajo-analisis-ante-exito-de-antonelli/10868732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Mon, 26 Oct 2026 23:22:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLoRE0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/25dLoRE0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Una masterclass estratégica: cómo Antonelli quedó al borde del título de F1 en el GP de Estados Unidos",
@@ -2336,7 +2344,7 @@
         "published": "Mon, 26 Oct 2026 19:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Mercedes se burla de Kimi Antonelli tras un incómodo percance en Austin",
@@ -2344,7 +2352,7 @@
         "published": "Mon, 26 Oct 2026 17:42:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0o5ANdoY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0o5ANdoY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Por qué McLaren dio una orden de equipo a Oscar Piastri en la carrera de Austin",
@@ -2352,7 +2360,7 @@
         "published": "Mon, 26 Oct 2026 17:26:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Alpine baja la persiana al desarrollo en la F1 2026: \"Es el auto que tendremos hasta el final\"",
@@ -2360,7 +2368,7 @@
         "published": "Mon, 26 Oct 2026 15:52:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPZAG0/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0rVPZAG0/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Isack Hadjar exige un “rediseño” del embrague de Red Bull tras una costosa largada en Austin",
@@ -2368,7 +2376,7 @@
         "published": "Mon, 26 Oct 2026 15:23:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Por qué la remontada en Monza sigue sin ser lo mejor del 2026 de Antonelli",
@@ -2376,7 +2384,7 @@
         "published": "Mon, 26 Oct 2026 14:59:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YN7vZqm6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YN7vZqm6/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Qué dijo Flavio Briatore tras el abandono de Franco Colapinto en el GP de Estados Unidos",
@@ -2384,7 +2392,7 @@
         "published": "Mon, 26 Oct 2026 13:30:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9EymLY/s6/franco-colapinto-alpine-flavio.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YE9EymLY/s6/franco-colapinto-alpine-flavio.jpg"
       },
       {
         "title": "Verstappen molesto por dos problemas recurrentes en Red Bull: \"¡Deberíamos usar lenguaje de señas!\"",
@@ -2392,7 +2400,7 @@
         "published": "Mon, 26 Oct 2026 13:08:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vZZj6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YN7vZZj6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Montoya cuestiona la penalización de George Russell en el GP de Estados Unidos de F1",
@@ -2408,7 +2416,7 @@
         "published": "Mon, 26 Oct 2026 10:51:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZgVp2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6b8ZgVp2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "¿Quién durmió mejor anoche tras el GP de Estados Unidos? Liam Lawson",
@@ -2424,7 +2432,7 @@
         "published": "Mon, 26 Oct 2026 07:00:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/63Qaow42/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/63Qaow42/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Russell desconcertado por la falta de ritmo en Austin a pesar de las mejoras del Mercedes W17",
@@ -2432,15 +2440,7 @@
         "published": "Mon, 26 Oct 2026 06:51:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2GdK4RzY/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Antonelli desvela los mayores errores de 2026 mientras Max Verstappen le lanza una broma",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-desvela-mayores-errores-2026-verstappen-broma/10868496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 26 Oct 2026 06:39:01 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/68Vw4dx2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2GdK4RzY/s6/george-russell-mercedes.jpg"
       }
     ],
     "moto": [
