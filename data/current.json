@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:50:46.701251Z",
+  "updatedAt": "2026-10-27T20:34:34.117640Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -647,7 +647,8 @@
             "name": "Race",
             "date": "2026-11-01T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-20-interlagos",
@@ -1860,7 +1861,8 @@
             "name": "Race",
             "date": "2026-11-01T15:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bye_Bye_Malaysia_2017_Malaysia.jpg/1920px-Bye_Bye_Malaysia_2017_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-5a880aba-62c4-413c-bb2d-b721683dd064",
