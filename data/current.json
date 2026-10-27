@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:08:27.618932Z",
+  "updatedAt": "2026-10-27T19:50:46.701251Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -647,8 +647,7 @@
             "name": "Race",
             "date": "2026-11-01T20:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-20-interlagos",
@@ -1861,8 +1860,7 @@
             "name": "Race",
             "date": "2026-11-01T15:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bye_Bye_Malaysia_2017_Malaysia.jpg/1920px-Bye_Bye_Malaysia_2017_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-5a880aba-62c4-413c-bb2d-b721683dd064",
@@ -2328,7 +2326,7 @@
         "published": "Tue, 27 Oct 2026 16:49:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2eZxNj9Y/s6/hvprfvrxyaavvhg-1.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2eZxNj9Y/s6/hvprfvrxyaavvhg-1.jpg"
       },
       {
         "title": "Colton Herta, entre la emoción y la incertidumbre de su futuro con Cadillac para el 2027",
@@ -2336,7 +2334,7 @@
         "published": "Tue, 27 Oct 2026 15:59:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Colapinto no estará en la FP1 del GP de México: Alpine confirmó quién ocupará su coche",
@@ -2344,7 +2342,7 @@
         "published": "Tue, 27 Oct 2026 15:24:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YMXbAkV2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YMXbAkV2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Bearman tacha de \"locura\" la sanción de 10 segundos por su toque con Gasly en Austin",
@@ -2352,7 +2350,7 @@
         "published": "Tue, 27 Oct 2026 13:58:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0LdeBMv0/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0LdeBMv0/s6/oliver-bearman-haas-f1-team.jpg"
       },
       {
         "title": "Honda prepara dos evoluciones del motor 2027 de Aston Martin: Melbourne y la octava carrera",
@@ -2360,7 +2358,7 @@
         "published": "Tue, 27 Oct 2026 13:07:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YN7v4Q46/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YN7v4Q46/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Toto Wolff desmiente la teoría de Helmut Marko sobre Russell: \"Sigue teniendo lo que hace falta\"",
@@ -2368,7 +2366,7 @@
         "published": "Tue, 27 Oct 2026 12:33:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6AlvqxNY/s6/george-russell-mercedes-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6AlvqxNY/s6/george-russell-mercedes-2.jpg"
       },
       {
         "title": "Ferrari ve en la altitud de México una opción real para volver a ganar en el 2026",
@@ -2376,7 +2374,7 @@
         "published": "Tue, 27 Oct 2026 12:31:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YWKAdWBY/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YWKAdWBY/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Coulthard niega excusas por el reglamento: los grandes pilotos se adaptan a cualquier F1",
@@ -2384,7 +2382,7 @@
         "published": "Tue, 27 Oct 2026 12:20:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLeex0/s6/david-coulthard.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLeex0/s6/david-coulthard.jpg"
       },
       {
         "title": "Red Bull revela cuándo se podrán solucionar los problemas 'tontos' que afectan a Verstappen y Hadjar",
@@ -2392,7 +2390,7 @@
         "published": "Tue, 27 Oct 2026 10:47:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0rVPqXy0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPqXy0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Ferrari encuentra aspectos positivos en Austin, aunque se le \"escapó algo\" el sábado",
@@ -2408,7 +2406,7 @@
         "published": "Tue, 27 Oct 2026 06:23:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Los números que reflejan la caída de McLaren en la F1 2026",
@@ -2416,7 +2414,7 @@
         "published": "Tue, 27 Oct 2026 01:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/63QaoB72/s6/isack-hadjar-red-bull-racing-o.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/63QaoB72/s6/isack-hadjar-red-bull-racing-o.jpg"
       },
       {
         "title": "El futuro de George Russell en Mercedes F1, bajo análisis ante el éxito de Kimi Antonelli",
@@ -2424,7 +2422,7 @@
         "published": "Mon, 26 Oct 2026 23:22:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/25dLoRE0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLoRE0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Una masterclass estratégica: cómo Antonelli quedó al borde del título de F1 en el GP de Estados Unidos",
@@ -2432,7 +2430,7 @@
         "published": "Mon, 26 Oct 2026 19:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25dLoQJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Mercedes se burla de Kimi Antonelli tras un incómodo percance en Austin",
@@ -2440,7 +2438,7 @@
         "published": "Mon, 26 Oct 2026 17:42:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0o5ANdoY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5ANdoY/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
