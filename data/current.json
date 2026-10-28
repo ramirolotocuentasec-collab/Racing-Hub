@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:07:55.098560Z",
+  "updatedAt": "2026-10-28T11:54:14.689826Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -648,7 +648,7 @@
             "date": "2026-11-01T20:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Autodromo_Hermanos_Rodriguez_%28National_Circuit_with_Foro_Sol%29.png/1920px-Autodromo_Hermanos_Rodriguez_%28National_Circuit_with_Foro_Sol%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-20-interlagos",
