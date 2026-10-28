@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T10:19:16.987757Z",
+  "updatedAt": "2026-10-28T11:07:55.098560Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -648,7 +648,7 @@
             "date": "2026-11-01T20:00:00Z"
           }
         ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Autodromo_Hermanos_Rodriguez_%28National_Circuit_with_Foro_Sol%29.png/1920px-Autodromo_Hermanos_Rodriguez_%28National_Circuit_with_Foro_Sol%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-20-interlagos",
@@ -2323,12 +2323,28 @@
   "news": {
     "f1": [
       {
+        "title": "La división de unidades de potencia de F1 de Audi nombra un CEO con pasado en Mercedes",
+        "url": "https://espanol.motorsport.com/f1/news/audo-nombraceo-para-division-de-unidades-de-potencia-de-f1/10869027/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 28 Oct 2026 10:25:07 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/6Al7119Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
+      },
+      {
+        "title": "Por qué Aston Martin y Red Bull fueron consultados por una asociación de motores en la F1",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-aston-martin-y-red-bull-fueron-consultados-por-asociacion-de-motores/10869025/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 28 Oct 2026 10:20:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/2y7QwDy6/s6/fernando-alonso-aston-martin-r-2.jpg"
+      },
+      {
         "title": "Helmut Marko invierte en una start-up de inteligencia artificial tras su salida de Red Bull F1",
         "url": "https://espanol.motorsport.com/f1/news/helmut-marko-invierte-start-up-inteligencia-artificial/10868981/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 28 Oct 2026 06:05:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YP3vGwB2/s6/helmut-marko-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YP3vGwB2/s6/helmut-marko-red-bull-racing.jpg"
       },
       {
         "title": "Red Bull responde a los rumores sobre la unidad de potencia de Aston Martin en la F1",
@@ -2336,7 +2352,7 @@
         "published": "Wed, 28 Oct 2026 05:57:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/01QN7Zq0/s6/laurent-mekies-red-bull-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/01QN7Zq0/s6/laurent-mekies-red-bull-racing.jpg"
       },
       {
         "title": "Stella elogia a Antonelli: agresivo, eficaz y líder merecido del campeonato de la F1 2026",
@@ -2344,7 +2360,7 @@
         "published": "Wed, 28 Oct 2026 00:06:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0R7BRMo2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0R7BRMo2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Red Bull no resolverá sus arrancadas hasta 2027: la fricción y el turbo complican el avance",
@@ -2352,7 +2368,7 @@
         "published": "Tue, 27 Oct 2026 23:03:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdK4prY/s6/isack-hadjar-red-bull-racing-2.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2GdK4prY/s6/isack-hadjar-red-bull-racing-2.jpg"
       },
       {
         "title": "Browning vuelve al FW48 de Williams, participará en las FP1 en México y Brasil",
@@ -2360,7 +2376,7 @@
         "published": "Tue, 27 Oct 2026 22:15:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/27NQzXv0/s6/luke-browning-williams.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/27NQzXv0/s6/luke-browning-williams.jpg"
       },
       {
         "title": "Colton Herta rodará en la FP1 en México para tratar de alcanzar la super licencia de F1",
@@ -2368,7 +2384,7 @@
         "published": "Tue, 27 Oct 2026 21:22:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team.jpg"
       },
       {
         "title": "Mercedes y las primeras señales positivas de las novedades, pero Wolff destaca que Antonelli es la diferencia",
@@ -2376,7 +2392,7 @@
         "published": "Tue, 27 Oct 2026 21:05:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0mXyzoq6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0mXyzoq6/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Los errores que le costaron a Hamilton un podio en el GP de Estados Unidos de F1 2026",
@@ -2384,7 +2400,7 @@
         "published": "Tue, 27 Oct 2026 20:52:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Valtteri Bottas niega que pueda perder su asiento en Cadillac para la F1 2027",
@@ -2392,7 +2408,7 @@
         "published": "Tue, 27 Oct 2026 20:39:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "Checo Pérez presenta un casco especial para sus 300 carreras en el GP de México",
@@ -2400,7 +2416,7 @@
         "published": "Tue, 27 Oct 2026 16:49:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2eZxNj9Y/s6/hvprfvrxyaavvhg-1.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2eZxNj9Y/s6/hvprfvrxyaavvhg-1.jpg"
       },
       {
         "title": "Colton Herta, entre la emoción y la incertidumbre de su futuro con Cadillac para el 2027",
@@ -2408,7 +2424,7 @@
         "published": "Tue, 27 Oct 2026 15:59:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Colapinto no estará en la FP1 del GP de México: Alpine confirmó quién ocupará su coche",
@@ -2416,7 +2432,7 @@
         "published": "Tue, 27 Oct 2026 15:24:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YMXbAkV2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YMXbAkV2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Bearman tacha de \"locura\" la sanción de 10 segundos por su toque con Gasly en Austin",
@@ -2424,23 +2440,7 @@
         "published": "Tue, 27 Oct 2026 13:58:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0LdeBMv0/s6/oliver-bearman-haas-f1-team.jpg"
-      },
-      {
-        "title": "Honda prepara dos evoluciones del motor 2027 de Aston Martin: Melbourne y la octava carrera",
-        "url": "https://espanol.motorsport.com/f1/news/honda-prepara-dos-evoluciones-motor-2027-aston-martin-melbourne-octava-carrera/10868848/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 27 Oct 2026 13:07:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7v4Q46/s6/fernando-alonso-aston-martin-r.jpg"
-      },
-      {
-        "title": "Toto Wolff desmiente la teoría de Helmut Marko sobre Russell: \"Sigue teniendo lo que hace falta\"",
-        "url": "https://espanol.motorsport.com/f1/news/toto-wolff-desmiente-teoria-helmut-marko-sobre-russell/10868831/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 27 Oct 2026 12:33:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6AlvqxNY/s6/george-russell-mercedes-2.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0LdeBMv0/s6/oliver-bearman-haas-f1-team.jpg"
       }
     ],
     "moto": [
