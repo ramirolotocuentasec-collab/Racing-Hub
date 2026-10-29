@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T05:44:11.766929Z",
+  "updatedAt": "2026-10-29T06:25:17.105347Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1870,41 +1870,41 @@
         "name": "GRAND PRIX OF QATAR",
         "circuit": "Lusail International Circuit",
         "country": "Qatar",
-        "race": "2026-11-06T20:00:00Z",
+        "race": "2026-11-08T19:00:00Z",
         "officialUrl": "",
         "eventUuid": "5a880aba-62c4-413c-bb2d-b721683dd064",
         "sessions": [
           {
             "name": "FP",
-            "date": "2026-11-04T15:45:00Z"
+            "date": "2026-11-06T14:45:00Z"
           },
           {
             "name": "PR",
-            "date": "2026-11-04T20:00:00Z"
+            "date": "2026-11-06T19:00:00Z"
           },
           {
             "name": "FP",
-            "date": "2026-11-05T15:00:00Z"
+            "date": "2026-11-07T14:00:00Z"
           },
           {
             "name": "Q",
-            "date": "2026-11-05T15:40:00Z"
+            "date": "2026-11-07T14:40:00Z"
           },
           {
             "name": "Q",
-            "date": "2026-11-05T16:05:00Z"
+            "date": "2026-11-07T15:05:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-11-05T20:00:00Z"
+            "date": "2026-11-07T19:00:00Z"
           },
           {
             "name": "Warm Up",
-            "date": "2026-11-06T15:40:00Z"
+            "date": "2026-11-08T14:40:00Z"
           },
           {
             "name": "Race",
-            "date": "2026-11-06T20:00:00Z"
+            "date": "2026-11-08T19:00:00Z"
           }
         ]
       },
@@ -2450,7 +2450,7 @@
         "published": "Thu, 29 Oct 2026 05:05:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0ZR79BR0/s6/race-start.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0ZR79BR0/s6/race-start.jpg"
       },
       {
         "title": "Alex Márquez: MotoGP perjudica el futuro de los pilotos jóvenes con un formato castigador",
@@ -2458,7 +2458,7 @@
         "published": "Wed, 28 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNW5q2/s6/iker-lecuona-gresini-racing-cr.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNW5q2/s6/iker-lecuona-gresini-racing-cr.jpg"
       },
       {
         "title": "Diogo Moreira asegura que \"Honda podría luchar por el título de MotoGP en 2027\"",
@@ -2482,7 +2482,7 @@
         "published": "Tue, 27 Oct 2026 12:16:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0rVPZkd0/s6/jorge-martin-aprilia-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVPZkd0/s6/jorge-martin-aprilia-racing.jpg"
       },
       {
         "title": "Ducati: Aprilia tuvo “mala suerte” en el GP de Australia, puede ganar todas las carreras que quedan",
@@ -2490,7 +2490,7 @@
         "published": "Mon, 26 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2y7Q4OX6/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2y7Q4OX6/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Marc Márquez pidió garantías para viajar a Qatar mientras otros se callan ante MotoGP, dice Tardozzi",
@@ -2498,7 +2498,7 @@
         "published": "Mon, 26 Oct 2026 13:38:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68Vw4y42/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68Vw4y42/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Bagnaia manifiesta que MotoGP no consultó a los pilotos para cancelar el GP de Australia",
@@ -2514,7 +2514,7 @@
         "published": "Mon, 26 Oct 2026 10:38:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YvKBGlZ6/s6/jorge-martin-aprilia-racing-te-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YvKBGlZ6/s6/jorge-martin-aprilia-racing-te-2.jpg"
       },
       {
         "title": "Ganadores y perdedores del cancelado GP de Australia de MotoGP",
@@ -2522,7 +2522,7 @@
         "published": "Sun, 25 Oct 2026 13:50:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YP74y7B2/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YP74y7B2/s6/diogo-moreira-team-lcr-honda.jpg"
       },
       {
         "title": "MotoGP explica por qué no cambió el día de la carrera en Australia ante el aviso de mal tiempo",
@@ -2530,7 +2530,7 @@
         "published": "Sun, 25 Oct 2026 13:14:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68Vw4V42/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68Vw4V42/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "\"Era una gran oportunidad para Márquez, pero la seguridad es lo primero\", dice Tardozzi",
@@ -2538,7 +2538,7 @@
         "published": "Sun, 25 Oct 2026 10:42:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dLodn0/s6/marc-marquez-ducati-team-3.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLodn0/s6/marc-marquez-ducati-team-3.jpg"
       },
       {
         "title": "Jack Miller dice que la cancelación del GP de Australia es “difícil de digerir”",
@@ -2546,7 +2546,7 @@
         "published": "Sun, 25 Oct 2026 10:38:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6lmAN9m0/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6lmAN9m0/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Aprilia no sabe si la cancelación del GP de Australia beneficia o perjudica al equipo",
@@ -2554,7 +2554,7 @@
         "published": "Sun, 25 Oct 2026 10:31:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0JXRrXMY/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0JXRrXMY/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marc Márquez: Las condiciones de la pista eran “aceptables” pese a la cancelación del GP de Australia",
@@ -2562,7 +2562,7 @@
         "published": "Sun, 25 Oct 2026 10:28:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2GdK4dKY/s6/alex-marquez-gresini-racing-ma.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2GdK4dKY/s6/alex-marquez-gresini-racing-ma.jpg"
       }
     ]
   },
