@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T04:08:33.220269Z",
+  "updatedAt": "2026-10-29T04:58:11.149559Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,6 +2323,22 @@
   "news": {
     "f1": [
       {
+        "title": "FIA usará IA para ayudar a definir las futuras regulaciones de la F1 asociándose con Amazon",
+        "url": "https://espanol.motorsport.com/f1/news/fia-usara-inteligencia-artificial-definir-futuras-regulaciones-f1-amazon/10869179/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 29 Oct 2026 04:51:41 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0rVPM870/s6/fia-logo.jpg"
+      },
+      {
+        "title": "Daniel Ricciardo abre la puerta a un regreso a las carreras con Max Verstappen en Le Mans",
+        "url": "https://espanol.motorsport.com/f1/news/daniel-ricciardo-abre-puerta-regreso-carreras-max-verstappen-le-mans/10869181/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 29 Oct 2026 04:31:25 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/YXypvPK6/s6/daniel-ricciardo-max-verstappe.jpg"
+      },
+      {
         "title": "Por qué Sergio Pérez muestra un voto de confianza en Cadillac pese a un debut desigual en 2026",
         "url": "https://espanol.motorsport.com/f1/news/por-que-sergio-perez-muestra-voto-confianza-cadillac-debut-desigual-2026/10869161/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 28 Oct 2026 21:09:11 +0000",
@@ -2336,7 +2352,7 @@
         "published": "Wed, 28 Oct 2026 20:40:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0mXyzJM6/s6/28oct26sbcheco-001.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0mXyzJM6/s6/28oct26sbcheco-001.jpg"
       },
       {
         "title": "Checo Pérez completa un show run en la Ciudad de México con un F2 con decoración Cadillac",
@@ -2344,7 +2360,7 @@
         "published": "Wed, 28 Oct 2026 18:53:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLo1x0/s6/checo-5.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/25dLo1x0/s6/checo-5.jpg"
       },
       {
         "title": "Cinco cosas a tener en cuenta en el GP de México de F1 2026",
@@ -2360,7 +2376,7 @@
         "published": "Wed, 28 Oct 2026 18:21:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6zoDo8J0/s6/nikola-tsolov-racing-bulls.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDo8J0/s6/nikola-tsolov-racing-bulls.jpg"
       },
       {
         "title": "Max Verstappen no estará en la FP1 del GP de México para Red Bull",
@@ -2368,7 +2384,7 @@
         "published": "Wed, 28 Oct 2026 16:25:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YP74y4o2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YP74y4o2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Toto Wolff revela cómo la victoria de Pastor Maldonado con Williams lo ayudó a llegar a Mercedes",
@@ -2376,7 +2392,7 @@
         "published": "Wed, 28 Oct 2026 16:22:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0a9jBOk0/s6/ganador-de-la-carrera-pastor-m.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0a9jBOk0/s6/ganador-de-la-carrera-pastor-m.jpg"
       },
       {
         "title": "Checo Pérez firma nuevo contrato con Cadillac para correr en la F1 hasta 2029",
@@ -2384,7 +2400,7 @@
         "published": "Wed, 28 Oct 2026 15:03:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2jEAvyb0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Los 10 momentos que han marcado las 300 carreras de Sergio Pérez en la F1",
@@ -2392,7 +2408,7 @@
         "published": "Wed, 28 Oct 2026 13:08:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0o5ARPPY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5ARPPY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Bottas admite que en Cadillac “a veces no terminamos de entenderlo” tras otro abandono",
@@ -2400,7 +2416,7 @@
         "published": "Wed, 28 Oct 2026 12:23:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8pvb6/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8pvb6/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "La división de unidades de potencia de F1 de Audi nombra un CEO con pasado en Mercedes",
@@ -2408,7 +2424,7 @@
         "published": "Wed, 28 Oct 2026 10:25:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6Al7119Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6Al7119Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
       },
       {
         "title": "Por qué Aston Martin y Red Bull fueron consultados por una asociación de motores en la F1",
@@ -2416,7 +2432,7 @@
         "published": "Wed, 28 Oct 2026 10:20:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7QwDy6/s6/fernando-alonso-aston-martin-r-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2y7QwDy6/s6/fernando-alonso-aston-martin-r-2.jpg"
       },
       {
         "title": "La FIA se asocia con AWS para ayudar a impulsar futuras reglas de la F1",
@@ -2424,23 +2440,7 @@
         "published": "Wed, 28 Oct 2026 09:27:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo.jpg"
-      },
-      {
-        "title": "Helmut Marko invierte en una start-up de inteligencia artificial tras su salida de Red Bull F1",
-        "url": "https://espanol.motorsport.com/f1/news/helmut-marko-invierte-start-up-inteligencia-artificial/10868981/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 28 Oct 2026 06:05:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YP3vGwB2/s6/helmut-marko-red-bull-racing.jpg"
-      },
-      {
-        "title": "Red Bull responde a los rumores sobre la unidad de potencia de Aston Martin en la F1",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-responde-rumores-unidad-potencia-aston-martin-f1/10868979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 28 Oct 2026 05:57:59 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/01QN7Zq0/s6/laurent-mekies-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo.jpg"
       }
     ],
     "moto": [
@@ -2450,7 +2450,7 @@
         "published": "Wed, 28 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/Y9lNW5q2/s6/iker-lecuona-gresini-racing-cr.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNW5q2/s6/iker-lecuona-gresini-racing-cr.jpg"
       },
       {
         "title": "Diogo Moreira asegura que \"Honda podría luchar por el título de MotoGP en 2027\"",
@@ -2458,7 +2458,7 @@
         "published": "Wed, 28 Oct 2026 17:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0JXRveQY/s6/diogo-moreira-lcr-honda-3.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0JXRveQY/s6/diogo-moreira-lcr-honda-3.jpg"
       },
       {
         "title": "Toprak Razgatlioglu pasa \"un momento difícil\" tras operarse el hombro lesionado",
@@ -2466,7 +2466,7 @@
         "published": "Wed, 28 Oct 2026 11:16:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25d3j7N0/s6/toprak-razgatlioglu-pramac-rac.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/25d3j7N0/s6/toprak-razgatlioglu-pramac-rac.jpg"
       },
       {
         "title": "Martín apura su recuperación para intentar correr en Sepang tras una fractura sin cirugía",
@@ -2474,7 +2474,7 @@
         "published": "Tue, 27 Oct 2026 12:16:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0rVPZkd0/s6/jorge-martin-aprilia-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0rVPZkd0/s6/jorge-martin-aprilia-racing.jpg"
       },
       {
         "title": "Ducati: Aprilia tuvo “mala suerte” en el GP de Australia, puede ganar todas las carreras que quedan",
@@ -2482,7 +2482,7 @@
         "published": "Mon, 26 Oct 2026 21:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7Q4OX6/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2y7Q4OX6/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Marc Márquez pidió garantías para viajar a Qatar mientras otros se callan ante MotoGP, dice Tardozzi",
@@ -2490,7 +2490,7 @@
         "published": "Mon, 26 Oct 2026 13:38:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68Vw4y42/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/68Vw4y42/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Bagnaia manifiesta que MotoGP no consultó a los pilotos para cancelar el GP de Australia",
@@ -2498,7 +2498,7 @@
         "published": "Mon, 26 Oct 2026 11:58:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0R7BR7O2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0R7BR7O2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "El plan que seguirá Jorge Martín para intentar correr en Malasia",
@@ -2506,7 +2506,7 @@
         "published": "Mon, 26 Oct 2026 10:38:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKBGlZ6/s6/jorge-martin-aprilia-racing-te-2.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YvKBGlZ6/s6/jorge-martin-aprilia-racing-te-2.jpg"
       },
       {
         "title": "Ganadores y perdedores del cancelado GP de Australia de MotoGP",
@@ -2514,7 +2514,7 @@
         "published": "Sun, 25 Oct 2026 13:50:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YP74y7B2/s6/diogo-moreira-team-lcr-honda.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YP74y7B2/s6/diogo-moreira-team-lcr-honda.jpg"
       },
       {
         "title": "MotoGP explica por qué no cambió el día de la carrera en Australia ante el aviso de mal tiempo",
@@ -2522,7 +2522,7 @@
         "published": "Sun, 25 Oct 2026 13:14:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68Vw4V42/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/68Vw4V42/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "\"Era una gran oportunidad para Márquez, pero la seguridad es lo primero\", dice Tardozzi",
@@ -2530,7 +2530,7 @@
         "published": "Sun, 25 Oct 2026 10:42:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/25dLodn0/s6/marc-marquez-ducati-team-3.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/25dLodn0/s6/marc-marquez-ducati-team-3.jpg"
       },
       {
         "title": "Jack Miller dice que la cancelación del GP de Australia es “difícil de digerir”",
@@ -2546,7 +2546,7 @@
         "published": "Sun, 25 Oct 2026 10:31:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0JXRrXMY/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0JXRrXMY/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Marc Márquez: Las condiciones de la pista eran “aceptables” pese a la cancelación del GP de Australia",
@@ -2554,7 +2554,7 @@
         "published": "Sun, 25 Oct 2026 10:28:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2GdK4dKY/s6/alex-marquez-gresini-racing-ma.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdK4dKY/s6/alex-marquez-gresini-racing-ma.jpg"
       },
       {
         "title": "Así queda el campeonato de MotoGP 2026 tras el cancelado Gran Premio de Australia",
@@ -2562,7 +2562,7 @@
         "published": "Sun, 25 Oct 2026 05:03:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7QVZg6/s6/vista-general-pista-phillip-is.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2y7QVZg6/s6/vista-general-pista-phillip-is.jpg"
       }
     ]
   },
