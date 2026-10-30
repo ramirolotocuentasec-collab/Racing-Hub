@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T17:09:08.641258Z",
+  "updatedAt": "2026-10-30T17:52:47.906671Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,12 +2323,20 @@
   "news": {
     "f1": [
       {
+        "title": "El desafío de la altitud: las actualizaciones técnicas de los equipos para el GP de México",
+        "url": "https://espanol.motorsport.com/f1/news/actualizaciones-tecnicas-equipos-mexico-2026/10869756/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 17:25:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8Zgar2/s6/pierre-gasly-alpine.jpg"
+      },
+      {
         "title": "Checo Pérez se ausenta del Fan Forum de Cadillac en México al reportarse \"indispuesto\"",
         "url": "https://espanol.motorsport.com/f1/news/checo-perez-ausenta-fan-forum-cadillac-mexico-indispuesto/10869739/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 30 Oct 2026 16:17:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "México pone a prueba los turbos sin MGU-H de las unidades de potencia y Ferrari podría sacar ventaja",
@@ -2336,7 +2344,7 @@
         "published": "Fri, 30 Oct 2026 16:06:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/63QmmJD2/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/63QmmJD2/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "George Russell predice una \"ventaja\" clave de Ferrari en el GP de México de F1",
@@ -2344,7 +2352,7 @@
         "published": "Fri, 30 Oct 2026 12:55:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg"
       },
       {
         "title": "Hadjar admite que se excedió al criticar a Red Bull tras el GP de Estados Unidos",
@@ -2360,7 +2368,7 @@
         "published": "Fri, 30 Oct 2026 11:31:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6b8jjxw2/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6b8jjxw2/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Por qué la renovación de Checo Pérez con Cadillac complementa el plan a futuro del GP de México",
@@ -2368,7 +2376,7 @@
         "published": "Fri, 30 Oct 2026 10:55:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "¿Herta o Bottas? Checo Pérez prefiere un compañero con \"experiencia\" en Cadillac",
@@ -2376,7 +2384,7 @@
         "published": "Fri, 30 Oct 2026 04:38:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "El objetivo de Piastri: sacar respuestas para que McLaren vuelva a pelear en 2027",
@@ -2384,7 +2392,7 @@
         "published": "Fri, 30 Oct 2026 03:48:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "George Russell advierte que Ferrari podría tener una gran ventaja en el GP de México",
@@ -2392,7 +2400,7 @@
         "published": "Fri, 30 Oct 2026 01:21:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2dEoNMZY/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2dEoNMZY/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Hamilton contempla correr hasta la década de 2030 y afirma estar “hecho de otra manera”",
@@ -2400,7 +2408,7 @@
         "published": "Fri, 30 Oct 2026 01:15:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2jEANNM0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Albon descarta las críticas de Fernando Alonso: \"La F1 ya no tiene pilotos de pago\"",
@@ -2408,7 +2416,7 @@
         "published": "Fri, 30 Oct 2026 01:03:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0o5A8v7Y/s6/alexander-albon-williams-ferna.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0o5A8v7Y/s6/alexander-albon-williams-ferna.jpg"
       },
       {
         "title": "Verstappen bromea sobre el proyecto de Ricciardo en Le Mans: \"Es inteligente al elegirme\"",
@@ -2424,7 +2432,7 @@
         "published": "Fri, 30 Oct 2026 00:08:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6DGgo34Y/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6DGgo34Y/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Carlos Sainz responde a Fernando Alonso: \"Todos tenemos talento para pelear victorias\"",
@@ -2433,14 +2441,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-7.motorsport.com/images/amp/YpbABjd0/s6/carlos-sainz-williams.jpg"
-      },
-      {
-        "title": "Leclerc revela lo que realmente quiere de las últimas cinco carreras de F1 de 2026",
-        "url": "https://espanol.motorsport.com/f1/news/leclerc-revela-quiere-ultimas-cinco-carreras-f1-2026/10869450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 29 Oct 2026 22:09:27 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwmqX2/s6/charles-leclerc-ferrari.jpg"
       }
     ],
     "moto": [
