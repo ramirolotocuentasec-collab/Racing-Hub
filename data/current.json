@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:06:45.575128Z",
+  "updatedAt": "2026-10-30T23:44:06.756558Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,20 +2323,52 @@
   "news": {
     "f1": [
       {
+        "title": "La FIA aplica una multa a Audi tras el viernes del GP de México",
+        "url": "https://espanol.motorsport.com/f1/news/fia-aplica-multa-a-audi-viernes-mexico/10869863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 23:35:58 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0arEVMX2/s6/freddie-slater-audi-f1-team.jpg"
+      },
+      {
+        "title": "La FIA aclara que Colton Herta suma 39 puntos y no 40 para la superlicencia y aún no es elegible para F1",
+        "url": "https://espanol.motorsport.com/f1/news/fia-aclara-colton-herta-suma-39-puntos-no-40-superlicencia/10869865/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 23:33:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8vxd6/s6/colton-herta-hitech.jpg"
+      },
+      {
+        "title": "Los resultados completos de las prácticas del viernes del GP de México de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/resultados-practicas-mexico-viernes/10869860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 23:24:53 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNjrL2/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Los comisarios llaman a Verstappen y Lawson tras chocar en la FP2 en México",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-lawson-incidente-fp2-mexico-comisarios/10869850/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 23:05:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/6zoDxQp0/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Leclerc domina el viernes del GP de México de F1 con Colapinto y Checo Pérez fuera del top 15",
         "url": "https://espanol.motorsport.com/f1/news/leclerc-lidera-viernes-mexico-fp2-resultados-colapinto-checo-perez/10869846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 30 Oct 2026 23:00:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
       },
       {
-        "title": "Herta logra la superlicencia para F1 en México y Budkowski aclara el futuro de Cadillac",
+        "title": "Herta cerca de la superlicencia para F1 en México y Budkowski aclara el futuro de Cadillac",
         "url": "https://espanol.motorsport.com/f1/news/herta-superlicencia-f1-budkowski-cadillac-asiento-bottas-mexico/10869817/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 30 Oct 2026 21:20:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Horarios y dónde ver la clasificación del GP de México 2026: guía completa de transmisión",
@@ -2352,7 +2384,7 @@
         "published": "Fri, 30 Oct 2026 19:53:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Leclerc lidera una FP1 en el GP de México de F1 2026 con Checo Pérez 18° y sin Colapinto",
@@ -2360,7 +2392,7 @@
         "published": "Fri, 30 Oct 2026 19:34:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YN7vVy36/s6/charles-leclerc-ferrari-3.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YN7vVy36/s6/charles-leclerc-ferrari-3.jpg"
       },
       {
         "title": "Hamilton mira a 2027: Ferrari innova, pero necesita más motor",
@@ -2368,7 +2400,7 @@
         "published": "Fri, 30 Oct 2026 18:11:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "El desafío de la altitud: las actualizaciones técnicas de los equipos para el GP de México",
@@ -2384,7 +2416,7 @@
         "published": "Fri, 30 Oct 2026 16:17:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "México pone a prueba los turbos sin MGU-H de las unidades de potencia y Ferrari podría sacar ventaja",
@@ -2392,7 +2424,7 @@
         "published": "Fri, 30 Oct 2026 16:06:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/63QmmJD2/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/63QmmJD2/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "George Russell predice una \"ventaja\" clave de Ferrari en el GP de México de F1",
@@ -2400,7 +2432,7 @@
         "published": "Fri, 30 Oct 2026 12:55:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg"
       },
       {
         "title": "Hadjar admite que se excedió al criticar a Red Bull tras el GP de Estados Unidos",
@@ -2408,39 +2440,7 @@
         "published": "Fri, 30 Oct 2026 11:44:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2GdK4w1Y/s6/isack-hadjar-red-bull-racing.jpg"
-      },
-      {
-        "title": "Por qué las nuevas reglas de la F1 hacen que el GP de México 2026 sea un desafío aún mayor",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-reglamento-20206-hace-que-mexico-sea-un-desafio-aun-mayor/10869669/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 11:31:46 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8jjxw2/s6/oscar-piastri-mclaren.jpg"
-      },
-      {
-        "title": "Por qué la renovación de Checo Pérez con Cadillac complementa el plan a futuro del GP de México",
-        "url": "https://espanol.motorsport.com/f1/news/renovacion-checo-perez-cadillac-complementa-plan-mexico-futuro-contrato/10869539/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 10:55:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "¿Herta o Bottas? Checo Pérez prefiere un compañero con \"experiencia\" en Cadillac",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-cadillac-preferencia-segundo-asiento-bottas-herta/10869518/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 04:38:13 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "El objetivo de Piastri: sacar respuestas para que McLaren vuelva a pelear en 2027",
-        "url": "https://espanol.motorsport.com/f1/news/objetivo-piastri-sacar-respuestas-mclaren-vuelva-pelear-2027/10869509/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 03:48:36 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6b8ZNRw2/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2GdK4w1Y/s6/isack-hadjar-red-bull-racing.jpg"
       }
     ],
     "moto": [
