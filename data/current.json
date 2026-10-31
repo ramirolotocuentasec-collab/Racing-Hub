@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:44:06.756558Z",
+  "updatedAt": "2026-10-31T00:21:16.381297Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2323,15 +2323,31 @@
   "news": {
     "f1": [
       {
+        "title": "La cruda advertencia de Max Verstappen a Liam Lawson por el choque en la FP2 del GP de México",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-advertencia-lawson-por-choque-fp2-mexico/10869881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 00:02:09 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/25dLDwx0/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Franco Colapinto explica por qué su viernes en México no estuvo \"tan mal\"",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-viernes-en-mexico-no-estuvo-tan-mal/10869872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 30 Oct 2026 23:55:26 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLDdk0/s6/franco-colapinto-alpine.jpg"
+      },
+      {
         "title": "La FIA aplica una multa a Audi tras el viernes del GP de México",
         "url": "https://espanol.motorsport.com/f1/news/fia-aplica-multa-a-audi-viernes-mexico/10869863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 30 Oct 2026 23:35:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0arEVMX2/s6/freddie-slater-audi-f1-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0arEVMX2/s6/freddie-slater-audi-f1-team.jpg"
       },
       {
-        "title": "La FIA aclara que Colton Herta suma 39 puntos y no 40 para la superlicencia y aún no es elegible para F1",
+        "title": "La confusión con la superlicencia de F1 de Colton Herta: por qué todavía le falta un punto",
         "url": "https://espanol.motorsport.com/f1/news/fia-aclara-colton-herta-suma-39-puntos-no-40-superlicencia/10869865/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 30 Oct 2026 23:33:35 +0000",
         "source": "Motorsport.com",
@@ -2344,7 +2360,7 @@
         "published": "Fri, 30 Oct 2026 23:24:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNjrL2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNjrL2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Los comisarios llaman a Verstappen y Lawson tras chocar en la FP2 en México",
@@ -2352,7 +2368,7 @@
         "published": "Fri, 30 Oct 2026 23:05:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6zoDxQp0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDxQp0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Leclerc domina el viernes del GP de México de F1 con Colapinto y Checo Pérez fuera del top 15",
@@ -2360,7 +2376,7 @@
         "published": "Fri, 30 Oct 2026 23:00:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Herta cerca de la superlicencia para F1 en México y Budkowski aclara el futuro de Cadillac",
@@ -2368,7 +2384,7 @@
         "published": "Fri, 30 Oct 2026 21:20:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Horarios y dónde ver la clasificación del GP de México 2026: guía completa de transmisión",
@@ -2376,7 +2392,7 @@
         "published": "Fri, 30 Oct 2026 20:22:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjzMKY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YBVjzMKY/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "En qué se equivoca Fernando Alonso sobre el nivel de pilotaje en la F1",
@@ -2384,7 +2400,7 @@
         "published": "Fri, 30 Oct 2026 19:53:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6x7LvB5Y/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Leclerc lidera una FP1 en el GP de México de F1 2026 con Checo Pérez 18° y sin Colapinto",
@@ -2392,7 +2408,7 @@
         "published": "Fri, 30 Oct 2026 19:34:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YN7vVy36/s6/charles-leclerc-ferrari-3.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7vVy36/s6/charles-leclerc-ferrari-3.jpg"
       },
       {
         "title": "Hamilton mira a 2027: Ferrari innova, pero necesita más motor",
@@ -2400,7 +2416,7 @@
         "published": "Fri, 30 Oct 2026 18:11:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "El desafío de la altitud: las actualizaciones técnicas de los equipos para el GP de México",
@@ -2416,7 +2432,7 @@
         "published": "Fri, 30 Oct 2026 16:17:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "México pone a prueba los turbos sin MGU-H de las unidades de potencia y Ferrari podría sacar ventaja",
@@ -2425,22 +2441,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-6.motorsport.com/images/amp/63QmmJD2/s6/charles-leclerc-ferrari-lewis-.jpg"
-      },
-      {
-        "title": "George Russell predice una \"ventaja\" clave de Ferrari en el GP de México de F1",
-        "url": "https://espanol.motorsport.com/f1/news/george-russell-predice-ventaja-clave-ferrari-en-mexico/10869678/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 12:55:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0mXyKBG6/s6/charles-leclerc-ferrari-george.jpg"
-      },
-      {
-        "title": "Hadjar admite que se excedió al criticar a Red Bull tras el GP de Estados Unidos",
-        "url": "https://espanol.motorsport.com/f1/news/hadjar-admite-excedio-criticar-red-bull-estados-unidos/10869522/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 30 Oct 2026 11:44:06 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2GdK4w1Y/s6/isack-hadjar-red-bull-racing.jpg"
       }
     ],
     "moto": [
