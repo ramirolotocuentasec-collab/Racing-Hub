@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T07:22:30.762868Z",
+  "updatedAt": "2026-10-31T08:16:26.508999Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -647,7 +647,8 @@
             "name": "Race",
             "date": "2026-11-01T20:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg/1920px-Aut%C3%B3dromo_Hermanos_Rodriguez_-_oval.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-20-interlagos",
@@ -1860,7 +1861,8 @@
             "name": "Race",
             "date": "2026-11-01T15:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bye_Bye_Malaysia_2017_Malaysia.jpg/1920px-Bye_Bye_Malaysia_2017_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-5a880aba-62c4-413c-bb2d-b721683dd064",
@@ -2001,7 +2003,7 @@
         "name": "Piloto 1",
         "driver": "",
         "team": "Ducati",
-        "points": 365.0,
+        "points": 374.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2019,7 +2021,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 315.0,
+        "points": 322.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2028,7 +2030,7 @@
         "name": "Piloto 4",
         "driver": "",
         "team": "KTM",
-        "points": 263.0,
+        "points": 275.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2037,7 +2039,7 @@
         "name": "Piloto 5",
         "driver": "",
         "team": "Aprilia",
-        "points": 259.0,
+        "points": 265.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2046,7 +2048,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 252.0,
+        "points": 257.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2073,7 +2075,7 @@
         "name": "Piloto 9",
         "driver": "",
         "team": "Ducati",
-        "points": 166.0,
+        "points": 170.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2091,7 +2093,7 @@
         "name": "Piloto 11",
         "driver": "",
         "team": "KTM",
-        "points": 122.0,
+        "points": 123.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2099,8 +2101,8 @@
         "position": 12,
         "name": "Piloto 12",
         "driver": "",
-        "team": "Honda",
-        "points": 108.0,
+        "team": "KTM",
+        "points": 111.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2108,7 +2110,7 @@
         "position": 13,
         "name": "Piloto 13",
         "driver": "",
-        "team": "KTM",
+        "team": "Honda",
         "points": 108.0,
         "riderImage": "",
         "bikeImage": ""
@@ -2118,7 +2120,7 @@
         "name": "Piloto 14",
         "driver": "",
         "team": "Honda",
-        "points": 76.0,
+        "points": 78.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2289,25 +2291,25 @@
       {
         "name": "Aprilia",
         "team": "Aprilia",
-        "points": 1165.0,
+        "points": 1178.0,
         "position": 1
       },
       {
         "name": "Ducati",
         "team": "Ducati",
-        "points": 1158.0,
+        "points": 1176.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 510.0,
+        "points": 526.0,
         "position": 3
       },
       {
         "name": "Honda",
         "team": "Honda",
-        "points": 274.0,
+        "points": 276.0,
         "position": 4
       },
       {
@@ -2326,7 +2328,7 @@
         "published": "Sat, 31 Oct 2026 04:32:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Max Verstappen y Liam Lawson reciben sanciones en la parrilla del GP de México tras su choque",
@@ -2334,7 +2336,7 @@
         "published": "Sat, 31 Oct 2026 03:19:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0o5AgQaY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AgQaY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Haas responde a los rumores del contrato de Bearman para la F1 2027",
@@ -2342,7 +2344,7 @@
         "published": "Sat, 31 Oct 2026 01:34:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2y7QpQp6/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2y7QpQp6/s6/oliver-bearman-haas-f1-team.jpg"
       },
       {
         "title": "Hamilton no cree en las ventajas del turbo: \"Los demás son mejores que nosotros en recta\"",
@@ -2350,7 +2352,7 @@
         "published": "Sat, 31 Oct 2026 01:30:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0LdejvV0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0LdejvV0/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lo que aprendimos de los entrenamientos del viernes en el GP de México 2026",
@@ -2366,7 +2368,7 @@
         "published": "Sat, 31 Oct 2026 00:38:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7vVb46/s6/oscar-piastri-mclaren-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7vVb46/s6/oscar-piastri-mclaren-2.jpg"
       },
       {
         "title": "La cruda advertencia de Max Verstappen a Liam Lawson por el choque en la FP2 del GP de México",
@@ -2374,7 +2376,7 @@
         "published": "Sat, 31 Oct 2026 00:02:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/25dLDwx0/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/25dLDwx0/s6/max-verstappen-red-bull-racing-2.jpg"
       },
       {
         "title": "Franco Colapinto explica por qué su viernes en México no estuvo \"tan mal\"",
@@ -2382,7 +2384,7 @@
         "published": "Fri, 30 Oct 2026 23:55:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/25dLDdk0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLDdk0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "La FIA aplica una multa a Audi tras el viernes del GP de México",
@@ -2390,7 +2392,7 @@
         "published": "Fri, 30 Oct 2026 23:35:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0arEVMX2/s6/freddie-slater-audi-f1-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEVMX2/s6/freddie-slater-audi-f1-team.jpg"
       },
       {
         "title": "La confusión con la superlicencia de F1 de Colton Herta: por qué todavía le falta un punto",
@@ -2398,7 +2400,7 @@
         "published": "Fri, 30 Oct 2026 23:33:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8vxd6/s6/colton-herta-hitech.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0Zq8vxd6/s6/colton-herta-hitech.jpg"
       },
       {
         "title": "Los resultados completos de las prácticas del viernes del GP de México de F1 2026",
@@ -2414,7 +2416,7 @@
         "published": "Fri, 30 Oct 2026 23:05:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6zoDxQp0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6zoDxQp0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Leclerc domina el viernes del GP de México de F1 con Colapinto y Checo Pérez fuera del top 15",
@@ -2422,7 +2424,7 @@
         "published": "Fri, 30 Oct 2026 23:00:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Herta cerca de la superlicencia para F1 en México y Budkowski aclara el futuro de Cadillac",
@@ -2430,7 +2432,7 @@
         "published": "Fri, 30 Oct 2026 21:20:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Horarios y dónde ver la clasificación del GP de México 2026: guía completa de transmisión",
@@ -2438,7 +2440,7 @@
         "published": "Fri, 30 Oct 2026 20:22:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YBVjzMKY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YBVjzMKY/s6/pierre-gasly-alpine.jpg"
       }
     ],
     "moto": [
@@ -2448,7 +2450,7 @@
         "published": "Sat, 31 Oct 2026 04:53:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Alex Márquez logra la pole en Malasia por delante de Marc Márquez; Jorge Martín queda fuera",
@@ -2456,7 +2458,7 @@
         "published": "Sat, 31 Oct 2026 04:11:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/01QNoPx0/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/01QNoPx0/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "Jorge Martín se retira del Gran Premio de Malasia",
@@ -2464,7 +2466,7 @@
         "published": "Sat, 31 Oct 2026 03:22:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Bezzecchi: \"En Sepang todavía nos cuesta un poco más, pero la Aprilia ha mejorado mucho\"",
@@ -2472,7 +2474,7 @@
         "published": "Fri, 30 Oct 2026 16:33:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6grQKaxY/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6grQKaxY/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Aprilia y médicos deciden reservar a Jorge Martín para el sábado: \"es mejor no correr ningún riesgo\"",
@@ -2480,7 +2482,7 @@
         "published": "Fri, 30 Oct 2026 15:23:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pedro Acosta fue rápido pero con “sensaciones terribles” en la práctica de Malasia",
@@ -2496,7 +2498,7 @@
         "published": "Fri, 30 Oct 2026 13:11:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6zoDXe70/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6zoDXe70/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "\"Cuando no tengo dolor, gano\", dice Maverick Viñales tras recuperar la forma el viernes en Malasia",
@@ -2504,7 +2506,7 @@
         "published": "Fri, 30 Oct 2026 13:00:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0rVPZDO0/s6/maverick-vinales-red-bull-ktm-.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0rVPZDO0/s6/maverick-vinales-red-bull-ktm-.jpg"
       },
       {
         "title": "Marc Márquez prefiere evitar la comparación entre Jorge Martín y su propio regreso en Jerez 2020",
@@ -2520,7 +2522,7 @@
         "published": "Fri, 30 Oct 2026 11:23:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68Vw4Xl2/s6/track-surface.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/68Vw4Xl2/s6/track-surface.jpg"
       },
       {
         "title": "Marc Márquez planea atacar al máximo en el GP de Malasia tras un viernes dominante",
@@ -2528,7 +2530,7 @@
         "published": "Fri, 30 Oct 2026 11:15:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0R7BReo2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7BReo2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "\"Mi moto solo funciona en línea recta\", denuncia un frustrado Bagnaia tras la práctica del GP de Malasia",
@@ -2536,7 +2538,7 @@
         "published": "Fri, 30 Oct 2026 11:10:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YE9E4lwY/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YE9E4lwY/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Marc Márquez lidera la práctica mientras Martín termina el viernes antes de tiempo en Malasia",
@@ -2544,7 +2546,7 @@
         "published": "Fri, 30 Oct 2026 09:38:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2GdK4PEY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2GdK4PEY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Jorge Martin declarado apto para correr en el GP de Malasia tras la FP1",
@@ -2552,7 +2554,7 @@
         "published": "Fri, 30 Oct 2026 04:49:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YBVj4kBY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YBVj4kBY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Márquez lidera la FP1 en Malasia, Martín termina 20 y Fernández baja del fin de semana",
@@ -2560,7 +2562,7 @@
         "published": "Fri, 30 Oct 2026 04:08:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2dEoNQpY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2dEoNQpY/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
