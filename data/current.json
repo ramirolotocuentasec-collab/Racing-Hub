@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:13:10.490127Z",
+  "updatedAt": "2026-10-31T22:54:12.042772Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -947,6 +947,13 @@
         "name": "Sergio Pérez",
         "driver": "PER",
         "team": "Cadillac F1 Team",
+        "points": 0.0
+      },
+      {
+        "position": 24,
+        "name": "Ryo Hirakawa",
+        "driver": "",
+        "team": "Haas F1 Team",
         "points": 0.0
       }
     ],
@@ -2323,12 +2330,52 @@
   "news": {
     "f1": [
       {
+        "title": "Ocon rompe el silencio tras ser reemplazado en Haas y aclara qué sucedió en México",
+        "url": "https://espanol.motorsport.com/f1/news/ocon-explica-salida-haas-mexico/10870321/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 22:51:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg"
+      },
+      {
+        "title": "Franco Colapinto explica qué le faltó para llegar a la Q3 en México",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-explica-clasificacion-mexico/10870314/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 22:44:42 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/YE9EBbLY/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Los resultados completos de la clasificación del GP de México de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/mexico-clasificacion-resultados-completos/10870285/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 22:22:43 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/68VwR842/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Hamilton logra en el GP de México su primera pole con Ferrari; Colapinto es 12° y Checo Pérez, 21°",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-pole-mexico-clasificacion-colapinto-checo-perez/10870289/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 22:16:27 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/68VwRpQ2/s6/lewis-hamilton-ferrari-2.jpg"
+      },
+      {
+        "title": "La parrilla de salida para el GP de México de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/parrilla-salida-carrera-mexico/10870281/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 31 Oct 2026 22:10:32 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/0mXyZNA6/s6/lewis-hamilton-ferrari-2.jpg"
+      },
+      {
         "title": "Cuándo espera Red Bull empezar a utilizar su nuevo y esperado túnel de viento de F1",
         "url": "https://espanol.motorsport.com/f1/news/cuando-espera-red-bull-empezar-utilizar-nuevo-tunel-de-viento-f1/10870245/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 31 Oct 2026 19:07:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YK15Rvz0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YK15Rvz0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Cadillac cambia la unidad de potencia de Checo Pérez antes de la clasificación en México",
@@ -2336,7 +2383,7 @@
         "published": "Sat, 31 Oct 2026 18:43:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6n7bD7X0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6n7bD7X0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Norris lidera la FP3 del GP de México, Colapinto cerca del top 10 y problemas para Checo Pérez",
@@ -2344,7 +2391,7 @@
         "published": "Sat, 31 Oct 2026 18:33:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YXyKBBQ6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YXyKBBQ6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Sin sanción deportiva contra Hadjar tras empujar a un fanático el viernes en el GP de México",
@@ -2352,7 +2399,7 @@
         "published": "Sat, 31 Oct 2026 17:26:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YpbABvX0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YpbABvX0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Checo Pérez y el contrato récord con Cadillac: la cifra histórica que cobrará hasta 2029",
@@ -2360,7 +2407,7 @@
         "published": "Sat, 31 Oct 2026 17:20:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0o5ARPPY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5ARPPY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Russell: Mercedes fuera de la ventana de rendimiento en el GP de México 2026",
@@ -2368,7 +2415,7 @@
         "published": "Sat, 31 Oct 2026 16:34:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0R7Bb9M2/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0R7Bb9M2/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Nuevo video aclara altercado de Hadjar con fanático en el GP de México",
@@ -2392,7 +2439,7 @@
         "published": "Sat, 31 Oct 2026 16:05:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0arEV9G2/s6/lewis-hamilton-ferrari-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEV9G2/s6/lewis-hamilton-ferrari-2.jpg"
       },
       {
         "title": "Ferrari rebaja las expectativas para el GP de México de F1 pese a un viernes fulgurante",
@@ -2400,47 +2447,7 @@
         "published": "Sat, 31 Oct 2026 15:16:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6O7zXZJ6/s6/charles-leclerc-ferrari.jpg"
-      },
-      {
-        "title": "Haas reemplaza a Ocon con Hirakawa en México de última hora",
-        "url": "https://espanol.motorsport.com/f1/news/haas-reemplaza-ocon-con-hirakawa-mexico-ultima-hora-/10870157/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 14:48:49 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2GdKZmOY/s6/ryo-hirakawa-haas-f1-team.jpg"
-      },
-      {
-        "title": "George Russell propone un nuevo compañero para Checo Pérez en Cadillac en la F1 2027",
-        "url": "https://espanol.motorsport.com/f1/news/george-russell-propone-companero-para-checo-perez-en-cadillac/10870130/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 13:07:50 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Ld5QxN0/s6/lewis-hamilton-ferrari-george--2.jpg"
-      },
-      {
-        "title": "Red Bull encuentra una ‘desconexión’ en el RB22 en las prácticas del GP de México de F1",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-desconexion-coche-practicas-mexico/10870124/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 12:57:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0LdejdJ0/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Hadjar citado por los comisarios tras empujar a un aficionado en México",
-        "url": "https://espanol.motorsport.com/f1/news/hadjar-citado-comisarios-empujar-aficionado-mexico/10869960/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 04:32:44 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6b8ZNN32/s6/isack-hadjar-red-bull-racing.jpg"
-      },
-      {
-        "title": "Max Verstappen y Liam Lawson reciben sanciones en la parrilla del GP de México tras su choque",
-        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-liam-lawson-sanciones-parrilla-mexico-choque/10869939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 03:19:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2eZxbVKY/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6O7zXZJ6/s6/charles-leclerc-ferrari.jpg"
       }
     ],
     "moto": [
