@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:33:27.070243Z",
+  "updatedAt": "2026-11-01T16:14:29.126484Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -952,7 +952,7 @@
       {
         "position": 24,
         "name": "Ryo Hirakawa",
-        "driver": "",
+        "driver": "HIR",
         "team": "Haas F1 Team",
         "points": 0.0
       }
@@ -2343,7 +2343,7 @@
         "published": "Sun, 01 Nov 2026 15:24:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2y7Qppy6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2y7Qppy6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Hamilton firma su primera pole con Ferrari en México y se juega la victoria en la primera curva",
@@ -2351,7 +2351,7 @@
         "published": "Sun, 01 Nov 2026 13:39:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6AlvxXGY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6AlvxXGY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Alonso: \"La frustración está más allá de la imaginación\" tras su eliminación en Q1 en México",
@@ -2359,7 +2359,7 @@
         "published": "Sun, 01 Nov 2026 13:28:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2y7QpRy6/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7QpRy6/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "El mano a mano entre compañeros de equipo en la F1 2026 tras la clasificación del GP de México",
@@ -2367,7 +2367,7 @@
         "published": "Sun, 01 Nov 2026 12:03:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6DGg8ZGY/s6/lewis-hamilton-ferrari-george-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6DGg8ZGY/s6/lewis-hamilton-ferrari-george-.jpg"
       },
       {
         "title": "Los pilotos de Red Bull temen al arranque en México y Verstappen bromea: “Una salida tipo Le Mans sería igual de rápida”",
@@ -2375,7 +2375,7 @@
         "published": "Sun, 01 Nov 2026 11:36:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YXyKBmx6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YXyKBmx6/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "El camino a 300 GP: Carlos Slim Domit revela cómo llevó a Checo Pérez a la Fórmula 1",
@@ -2383,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 10:30:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Checo Pérez llega a 300 GP en la F1: victorias, podios, poles y números de su carrera",
@@ -2391,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 05:58:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YWKAbLkY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YWKAbLkY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Vasseur: \"Seguimos centrados en México porque es importante volver a ganar un GP”",
@@ -2399,7 +2399,7 @@
         "published": "Sun, 01 Nov 2026 05:33:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjzgMY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjzgMY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Isack Hadjar se defiende del incidente en el paddock en México: \"No es un reality show\"",
@@ -2407,7 +2407,7 @@
         "published": "Sun, 01 Nov 2026 05:06:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Gabriel Bortoleto pensó después de la Q1 en México: \"aquí estoy haciendo la pole\"",
@@ -2423,7 +2423,7 @@
         "published": "Sun, 01 Nov 2026 02:37:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Russell identifica la costosa decisión detrás de su fracaso en la clasificación del GP de México",
@@ -2431,7 +2431,7 @@
         "published": "Sun, 01 Nov 2026 01:59:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
       },
       {
         "title": "Hamilton: Su primera pole en F1 con Ferrari “me hace recordar cuando veía a Michael Schumacher”",
@@ -2439,7 +2439,7 @@
         "published": "Sun, 01 Nov 2026 01:46:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lawson descalificado del sábado del GP de México; Colapinto y Checo Pérez ganan lugares en la parrilla",
@@ -2447,7 +2447,7 @@
         "published": "Sun, 01 Nov 2026 01:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
       }
     ],
     "moto": [
@@ -2457,7 +2457,7 @@
         "published": "Sun, 01 Nov 2026 13:23:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YWKAgGKY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YWKAgGKY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "MotoGP responde al boicot de Yamaha al GP de Qatar y advierte por las consecuencias",
@@ -2465,7 +2465,7 @@
         "published": "Sun, 01 Nov 2026 10:45:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
       },
       {
         "title": "Jack Miller expresa una postura firme contra el GP de Qatar: “Nadie quiere ir, pero enfrentamos sanciones\"",
@@ -2481,7 +2481,7 @@
         "published": "Sun, 01 Nov 2026 10:16:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6VyKrGLY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6VyKrGLY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Yamaha boicoteará el GP de Qatar de MotoGP en medio de la actual guerra en Medio Oriente",
@@ -2489,7 +2489,7 @@
         "published": "Sun, 01 Nov 2026 10:06:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "Alex Márquez se salta el polémico GP de Qatar para someterse a una cirugía",
@@ -2497,7 +2497,7 @@
         "published": "Sun, 01 Nov 2026 10:03:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwRO92/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68VwRO92/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "MotoGP GP Malasia: Marc Márquez logra una victoria dominante para acercarse al título",
@@ -2505,7 +2505,7 @@
         "published": "Sun, 01 Nov 2026 09:24:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YK15RkD0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YK15RkD0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Los pilotos de MotoGP aumentan la presión en un último intento por evitar el Gran Premio de Qatar",
@@ -2513,7 +2513,7 @@
         "published": "Sun, 01 Nov 2026 08:21:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2dEoOGwY/s6/carrera-de-motogp-en-sepang-2.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2dEoOGwY/s6/carrera-de-motogp-en-sepang-2.jpg"
       },
       {
         "title": "Quartararo reza por un clima similar al de la sprint el domingo en Malasia: el potencial en seco es “realmente bajo”",
@@ -2521,7 +2521,7 @@
         "published": "Sat, 31 Oct 2026 13:02:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "La parrilla de salida completa para el GP de Malasia de MotoGP tras la retirada de Jorge Martín",
@@ -2529,7 +2529,7 @@
         "published": "Sat, 31 Oct 2026 12:19:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
       },
       {
         "title": "Por qué aumentaron las tensiones entre MotoGP y los pilotos en medio de la polémica por Qatar",
@@ -2537,7 +2537,7 @@
         "published": "Sat, 31 Oct 2026 11:38:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2y7Qp4v6/s6/reunion-pilotos-malasia-2.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y7Qp4v6/s6/reunion-pilotos-malasia-2.jpg"
       },
       {
         "title": "Alex Márquez evalúa operarse y no correr en Qatar",
@@ -2545,7 +2545,7 @@
         "published": "Sat, 31 Oct 2026 11:00:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YN7vV4V6/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YN7vV4V6/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "Jack Miller explica su estallido en el pitlane de Sepang: \"Quedamos como unos idiotas\"",
@@ -2553,7 +2553,7 @@
         "published": "Sat, 31 Oct 2026 10:56:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/01QNoLq0/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/01QNoLq0/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Marc Marquez explica su estrategia de bajo riesgo en la sprint de Malasia",
@@ -2561,7 +2561,7 @@
         "published": "Sat, 31 Oct 2026 10:48:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwR9G2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68VwR9G2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "GP de Malasia de MotoGP: Pedro Acosta vence a Marc Márquez en una tensa sprint",
@@ -2569,7 +2569,7 @@
         "published": "Sat, 31 Oct 2026 08:19:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0qgKRL8Y/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0qgKRL8Y/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       }
     ]
   },
