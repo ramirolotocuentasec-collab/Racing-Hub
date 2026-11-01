@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:32:04.378263Z",
+  "updatedAt": "2026-11-01T02:28:05.458418Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,28 @@
   "news": {
     "f1": [
       {
+        "title": "Russell identifica la costosa decisión detrás de su fracaso en la clasificación del GP de México",
+        "url": "https://espanol.motorsport.com/f1/news/russell-identifica-costosa-decision-detras-fracaso-clasificacion-mexico/10870401/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 01:59:51 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
+      },
+      {
+        "title": "Hamilton: Su primera pole en F1 con Ferrari “me hace recordar cuando veía a Michael Schumacher”",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-primera-pole-f1-ferrari-recordar-michael-schumacher/10870403/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 01:46:21 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
         "title": "Lawson descalificado del sábado del GP de México; Colapinto y Checo Pérez ganan lugares en la parrilla",
         "url": "https://espanol.motorsport.com/f1/news/lawson-descalificado-sabado-mexico-colapinto-checo-perez-ganan-parrilla/10870405/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 01 Nov 2026 01:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Leclerc revela sus temores sobre los adelantamientos en el GP de México tras perder la pole",
@@ -2343,7 +2359,7 @@
         "published": "Sun, 01 Nov 2026 00:55:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Verstappen aclara las cosas con Lawson, pero mantiene el silencio sobre su lugar en Racing Bulls para 2027",
@@ -2351,7 +2367,7 @@
         "published": "Sun, 01 Nov 2026 00:44:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "FIA advierte de cero tolerancia para la arrancada del GP de México 2026 y coloca regla especial",
@@ -2359,7 +2375,7 @@
         "published": "Sun, 01 Nov 2026 00:38:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Horarios y dónde ver la carrera del GP de México de la F1 2026: guía completa de canales y streaming",
@@ -2367,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 00:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Alpine: \"Colapinto sigue en la pelea para el domingo en México\"",
@@ -2375,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 00:09:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/01QN8Eq0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/01QN8Eq0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Ryo Hirakawa cree que podría haber llegado \"fácilmente\" a la Q2 en México",
@@ -2383,7 +2399,7 @@
         "published": "Sat, 31 Oct 2026 23:47:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
       },
       {
         "title": "Verstappen admite tenía nivel para la \"pole\" y lamenta el tráfico en la clasificación del GP de México de F1",
@@ -2399,7 +2415,7 @@
         "published": "Sat, 31 Oct 2026 23:10:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLDkx0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/25dLDkx0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Checo Pérez no se siente al 100 por ciento, pero tiene su objetivo claro para su carrera 300 en F1",
@@ -2415,7 +2431,7 @@
         "published": "Sat, 31 Oct 2026 22:57:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
       },
       {
         "title": "Ocon rompe el silencio tras ser reemplazado en Haas y aclara qué sucedió en México",
@@ -2423,7 +2439,7 @@
         "published": "Sat, 31 Oct 2026 22:51:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "Franco Colapinto explica qué le faltó para llegar a la Q3 en México",
@@ -2431,23 +2447,7 @@
         "published": "Sat, 31 Oct 2026 22:44:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YE9EBbLY/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Los resultados completos de la clasificación del GP de México de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/mexico-clasificacion-resultados-completos/10870285/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 22:22:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68VwR842/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Hamilton logra en el GP de México su primera pole con Ferrari; Colapinto es 12° y Checo Pérez, 21°",
-        "url": "https://espanol.motorsport.com/f1/news/hamilton-pole-mexico-clasificacion-colapinto-checo-perez/10870289/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 22:16:27 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68VwRpQ2/s6/lewis-hamilton-ferrari-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YE9EBbLY/s6/franco-colapinto-alpine.jpg"
       }
     ],
     "moto": [
