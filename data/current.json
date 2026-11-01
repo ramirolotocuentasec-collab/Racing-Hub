@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:55:27.220166Z",
+  "updatedAt": "2026-11-01T23:32:45.881727Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,44 @@
   "news": {
     "f1": [
       {
+        "title": "Checo Pérez, animado tras un GP de México “realmente fuerte” pese a la falta de desarrollo de Cadillac",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-animado-carrera-mexico/10870778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 23:28:50 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/27No9ze0/s6/nico-hulkenberg-audi-f1-team-s.jpg"
+      },
+      {
+        "title": "Hamilton reclama “conversaciones serias” en Ferrari tras el incidente con Leclerc en México: “Nos costó la victoria”",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-reclama-conversaciones-serias-en-ferrari-tras-incidente-con-leclerc-en-mexico/10870769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 23:12:20 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis-.jpg"
+      },
+      {
+        "title": "Un emocionado Kimi Antonelli se queda \"sin palabras\" por su primer título mundial de F1 en México",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-emocion-campeon-formula-1-mexico/10870764/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 23:07:39 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/6O7zXkm6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      },
+      {
+        "title": "Todos los resultados del Gran Premio de México 2026 y las posiciones del campeonato de Fórmula 1",
+        "url": "https://espanol.motorsport.com/f1/news/resultados-completos-campeonato-gp-mexico/10870744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 22:58:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/6zoDxOw0/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
         "title": "Los campeones mundiales de Fórmula 1 más jóvenes de la historia: Antonelli rompe el récord en México",
         "url": "https://espanol.motorsport.com/f1/news/campeones-mundiales-de-formula-1-mas-jovenes/10870697/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 01 Nov 2026 22:43:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6VyKrXlY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8ZL86/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Colapinto y Gasly, bajo investigación tras el GP de México de F1",
@@ -2343,7 +2375,7 @@
         "published": "Sun, 01 Nov 2026 22:39:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YvKB1jv6/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YvKB1jv6/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Cinco conclusiones rápidas del histórico GP de México de F1 2026",
@@ -2351,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 22:35:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8ZM46/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8ZM46/s6/andrea-kimi-antonelli-mercedes-3.jpg"
       },
       {
         "title": "Verstappen gana el GP de México y Antonelli es campeón; Colapinto suma puntos y Checo Pérez es 17°",
@@ -2359,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 22:27:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwRlD2/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8ZXDE2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
       },
       {
         "title": "Los comisarios de la FIA explican la penalización de cinco segundos a Leclerc en el GP de México de F1",
@@ -2367,7 +2399,7 @@
         "published": "Sun, 01 Nov 2026 21:28:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YMXb5Q12/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YMXb5Q12/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "VIDEO: Fuerte accidente de Bottas por falla en el Cadillac detiene el GP de México",
@@ -2375,7 +2407,7 @@
         "published": "Sun, 01 Nov 2026 21:14:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0kZXBrD6/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZXBrD6/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "¿Qué significa el sorpresivo boicot de Yamaha en MotoGP para la F1 en Qatar y Abu Dhabi?",
@@ -2383,7 +2415,7 @@
         "published": "Sun, 01 Nov 2026 19:24:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0R7w7jE2/s6/a-general-view-of-the-grid-dur.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0R7w7jE2/s6/a-general-view-of-the-grid-dur.jpg"
       },
       {
         "title": "Bottas sobre su futuro: Siempre estuvo claro que Checo Pérez tendría extensión",
@@ -2391,7 +2423,7 @@
         "published": "Sun, 01 Nov 2026 16:29:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "En Red Bull, Mekies teme a la arrancada del Gran Premio de México",
@@ -2399,7 +2431,7 @@
         "published": "Sun, 01 Nov 2026 15:28:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LdejdJ0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0LdejdJ0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Stella confirma el límite de la McLaren MCL40: \"Si buscamos el 100%, lo perdemos todo\"",
@@ -2407,7 +2439,7 @@
         "published": "Sun, 01 Nov 2026 15:24:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2y7Qppy6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2y7Qppy6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Hamilton firma su primera pole con Ferrari en México y se juega la victoria en la primera curva",
@@ -2415,39 +2447,7 @@
         "published": "Sun, 01 Nov 2026 13:39:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6AlvxXGY/s6/lewis-hamilton-ferrari.jpg"
-      },
-      {
-        "title": "Alonso: \"La frustración está más allá de la imaginación\" tras su eliminación en Q1 en México",
-        "url": "https://espanol.motorsport.com/f1/news/alonso-frustracion-mas-alla-imaginacion-eliminacion-q1-mexico/10870604/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 13:28:19 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2y7QpRy6/s6/fernando-alonso-aston-martin-r.jpg"
-      },
-      {
-        "title": "El mano a mano entre compañeros de equipo en la F1 2026 tras la clasificación del GP de México",
-        "url": "https://espanol.motorsport.com/f1/news/duelo-entre-companeros-equipo-f1-2026-tras-la-clasificacion-mexico/10870587/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 12:03:30 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGg8ZGY/s6/lewis-hamilton-ferrari-george-.jpg"
-      },
-      {
-        "title": "Los pilotos de Red Bull temen al arranque en México y Verstappen bromea: “Una salida tipo Le Mans sería igual de rápida”",
-        "url": "https://espanol.motorsport.com/f1/news/pilotos-de-red-bull-temen-al-arranque-en-mexico-y-verstappen-bromea/10870583/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 11:36:09 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YXyKBmx6/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "El camino a 300 GP: Carlos Slim Domit revela cómo llevó a Checo Pérez a la Fórmula 1",
-        "url": "https://espanol.motorsport.com/f1/news/carlos-slim-domit-checo-perez-300-carreras-revela-camino-f1/10870441/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 10:30:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0kZXXaV6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6AlvxXGY/s6/lewis-hamilton-ferrari.jpg"
       }
     ],
     "moto": [
