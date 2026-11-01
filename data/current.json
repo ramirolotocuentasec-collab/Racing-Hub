@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T05:19:15.272450Z",
+  "updatedAt": "2026-11-01T06:06:50.364670Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,28 @@
   "news": {
     "f1": [
       {
+        "title": "Checo Pérez llega a 300 GP en la F1: victorias, podios, poles y números de su carrera",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-300-carreras-f1-estadisticas-victorias-podios-equipos-ausencias/10870444/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 05:58:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YWKAbLkY/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Vasseur: \"Seguimos centrados en México porque es importante volver a ganar un GP”",
+        "url": "https://espanol.motorsport.com/f1/news/vasseur-seguimos-centrados-mexico-importante-volver-a-ganar/10870432/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 05:33:40 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjzgMY/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
         "title": "Isack Hadjar se defiende del incidente en el paddock en México: \"No es un reality show\"",
         "url": "https://espanol.motorsport.com/f1/news/hadjar-defiende-incidente-mexico-aficionado/10870430/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 01 Nov 2026 05:06:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Gabriel Bortoleto pensó después de la Q1 en México: \"aquí estoy haciendo la pole\"",
@@ -2343,7 +2359,7 @@
         "published": "Sun, 01 Nov 2026 04:55:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2wlKOa8Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2wlKOa8Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
       },
       {
         "title": "Hadjar no puede creer \"lo rápido que es el coche\" en México tras los problemas del viernes",
@@ -2359,7 +2375,7 @@
         "published": "Sun, 01 Nov 2026 01:59:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
       },
       {
         "title": "Hamilton: Su primera pole en F1 con Ferrari “me hace recordar cuando veía a Michael Schumacher”",
@@ -2367,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 01:46:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lawson descalificado del sábado del GP de México; Colapinto y Checo Pérez ganan lugares en la parrilla",
@@ -2375,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 01:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Leclerc revela sus temores sobre los adelantamientos en el GP de México tras perder la pole",
@@ -2383,7 +2399,7 @@
         "published": "Sun, 01 Nov 2026 00:55:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Verstappen aclara las cosas con Lawson, pero mantiene el silencio sobre su lugar en Racing Bulls para 2027",
@@ -2391,7 +2407,7 @@
         "published": "Sun, 01 Nov 2026 00:44:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "FIA advierte de cero tolerancia para la arrancada del GP de México 2026 y coloca regla especial",
@@ -2399,7 +2415,7 @@
         "published": "Sun, 01 Nov 2026 00:38:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Horarios y dónde ver la carrera del GP de México de la F1 2026: guía completa de canales y streaming",
@@ -2407,7 +2423,7 @@
         "published": "Sun, 01 Nov 2026 00:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Alpine: \"Colapinto sigue en la pelea para el domingo en México\"",
@@ -2415,7 +2431,7 @@
         "published": "Sun, 01 Nov 2026 00:09:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/01QN8Eq0/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/01QN8Eq0/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Ryo Hirakawa cree que podría haber llegado \"fácilmente\" a la Q2 en México",
@@ -2423,7 +2439,7 @@
         "published": "Sat, 31 Oct 2026 23:47:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
       },
       {
         "title": "Verstappen admite tenía nivel para la \"pole\" y lamenta el tráfico en la clasificación del GP de México de F1",
@@ -2431,23 +2447,7 @@
         "published": "Sat, 31 Oct 2026 23:25:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Antonelli de cara a la carrera en México y su campeonato: \"atacaré, pero tendré cuidado en la curva 1\"",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-carrera-mexico-campeonato-atacare-tendre-cuidado-curva-1/10870335/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 23:10:17 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLDkx0/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Checo Pérez no se siente al 100 por ciento, pero tiene su objetivo claro para su carrera 300 en F1",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-no-se-siente-100-por-ciento-objetivo-carrera-300-f1-/10870331/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 22:58:01 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
@@ -2457,7 +2457,7 @@
         "published": "Sat, 31 Oct 2026 13:02:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "La parrilla de salida completa para el GP de Malasia de MotoGP tras la retirada de Jorge Martín",
@@ -2465,7 +2465,7 @@
         "published": "Sat, 31 Oct 2026 12:19:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
       },
       {
         "title": "Por qué aumentaron las tensiones entre MotoGP y los pilotos en medio de la polémica por Qatar",
@@ -2481,7 +2481,7 @@
         "published": "Sat, 31 Oct 2026 11:00:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vV4V6/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7vV4V6/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "Jack Miller explica su estallido en el pitlane de Sepang: \"Quedamos como unos idiotas\"",
@@ -2505,7 +2505,7 @@
         "published": "Sat, 31 Oct 2026 08:19:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0qgKRL8Y/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0qgKRL8Y/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Jorge Martín admite que el título de MotoGP 2026 ya está “perdido” tras retirarse del GP de Malasia",
@@ -2513,7 +2513,7 @@
         "published": "Sat, 31 Oct 2026 04:53:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Alex Márquez logra la pole en Malasia por delante de Marc Márquez; Jorge Martín queda fuera",
@@ -2521,7 +2521,7 @@
         "published": "Sat, 31 Oct 2026 04:11:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNoPx0/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/01QNoPx0/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "Jorge Martín se retira del Gran Premio de Malasia",
@@ -2529,7 +2529,7 @@
         "published": "Sat, 31 Oct 2026 03:22:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Bezzecchi: \"En Sepang todavía nos cuesta un poco más, pero la Aprilia ha mejorado mucho\"",
@@ -2537,7 +2537,7 @@
         "published": "Fri, 30 Oct 2026 16:33:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6grQKaxY/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6grQKaxY/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Aprilia y médicos deciden reservar a Jorge Martín para el sábado: \"es mejor no correr ningún riesgo\"",
@@ -2545,7 +2545,7 @@
         "published": "Fri, 30 Oct 2026 15:23:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/68Vw4AD2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pedro Acosta fue rápido pero con “sensaciones terribles” en la práctica de Malasia",
@@ -2553,7 +2553,7 @@
         "published": "Fri, 30 Oct 2026 13:26:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6Alv4jGY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6Alv4jGY/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Quartararo, 19º y enojado: “Hace mucho tiempo que no sufría tanto en Sepang”",
@@ -2561,7 +2561,7 @@
         "published": "Fri, 30 Oct 2026 13:11:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDXe70/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6zoDXe70/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "\"Cuando no tengo dolor, gano\", dice Maverick Viñales tras recuperar la forma el viernes en Malasia",
@@ -2569,7 +2569,7 @@
         "published": "Fri, 30 Oct 2026 13:00:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0rVPZDO0/s6/maverick-vinales-red-bull-ktm-.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0rVPZDO0/s6/maverick-vinales-red-bull-ktm-.jpg"
       }
     ]
   },
