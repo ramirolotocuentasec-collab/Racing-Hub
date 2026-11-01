@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T07:07:46.456721Z",
+  "updatedAt": "2026-11-01T08:06:53.483114Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2010,7 +2010,7 @@
         "name": "Piloto 1",
         "driver": "",
         "team": "Ducati",
-        "points": 374.0,
+        "points": 399.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2028,7 +2028,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 322.0,
+        "points": 332.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2037,7 +2037,7 @@
         "name": "Piloto 4",
         "driver": "",
         "team": "KTM",
-        "points": 275.0,
+        "points": 295.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2046,7 +2046,7 @@
         "name": "Piloto 5",
         "driver": "",
         "team": "Aprilia",
-        "points": 265.0,
+        "points": 278.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2055,7 +2055,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 257.0,
+        "points": 265.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2073,7 +2073,7 @@
         "name": "Piloto 8",
         "driver": "",
         "team": "Ducati",
-        "points": 181.0,
+        "points": 197.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2082,7 +2082,7 @@
         "name": "Piloto 9",
         "driver": "",
         "team": "Ducati",
-        "points": 170.0,
+        "points": 173.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2090,8 +2090,8 @@
         "position": 10,
         "name": "Piloto 10",
         "driver": "",
-        "team": "Ducati",
-        "points": 125.0,
+        "team": "KTM",
+        "points": 134.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2099,8 +2099,8 @@
         "position": 11,
         "name": "Piloto 11",
         "driver": "",
-        "team": "KTM",
-        "points": 123.0,
+        "team": "Ducati",
+        "points": 125.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2109,7 +2109,7 @@
         "name": "Piloto 12",
         "driver": "",
         "team": "KTM",
-        "points": 111.0,
+        "points": 118.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2118,7 +2118,7 @@
         "name": "Piloto 13",
         "driver": "",
         "team": "Honda",
-        "points": 108.0,
+        "points": 117.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2126,8 +2126,8 @@
         "position": 14,
         "name": "Piloto 14",
         "driver": "",
-        "team": "Honda",
-        "points": 78.0,
+        "team": "Yamaha",
+        "points": 79.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2135,8 +2135,8 @@
         "position": 15,
         "name": "Piloto 15",
         "driver": "",
-        "team": "Yamaha",
-        "points": 74.0,
+        "team": "Honda",
+        "points": 78.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2145,7 +2145,7 @@
         "name": "Piloto 16",
         "driver": "",
         "team": "Ducati",
-        "points": 59.0,
+        "points": 65.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2181,7 +2181,7 @@
         "name": "Piloto 20",
         "driver": "",
         "team": "Yamaha",
-        "points": 25.0,
+        "points": 29.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2199,7 +2199,7 @@
         "name": "Piloto 22",
         "driver": "",
         "team": "KTM",
-        "points": 12.0,
+        "points": 14.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2208,7 +2208,7 @@
         "name": "Piloto 23",
         "driver": "",
         "team": "Ducati",
-        "points": 10.0,
+        "points": 11.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2296,33 +2296,33 @@
     ],
     "teams": [
       {
-        "name": "Aprilia",
-        "team": "Aprilia",
-        "points": 1178.0,
+        "name": "Ducati",
+        "team": "Ducati",
+        "points": 1235.0,
         "position": 1
       },
       {
-        "name": "Ducati",
-        "team": "Ducati",
-        "points": 1176.0,
+        "name": "Aprilia",
+        "team": "Aprilia",
+        "points": 1201.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 526.0,
+        "points": 566.0,
         "position": 3
       },
       {
         "name": "Honda",
         "team": "Honda",
-        "points": 276.0,
+        "points": 285.0,
         "position": 4
       },
       {
         "name": "Yamaha",
         "team": "Yamaha",
-        "points": 154.0,
+        "points": 163.0,
         "position": 5
       }
     ]
@@ -2335,7 +2335,7 @@
         "published": "Sun, 01 Nov 2026 05:58:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YWKAbLkY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YWKAbLkY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Vasseur: \"Seguimos centrados en México porque es importante volver a ganar un GP”",
@@ -2343,7 +2343,7 @@
         "published": "Sun, 01 Nov 2026 05:33:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YBVjzgMY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YBVjzgMY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Isack Hadjar se defiende del incidente en el paddock en México: \"No es un reality show\"",
@@ -2351,7 +2351,7 @@
         "published": "Sun, 01 Nov 2026 05:06:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Gabriel Bortoleto pensó después de la Q1 en México: \"aquí estoy haciendo la pole\"",
@@ -2359,7 +2359,7 @@
         "published": "Sun, 01 Nov 2026 04:55:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2wlKOa8Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2wlKOa8Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
       },
       {
         "title": "Hadjar no puede creer \"lo rápido que es el coche\" en México tras los problemas del viernes",
@@ -2367,7 +2367,7 @@
         "published": "Sun, 01 Nov 2026 02:37:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Russell identifica la costosa decisión detrás de su fracaso en la clasificación del GP de México",
@@ -2383,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 01:46:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lawson descalificado del sábado del GP de México; Colapinto y Checo Pérez ganan lugares en la parrilla",
@@ -2391,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 01:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Leclerc revela sus temores sobre los adelantamientos en el GP de México tras perder la pole",
@@ -2399,7 +2399,7 @@
         "published": "Sun, 01 Nov 2026 00:55:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Verstappen aclara las cosas con Lawson, pero mantiene el silencio sobre su lugar en Racing Bulls para 2027",
@@ -2407,7 +2407,7 @@
         "published": "Sun, 01 Nov 2026 00:44:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "FIA advierte de cero tolerancia para la arrancada del GP de México 2026 y coloca regla especial",
@@ -2415,7 +2415,7 @@
         "published": "Sun, 01 Nov 2026 00:38:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Horarios y dónde ver la carrera del GP de México de la F1 2026: guía completa de canales y streaming",
@@ -2423,7 +2423,7 @@
         "published": "Sun, 01 Nov 2026 00:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Alpine: \"Colapinto sigue en la pelea para el domingo en México\"",
@@ -2447,7 +2447,7 @@
         "published": "Sat, 31 Oct 2026 23:25:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
