@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:24:29.305868Z",
+  "updatedAt": "2026-11-01T05:19:15.272450Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,28 @@
   "news": {
     "f1": [
       {
+        "title": "Isack Hadjar se defiende del incidente en el paddock en México: \"No es un reality show\"",
+        "url": "https://espanol.motorsport.com/f1/news/hadjar-defiende-incidente-mexico-aficionado/10870430/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 05:06:15 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+      },
+      {
+        "title": "Gabriel Bortoleto pensó después de la Q1 en México: \"aquí estoy haciendo la pole\"",
+        "url": "https://espanol.motorsport.com/f1/news/gabriel-bortoleto-penso-despues-q1-estoy-haciendo-pole-mexico/10870434/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 01 Nov 2026 04:55:04 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/2wlKOa8Y/s6/gabriel-bortoleto-audi-f1-team.jpg"
+      },
+      {
         "title": "Hadjar no puede creer \"lo rápido que es el coche\" en México tras los problemas del viernes",
         "url": "https://espanol.motorsport.com/f1/news/hadjar-no-puede-creer-rapido-coche-mexico-problemas-viernes/10870416/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 01 Nov 2026 02:37:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0Ldej3g0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Russell identifica la costosa decisión detrás de su fracaso en la clasificación del GP de México",
@@ -2343,7 +2359,7 @@
         "published": "Sun, 01 Nov 2026 01:59:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6zoDxaJ0/s6/lewis-hamilton-ferrari-george-.jpg"
       },
       {
         "title": "Hamilton: Su primera pole en F1 con Ferrari “me hace recordar cuando veía a Michael Schumacher”",
@@ -2351,7 +2367,7 @@
         "published": "Sun, 01 Nov 2026 01:46:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0R7Bb3Z2/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Lawson descalificado del sábado del GP de México; Colapinto y Checo Pérez ganan lugares en la parrilla",
@@ -2359,7 +2375,7 @@
         "published": "Sun, 01 Nov 2026 01:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YN7vVle6/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Leclerc revela sus temores sobre los adelantamientos en el GP de México tras perder la pole",
@@ -2367,7 +2383,7 @@
         "published": "Sun, 01 Nov 2026 00:55:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0arEVAk2/s6/charles-leclerc-ferrari.jpg"
       },
       {
         "title": "Verstappen aclara las cosas con Lawson, pero mantiene el silencio sobre su lugar en Racing Bulls para 2027",
@@ -2375,7 +2391,7 @@
         "published": "Sun, 01 Nov 2026 00:44:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6VyKrdLY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "FIA advierte de cero tolerancia para la arrancada del GP de México 2026 y coloca regla especial",
@@ -2383,7 +2399,7 @@
         "published": "Sun, 01 Nov 2026 00:38:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0Ld55qN0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Horarios y dónde ver la carrera del GP de México de la F1 2026: guía completa de canales y streaming",
@@ -2391,7 +2407,7 @@
         "published": "Sun, 01 Nov 2026 00:28:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2QedOXX2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Alpine: \"Colapinto sigue en la pelea para el domingo en México\"",
@@ -2407,7 +2423,7 @@
         "published": "Sat, 31 Oct 2026 23:47:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/25dLDDD0/s6/ryo-hirakawa-haas-f1-team-laur.jpg"
       },
       {
         "title": "Verstappen admite tenía nivel para la \"pole\" y lamenta el tráfico en la clasificación del GP de México de F1",
@@ -2415,7 +2431,7 @@
         "published": "Sat, 31 Oct 2026 23:25:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0arEVlN2/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Antonelli de cara a la carrera en México y su campeonato: \"atacaré, pero tendré cuidado en la curva 1\"",
@@ -2423,7 +2439,7 @@
         "published": "Sat, 31 Oct 2026 23:10:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/25dLDkx0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/25dLDkx0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Checo Pérez no se siente al 100 por ciento, pero tiene su objetivo claro para su carrera 300 en F1",
@@ -2432,22 +2448,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-6.motorsport.com/images/amp/6O7zDgJ6/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Hamilton, tras su histórica primera pole en F1 con Ferrari: \"Todavía amo lo que hago\"",
-        "url": "https://espanol.motorsport.com/f1/news/hamilton-tras-historica-primera-pole-con-ferrari-en-mexico/10870326/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 22:57:47 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
-      },
-      {
-        "title": "Ocon rompe el silencio tras ser reemplazado en Haas y aclara qué sucedió en México",
-        "url": "https://espanol.motorsport.com/f1/news/ocon-explica-salida-haas-mexico/10870321/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 31 Oct 2026 22:51:35 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg"
       }
     ],
     "moto": [
