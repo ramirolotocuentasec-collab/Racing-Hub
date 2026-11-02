@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:38:18.269179Z",
+  "updatedAt": "2026-11-02T20:27:27.169980Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -835,28 +835,28 @@
         "name": "Oscar Piastri",
         "driver": "PIA",
         "team": "McLaren",
-        "points": 150.0
+        "points": 144.0
       },
       {
         "position": 8,
         "name": "Isack Hadjar",
         "driver": "HAD",
         "team": "Red Bull",
-        "points": 105.0
+        "points": 107.0
       },
       {
         "position": 9,
         "name": "Liam Lawson",
         "driver": "LAW",
         "team": "RB F1 Team",
-        "points": 79.0
+        "points": 83.0
       },
       {
         "position": 10,
         "name": "Pierre Gasly",
         "driver": "GAS",
         "team": "Alpine F1 Team",
-        "points": 43.0
+        "points": 42.0
       },
       {
         "position": 11,
@@ -870,7 +870,7 @@
         "name": "Franco Colapinto",
         "driver": "COL",
         "team": "Alpine F1 Team",
-        "points": 31.0
+        "points": 27.0
       },
       {
         "position": 13,
@@ -881,17 +881,17 @@
       },
       {
         "position": 14,
+        "name": "Gabriel Bortoleto",
+        "driver": "BOR",
+        "team": "Audi",
+        "points": 14.0
+      },
+      {
+        "position": 15,
         "name": "Nico Hülkenberg",
         "driver": "HUL",
         "team": "Audi",
         "points": 13.0
-      },
-      {
-        "position": 15,
-        "name": "Gabriel Bortoleto",
-        "driver": "BOR",
-        "team": "Audi",
-        "points": 10.0
       },
       {
         "position": 16,
@@ -930,23 +930,23 @@
       },
       {
         "position": 21,
+        "name": "Ryo Hirakawa",
+        "driver": "HIR",
+        "team": "Haas F1 Team",
+        "points": 1.0
+      },
+      {
+        "position": 22,
         "name": "Lance Stroll",
         "driver": "STR",
         "team": "Aston Martin",
         "points": 0.0
       },
       {
-        "position": 22,
+        "position": 23,
         "name": "Valtteri Bottas",
         "driver": "BOT",
         "team": "Cadillac F1 Team",
-        "points": 0.0
-      },
-      {
-        "position": 23,
-        "name": "Ryo Hirakawa",
-        "driver": "HIR",
-        "team": "Haas F1 Team",
         "points": 0.0
       },
       {
@@ -974,37 +974,37 @@
         "position": 3,
         "name": "Red Bull",
         "team": "Red Bull",
-        "points": 380.0
+        "points": 382.0
       },
       {
         "position": 4,
         "name": "McLaren",
         "team": "McLaren",
-        "points": 371.0
+        "points": 365.0
       },
       {
         "position": 5,
         "name": "RB F1 Team",
         "team": "RB F1 Team",
-        "points": 104.0
+        "points": 108.0
       },
       {
         "position": 6,
         "name": "Alpine F1 Team",
         "team": "Alpine F1 Team",
-        "points": 74.0
+        "points": 69.0
       },
       {
         "position": 7,
         "name": "Haas F1 Team",
         "team": "Haas F1 Team",
-        "points": 30.0
+        "points": 31.0
       },
       {
         "position": 8,
         "name": "Audi",
         "team": "Audi",
-        "points": 23.0
+        "points": 27.0
       },
       {
         "position": 9,
