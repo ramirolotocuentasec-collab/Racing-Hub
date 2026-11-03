@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:30:30.789231Z",
+  "updatedAt": "2026-11-03T12:32:08.090125Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -681,7 +681,8 @@
             "name": "Race",
             "date": "2026-11-08T17:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace%2C_July_3%2C_2018_SkySat.jpg/1920px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace%2C_July_3%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-21-vegas",
@@ -1911,7 +1912,8 @@
             "name": "Race",
             "date": "2026-11-08T19:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-4b3882a8-24b2-4321-aa12-d1847c989438",
@@ -2328,12 +2330,20 @@
   "news": {
     "f1": [
       {
+        "title": "Kimi Antonelli señala el \"punto de inflexión\" para su campeonato de F1",
+        "url": "https://espanol.motorsport.com/f1/news/kimi-antonelli-punto-de-inflexion-temporada-2026-campeon/10871157/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 03 Nov 2026 12:12:10 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/0rVxeDJ0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
         "title": "Leclerc culpa a la pista de México por el incidente con Hamilton, pero Vasseur no está de acuerdo",
         "url": "https://espanol.motorsport.com/f1/news/leclerc-culpa-trazado-pista-mexico-por-incidente-con-hamilton/10871161/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 03 Nov 2026 10:19:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Cómo Mercedes puede ganar el campeonato de constructores de F1 2026 en el GP de Brasil",
@@ -2341,7 +2351,7 @@
         "published": "Tue, 03 Nov 2026 02:19:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2dEoO8pY/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2dEoO8pY/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Peter Bonnington revela la \"dura conversación\" que transformó la carrera de Kimi Antonelli en la F1",
@@ -2349,7 +2359,7 @@
         "published": "Tue, 03 Nov 2026 02:16:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2wlKyGqY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2wlKyGqY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Montoya exige \"consecuencias\" para los pilotos de Ferrari tras el desastre del GP de México",
@@ -2365,7 +2375,7 @@
         "published": "Tue, 03 Nov 2026 02:03:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0LdejXa0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0LdejXa0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Toto Wolff revela que dos patrocinadores dejaron Mercedes tras promover a Kimi Antonelli a la F1",
@@ -2373,7 +2383,7 @@
         "published": "Mon, 02 Nov 2026 21:01:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0o5Agb1Y/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5Agb1Y/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Cadillac investigará la falla a alta velocidad que provocó la furiosa reacción de Valtteri Bottas en México",
@@ -2381,7 +2391,7 @@
         "published": "Mon, 02 Nov 2026 13:04:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9EBaPY/s6/valtteri-bottas-cadillac-racin.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YE9EBaPY/s6/valtteri-bottas-cadillac-racin.jpg"
       },
       {
         "title": "Mercedes recibe una multa de la FIA tras el Gran Premio de México de F1",
@@ -2389,7 +2399,7 @@
         "published": "Mon, 02 Nov 2026 12:57:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6b8ZXde2/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZXde2/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Kimi Antonelli revela por qué no usará el número 1 en la temporada 2027 de F1",
@@ -2397,7 +2407,7 @@
         "published": "Mon, 02 Nov 2026 12:50:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNjjb2/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNjjb2/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Hamilton critica duramente a Leclerc por su actitud de \"todo o nada\" en México",
@@ -2405,7 +2415,7 @@
         "published": "Mon, 02 Nov 2026 12:43:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2wlKyPKY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2wlKyPKY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "¿Quién durmió mejor anoche tras el GP de México? Kimi Antonelli",
@@ -2413,7 +2423,7 @@
         "published": "Mon, 02 Nov 2026 10:33:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zlOO6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6O7zlOO6/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "¿Quién durmió peor anoche tras el GP de México? Frederic Vasseur",
@@ -2421,7 +2431,7 @@
         "published": "Mon, 02 Nov 2026 10:23:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBVjyznY/s6/fred-vasseur-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YBVjyznY/s6/fred-vasseur-ferrari.jpg"
       },
       {
         "title": "Antonelli quiere la foto con Hamilton y Verstappen en su casa después del título de F1",
@@ -2429,7 +2439,7 @@
         "published": "Mon, 02 Nov 2026 10:14:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver.jpg"
       },
       {
         "title": "El emotivo mensaje de Domenicali tras el título ganado por Kimi Antonelli",
@@ -2437,15 +2447,7 @@
         "published": "Mon, 02 Nov 2026 05:21:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0JXwyeRY/s6/stefano-domenicali-ceo-de-la-f.jpg"
-      },
-      {
-        "title": "Alonso intentará mantener la motivación tras el doble abandono de Aston Martin en México",
-        "url": "https://espanol.motorsport.com/f1/news/alonso-intentara-mantener-motivacion-doble-abandono-aston-martin-mexico/10870888/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 02 Nov 2026 04:56:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/01QN8go0/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0JXwyeRY/s6/stefano-domenicali-ceo-de-la-f.jpg"
       }
     ],
     "moto": [
