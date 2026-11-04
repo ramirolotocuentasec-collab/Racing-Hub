@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:56:42.440378Z",
+  "updatedAt": "2026-11-04T09:59:26.439941Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,20 @@
   "news": {
     "f1": [
       {
+        "title": "La 'diferencia' entre el título de F1 de Kimi Antonelli y los de Lewis Hamilton según Toto Wolff",
+        "url": "https://espanol.motorsport.com/f1/news/diferencia-entre-antonelli-y-hamilton-campeon-segun-toto-wolff/10871159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 04 Nov 2026 09:00:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg"
+      },
+      {
         "title": "Isack Hadjar se culpa por el choque con George Russell que “arruinó” su GP de México",
         "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-se-culpa-por-choque-russell-mexico/10871288/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 04 Nov 2026 08:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
       },
       {
         "title": "Checo Pérez ausente en la FP1 en Brasil para que Colton Herta consiga la super licencia de F1",
@@ -2343,7 +2351,7 @@
         "published": "Tue, 03 Nov 2026 22:53:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Rafa Camara debutará en el GP de Brasil de F1 en el lugar de Ocon en Haas",
@@ -2351,7 +2359,7 @@
         "published": "Tue, 03 Nov 2026 20:39:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
       },
       {
         "title": "Los horarios para el GP de Sao Paulo de F1 2026 en Brasil y cómo verlo en vivo",
@@ -2359,7 +2367,7 @@
         "published": "Tue, 03 Nov 2026 17:40:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/01QdJk50/s6/lewis-hamilton-ferrari-nico-hu.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/01QdJk50/s6/lewis-hamilton-ferrari-nico-hu.jpg"
       },
       {
         "title": "McLaren introducirá un alerón delantero de F1 de 2027 en el GP de Brasil",
@@ -2367,7 +2375,7 @@
         "published": "Tue, 03 Nov 2026 16:54:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "GP de México F1 2027 presenta los costos de boletos con un aumento en algunas gradas",
@@ -2375,7 +2383,7 @@
         "published": "Tue, 03 Nov 2026 16:36:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6VyKlKnY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6VyKlKnY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Marco Antonelli: \"Vi al campeón en Kimi después de su accidente en Australia\"",
@@ -2383,7 +2391,7 @@
         "published": "Tue, 03 Nov 2026 15:44:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YE9wVEqY/s6/marco-antonelli-padre-di-andre.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9wVEqY/s6/marco-antonelli-padre-di-andre.jpg"
       },
       {
         "title": "Colapinto apunta a Brasil: \"Queremos trasladar el ritmo de carrera que mostramos en México\"",
@@ -2391,7 +2399,7 @@
         "published": "Tue, 03 Nov 2026 15:18:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8ZXzj2/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZXzj2/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Por qué el motor de Honda apenas duró cinco vueltas en el GP de México de F1",
@@ -2399,7 +2407,7 @@
         "published": "Tue, 03 Nov 2026 13:41:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNjML2/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNjML2/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Kimi Antonelli señala el \"punto de inflexión\" para su campeonato de F1",
@@ -2415,7 +2423,7 @@
         "published": "Tue, 03 Nov 2026 10:19:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "¿Cuál fue el mejor momento de Kimi Antonelli en su campaña de campeón de F1?",
@@ -2423,7 +2431,7 @@
         "published": "Tue, 03 Nov 2026 09:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8lAN6/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8lAN6/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Cómo Mercedes puede ganar el campeonato de constructores de F1 2026 en el GP de Brasil",
@@ -2431,7 +2439,7 @@
         "published": "Tue, 03 Nov 2026 02:19:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2dEoO8pY/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2dEoO8pY/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Peter Bonnington revela la \"dura conversación\" que transformó la carrera de Kimi Antonelli en la F1",
@@ -2439,15 +2447,7 @@
         "published": "Tue, 03 Nov 2026 02:16:27 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2wlKyGqY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Montoya exige \"consecuencias\" para los pilotos de Ferrari tras el desastre del GP de México",
-        "url": "https://espanol.motorsport.com/f1/news/montoya-exige-consecuencias-para-pilotos-de-ferrari-tras-mexico/10871151/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 03 Nov 2026 02:12:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2wlKyGqY/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
