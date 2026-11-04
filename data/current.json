@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:26:53.449963Z",
+  "updatedAt": "2026-11-04T17:25:44.283574Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,20 @@
   "news": {
     "f1": [
       {
+        "title": "Antonelli rinde homenaje a Senna al volante del Lotus 98T en Brasil junto a su familia",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-rinde-homenaje-senna-volante-lotus-98t-brasil-familia/10871532/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 04 Nov 2026 16:27:24 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/2jEAwQk0/s6/andrea-kimi-antonelli-con-la-f.jpg"
+      },
+      {
         "title": "Los propietarios del Liverpool FC podrían comprar las acciones de Cadillac F1 ante las dudas sobre TWG",
         "url": "https://espanol.motorsport.com/f1/news/propietarios-liverpool-fc-podrian-comprar-acciones-cadillac-f1-twg/10871524/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 04 Nov 2026 15:39:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
       },
       {
         "title": "Verstappen bromea con hablar con el motor Red Bull por los fallos aleatorios en México",
@@ -2343,7 +2351,7 @@
         "published": "Wed, 04 Nov 2026 14:42:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6zoDxnl0/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6zoDxnl0/s6/max-verstappen-red-bull-racing-2.jpg"
       },
       {
         "title": "Stella explica cómo la clasificación arruinó el GP de México de McLaren: “Pagamos el precio”",
@@ -2351,7 +2359,7 @@
         "published": "Wed, 04 Nov 2026 14:20:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0mXyZ1z6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0mXyZ1z6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Alexandra confirma en Instagram que Leclerc ya es padre por primera vez",
@@ -2367,7 +2375,7 @@
         "published": "Wed, 04 Nov 2026 13:18:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O7zXPJ6/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6O7zXPJ6/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Por qué Daniel Ricciardo se mantiene alejado del paddock de la F1",
@@ -2375,7 +2383,7 @@
         "published": "Wed, 04 Nov 2026 13:12:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VRzqDn6/s6/a-fan-holds-up-a-sign-of-danie.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/6VRzqDn6/s6/a-fan-holds-up-a-sign-of-danie.jpg"
       },
       {
         "title": "La carrera de Esteban Ocon en la F1 puede estar llegando a su fin, pero su historia es una de éxito",
@@ -2383,7 +2391,7 @@
         "published": "Wed, 04 Nov 2026 12:58:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YpbAVRX0/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YpbAVRX0/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "La 'diferencia' entre el título de F1 de Kimi Antonelli y los de Lewis Hamilton según Toto Wolff",
@@ -2391,7 +2399,7 @@
         "published": "Wed, 04 Nov 2026 09:00:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg"
       },
       {
         "title": "Isack Hadjar se culpa por el choque con George Russell que “arruinó” su GP de México",
@@ -2399,7 +2407,7 @@
         "published": "Wed, 04 Nov 2026 08:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
       },
       {
         "title": "Checo Pérez ausente en la FP1 en Brasil para que Colton Herta consiga la super licencia de F1",
@@ -2407,7 +2415,7 @@
         "published": "Tue, 03 Nov 2026 22:53:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Rafa Camara debutará en el GP de Brasil de F1 en el lugar de Ocon en Haas",
@@ -2415,7 +2423,7 @@
         "published": "Tue, 03 Nov 2026 20:39:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
       },
       {
         "title": "Los horarios para el GP de Sao Paulo de F1 2026 en Brasil y cómo verlo en vivo",
@@ -2423,7 +2431,7 @@
         "published": "Tue, 03 Nov 2026 17:40:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QdJk50/s6/lewis-hamilton-ferrari-nico-hu.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/01QdJk50/s6/lewis-hamilton-ferrari-nico-hu.jpg"
       },
       {
         "title": "McLaren introducirá un alerón delantero de F1 de 2027 en el GP de Brasil",
@@ -2431,7 +2439,7 @@
         "published": "Tue, 03 Nov 2026 16:54:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0arEVnw2/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "GP de México F1 2027 presenta los costos de boletos con un aumento en algunas gradas",
@@ -2439,15 +2447,7 @@
         "published": "Tue, 03 Nov 2026 16:36:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6VyKlKnY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Marco Antonelli: \"Vi al campeón en Kimi después de su accidente en Australia\"",
-        "url": "https://espanol.motorsport.com/f1/news/marco-antonelli-entrevista-padre-kimi/10871269/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 03 Nov 2026 15:44:36 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YE9wVEqY/s6/marco-antonelli-padre-di-andre.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKlKnY/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
@@ -2457,7 +2457,7 @@
         "published": "Wed, 04 Nov 2026 14:21:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLl490/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/25dLl490/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Alex Márquez es operado del hombro derecho y comienza la recuperación",
@@ -2473,7 +2473,7 @@
         "published": "Mon, 02 Nov 2026 13:07:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Cómo se organizan los equipos y pilotos de MotoGP para su llegada a Qatar",
@@ -2481,7 +2481,7 @@
         "published": "Mon, 02 Nov 2026 10:04:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
       },
       {
         "title": "Márquez: \"¿Celebrar en Qatar? No quiero entrar en polémicas, prefiero mantenerme concentrado\"",
@@ -2489,7 +2489,7 @@
         "published": "Sun, 01 Nov 2026 13:23:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YWKAgGKY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YWKAgGKY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "MotoGP responde al boicot de Yamaha al GP de Qatar y advierte por las consecuencias",
@@ -2497,7 +2497,7 @@
         "published": "Sun, 01 Nov 2026 10:45:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
       },
       {
         "title": "Jack Miller expresa una postura firme contra el GP de Qatar: “Nadie quiere ir, pero enfrentamos sanciones\"",
@@ -2505,7 +2505,7 @@
         "published": "Sun, 01 Nov 2026 10:36:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Cómo Marc Márquez puede asegurarse el título de MotoGP 2026 en el GP de Qatar",
@@ -2513,7 +2513,7 @@
         "published": "Sun, 01 Nov 2026 10:16:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6VyKrGLY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKrGLY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Yamaha boicoteará el GP de Qatar de MotoGP en medio de la actual guerra en Medio Oriente",
@@ -2521,7 +2521,7 @@
         "published": "Sun, 01 Nov 2026 10:06:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "Alex Márquez se salta el polémico GP de Qatar para someterse a una cirugía",
@@ -2529,7 +2529,7 @@
         "published": "Sun, 01 Nov 2026 10:03:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwRO92/s6/alex-marquez-gresini-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/68VwRO92/s6/alex-marquez-gresini-racing.jpg"
       },
       {
         "title": "MotoGP GP Malasia: Marc Márquez logra una victoria dominante para acercarse al título",
@@ -2537,7 +2537,7 @@
         "published": "Sun, 01 Nov 2026 09:24:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YK15RkD0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/YK15RkD0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Los pilotos de MotoGP aumentan la presión en un último intento por evitar el Gran Premio de Qatar",
@@ -2545,7 +2545,7 @@
         "published": "Sun, 01 Nov 2026 08:21:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2dEoOGwY/s6/carrera-de-motogp-en-sepang-2.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2dEoOGwY/s6/carrera-de-motogp-en-sepang-2.jpg"
       },
       {
         "title": "Quartararo reza por un clima similar al de la sprint el domingo en Malasia: el potencial en seco es “realmente bajo”",
@@ -2553,7 +2553,7 @@
         "published": "Sat, 31 Oct 2026 13:02:29 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/27No9le0/s6/fabio-quartararo-yamaha-factor.jpg"
       },
       {
         "title": "La parrilla de salida completa para el GP de Malasia de MotoGP tras la retirada de Jorge Martín",
@@ -2561,7 +2561,7 @@
         "published": "Sat, 31 Oct 2026 12:19:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/25dLDmE0/s6/race-start.jpg"
       },
       {
         "title": "Por qué aumentaron las tensiones entre MotoGP y los pilotos en medio de la polémica por Qatar",
