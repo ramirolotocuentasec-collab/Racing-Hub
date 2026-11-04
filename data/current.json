@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:17:56.827392Z",
+  "updatedAt": "2026-11-04T23:06:38.100352Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,20 @@
   "news": {
     "f1": [
       {
+        "title": "¿Podio con Cadillac en 2028? Checo Pérez explica el plan para alcanzar ese objetivo",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-planes-cadillac-f1-2029-objetivos-podio/10871572/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 04 Nov 2026 22:14:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/YpbAB8g0/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
         "title": "Colton Herta responde a Checo Pérez sobre la exigencia de experiencia en Cadillac F1",
         "url": "https://espanol.motorsport.com/f1/news/colton-herta-responde-checo-perez-exigencia-experiencia-cadillac-f1/10871569/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 04 Nov 2026 20:48:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/63QaB9w2/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/63QaB9w2/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Cinco cosas a tener en cuenta en el GP de Brasil de F1 2026",
@@ -2351,7 +2359,7 @@
         "published": "Wed, 04 Nov 2026 16:27:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2jEAwQk0/s6/andrea-kimi-antonelli-con-la-f.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEAwQk0/s6/andrea-kimi-antonelli-con-la-f.jpg"
       },
       {
         "title": "Los propietarios del Liverpool FC podrían comprar las acciones de Cadillac F1 ante las dudas sobre TWG",
@@ -2359,7 +2367,7 @@
         "published": "Wed, 04 Nov 2026 15:39:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
       },
       {
         "title": "Verstappen bromea con hablar con el motor Red Bull por los fallos aleatorios en México",
@@ -2367,7 +2375,7 @@
         "published": "Wed, 04 Nov 2026 14:42:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6zoDxnl0/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6zoDxnl0/s6/max-verstappen-red-bull-racing-2.jpg"
       },
       {
         "title": "Stella explica cómo la clasificación arruinó el GP de México de McLaren: “Pagamos el precio”",
@@ -2375,7 +2383,7 @@
         "published": "Wed, 04 Nov 2026 14:20:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0mXyZ1z6/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0mXyZ1z6/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "Alexandra confirma en Instagram que Leclerc ya es padre por primera vez",
@@ -2383,7 +2391,7 @@
         "published": "Wed, 04 Nov 2026 13:41:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/J0r41bPY/s6/babyglueck-charles-leclerc-ist-erstmals-vater-geworden-26110409.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/J0r41bPY/s6/babyglueck-charles-leclerc-ist-erstmals-vater-geworden-26110409.jpg"
       },
       {
         "title": "“Le fallamos”; Mercedes asume la culpa por la decepción de George Russell en el GP de México",
@@ -2391,7 +2399,7 @@
         "published": "Wed, 04 Nov 2026 13:18:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6O7zXPJ6/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6O7zXPJ6/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Por qué Daniel Ricciardo se mantiene alejado del paddock de la F1",
@@ -2399,7 +2407,7 @@
         "published": "Wed, 04 Nov 2026 13:12:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VRzqDn6/s6/a-fan-holds-up-a-sign-of-danie.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6VRzqDn6/s6/a-fan-holds-up-a-sign-of-danie.jpg"
       },
       {
         "title": "La carrera de Esteban Ocon en la F1 puede estar llegando a su fin, pero su historia es una de éxito",
@@ -2407,7 +2415,7 @@
         "published": "Wed, 04 Nov 2026 12:58:10 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YpbAVRX0/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YpbAVRX0/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "La 'diferencia' entre el título de F1 de Kimi Antonelli y los de Lewis Hamilton según Toto Wolff",
@@ -2415,7 +2423,7 @@
         "published": "Wed, 04 Nov 2026 09:00:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YMXbl3m2/s6/lewis-hamilton-ferrari-andrea-.jpg"
       },
       {
         "title": "Isack Hadjar se culpa por el choque con George Russell que “arruinó” su GP de México",
@@ -2423,7 +2431,7 @@
         "published": "Wed, 04 Nov 2026 08:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8ZJV6/s6/isack-hadjar-red-bull-racing-2.jpg"
       },
       {
         "title": "Checo Pérez ausente en la FP1 en Brasil para que Colton Herta consiga la super licencia de F1",
@@ -2431,7 +2439,7 @@
         "published": "Tue, 03 Nov 2026 22:53:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0rVx3Am0/s6/colton-herta.jpg"
       },
       {
         "title": "Rafa Camara debutará en el GP de Brasil de F1 en el lugar de Ocon en Haas",
@@ -2439,15 +2447,7 @@
         "published": "Tue, 03 Nov 2026 20:39:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
-      },
-      {
-        "title": "Los horarios para el GP de Sao Paulo de F1 2026 en Brasil y cómo verlo en vivo",
-        "url": "https://espanol.motorsport.com/f1/news/horarios-gp-sao-paulo-brasil-2026-formula-1/10871341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 03 Nov 2026 17:40:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QdJk50/s6/lewis-hamilton-ferrari-nico-hu.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-haas-f1-team-202.jpg"
       }
     ],
     "moto": [
