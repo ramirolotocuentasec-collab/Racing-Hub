@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:02:20.312162Z",
+  "updatedAt": "2026-11-05T18:59:36.495387Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,28 @@
   "news": {
     "f1": [
       {
+        "title": "Max Verstappen: Estaba todavía borracho el día después de mi primer título",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-estaba-todavia-borracho-despues-mi-primer-titulo/10871856/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 05 Nov 2026 18:54:46 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/qYKkjOwY/s6/max-verstappen-ich-war-am-tag-nach-meinem-ersten-titel-noch-betrunken-26110513.jpg"
+      },
+      {
+        "title": "Rafa Camara debuta en F1 en Brasil con Haas y admite que la llamada fue “muy sorprendente”",
+        "url": "https://espanol.motorsport.com/f1/news/rafa-camara-debuta-f1-brasil-haas-llamada-fue-sorprendente/10871828/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 05 Nov 2026 18:17:58 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5AwmlY/s6/rafael-camara-haas-f1-team.jpg"
+      },
+      {
         "title": "Aston Martin sabía antes del GP de México que no terminaría, Honda trae nuevas contramedidas",
         "url": "https://espanol.motorsport.com/f1/news/aston-martin-sabia-mexico-no-terminaria-honda-nuevas-contramedidas/10871807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 05 Nov 2026 17:57:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0kZXBxV6/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0kZXBxV6/s6/fernando-alonso-aston-martin-r.jpg"
       },
       {
         "title": "Checo Pérez sobre su millonario sueldo en F1: \"Cadillac sabe y entiende el nivel del piloto\"",
@@ -2343,7 +2359,7 @@
         "published": "Thu, 05 Nov 2026 17:36:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0qgPbzkY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0qgPbzkY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Checo Pérez responde a los rumores de venta de TWG en Cadillac F1: \"Estoy muy tranquilo\"",
@@ -2351,7 +2367,7 @@
         "published": "Thu, 05 Nov 2026 17:17:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2QedOnW2/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2QedOnW2/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Gasly y Colapinto responden a las sanciones para Alpine en México y exigen consistencia",
@@ -2359,7 +2375,7 @@
         "published": "Thu, 05 Nov 2026 16:34:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6n7bDPM0/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6n7bDPM0/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Colapinto confía en un 2027 \"mejor\" con Alpine, pero advierte: hay que evitar las \"curitas\"",
@@ -2367,7 +2383,7 @@
         "published": "Thu, 05 Nov 2026 16:13:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0o5AgV7Y/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0o5AgV7Y/s6/franco-colapinto-alpine.jpg"
       },
       {
         "title": "Verstappen bromea sobre la diferencia clave con Kimi Antonelli a los 20: “Habla italiano”",
@@ -2375,7 +2391,7 @@
         "published": "Thu, 05 Nov 2026 14:42:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0qgKrQQY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0qgKrQQY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Una fuga de aceite casi deja a Antonelli sin podio en su día de campeón en México",
@@ -2383,7 +2399,7 @@
         "published": "Thu, 05 Nov 2026 14:32:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YE9EpwDY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/YE9EpwDY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Audi presenta la decoración dedicada a la carrera de casa de Gabriel Bortoleto",
@@ -2391,7 +2407,7 @@
         "published": "Thu, 05 Nov 2026 14:22:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0kZXvqV6/s6/livrea-speciale-audi-f1team-pe.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0kZXvqV6/s6/livrea-speciale-audi-f1team-pe.jpg"
       },
       {
         "title": "¿Cuán joven puede ser realmente un campeón del mundo de Formula 1?",
@@ -2407,7 +2423,7 @@
         "published": "Thu, 05 Nov 2026 03:18:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6DGg8WKY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6DGg8WKY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Lawson complica a Red Bull: su gran 2026 abre dudas sobre los planes para 2027",
@@ -2415,7 +2431,7 @@
         "published": "Thu, 05 Nov 2026 03:09:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Y9lN4LL2/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/Y9lN4LL2/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Mercedes correrá con nuevos uniformes en el GP de Brasil en un guiño a una era legendaria",
@@ -2423,7 +2439,7 @@
         "published": "Thu, 05 Nov 2026 03:07:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YK15l510/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YK15l510/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "El automovilismo mundial está de luto: fallece Alan Jones, campeón de F1 en 1980, a los 80 años",
@@ -2431,33 +2447,33 @@
         "published": "Thu, 05 Nov 2026 02:59:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2QzDDxvY/s6/alan-jones.jpg"
-      },
-      {
-        "title": "¿Podio con Cadillac en 2028? Checo Pérez explica el plan para alcanzar ese objetivo",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-planes-cadillac-f1-2029-objetivos-podio/10871572/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 04 Nov 2026 22:14:38 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YpbAB8g0/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Colton Herta responde a Checo Pérez sobre la exigencia de experiencia en Cadillac F1",
-        "url": "https://espanol.motorsport.com/f1/news/colton-herta-responde-checo-perez-exigencia-experiencia-cadillac-f1/10871569/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 04 Nov 2026 20:48:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/63QaB9w2/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2QzDDxvY/s6/alan-jones.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Marc Márquez sobre el GP de Qatar: \"Preferiría estar en otro lugar\"",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-sobre-qatar-preferiria-estar-otro-lugar/10871837/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 05 Nov 2026 18:47:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/24QGZnqY/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Los pilotos de MotoGP se sinceran sobre el controvertido GP de Qatar de este fin de semana",
+        "url": "https://espanol.motorsport.com/motogp/news/pilotos-motogp-sinceran-controvertido-gp-qatar-2026/10871841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 05 Nov 2026 18:25:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/YP741W32/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+      },
       {
         "title": "Ducatia espera un cierre digno con Bagnaia \"de esta historia bellísima\"",
         "url": "https://espanol.motorsport.com/motogp/news/ducatia-espera-cierre-digno-bagnaia-historia-bellisima/10871729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Thu, 05 Nov 2026 15:00:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YN7wJdj6/s6/claudio-domenicali-ceo-of-duca.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YN7wJdj6/s6/claudio-domenicali-ceo-of-duca.jpg"
       },
       {
         "title": "Dixon sustituye a Mir en Honda y volverá a correr en MotoGP cinco años después",
@@ -2473,7 +2489,7 @@
         "published": "Thu, 05 Nov 2026 13:36:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0rVPjwW0/s6/jorge-martin-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0rVPjwW0/s6/jorge-martin-aprilia-racing.jpg"
       },
       {
         "title": "Joan Mir dice que los rivales de Marc Márquez no soportaron la presión por el título",
@@ -2481,7 +2497,7 @@
         "published": "Wed, 04 Nov 2026 18:45:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2y7QVze6/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2y7QVze6/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Jorge Martín confirma que viajará a Qatar para intentar correr",
@@ -2497,7 +2513,7 @@
         "published": "Tue, 03 Nov 2026 10:12:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0o5AwOjY/s6/alex-marquez-operado-hombro-de.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5AwOjY/s6/alex-marquez-operado-hombro-de.jpg"
       },
       {
         "title": "Ganadores y perdedores de un GP de Malasia de MotoGP con mucha carga política",
@@ -2505,7 +2521,7 @@
         "published": "Mon, 02 Nov 2026 13:07:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Cómo se organizan los equipos y pilotos de MotoGP para su llegada a Qatar",
@@ -2513,7 +2529,7 @@
         "published": "Mon, 02 Nov 2026 10:04:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
       },
       {
         "title": "Márquez: \"¿Celebrar en Qatar? No quiero entrar en polémicas, prefiero mantenerme concentrado\"",
@@ -2529,7 +2545,7 @@
         "published": "Sun, 01 Nov 2026 10:45:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YBVo5r8Y/s6/paolo-pavesio-yamaha-racing-md.jpg"
       },
       {
         "title": "Jack Miller expresa una postura firme contra el GP de Qatar: “Nadie quiere ir, pero enfrentamos sanciones\"",
@@ -2537,7 +2553,7 @@
         "published": "Sun, 01 Nov 2026 10:36:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Cómo Marc Márquez puede asegurarse el título de MotoGP 2026 en el GP de Qatar",
@@ -2553,23 +2569,7 @@
         "published": "Sun, 01 Nov 2026 10:06:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
-      },
-      {
-        "title": "Alex Márquez se salta el polémico GP de Qatar para someterse a una cirugía",
-        "url": "https://espanol.motorsport.com/motogp/news/alex-marquez-ausente-en-qatar-para-ser-operado/10870556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 10:03:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/68VwRO92/s6/alex-marquez-gresini-racing.jpg"
-      },
-      {
-        "title": "MotoGP GP Malasia: Marc Márquez logra una victoria dominante para acercarse al título",
-        "url": "https://espanol.motorsport.com/motogp/news/motogp-gp-malasia-marquez-victoria-dominante/10870513/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 01 Nov 2026 09:24:08 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YK15RkD0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/01QN8Mm0/s6/fabio-quartararo-yamaha-factor.jpg"
       }
     ]
   },
