@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T14:52:44.248447Z",
+  "updatedAt": "2026-11-06T15:46:54.121918Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2330,12 +2330,20 @@
   "news": {
     "f1": [
       {
+        "title": "El personal de Viry-Châtillon acusa a Renault de traición tras la venta del histórico sitio",
+        "url": "https://espanol.motorsport.com/f1/news/personal-viry-chatillon-acusa-renault-traicion-venta-historico-sitio/10872118/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 06 Nov 2026 15:20:43 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/Y993ym8Y/s6/logo-alpine.jpg"
+      },
+      {
         "title": "Rosberg compara la tensión en Ferrari con su duelo con Hamilton en Mercedes",
         "url": "https://espanol.motorsport.com/f1/news/rosberg-compara-tension-ferrari-duelo-hamilton-mercedes/10872090/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 06 Nov 2026 14:13:43 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Cadillac explica el choque de Bottas en México: el calor de los frenos derritió la suspensión",
@@ -2343,7 +2351,7 @@
         "published": "Fri, 06 Nov 2026 14:01:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YE9EBaPY/s6/valtteri-bottas-incidente-cadi.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YE9EBaPY/s6/valtteri-bottas-incidente-cadi.jpg"
       },
       {
         "title": "Lewis Hamilton: \"No es tan fácil que alguien como yo llegue a un equipo, porque soy muy directo\"",
@@ -2351,7 +2359,7 @@
         "published": "Fri, 06 Nov 2026 13:13:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Sainz recuerda las batallas con Leclerc en medio de la tensión en Ferrari: “Siempre logramos encontrar una solución”",
@@ -2359,7 +2367,7 @@
         "published": "Fri, 06 Nov 2026 12:54:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YXR3MwN0/s6/charles-leclerc-scuderia-ferra.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YXR3MwN0/s6/charles-leclerc-scuderia-ferra.jpg"
       },
       {
         "title": "Kimi Antonelli: “Mi preparación para 2027 empieza ahora” tras conquistar el título de F1",
@@ -2367,7 +2375,7 @@
         "published": "Fri, 06 Nov 2026 12:41:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YpbAzjM0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YpbAzjM0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "Ferrari prepara una reunión crucial ante tensiones entre Hamilton y Leclerc que llegan a Brasil",
@@ -2375,7 +2383,7 @@
         "published": "Fri, 06 Nov 2026 12:31:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPA850/s6/frederic-vasseur-ferrari.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0rVPA850/s6/frederic-vasseur-ferrari.jpg"
       },
       {
         "title": "Alan Permane firma un nuevo acuerdo con Racing Bulls F1",
@@ -2391,7 +2399,7 @@
         "published": "Fri, 06 Nov 2026 11:08:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0LdejXa0/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0LdejXa0/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Oliver Bearman y Rafael Camara: ¿Duelo directo por un asiento en Ferrari?",
@@ -2399,7 +2407,7 @@
         "published": "Thu, 05 Nov 2026 23:08:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6grQwOPY/s6/rafael-camara-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6grQwOPY/s6/rafael-camara-haas-f1-team.jpg"
       },
       {
         "title": "Kimi Antonelli se sincera sobre su visita \"muy emotiva\" a la finca familiar de Ayrton Senna",
@@ -2407,7 +2415,7 @@
         "published": "Thu, 05 Nov 2026 22:44:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2jEAwQk0/s6/andrea-kimi-antonelli-con-la-f.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEAwQk0/s6/andrea-kimi-antonelli-con-la-f.jpg"
       },
       {
         "title": "Verstappen responde a Toto Wolff de que la era de los pilotos de F1 \"implacables\" ha terminado",
@@ -2415,7 +2423,7 @@
         "published": "Thu, 05 Nov 2026 22:24:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/27NoBoE0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/27NoBoE0/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Piastri acepta la sanción por chocar a Lindblad, pero avisa por las primeras curvas de México",
@@ -2423,7 +2431,7 @@
         "published": "Thu, 05 Nov 2026 20:52:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/25dLD8E0/s6/oscar-piastri-mclaren-arvid-li.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLD8E0/s6/oscar-piastri-mclaren-arvid-li.jpg"
       },
       {
         "title": "Kimi Antonelli admite que dudó de sí mismo durante su temporada de debut en F1",
@@ -2431,7 +2439,7 @@
         "published": "Thu, 05 Nov 2026 20:47:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/6zoDjyj0/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
         "title": "El Mercedes W17 llega a Brasil con dos configuraciones de alerón delantero disponibles",
@@ -2439,15 +2447,7 @@
         "published": "Thu, 05 Nov 2026 20:19:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6grQw3VY/s6/dettaglio-tecnico-mercedes-w17.jpg"
-      },
-      {
-        "title": "Horario y dónde ver las prácticas del viernes del GP de Brasil F1 2026: Horarios en TV y streaming",
-        "url": "https://espanol.motorsport.com/f1/news/horarios-donde-ver-practicas-gp-brasil-f1-2026/10871891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 05 Nov 2026 20:00:56 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6b8jRq32/s6/liam-lawson-racing-bulls-team-.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6grQw3VY/s6/dettaglio-tecnico-mercedes-w17.jpg"
       }
     ],
     "moto": [
@@ -2457,7 +2457,7 @@
         "published": "Fri, 06 Nov 2026 13:19:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YK15l8b0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YK15l8b0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Marc Márquez bromea con que Alex sería un 'mal hermano' si pusiera en riesgo la lucha por el título",
@@ -2465,7 +2465,7 @@
         "published": "Fri, 06 Nov 2026 13:03:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/27NoByX0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/27NoByX0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "¿Quién corre en el GP de Qatar de MotoGP y quién está ausente?",
@@ -2473,7 +2473,7 @@
         "published": "Fri, 06 Nov 2026 12:35:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/25dLrZk0/s6/atmosphere.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/25dLrZk0/s6/atmosphere.jpg"
       },
       {
         "title": "Bezzecchi no se rinde: quiere mantener viva la lucha por el título en Qatar",
@@ -2481,7 +2481,7 @@
         "published": "Thu, 05 Nov 2026 21:34:56 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2y7QpPg6/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2y7QpPg6/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Martín llega a Qatar con más confianza y quiere pelear el Mundial hasta Valencia",
@@ -2489,7 +2489,7 @@
         "published": "Thu, 05 Nov 2026 21:25:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8dA46/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0Zq8dA46/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Marc Márquez sobre el GP de Qatar: \"Preferiría estar en otro lugar\"",
@@ -2497,7 +2497,7 @@
         "published": "Thu, 05 Nov 2026 18:47:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/24QGZnqY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/24QGZnqY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Los pilotos de MotoGP se sinceran sobre el controvertido GP de Qatar de este fin de semana",
@@ -2513,7 +2513,7 @@
         "published": "Thu, 05 Nov 2026 15:00:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YN7wJdj6/s6/claudio-domenicali-ceo-of-duca.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YN7wJdj6/s6/claudio-domenicali-ceo-of-duca.jpg"
       },
       {
         "title": "Dixon sustituye a Mir en Honda y volverá a correr en MotoGP cinco años después",
@@ -2521,7 +2521,7 @@
         "published": "Thu, 05 Nov 2026 14:16:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2Qe8g5O2/s6/jake-dixon-team-hrc.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/2Qe8g5O2/s6/jake-dixon-team-hrc.jpg"
       },
       {
         "title": "Martín es declarado 'apto' para disputar la FP1 en Qatar",
@@ -2529,7 +2529,7 @@
         "published": "Thu, 05 Nov 2026 13:36:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0rVPjwW0/s6/jorge-martin-aprilia-racing.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0rVPjwW0/s6/jorge-martin-aprilia-racing.jpg"
       },
       {
         "title": "Joan Mir dice que los rivales de Marc Márquez no soportaron la presión por el título",
@@ -2537,7 +2537,7 @@
         "published": "Wed, 04 Nov 2026 18:45:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2y7QVze6/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2y7QVze6/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Jorge Martín confirma que viajará a Qatar para intentar correr",
@@ -2545,7 +2545,7 @@
         "published": "Wed, 04 Nov 2026 14:21:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLl490/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/25dLl490/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Alex Márquez es operado del hombro derecho y comienza la recuperación",
@@ -2553,7 +2553,7 @@
         "published": "Tue, 03 Nov 2026 10:12:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0o5AwOjY/s6/alex-marquez-operado-hombro-de.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0o5AwOjY/s6/alex-marquez-operado-hombro-de.jpg"
       },
       {
         "title": "Ganadores y perdedores de un GP de Malasia de MotoGP con mucha carga política",
@@ -2561,7 +2561,7 @@
         "published": "Mon, 02 Nov 2026 13:07:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/2jEA8Rz0/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Cómo se organizan los equipos y pilotos de MotoGP para su llegada a Qatar",
@@ -2569,7 +2569,7 @@
         "published": "Mon, 02 Nov 2026 10:04:36 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YBeLLp72/s6/vista-general-del-paddock.jpg"
       }
     ]
   },
