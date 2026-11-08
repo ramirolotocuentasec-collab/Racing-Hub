@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T16:06:12.999889Z",
+  "updatedAt": "2026-11-08T20:28:27.155691Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -681,8 +681,7 @@
             "name": "Race",
             "date": "2026-11-08T17:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace%2C_July_3%2C_2018_SkySat.jpg/1920px-Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace%2C_July_3%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-21-vegas",
@@ -716,7 +715,8 @@
             "name": "Race",
             "date": "2026-11-22T04:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1920px-2023_Las_Vegas_street_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-22-losail",
@@ -793,63 +793,63 @@
         "name": "Andrea Kimi Antonelli",
         "driver": "ANT",
         "team": "Mercedes",
-        "points": 380.0
+        "points": 390.0
       },
       {
         "position": 2,
         "name": "Max Verstappen",
         "driver": "VER",
         "team": "Red Bull",
-        "points": 261.0
+        "points": 279.0
       },
       {
         "position": 3,
-        "name": "Lewis Hamilton",
-        "driver": "HAM",
-        "team": "Ferrari",
-        "points": 259.0
-      },
-      {
-        "position": 4,
         "name": "George Russell",
         "driver": "RUS",
         "team": "Mercedes",
-        "points": 250.0
+        "points": 262.0
+      },
+      {
+        "position": 4,
+        "name": "Lewis Hamilton",
+        "driver": "HAM",
+        "team": "Ferrari",
+        "points": 261.0
       },
       {
         "position": 5,
         "name": "Charles Leclerc",
         "driver": "LEC",
         "team": "Ferrari",
-        "points": 245.0
+        "points": 251.0
       },
       {
         "position": 6,
         "name": "Lando Norris",
         "driver": "NOR",
         "team": "McLaren",
-        "points": 221.0
+        "points": 246.0
       },
       {
         "position": 7,
         "name": "Oscar Piastri",
         "driver": "PIA",
         "team": "McLaren",
-        "points": 144.0
+        "points": 152.0
       },
       {
         "position": 8,
         "name": "Isack Hadjar",
         "driver": "HAD",
         "team": "Red Bull",
-        "points": 107.0
+        "points": 122.0
       },
       {
         "position": 9,
         "name": "Liam Lawson",
         "driver": "LAW",
         "team": "RB F1 Team",
-        "points": 83.0
+        "points": 87.0
       },
       {
         "position": 10,
@@ -891,7 +891,7 @@
         "name": "Nico Hülkenberg",
         "driver": "HUL",
         "team": "Audi",
-        "points": 13.0
+        "points": 14.0
       },
       {
         "position": 16,
@@ -969,31 +969,31 @@
         "position": 1,
         "name": "Mercedes",
         "team": "Mercedes",
-        "points": 630.0
+        "points": 652.0
       },
       {
         "position": 2,
         "name": "Ferrari",
         "team": "Ferrari",
-        "points": 504.0
+        "points": 512.0
       },
       {
         "position": 3,
         "name": "Red Bull",
         "team": "Red Bull",
-        "points": 382.0
+        "points": 415.0
       },
       {
         "position": 4,
         "name": "McLaren",
         "team": "McLaren",
-        "points": 365.0
+        "points": 398.0
       },
       {
         "position": 5,
         "name": "RB F1 Team",
         "team": "RB F1 Team",
-        "points": 108.0
+        "points": 112.0
       },
       {
         "position": 6,
@@ -1011,7 +1011,7 @@
         "position": 8,
         "name": "Audi",
         "team": "Audi",
-        "points": 27.0
+        "points": 28.0
       },
       {
         "position": 9,
@@ -1919,8 +1919,7 @@
             "name": "Race",
             "date": "2026-11-08T19:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-4b3882a8-24b2-4321-aa12-d1847c989438",
@@ -1964,7 +1963,8 @@
             "name": "Race",
             "date": "2026-11-15T13:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Algarve_International_Circuit_%28Unsplash%29.jpg/1920px-Algarve_International_Circuit_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-723031d1-27bd-4467-b59c-4cb8f7e081ab",
@@ -2017,7 +2017,7 @@
         "name": "Piloto 1",
         "driver": "",
         "team": "Ducati",
-        "points": 411.0,
+        "points": 431.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2026,7 +2026,7 @@
         "name": "Piloto 2",
         "driver": "",
         "team": "Aprilia",
-        "points": 362.0,
+        "points": 371.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2035,7 +2035,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 332.0,
+        "points": 357.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2044,7 +2044,7 @@
         "name": "Piloto 4",
         "driver": "",
         "team": "KTM",
-        "points": 299.0,
+        "points": 309.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2053,7 +2053,7 @@
         "name": "Piloto 5",
         "driver": "",
         "team": "Aprilia",
-        "points": 281.0,
+        "points": 294.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2062,7 +2062,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 274.0,
+        "points": 282.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2071,7 +2071,7 @@
         "name": "Piloto 7",
         "driver": "",
         "team": "Aprilia",
-        "points": 242.0,
+        "points": 258.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2098,7 +2098,7 @@
         "name": "Piloto 10",
         "driver": "",
         "team": "KTM",
-        "points": 136.0,
+        "points": 147.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2107,7 +2107,7 @@
         "name": "Piloto 11",
         "driver": "",
         "team": "Ducati",
-        "points": 125.0,
+        "points": 129.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2152,7 +2152,7 @@
         "name": "Piloto 16",
         "driver": "",
         "team": "Ducati",
-        "points": 65.0,
+        "points": 70.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2161,7 +2161,7 @@
         "name": "Piloto 17",
         "driver": "",
         "team": "Honda",
-        "points": 56.0,
+        "points": 63.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2196,7 +2196,7 @@
         "position": 21,
         "name": "Piloto 21",
         "driver": "",
-        "team": "Yamaha",
+        "team": "Ducati",
         "points": 18.0,
         "riderImage": "",
         "bikeImage": ""
@@ -2205,8 +2205,8 @@
         "position": 22,
         "name": "Piloto 22",
         "driver": "",
-        "team": "KTM",
-        "points": 14.0,
+        "team": "Yamaha",
+        "points": 18.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2214,8 +2214,8 @@
         "position": 23,
         "name": "Piloto 23",
         "driver": "",
-        "team": "Ducati",
-        "points": 12.0,
+        "team": "KTM",
+        "points": 17.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2260,7 +2260,7 @@
         "name": "Piloto 28",
         "driver": "",
         "team": "Honda",
-        "points": 0.0,
+        "points": 2.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2314,25 +2314,25 @@
       {
         "name": "Ducati",
         "team": "Ducati",
-        "points": 1257.0,
+        "points": 1300.0,
         "position": 1
       },
       {
         "name": "Aprilia",
         "team": "Aprilia",
-        "points": 1217.0,
+        "points": 1280.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 572.0,
+        "points": 596.0,
         "position": 3
       },
       {
         "name": "Honda",
         "team": "Honda",
-        "points": 290.0,
+        "points": 299.0,
         "position": 4
       },
       {
@@ -2346,12 +2346,60 @@
   "news": {
     "f1": [
       {
+        "title": "Franco Colapinto analiza su dura carrera en Brasil: \"Fue probablemente la peor arrancada del año\"",
+        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-declaraciones-carrera-gp-sao-paulo-alpine-las-vegas/10873103/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 19:54:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YP748bQ2/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Antonelli y Colapinto ante los comisarios por el incidente en los pits en Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-colapinto-ante-comisarios-incidente-pits-brasil/10873084/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 19:30:06 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/6VyK9eNY/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Cinco conclusiones rápidas del GP de Brasil en Sao Paulo de la F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/cinco-conclusiones-rapidas-brasil-sao-paulo-f1-2026/10873063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 19:09:06 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/6x7Lz8jY/s6/lando-norris-mclaren-liam-laws.jpg"
+      },
+      {
+        "title": "Así quedó el campeonato de pilotos y constructores de la F1 2026 tras el GP de Sao Paulo en Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/estado-campeonato-pilotos-constructores-f1-2026-sao-paulo-brasil/10873068/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 19:03:07 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/6n7b57A0/s6/lando-norris-mclaren-george-ru.jpg"
+      },
+      {
+        "title": "Mercedes conquista en Brasil el campeonato de constructores de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/mercedes-coronado-campeon-constructores-f1-2026-brasil/10873052/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 18:53:22 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/0LdelEV0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Norris gana la carrera en Brasil, Colapinto 13° y Checo Pérez en 18°; Mercedes campeones",
+        "url": "https://espanol.motorsport.com/f1/news/norris-gana-carrera-brasil-colapinto-13-checo-perez-18-mercedes-campeones/10873037/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 18:41:24 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/6VyK9jNY/s6/lando-norris-mclaren-liam-laws.jpg"
+      },
+      {
         "title": "Nueva sanción en el GP de Brasil: Lindblad es castigado y Franco Colapinto escala un puesto",
         "url": "https://espanol.motorsport.com/f1/news/arvid-lindblad-sancion-sao-paulo-franco-colapinto/10872971/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 08 Nov 2026 15:38:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8V1N6/s6/arvid-lindblad-racing-bulls.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8V1N6/s6/arvid-lindblad-racing-bulls.jpg"
       },
       {
         "title": "McLaren logra un coche más predecible en Brasil con su alerón delantero de especificación 2027",
@@ -2359,7 +2407,7 @@
         "published": "Sun, 08 Nov 2026 14:27:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0o5AwWwY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AwWwY/s6/lando-norris-mclaren.jpg"
       },
       {
         "title": "¿Cuál es la situación de un posible GP de Buenos Aires de F1 tras la reunión en Interlagos?",
@@ -2367,7 +2415,7 @@
         "published": "Sun, 08 Nov 2026 13:51:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/24QGbaPY/s6/stefano-domenicali-ceo-de-la-f.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/24QGbaPY/s6/stefano-domenicali-ceo-de-la-f.jpg"
       },
       {
         "title": "Hamilton y Verstappen buscan una remontada épica desde el fondo en el GP de Brasil",
@@ -2375,7 +2423,7 @@
         "published": "Sun, 08 Nov 2026 13:47:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2eZxbDjY/s6/lewis-hamilton-ferrari-max-ver.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/2eZxbDjY/s6/lewis-hamilton-ferrari-max-ver.jpg"
       },
       {
         "title": "Los desafíos en condiciones de lluvia que planteó la clasificación del GP de Brasil",
@@ -2383,7 +2431,7 @@
         "published": "Sun, 08 Nov 2026 13:23:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YN7vzbe6/s6/gabriel-bortoleto-audi-f1-team-2.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YN7vzbe6/s6/gabriel-bortoleto-audi-f1-team-2.jpg"
       },
       {
         "title": "Gasly y los fans de Colapinto: “Una vez que lidias con Helmut Marko, ¡cualquier otra cosa no es presión!”",
@@ -2391,7 +2439,7 @@
         "published": "Sun, 08 Nov 2026 13:15:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6VyKlawY/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6VyKlawY/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Stella admite que Russell pudo ser el más rápido, pero Norris aprovechó la lluvia",
@@ -2399,7 +2447,7 @@
         "published": "Sun, 08 Nov 2026 13:02:38 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/6n7b57A0/s6/lando-norris-mclaren-george-ru.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6n7b57A0/s6/lando-norris-mclaren-george-ru.jpg"
       },
       {
         "title": "Leclerc cierra el caso Hamilton: “Hay tensión, pero todo se ha magnificado\"",
@@ -2407,7 +2455,7 @@
         "published": "Sun, 08 Nov 2026 12:53:48 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Hamilton y Verstappen advierten de remontadas difíciles en el GP de Brasil de F1",
@@ -2415,65 +2463,33 @@
         "published": "Sun, 08 Nov 2026 00:56:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8VWN6/s6/lewis-hamilton-ferrari.jpg"
-      },
-      {
-        "title": "Lawson lamenta su error en la clasificación de Brasil pese a salir tercero en la parrilla",
-        "url": "https://espanol.motorsport.com/f1/news/lawson-lamenta-error-clasificacion-brasil-tercero-parrilla/10872803/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 08 Nov 2026 00:51:09 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6DGg5lVY/s6/liam-lawson-racing-bulls.jpg"
-      },
-      {
-        "title": "Russell estalla tras perder la pole en Brasil por una orden de Mercedes en plena lluvia",
-        "url": "https://espanol.motorsport.com/f1/news/russell-estalla-perder-pole-brasil-orden-mercedes-plena-lluvia/10872801/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 22:57:01 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Hamilton insiste en que las tensiones en Ferrari con Leclerc han terminado: \"Lo hemos resuelto\"",
-        "url": "https://espanol.motorsport.com/f1/news/hamilton-insiste-tensiones-ferrari-leclerc-resuelto/10872778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 22:48:46 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
-      },
-      {
-        "title": "Checo Pérez y Cadillac confían en la lluvia para remontar en Brasil",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-cadillac-confian-lluvia-remontar-brasil/10872799/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 22:44:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6Alv9nGY/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Verstappen vio partidos de la Premier League durante el retraso de la clasificación en Brasil",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-vio-partidos-premier-league-retraso-clasificacion-brasil/10872770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 21:52:48 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0o5AVQ7Y/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Wolff responde a los enfadados mensajes de radio de Russell en la clasificación de Brasil",
-        "url": "https://espanol.motorsport.com/f1/news/wolff-responde-enfadados-mensajes-radio-russell-clasificacion-brasil/10872768/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 21:50:24 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0Zq8VWN6/s6/lewis-hamilton-ferrari.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Bezzecchi: \"Las sprint han sido mi punto débil, pero habría firmado por una temporada así\"",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-sprint-han-sido-mi-punto-debil-2026/10873031/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 18:13:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/2QedBNv2/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
+      {
+        "title": "Bezzecchi gana la carrera en Qatar, Márquez aún no es campeón del mundo 2026",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-gana-carrera-qatar-marquez-aun-no-es-campeon-2026/10873013/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 17:03:30 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/68VwMWD2/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
       {
         "title": "La parrilla del Gran Premio de Qatar se reduce a 16 tras la retirada de Luca Marini",
         "url": "https://espanol.motorsport.com/motogp/news/parrilla-qatar-se-reduce-16-retirada-luca-marini/10872952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Sun, 08 Nov 2026 14:37:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YN7vl946/s6/luca-marini-honda-hrc.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/YN7vl946/s6/luca-marini-honda-hrc.jpg"
       },
       {
         "title": "Di Giannantonio manda en el Warm Up de Qatar con Bezzecchi segundo y Márquez quinto",
@@ -2481,7 +2497,7 @@
         "published": "Sun, 08 Nov 2026 12:47:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YWKAllVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YWKAllVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "Viñales valora parar de nuevo por su lesión en el hombro",
@@ -2489,7 +2505,7 @@
         "published": "Sat, 07 Nov 2026 19:35:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
       },
       {
         "title": "Márquez y su incidente en Qatar: “Me sorprendió encontrarme a Bezzecchi; yo seguí mi línea”",
@@ -2497,7 +2513,7 @@
         "published": "Sat, 07 Nov 2026 18:09:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7zr9G6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6O7zr9G6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Bagnaia sufre doble fractura tras espeluznante accidente en la Sprint de Qatar",
@@ -2505,7 +2521,7 @@
         "published": "Sat, 07 Nov 2026 17:23:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6b8Zwzv2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/6b8Zwzv2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Márquez gana la sprint de Qatar y roza el título tras choque con Bezzecchi",
@@ -2513,7 +2529,7 @@
         "published": "Sat, 07 Nov 2026 17:00:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/27No3Qv0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/27No3Qv0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Toto Wolff defiende a MotoGP sobre Qatar: \"Los pilotos no saben nada de lo que está pasando\"",
@@ -2521,7 +2537,7 @@
         "published": "Sat, 07 Nov 2026 16:41:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
       },
       {
         "title": "Jorge Martín afronta un reto \"muy difícil\" en el GP de Qatar al volver el dolor en la clasificación",
@@ -2537,7 +2553,7 @@
         "published": "Sat, 07 Nov 2026 13:16:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YP74l182/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YP74l182/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Márquez ve a Martín fuerte en Qatar pese a su lesión y anticipa un sábado muy competido",
@@ -2545,7 +2561,7 @@
         "published": "Fri, 06 Nov 2026 20:56:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVP8qq0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0rVP8qq0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Pecco Bagnaia \"vuelve a sentirse como un piloto de fábrica\" al recuperar la forma en Qatar",
@@ -2553,7 +2569,7 @@
         "published": "Fri, 06 Nov 2026 20:23:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0mXywa46/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0mXywa46/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Jorge Martín aspira a las dos primeras filas en el GP de Qatar: \"Puedo correr con analgésicos\"",
@@ -2561,7 +2577,7 @@
         "published": "Fri, 06 Nov 2026 20:15:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YvKBD1v6/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/YvKBD1v6/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pedro Acosta, sobre su sorprendentemente mal viernes en Qatar: \"No puede ir peor que esto\"",
@@ -2569,23 +2585,7 @@
         "published": "Fri, 06 Nov 2026 18:41:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8lkN6/s6/pedro-acosta-red-bull-ktm-fact.jpg"
-      },
-      {
-        "title": "Fabio Di Giannantonio, el más rápido en la práctica de Qatar; Martín y Marc Márquez pasan el corte",
-        "url": "https://espanol.motorsport.com/motogp/news/fabio-di-giannantonio-mas-rapido-practica-qatar-martin-marc-marquez-corte/10872206/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 06 Nov 2026 17:31:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0rVP88m0/s6/fabio-di-giannantonio-vr46-rac.jpg"
-      },
-      {
-        "title": "MotoGP GP Qatar: Márquez y Bezzecchi se despegan y Martín es 5° en la FP1",
-        "url": "https://espanol.motorsport.com/motogp/news/resultados-motogp-lusail-fp1-marquez-y-bezzecchi/10872073/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 06 Nov 2026 13:19:35 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YK15l8b0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8lkN6/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       }
     ]
   },
