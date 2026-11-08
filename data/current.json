@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T09:16:21.971879Z",
+  "updatedAt": "2026-11-08T16:06:12.999889Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1909,7 +1909,7 @@
           },
           {
             "name": "Sprint",
-            "date": "2026-11-07T19:00:00Z"
+            "date": "2026-11-07T19:18:00Z"
           },
           {
             "name": "Warm Up",
@@ -2346,6 +2346,70 @@
   "news": {
     "f1": [
       {
+        "title": "Nueva sanción en el GP de Brasil: Lindblad es castigado y Franco Colapinto escala un puesto",
+        "url": "https://espanol.motorsport.com/f1/news/arvid-lindblad-sancion-sao-paulo-franco-colapinto/10872971/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 15:38:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8V1N6/s6/arvid-lindblad-racing-bulls.jpg"
+      },
+      {
+        "title": "McLaren logra un coche más predecible en Brasil con su alerón delantero de especificación 2027",
+        "url": "https://espanol.motorsport.com/f1/news/mclaren-logra-un-coche-mas-predecible-brasil-con-aleron-delantero-2027/10872943/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 14:27:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/0o5AwWwY/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "¿Cuál es la situación de un posible GP de Buenos Aires de F1 tras la reunión en Interlagos?",
+        "url": "https://espanol.motorsport.com/f1/news/buenos-aires-gran-premio-f1-reunion-brasil/10872930/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 13:51:37 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/24QGbaPY/s6/stefano-domenicali-ceo-de-la-f.jpg"
+      },
+      {
+        "title": "Hamilton y Verstappen buscan una remontada épica desde el fondo en el GP de Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-verstappen-buscan-remontada-epica-brasil/10872936/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 13:47:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2eZxbDjY/s6/lewis-hamilton-ferrari-max-ver.jpg"
+      },
+      {
+        "title": "Los desafíos en condiciones de lluvia que planteó la clasificación del GP de Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/desafios-condiciones-lluvia-planteo-clasificacion-brasil/10872919/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 13:23:33 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/YN7vzbe6/s6/gabriel-bortoleto-audi-f1-team-2.jpg"
+      },
+      {
+        "title": "Gasly y los fans de Colapinto: “Una vez que lidias con Helmut Marko, ¡cualquier otra cosa no es presión!”",
+        "url": "https://espanol.motorsport.com/f1/news/gasly-fans-colapinto-una-vez-que-lidias-con-marko-cualquier-otra-cosa-no-es-presion/10872925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 13:15:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/6VyKlawY/s6/pierre-gasly-alpine.jpg"
+      },
+      {
+        "title": "Stella admite que Russell pudo ser el más rápido, pero Norris aprovechó la lluvia",
+        "url": "https://espanol.motorsport.com/f1/news/stella-admite-russell-pudo-ser-mas-rapido-norris-aprovecho-lluvia/10872914/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 13:02:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/6n7b57A0/s6/lando-norris-mclaren-george-ru.jpg"
+      },
+      {
+        "title": "Leclerc cierra el caso Hamilton: “Hay tensión, pero todo se ha magnificado\"",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-cierra-caso-hamilton-hay-tension-se-ha-magnificado/10872921/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 12:53:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
+      },
+      {
         "title": "Hamilton y Verstappen advierten de remontadas difíciles en el GP de Brasil de F1",
         "url": "https://espanol.motorsport.com/f1/news/hamilton-verstappen-advierten-remontadas-dificiles-brasil-2026/10872825/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 08 Nov 2026 00:56:11 +0000",
@@ -2359,7 +2423,7 @@
         "published": "Sun, 08 Nov 2026 00:51:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGg5lVY/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6DGg5lVY/s6/liam-lawson-racing-bulls.jpg"
       },
       {
         "title": "Russell estalla tras perder la pole en Brasil por una orden de Mercedes en plena lluvia",
@@ -2367,7 +2431,7 @@
         "published": "Sat, 07 Nov 2026 22:57:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
       },
       {
         "title": "Hamilton insiste en que las tensiones en Ferrari con Leclerc han terminado: \"Lo hemos resuelto\"",
@@ -2375,7 +2439,7 @@
         "published": "Sat, 07 Nov 2026 22:48:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Checo Pérez y Cadillac confían en la lluvia para remontar en Brasil",
@@ -2383,7 +2447,7 @@
         "published": "Sat, 07 Nov 2026 22:44:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6Alv9nGY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6Alv9nGY/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
         "title": "Verstappen vio partidos de la Premier League durante el retraso de la clasificación en Brasil",
@@ -2391,7 +2455,7 @@
         "published": "Sat, 07 Nov 2026 21:52:48 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0o5AVQ7Y/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AVQ7Y/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Wolff responde a los enfadados mensajes de radio de Russell en la clasificación de Brasil",
@@ -2399,81 +2463,33 @@
         "published": "Sat, 07 Nov 2026 21:50:24 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
-      },
-      {
-        "title": "Gasly reclama mejor gestión a Alpine tras quedar detrás de Colapinto",
-        "url": "https://espanol.motorsport.com/f1/news/pierre-gasly-franco-colapinto-trafico-q1-gp-sao-paulo-alpine/10872740/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 21:21:08 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2QedBzA2/s6/pierre-gasly-alpine.jpg"
-      },
-      {
-        "title": "La parrilla de salida para el GP de Brasil de F1 2026 en Sao Paulo",
-        "url": "https://espanol.motorsport.com/f1/news/parrilla-salida-gp-sao-paulo-brasil-2026-colapinto-checo-perez/10872714/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 20:34:46 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/27No3ae0/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Norris gana la pole bajo la lluvia en Brasil; Colapinto eliminado en Q1, pero avanza por sanciones",
-        "url": "https://espanol.motorsport.com/f1/news/norris-pole-lluvia-brasil-colapinto-eliminado-q1-avanza-sanciones/10872706/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 20:28:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YK15xbk0/s6/lando-norris-mclaren-oscar-pia.jpg"
-      },
-      {
-        "title": "Colapinto tras quedar eliminado en la Q1 en Brasil: \"Simplemente iba derrapando\"",
-        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-declaraciones-eliminacion-q1-gp-sao-paulo/10872701/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 20:12:46 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YP748KQ2/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "FIA emite una advertencia formal a Sergio Pérez tras arrojar un objeto a pista en la FP3 de Brasil",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-advertencia-fia-fp3-gp-sao-paulo-cadillac/10872623/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 16:54:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0mXywp56/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Mini deja huella en Interlagos: séptimo tiempo y la mirada puesta en el futuro",
-        "url": "https://espanol.motorsport.com/f1/news/mini-deja-huella-interlagos-septimo-tiempo-mirada-puesta-futuro/10872601/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 16:30:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2y7QRyX6/s6/gabriele-mini-alpine-f1.jpg"
-      },
-      {
-        "title": "Verstappen domina la FP3 en Brasil; Colapinto en 14° y Sergio Pérez en 20°",
-        "url": "https://espanol.motorsport.com/f1/news/resultados-practica-gp-sao-paulo-verstappen-perez-colapinto-f1/10872580/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 15:35:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0qgKrjOY/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Verstappen, Hamilton y Leclerc penalizarán en Sao Paulo y tendrán que remontar",
-        "url": "https://espanol.motorsport.com/f1/news/f1-gp-sao-paulo-penalizaciones-parrilla-ferraria-red-bull-verstappen-hamilton/10872558/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 15:01:16 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/01QNp5e0/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "La parrilla del Gran Premio de Qatar se reduce a 16 tras la retirada de Luca Marini",
+        "url": "https://espanol.motorsport.com/motogp/news/parrilla-qatar-se-reduce-16-retirada-luca-marini/10872952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 14:37:31 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-6.motorsport.com/images/amp/YN7vl946/s6/luca-marini-honda-hrc.jpg"
+      },
+      {
+        "title": "Di Giannantonio manda en el Warm Up de Qatar con Bezzecchi segundo y Márquez quinto",
+        "url": "https://espanol.motorsport.com/motogp/news/di-giannantonio-manda-warm-up-qatar-bezzecchi-segundo-marquez-quinto/10872916/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 08 Nov 2026 12:47:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-7.motorsport.com/images/amp/YWKAllVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+      },
       {
         "title": "Viñales valora parar de nuevo por su lesión en el hombro",
         "url": "https://espanol.motorsport.com/motogp/news/vinales-valora-parar-nuevo-lesion-hombro/10872681/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Sat, 07 Nov 2026 19:35:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
       },
       {
         "title": "Márquez y su incidente en Qatar: “Me sorprendió encontrarme a Bezzecchi; yo seguí mi línea”",
@@ -2481,7 +2497,7 @@
         "published": "Sat, 07 Nov 2026 18:09:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6O7zr9G6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/6O7zr9G6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Bagnaia sufre doble fractura tras espeluznante accidente en la Sprint de Qatar",
@@ -2489,7 +2505,7 @@
         "published": "Sat, 07 Nov 2026 17:23:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6b8Zwzv2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/6b8Zwzv2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Márquez gana la sprint de Qatar y roza el título tras choque con Bezzecchi",
@@ -2497,7 +2513,7 @@
         "published": "Sat, 07 Nov 2026 17:00:01 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/27No3Qv0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/27No3Qv0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Toto Wolff defiende a MotoGP sobre Qatar: \"Los pilotos no saben nada de lo que está pasando\"",
@@ -2505,7 +2521,7 @@
         "published": "Sat, 07 Nov 2026 16:41:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/27NooQX0/s6/toto-wolff-mercedes.jpg"
       },
       {
         "title": "Jorge Martín afronta un reto \"muy difícil\" en el GP de Qatar al volver el dolor en la clasificación",
@@ -2513,7 +2529,7 @@
         "published": "Sat, 07 Nov 2026 15:05:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/63Qa3Ol2/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/63Qa3Ol2/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "MotoGP Gran Premio de Qatar: Marco Bezzecchi arrasa y logra la pole por delante de Marc Marquez",
@@ -2521,7 +2537,7 @@
         "published": "Sat, 07 Nov 2026 13:16:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YP74l182/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YP74l182/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Márquez ve a Martín fuerte en Qatar pese a su lesión y anticipa un sábado muy competido",
@@ -2529,7 +2545,7 @@
         "published": "Fri, 06 Nov 2026 20:56:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVP8qq0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0rVP8qq0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Pecco Bagnaia \"vuelve a sentirse como un piloto de fábrica\" al recuperar la forma en Qatar",
@@ -2537,7 +2553,7 @@
         "published": "Fri, 06 Nov 2026 20:23:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0mXywa46/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0mXywa46/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Jorge Martín aspira a las dos primeras filas en el GP de Qatar: \"Puedo correr con analgésicos\"",
@@ -2545,7 +2561,7 @@
         "published": "Fri, 06 Nov 2026 20:15:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/YvKBD1v6/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YvKBD1v6/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pedro Acosta, sobre su sorprendentemente mal viernes en Qatar: \"No puede ir peor que esto\"",
@@ -2553,7 +2569,7 @@
         "published": "Fri, 06 Nov 2026 18:41:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0Zq8lkN6/s6/pedro-acosta-red-bull-ktm-fact.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8lkN6/s6/pedro-acosta-red-bull-ktm-fact.jpg"
       },
       {
         "title": "Fabio Di Giannantonio, el más rápido en la práctica de Qatar; Martín y Marc Márquez pasan el corte",
@@ -2561,7 +2577,7 @@
         "published": "Fri, 06 Nov 2026 17:31:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVP88m0/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0rVP88m0/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "MotoGP GP Qatar: Márquez y Bezzecchi se despegan y Martín es 5° en la FP1",
@@ -2569,23 +2585,7 @@
         "published": "Fri, 06 Nov 2026 13:19:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YK15l8b0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Marc Márquez bromea con que Alex sería un 'mal hermano' si pusiera en riesgo la lucha por el título",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-bromea-alex-seria-mal-hermano-si-arriesgara-titulo/10872067/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 06 Nov 2026 13:03:58 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/27NoByX0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "¿Quién corre en el GP de Qatar de MotoGP y quién está ausente?",
-        "url": "https://espanol.motorsport.com/motogp/news/quien-corre-en-el-gp-de-qatar-de-motogp-y-quien-esta-ausente/10872058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 06 Nov 2026 12:35:24 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLrZk0/s6/atmosphere.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YK15l8b0/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
