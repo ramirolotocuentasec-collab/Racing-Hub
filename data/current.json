@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:18:01.486609Z",
+  "updatedAt": "2026-11-11T16:23:59.536569Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2346,12 +2346,68 @@
   "news": {
     "f1": [
       {
+        "title": "Max Verstappen explica por qué es tan bueno bajo la lluvia en Brasil",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-explica-por-que-es-tan-bueno-bajo-lluvia-brasil/10873844/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 15:53:56 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/YP748ne2/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Piastri revela el inesperado lado positivo de estar fuera de la lucha por el título de F1",
+        "url": "https://espanol.motorsport.com/f1/news/piastri-revela-lado-positivo-estar-fuera-lucha-titulo-f1/10873866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 15:48:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7BEME2/s6/oscar-piastri-mclaren.jpg"
+      },
+      {
+        "title": "Ricciardo: Max Verstappen \"pasará a la historia como uno de los mejores de todos los tiempos\"",
+        "url": "https://espanol.motorsport.com/f1/news/ricciardo-max-verstappen-pasara-historia-como-uno-de-los-mejores/10873870/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 14:02:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/2GdK1Z1Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Norris cuestiona la sanción de Charles Leclerc en el GP de Brasil: \"Solo competición\"",
+        "url": "https://espanol.motorsport.com/f1/news/norris-cuestiona-sancion-leclerc-brasil-solo-competicion/10873872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 13:46:53 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/6zoDj4P0/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "Max Verstappen nombra la única condición que le haría retirarse de la F1",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-unica-condicion-haria-retirarse-f1/10873868/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 13:35:21 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-4.motorsport.com/images/amp/0o5AVQ7Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "\"Kimi Antonelli todavía no es Ayrton Senna, pero puede ser un Senninha\", dice Toto Wolff",
+        "url": "https://espanol.motorsport.com/f1/news/kimi-antonelli-todavia-no-es-ayrton-senna-puede-ser-un-senninha-dice-toto-wolff/10873800/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 10:17:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-5.motorsport.com/images/amp/YpbAXjN0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Lo que reveló el GP de Brasil sobre la capacidad de la F1 para afrontar la lluvia",
+        "url": "https://espanol.motorsport.com/f1/news/lo-que-revelo-brasil-sobre-la-capacidad-de-la-f1-para-afrontar-la-lluvia/10873798/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 10:05:37 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/6DGg53wY/s6/charles-leclerc-ferrari-2.jpg"
+      },
+      {
         "title": "Ocon agradece el apoyo tras dejar Haas y asegura que su pasión por correr sigue intacta",
         "url": "https://espanol.motorsport.com/f1/news/ocon-agradece-apoyo-haas-asegura-pasion-sigue-intacta/10873667/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 10 Nov 2026 17:07:37 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0qgKEB8Y/s6/esteban-ocon-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKEB8Y/s6/esteban-ocon-haas-f1-team.jpg"
       },
       {
         "title": "Haas alcanza el límite de cuatro pilotos y podría tener que recurrir otra vez a Hirakawa",
@@ -2359,7 +2415,7 @@
         "published": "Tue, 10 Nov 2026 16:53:32 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNjMX2/s6/ryo-hirakawa-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNjMX2/s6/ryo-hirakawa-haas-f1-team.jpg"
       },
       {
         "title": "Primero órdenes de equipo, luego disculpa: qué pasó con Hadjar y Verstappen en Brasil",
@@ -2367,7 +2423,7 @@
         "published": "Tue, 10 Nov 2026 16:25:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/2y7Qrag6/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/2y7Qrag6/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
         "title": "Audi fija postura sobre la sanción a Hülkenberg tras el duelo con Colapinto en el GP de Brasil",
@@ -2375,7 +2431,7 @@
         "published": "Tue, 10 Nov 2026 14:27:00 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2QedBbJ2/s6/nico-hulkenberg-audi-f1-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2QedBbJ2/s6/nico-hulkenberg-audi-f1-team.jpg"
       },
       {
         "title": "Hinchcliffe ve a Russell “derrotado” tras otra carrera marcada por golpes y mala suerte",
@@ -2391,7 +2447,7 @@
         "published": "Tue, 10 Nov 2026 13:12:12 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9EVKLY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YE9EVKLY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "FIA mantiene Qatar y Abu Dhabi para la F1; Imola abandona sus preparativos de contingencia",
@@ -2407,73 +2463,33 @@
         "published": "Tue, 10 Nov 2026 11:54:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YMXbMRL2/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Honda no logra explicar el 13° abandono de Lance Stroll en la temporada",
-        "url": "https://espanol.motorsport.com/f1/news/honda-no-logra-explicar-nuevo-abandono-lance-stroll-brasil/10873542/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 10 Nov 2026 10:52:37 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/Y9lNZkP2/s6/lance-stroll-aston-martin-raci-2.jpg"
-      },
-      {
-        "title": "Laurent Mekies: El futuro de Liam Lawson no tiene nada que ver conmigo",
-        "url": "https://espanol.motorsport.com/f1/news/mekies-futuro-liam-lawson-no-tiene-nada-que-ver-conmigo/10873540/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 10 Nov 2026 10:48:50 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YE9wPXPY/s6/liam-lawson-racing-bulls-laure.jpg"
-      },
-      {
-        "title": "El raro Honda NSX de Ayrton Senna pulveriza la estimación de subasta con una venta récord",
-        "url": "https://espanol.motorsport.com/f1/news/honda-nsx-ayrton-senna-pulveriza-estimacion-subasta-venta-record/10873395/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 09 Nov 2026 23:08:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/24Qe79AY/s6/ayrton-senna-mclaren.jpg"
-      },
-      {
-        "title": "Stella elogió a Norris: un maestro para leer el grip y adaptarse a un McLaren difícil",
-        "url": "https://espanol.motorsport.com/f1/news/stella-elogio-norris-maestro-leer-grip-adaptarse-mclaren-dificil/10873403/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 09 Nov 2026 20:37:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0arE3Ay2/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Por qué Mercedes dice que repetir su dominio de 2014-2021 es \"imposible\"",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-mercedes-repetir-dominio-2014-2021-imposible/10873435/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 09 Nov 2026 19:49:49 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YBVjRgJY/s6/george-russell-mercedes-andrea.jpg"
-      },
-      {
-        "title": "Qué hay detrás de la ruptura de Piastri con Mark Webber y qué significa para su carrera en F1",
-        "url": "https://espanol.motorsport.com/f1/news/que-hay-detras-ruptura-piastri-mark-webber-que-significa-futuro/10873424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 09 Nov 2026 17:30:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg"
-      },
-      {
-        "title": "Ralf Schumacher: \"Hamilton simplemente no es lo suficientemente rápido\"",
-        "url": "https://espanol.motorsport.com/f1/news/ralf-schumacher-hamilton-no-es-suficientemente-rapido/10873401/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 09 Nov 2026 16:28:29 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YK15xVb0/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbMRL2/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Bezzecchi firma un récord histórico con 12 victorias en 12 circuitos distintos en MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-record-historico-12-victorias-12-circuitos-distintos-motogp/10873862/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 13:52:34 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-3.motorsport.com/images/amp/68VwMa92/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
+      {
+        "title": "¿Marco Bezzecchi finalmente recuperó su rendimiento de inicio de temporada en MotoGP?",
+        "url": "https://espanol.motorsport.com/motogp/news/marco-bezzecchi-finalmente-recupero-rendimiento-de-inicio-de-temporada/10873808/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Wed, 11 Nov 2026 10:23:50 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/0arE3Vw2/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
       {
         "title": "Bagnaia operado con éxito en Turín por la doble fractura del pie derecho",
         "url": "https://espanol.motorsport.com/motogp/news/bagnaia-operado-exito-turin-doble-fractura-pie-derecho/10873702/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Tue, 10 Nov 2026 18:13:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "La rivalidad Rossi-Marquez vuelve al foco por la autobiografía del italiano",
@@ -2481,7 +2497,7 @@
         "published": "Tue, 10 Nov 2026 13:41:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/725ja89Y/s6/autobiografie-von-valentino-rossi-wird-marc-marquez-sie-lesen-26111001.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/725ja89Y/s6/autobiografie-von-valentino-rossi-wird-marc-marquez-sie-lesen-26111001.jpg"
       },
       {
         "title": "Ezpeleta defiende la seguridad del GP de Qatar pese a las críticas",
@@ -2489,7 +2505,7 @@
         "published": "Mon, 09 Nov 2026 20:32:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Qran6/s6/carlos-ezpeleta-motogp.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2y7Qran6/s6/carlos-ezpeleta-motogp.jpg"
       },
       {
         "title": "Aldeguer se defiende tras el accidente con Bagnaia: “No fue una maniobra loca”",
@@ -2497,7 +2513,7 @@
         "published": "Mon, 09 Nov 2026 18:20:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6b8ZMww2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6b8ZMww2/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "Rivola: \"A veces no bastan cuatro Aprilia para batir a Marquez, el Mundial lo ha ganado él\"",
@@ -2505,7 +2521,7 @@
         "published": "Mon, 09 Nov 2026 13:47:11 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0Ld5aoW0/s6/massimo-rivola-aprilia-racing-.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0Ld5aoW0/s6/massimo-rivola-aprilia-racing-.jpg"
       },
       {
         "title": "Ganadores y perdedores del polémico Gran Premio de Qatar de MotoGP",
@@ -2513,7 +2529,7 @@
         "published": "Mon, 09 Nov 2026 12:23:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0mXyjRX6/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0mXyjRX6/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Jorge Martín estará \"casi al 100%\" en Portugal y mantiene vivas sus opciones al título",
@@ -2521,7 +2537,7 @@
         "published": "Sun, 08 Nov 2026 20:48:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0JXRpvOY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/0JXRpvOY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Entrenar, comer, dormir y repetir: el plan de Márquez para ganar el título en Portugal",
@@ -2529,7 +2545,7 @@
         "published": "Sun, 08 Nov 2026 20:34:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzgZ2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNzgZ2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Bezzecchi: \"Las sprint han sido mi punto débil, pero habría firmado por una temporada así\"",
@@ -2537,7 +2553,7 @@
         "published": "Sun, 08 Nov 2026 18:13:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/2QedBNv2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2QedBNv2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "Bezzecchi gana la carrera en Qatar, Márquez aún no es campeón del mundo 2026",
@@ -2545,7 +2561,7 @@
         "published": "Sun, 08 Nov 2026 17:03:30 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwMWD2/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68VwMWD2/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "La parrilla del Gran Premio de Qatar se reduce a 16 tras la retirada de Luca Marini",
@@ -2553,7 +2569,7 @@
         "published": "Sun, 08 Nov 2026 14:37:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YN7vl946/s6/luca-marini-honda-hrc.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YN7vl946/s6/luca-marini-honda-hrc.jpg"
       },
       {
         "title": "Di Giannantonio manda en el Warm Up de Qatar con Bezzecchi segundo y Márquez quinto",
@@ -2561,7 +2577,7 @@
         "published": "Sun, 08 Nov 2026 12:47:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YWKAllVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YWKAllVY/s6/fabio-di-giannantonio-vr46-rac.jpg"
       },
       {
         "title": "Viñales valora parar de nuevo por su lesión en el hombro",
@@ -2569,23 +2585,7 @@
         "published": "Sat, 07 Nov 2026 19:35:33 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
-      },
-      {
-        "title": "Márquez y su incidente en Qatar: “Me sorprendió encontrarme a Bezzecchi; yo seguí mi línea”",
-        "url": "https://espanol.motorsport.com/motogp/news/marquez-accidente-bezzecchi-yo-segui-mi-linea-qatar/10872661/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 18:09:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6O7zr9G6/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Bagnaia sufre doble fractura tras espeluznante accidente en la Sprint de Qatar",
-        "url": "https://espanol.motorsport.com/motogp/news/pecco-bagnaia-fractura-pie-accidente-sprint-motogp-qatar/10872638/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 07 Nov 2026 17:23:28 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6b8Zwzv2/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/6DGgbD7Y/s6/maverick-vinales-red-bull-ktm-.jpg"
       }
     ]
   },
