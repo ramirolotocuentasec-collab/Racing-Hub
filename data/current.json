@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T20:10:03.790626Z",
+  "updatedAt": "2026-11-14T23:57:27.639547Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2468,12 +2468,20 @@
     ],
     "moto": [
       {
+        "title": "Cómo la bandera roja de Qatar ayudó a Johann Zarco a dejar atrás su accidente de Barcelona",
+        "url": "https://espanol.motorsport.com/motogp/news/como-la-bandera-roja-de-qatar-ayudo-zarco-accidente-barcelona/10874570/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 14 Nov 2026 23:05:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-2.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
+      },
+      {
         "title": "Marc Márquez, ante su próxima oportunidad de ser campeón: \"Mentalmente me siento mejor que nunca\"",
         "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-ante-su-proxima-oportunidad-de-ser-campeon-portimao/10874541/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Sat, 14 Nov 2026 16:08:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Las cifras que revelan cómo las carreras sprint han puesto patas arriba la pelea por el título de MotoGP",
@@ -2481,7 +2489,7 @@
         "published": "Sat, 14 Nov 2026 15:17:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
       },
       {
         "title": "Por qué la aerodinámica será \"aún más importante\" bajo el reglamento de MotoGP 2027",
@@ -2489,7 +2497,7 @@
         "published": "Fri, 13 Nov 2026 17:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
       },
       {
         "title": "MotoGP seguirá en ESPN y Disney+ en Latinoamérica hasta 2028 y suma a Estados Unidos",
@@ -2497,7 +2505,7 @@
         "published": "Fri, 13 Nov 2026 15:25:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Iker Lecuona sintió diferencias significativas entre la GP25 y la GP26 de Ducati",
@@ -2505,7 +2513,7 @@
         "published": "Fri, 13 Nov 2026 12:52:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
       },
       {
         "title": "Así avanzan las obras en el Autódromo de Buenos Aires para el regreso de MotoGP",
@@ -2513,7 +2521,7 @@
         "published": "Thu, 12 Nov 2026 19:55:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/6x7Lzn7Y/s6/obras-buenos-aires-1.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6x7Lzn7Y/s6/obras-buenos-aires-1.jpg"
       },
       {
         "title": "Jack Miller explica qué quiere lograr en WorldSBK tras su salida de MotoGP",
@@ -2521,7 +2529,7 @@
         "published": "Thu, 12 Nov 2026 16:51:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Madonna di Campiglio acogerá la presentación de la Ducati 850 para la nueva era de MotoGP",
@@ -2529,7 +2537,7 @@
         "published": "Thu, 12 Nov 2026 15:41:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6b8jeD32/s6/ducati-850-2027.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8jeD32/s6/ducati-850-2027.jpg"
       },
       {
         "title": "Jorge Lorenzo ve a Marc Márquez como \"el Ayrton Senna de las motos\"",
@@ -2537,7 +2545,7 @@
         "published": "Thu, 12 Nov 2026 11:55:18 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/2eZxw4pY/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/2eZxw4pY/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Tras el Gran Premio de Qatar de MotoGP, es hora de sanar las heridas",
@@ -2545,7 +2553,7 @@
         "published": "Thu, 12 Nov 2026 10:29:08 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/25dLp3N0/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/25dLp3N0/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Dovizioso cree que Bezzecchi y Aprilia tiraron un Mundial que tenían a favor",
@@ -2561,7 +2569,7 @@
         "published": "Wed, 11 Nov 2026 16:40:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/68Vwv7l2/s6/luigi-dall-igna-ducati-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/68Vwv7l2/s6/luigi-dall-igna-ducati-team.jpg"
       },
       {
         "title": "Bezzecchi firma un récord histórico con 12 victorias en 12 circuitos distintos en MotoGP",
@@ -2569,7 +2577,7 @@
         "published": "Wed, 11 Nov 2026 13:52:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/68VwMa92/s6/marco-bezzecchi-aprilia-racing.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/68VwMa92/s6/marco-bezzecchi-aprilia-racing.jpg"
       },
       {
         "title": "¿Marco Bezzecchi finalmente recuperó su rendimiento de inicio de temporada en MotoGP?",
@@ -2577,15 +2585,7 @@
         "published": "Wed, 11 Nov 2026 10:23:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0arE3Vw2/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "Bagnaia operado con éxito en Turín por la doble fractura del pie derecho",
-        "url": "https://espanol.motorsport.com/motogp/news/bagnaia-operado-exito-turin-doble-fractura-pie-derecho/10873702/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 10 Nov 2026 18:13:51 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0arE3Vw2/s6/marco-bezzecchi-aprilia-racing.jpg"
       }
     ]
   },
