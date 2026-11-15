@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T19:46:23.112866Z",
+  "updatedAt": "2026-11-15T23:35:18.448208Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2344,12 +2344,20 @@
   "news": {
     "f1": [
       {
+        "title": "Red Bull retiene a Lawson, pero debe dejar de verlo como un fracasado tras su duro 2025",
+        "url": "https://espanol.motorsport.com/f1/news/liam-lawson-nunca-fracaso-red-bull-racing-f1/10874723/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 15 Nov 2026 20:08:36 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-8.motorsport.com/images/amp/YpbAe4N0/s6/liam-lawson-racing-bulls.jpg"
+      },
+      {
         "title": "Coulthard admite que McLaren favorecía a Häkkinen y entiende el vínculo especial con Ron Dennis",
         "url": "https://espanol.motorsport.com/f1/news/david-coulthard-mclaren-favorecia-hakkinen/10874711/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 15 Nov 2026 17:59:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2wBMpMb0/s6/david-coulthard-habla-de-adria.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2wBMpMb0/s6/david-coulthard-habla-de-adria.jpg"
       },
       {
         "title": "Piastri admite que el MCL40 exige ir al 110% para desbloquear su potencial",
@@ -2357,7 +2365,7 @@
         "published": "Sun, 15 Nov 2026 15:01:31 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0Zq8Vzd6/s6/lewis-hamilton-ferrari-oscar-p.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8Vzd6/s6/lewis-hamilton-ferrari-oscar-p.jpg"
       },
       {
         "title": "Topps celebra la carrera 400 de Hamilton en la F1 con una tarjeta NOW limitada",
@@ -2365,7 +2373,7 @@
         "published": "Sun, 15 Nov 2026 13:42:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YvKB3GG6/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YvKB3GG6/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "El reglamento 2026 devuelve a Hamilton confianza y velocidad en Ferrari",
@@ -2373,7 +2381,7 @@
         "published": "Sun, 15 Nov 2026 13:31:45 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0mXywVq6/s6/lewis-hamilton-ferrari.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0mXywVq6/s6/lewis-hamilton-ferrari.jpg"
       },
       {
         "title": "Istanbul quiere asegurar su lugar en el calendario de F1 más allá de 2031 y así mejora el circuito",
@@ -2381,7 +2389,7 @@
         "published": "Sun, 15 Nov 2026 13:21:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/YBVjRLWY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YBVjRLWY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
         "title": "Antonelli podría ayudar a Russell a recuperar el subcampeonato en el cierre de F1",
@@ -2389,7 +2397,7 @@
         "published": "Sun, 15 Nov 2026 13:10:17 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/24QGbXdY/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGbXdY/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Cómo aprovechar cada oportunidad y hacer que las cosas sucedan mantiene viva la pasión de Gasly en la F1",
@@ -2397,7 +2405,7 @@
         "published": "Sun, 15 Nov 2026 10:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YMXbEeL2/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YMXbEeL2/s6/pierre-gasly-alpine.jpg"
       },
       {
         "title": "Los horarios para el GP de Las Vegas de F1 2026 y cómo verlo en vivo",
@@ -2413,7 +2421,7 @@
         "published": "Sat, 14 Nov 2026 17:34:26 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0R7BEVZ2/s6/lewis-hamilton-mercdes-nico-ro.jpg"
       },
       {
         "title": "Mercedes no temió no ganar el título en Brasil por la \"carrera desastrosa\" de Ferrari",
@@ -2421,7 +2429,7 @@
         "published": "Sat, 14 Nov 2026 17:24:44 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0o5AVVDY/s6/george-russell-mercedes-andrea.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0o5AVVDY/s6/george-russell-mercedes-andrea.jpg"
       },
       {
         "title": "Romain Grosjean pone fin a una etapa de 23 años: \"Ya no quiero esto\"",
@@ -2429,7 +2437,7 @@
         "published": "Sat, 14 Nov 2026 16:14:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YK13lgb0/s6/romain-grosjean-dale-coyne-rac.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/YK13lgb0/s6/romain-grosjean-dale-coyne-rac.jpg"
       },
       {
         "title": "Qué elegiría un ingeniero con cuatro décadas de experiencia en F1 como reglamento ideal de motores",
@@ -2437,7 +2445,7 @@
         "published": "Sat, 14 Nov 2026 16:02:34 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6zQGagkY/s6/start-action.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6zQGagkY/s6/start-action.jpg"
       },
       {
         "title": "Los 10 mejores pilotos de F1 de la década de 1960",
@@ -2445,7 +2453,7 @@
         "published": "Sat, 14 Nov 2026 15:50:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/2y3Nea96/s6/graham-hill-lotus-49-ford-lead.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/2y3Nea96/s6/graham-hill-lotus-49-ford-lead.jpg"
       },
       {
         "title": "Pirelli reveló los compuestos para los últimos grandes premios de la F1 2026",
@@ -2453,15 +2461,7 @@
         "published": "Sat, 14 Nov 2026 15:27:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/25d3qQE0/s6/pirelli.jpg"
-      },
-      {
-        "title": "La apelación de Audi contra la decisión sobre Tsunoda en Monza ya tiene fecha",
-        "url": "https://espanol.motorsport.com/f1/news/la-apelacion-de-audi-contra-la-decision-sobre-tsunoda-en-monza-ya-tiene-fecha/10874530/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 14 Nov 2026 15:22:38 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/6O7z4z56/s6/yuki-tsunoda-racing-bulls.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/25d3qQE0/s6/pirelli.jpg"
       }
     ],
     "moto": [
