@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T21:45:27.772819Z",
+  "updatedAt": "2026-11-18T03:10:16.355975Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -715,8 +715,7 @@
             "name": "Race",
             "date": "2026-11-22T04:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1920px-2023_Las_Vegas_street_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-22-losail",
@@ -2007,8 +2006,7 @@
             "name": "Race",
             "date": "2026-11-22T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Circuit_Ricardo_Tormo_Formula_E_2021.png/1920px-Circuit_Ricardo_Tormo_Formula_E_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       }
     ],
     "drivers": [
@@ -2346,6 +2344,14 @@
   "news": {
     "f1": [
       {
+        "title": "Honda advierte que las largas rectas de Las Vegas exigirán mucho a la unidad de potencia",
+        "url": "https://espanol.motorsport.com/f1/news/honda-advierte-las-vegas-exigiran-mucho-unidad-potencia/10875082/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 17 Nov 2026 23:38:20 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-9.motorsport.com/images/amp/68VwMoB2/s6/fernando-alonso-aston-martin-r.jpg"
+      },
+      {
         "title": "Las bajas temperaturas marcarán el reto de los neumáticos en Las Vegas en la F1 2026",
         "url": "https://espanol.motorsport.com/f1/news/bajas-temperaturas-reto-neumaticos-las-vegas-f1-2026/10875074/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 17 Nov 2026 18:54:55 +0000",
@@ -2367,7 +2373,7 @@
         "published": "Tue, 17 Nov 2026 17:21:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0arEG5y2/s6/alpine-las-vegas-1.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0arEG5y2/s6/alpine-las-vegas-1.jpg"
       },
       {
         "title": "Beganovic sustituirá a Hamilton en la FP1 de Ferrari en Las Vegas",
@@ -2375,7 +2381,7 @@
         "published": "Tue, 17 Nov 2026 16:16:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YXypAeP6/s6/dino-beganovic-ferrari-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YXypAeP6/s6/dino-beganovic-ferrari-2.jpg"
       },
       {
         "title": "Cadillac presenta una decoración especial para el GP de Las Vegas de la F1 2026",
@@ -2383,7 +2389,7 @@
         "published": "Tue, 17 Nov 2026 15:54:28 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6VyK5ZGY/s6/hxvlpz1aaaaxcub.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6VyK5ZGY/s6/hxvlpz1aaaaxcub.jpg"
       },
       {
         "title": "Steiner duda de Hamilton y nombra al piloto que podría resolver la crisis de Ferrari",
@@ -2391,7 +2397,7 @@
         "published": "Tue, 17 Nov 2026 14:55:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0Zq8lQ56/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
         "title": "Ecclestone critica a Vasseur y cree que Ferrari necesita un líder más fuerte",
@@ -2399,7 +2405,7 @@
         "published": "Tue, 17 Nov 2026 13:39:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0JXRjgyY/s6/frederic-vasseur-ferrari.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0JXRjgyY/s6/frederic-vasseur-ferrari.jpg"
       },
       {
         "title": "El Kimi íntimo: talento, humildad y hambre de pista",
@@ -2407,7 +2413,7 @@
         "published": "Tue, 17 Nov 2026 13:35:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0kZX3aq6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/0kZX3aq6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
       },
       {
         "title": "Toto Wolff no teme perder a Kimi Antonelli frente a Ferrari",
@@ -2415,7 +2421,7 @@
         "published": "Tue, 17 Nov 2026 13:15:06 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/Y9lNjD72/s6/lewis-hamilton-ferrari-andrea-.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/Y9lNjD72/s6/lewis-hamilton-ferrari-andrea-.jpg"
       },
       {
         "title": "¿Qué tiene que perder Cadillac si apuesta por Colton Herta para la F1 2027?",
@@ -2439,7 +2445,7 @@
         "published": "Tue, 17 Nov 2026 09:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7Qrqp6/s6/enrico-zanarini.jpg"
+        "image": "https://cdn-7.motorsport.com/images/amp/2y7Qrqp6/s6/enrico-zanarini.jpg"
       },
       {
         "title": "El plan de Pirelli con los neumáticos para mejorar las carreras de F1 en 2027",
@@ -2455,15 +2461,7 @@
         "published": "Mon, 16 Nov 2026 21:00:04 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0ZqA1Ao6/s6/oliver-goethe-mp-motorsport.jpg"
-      },
-      {
-        "title": "Zak Brown revela el \"ambiente muy tóxico\" cuando llegó a McLaren en 2026",
-        "url": "https://espanol.motorsport.com/f1/news/zak-brown-recuerda-ambiente-muy-toxico-en-mclaren/10874945/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 16 Nov 2026 19:56:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zA3N6/s6/zak-brown-mclaren.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0ZqA1Ao6/s6/oliver-goethe-mp-motorsport.jpg"
       }
     ],
     "moto": [
@@ -2473,7 +2471,7 @@
         "published": "Tue, 17 Nov 2026 12:08:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
       },
       {
         "title": "Pedro Acosta: \"Es pronto para pensar en ganar el título de MotoGP en 2027\"",
@@ -2481,7 +2479,7 @@
         "published": "Tue, 17 Nov 2026 01:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVPO8G0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/0rVPO8G0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
       },
       {
         "title": "Pecco Bagnaia se perderá el GP de Portugal y Ducati confirma su reemplazo",
@@ -2489,7 +2487,7 @@
         "published": "Mon, 16 Nov 2026 11:32:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-6.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "La foto de la Aprilia 2027 que revela una aerodinámica innovadora en MotoGP",
@@ -2497,7 +2495,7 @@
         "published": "Mon, 16 Nov 2026 11:16:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
       },
       {
         "title": "La plaga de lesiones en MotoGP enciende las alarmas sobre calendario, sprints y tripletes",
@@ -2505,7 +2503,7 @@
         "published": "Sun, 15 Nov 2026 17:16:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/2GdK13QY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-4.motorsport.com/images/amp/2GdK13QY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pramac cree que Yamaha no ganará de inmediato con las 850cc, pero podrá cerrar la brecha en 2027",
@@ -2513,7 +2511,7 @@
         "published": "Sun, 15 Nov 2026 15:10:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/0kZXBoK6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/0kZXBoK6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Cómo la bandera roja de Qatar ayudó a Johann Zarco a dejar atrás su accidente de Barcelona",
@@ -2521,7 +2519,7 @@
         "published": "Sat, 14 Nov 2026 23:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
+        "image": "https://cdn-5.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
       },
       {
         "title": "Marc Márquez, ante su próxima oportunidad de ser campeón: \"Mentalmente me siento mejor que nunca\"",
@@ -2529,7 +2527,7 @@
         "published": "Sat, 14 Nov 2026 16:08:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-2.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Las cifras que revelan cómo las carreras sprint han puesto patas arriba la pelea por el título de MotoGP",
@@ -2537,7 +2535,7 @@
         "published": "Sat, 14 Nov 2026 15:17:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
       },
       {
         "title": "Por qué la aerodinámica será \"aún más importante\" bajo el reglamento de MotoGP 2027",
@@ -2545,7 +2543,7 @@
         "published": "Fri, 13 Nov 2026 17:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
+        "image": "https://cdn-3.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
       },
       {
         "title": "MotoGP seguirá en ESPN y Disney+ en Latinoamérica hasta 2028 y suma a Estados Unidos",
@@ -2553,7 +2551,7 @@
         "published": "Fri, 13 Nov 2026 15:25:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Iker Lecuona sintió diferencias significativas entre la GP25 y la GP26 de Ducati",
@@ -2561,7 +2559,7 @@
         "published": "Fri, 13 Nov 2026 12:52:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
+        "image": "https://cdn-9.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
       },
       {
         "title": "Así avanzan las obras en el Autódromo de Buenos Aires para el regreso de MotoGP",
@@ -2569,7 +2567,7 @@
         "published": "Thu, 12 Nov 2026 19:55:09 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/6x7Lzn7Y/s6/obras-buenos-aires-1.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7Lzn7Y/s6/obras-buenos-aires-1.jpg"
       },
       {
         "title": "Jack Miller explica qué quiere lograr en WorldSBK tras su salida de MotoGP",
@@ -2577,7 +2575,7 @@
         "published": "Thu, 12 Nov 2026 16:51:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/YvKB1Pn6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Madonna di Campiglio acogerá la presentación de la Ducati 850 para la nueva era de MotoGP",
@@ -2585,7 +2583,7 @@
         "published": "Thu, 12 Nov 2026 15:41:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8jeD32/s6/ducati-850-2027.jpg"
+        "image": "https://cdn-8.motorsport.com/images/amp/6b8jeD32/s6/ducati-850-2027.jpg"
       }
     ]
   },
