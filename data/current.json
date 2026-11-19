@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T10:09:58.089923Z",
+  "updatedAt": "2026-11-19T19:00:28.475814Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -1927,43 +1927,44 @@
         "name": "GRAND PRIX OF PORTUGAL",
         "circuit": "Autódromo Internacional do Algarve",
         "country": "Portugal",
-        "race": "2026-11-15T13:00:00Z",
+        "race": "2026-11-22T13:00:00Z",
         "officialUrl": "",
         "eventUuid": "4b3882a8-24b2-4321-aa12-d1847c989438",
         "sessions": [
           {
             "name": "FP",
-            "date": "2026-11-13T10:45:00Z"
+            "date": "2026-11-20T10:45:00Z"
           },
           {
             "name": "PR",
-            "date": "2026-11-13T15:00:00Z"
+            "date": "2026-11-20T15:00:00Z"
           },
           {
             "name": "FP",
-            "date": "2026-11-14T10:10:00Z"
+            "date": "2026-11-21T10:10:00Z"
           },
           {
             "name": "Q",
-            "date": "2026-11-14T10:50:00Z"
+            "date": "2026-11-21T10:50:00Z"
           },
           {
             "name": "Q",
-            "date": "2026-11-14T11:15:00Z"
+            "date": "2026-11-21T11:15:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-11-14T15:00:00Z"
+            "date": "2026-11-21T15:00:00Z"
           },
           {
             "name": "Warm Up",
-            "date": "2026-11-15T09:40:00Z"
+            "date": "2026-11-22T09:00:00Z"
           },
           {
             "name": "Race",
-            "date": "2026-11-15T13:00:00Z"
+            "date": "2026-11-22T13:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Algarve_International_Circuit_%28Unsplash%29.jpg/1920px-Algarve_International_Circuit_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-723031d1-27bd-4467-b59c-4cb8f7e081ab",
@@ -2007,8 +2008,7 @@
             "name": "Race",
             "date": "2026-11-22T14:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Circuit_Ricardo_Tormo_Formula_E_2021.png/1920px-Circuit_Ricardo_Tormo_Formula_E_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       }
     ],
     "drivers": [
@@ -2346,6 +2346,54 @@
   "news": {
     "f1": [
       {
+        "title": "A qué hora y cómo ver las prácticas del GP de Las Vegas de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/hora-practica-las-vegas-jueves-fp1-fp2/10875703/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 18:45:27 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YpbAkLJ0/s6/senalizacion-de-las-vegas.jpg"
+      },
+      {
+        "title": "Por qué el calentamiento de los neumáticos será la clave este año en el GP de Las Vegas de F1",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-el-calentamiento-de-los-neumaticos-sera-decisivo-en-las-vegas-2026/10875633/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 13:43:04 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QevX5Y/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "Lewis Hamilton: \"No puedes ser el único que impulsa el cambio\" en F1",
+        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-no-puedes-ser-el-unico-que-impulsa-el-cambio-en-f1/10875624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 13:24:58 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
+        "title": "Gasly revela cómo el límite presupuestario frenó a Alpine en 2026 y es optimista para 2027",
+        "url": "https://espanol.motorsport.com/f1/news/gasly-revela-limite-presupuestario-freno-a-alpine-en-2026-es-optimista-para-2027/10875629/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 13:02:22 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YXyKBLo6/s6/pierre-gasly-alpine-franco-col.jpg"
+      },
+      {
+        "title": "El gran dilema para Rafael Camara: ir por el título de F2 o hacer más carreras en F1 con Haas",
+        "url": "https://espanol.motorsport.com/f1/news/rafael-camara-ir-por-el-titulo-de-f2-o-hacer-mas-carreras-en-f1-con-haas/10875621/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 12:17:13 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVj1BzY/s6/rafael-camara-haas-f1-team.jpg"
+      },
+      {
+        "title": "Lewis Hamilton responde a los supuestos problemas de \"confianza\" en Ferrari",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-responde-problemas-de-confianza-en-ferrari/10875617/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 12:11:26 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/68VwM4l2/s6/lewis-hamilton-ferrari.jpg"
+      },
+      {
         "title": "Leclerc sostiene que se exageró el incidente con Hamilton en México",
         "url": "https://espanol.motorsport.com/f1/news/leclerc-sostiene-que-se-exagero-incidente-con-hamilton-en-mexico/10875579/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 19 Nov 2026 09:39:33 +0000",
@@ -2416,57 +2464,25 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2jEAyxk0/s6/sergio-perez-cadillac-racing-a.jpg"
-      },
-      {
-        "title": "Verstappen: \"Si me dejaran escribir las reglas, la F1 no estaría permitida en ciertos lugares\"",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-me-dejaran-escribir-reglas-f1-no-estaria-permitida/10875459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 06:00:27 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNGqZ2/s6/max-verstappen-red-bull-racing-2.jpg"
-      },
-      {
-        "title": "Checo Pérez no quiere un Cadillac feliz solo por participar y exige mejoras para 2027",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-no-quiere-cadillac-feliz-solo-por-participar-exige-mejoras-2027/10875455/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 05:58:13 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6Alv9nGY/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Fernando Alonso lamenta 16 años perdidos de carreras puras en F1 ante regreso de los V8",
-        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-lamenta-16-anos-perdidos-ante-regreso-v8/10875452/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 05:53:52 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2jEANmN0/s6/fernando-alonso-aston-martin-r.jpg"
-      },
-      {
-        "title": "Bearman revela su frustración por seguir sin contrato con Haas para 2027",
-        "url": "https://espanol.motorsport.com/f1/news/bearman-frustrado-seguir-sin-contrato-haas-2027/10875457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 05:51:35 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6grQwlGY/s6/oliver-bearman-haas-f1-team.jpg"
-      },
-      {
-        "title": "F1 y Lego presentan su colección 2027 incluyendo a Checo Pérez y Franco Colapinto",
-        "url": "https://espanol.motorsport.com/f1/news/f1-lego-presentan-coleccion-2027-incluyendo-checo-perez-franco-colapinto/10875396/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 01:36:21 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q83n6/s6/coplapinto-lego.jpg"
-      },
-      {
-        "title": "Crawford pilotará el AMR26 de Alonso en la FP1 de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/f1-aston-martin-las-vegas-fp1-crawford-amr26-alonso/10875393/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 01:06:39 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0qgKRP4Y/s6/jak-crawford-aston-martin-raci.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Viñales evalúa convertirse en piloto independiente para continuar en MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/vinales-evalua-convertirse-en-piloto-independiente-en-motogp/10875693/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 18:17:27 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8Kn6/s6/maverick-vinales-tech3-ktm-en-.jpg"
+      },
+      {
+        "title": "Marc Márquez no desmiente los rumores de retiro de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-no-desmiente-rumores-de-retiro-de-motogp/10875691/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 18:12:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzgZ2/s6/marc-marquez-ducati-team.jpg"
+      },
       {
         "title": "Lecuona bromea con negociar con su mujer para no quedarse fuera de casa y poder correr",
         "url": "https://espanol.motorsport.com/motogp/news/lecuona-bromea-negociar-mujer-poder-correr/10875278/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2570,22 +2586,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
-      },
-      {
-        "title": "MotoGP seguirá en ESPN y Disney+ en Latinoamérica hasta 2028 y suma a Estados Unidos",
-        "url": "https://espanol.motorsport.com/motogp/news/motogp-seguira-en-espn-y-disney-en-latinoamerica-hasta-2028/10874349/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 13 Nov 2026 15:25:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Iker Lecuona sintió diferencias significativas entre la GP25 y la GP26 de Ducati",
-        "url": "https://espanol.motorsport.com/motogp/news/iker-lecuona-diferencias-significativas-entre-la-gp25-y-la-gp26-de-ducati/10874312/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 13 Nov 2026 12:52:07 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
       }
     ]
   },
