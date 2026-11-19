@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:57:51.726330Z",
+  "updatedAt": "2026-11-19T10:09:58.089923Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2346,6 +2346,110 @@
   "news": {
     "f1": [
       {
+        "title": "Leclerc sostiene que se exageró el incidente con Hamilton en México",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-sostiene-que-se-exagero-incidente-con-hamilton-en-mexico/10875579/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 09:39:33 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0mXyjja6/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Honda revela un cambio clave en su unidad de potencia de F1 para 2027",
+        "url": "https://espanol.motorsport.com/f1/news/honda-revela-cambio-clave-unidad-de-potencia-de-f1-2027/10875576/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 09:30:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7Bbbo2/s6/fernando-alonso-aston-martin-r-2.jpg"
+      },
+      {
+        "title": "Charles Leclerc revela el dispositivo que ha estado \"ocultando\" en su Ferrari",
+        "url": "https://espanol.motorsport.com/f1/news/charles-leclerc-revela-dispositivo-estado-ocultando-ferrari/10875483/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 07:25:53 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0mXyjja6/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Verstappen rechaza compartir sus datos sobre su frecuencia cardiaca en F1",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-rechaza-compartir-datos-frecuencia-cardiaca-f1/10875513/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 07:22:22 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6Alv98EY/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Hadjar explica por qué no puede seguir a Verstappen y hacer otras carreras fuera de F1",
+        "url": "https://espanol.motorsport.com/f1/news/hadjar-por-que-no-puede-hacer-otras-carreras-verstappen/10875505/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 07:16:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8VeV6/s6/isack-hadjar-red-bull-racing.jpg"
+      },
+      {
+        "title": "Leclerc califica de \"un poco dura\" la sanción de Brasil por el contacto con Liam Lawson",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-califica-dura-sancion-brasil-contacto-liam-lawson/10875486/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 06:57:22 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXRpKAY/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
+        "title": "Lawson asegura que casi no dudó de su continuidad en la F1 para 2027 tras renovar con Racing Bulls",
+        "url": "https://espanol.motorsport.com/f1/news/lawson-pocas-dudas-seguiria-f1-2027-rumores-tsolov/10875450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 06:27:49 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lN4LL2/s6/liam-lawson-racing-bulls.jpg"
+      },
+      {
+        "title": "Kimi Antonelli: \"El efecto yo-yo volverá en el GP de Las Vegas de F1\"",
+        "url": "https://espanol.motorsport.com/f1/news/kimi-antonelli-carreras-efecto-yo-yo-volveran-las-vegas-2026/10875469/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 06:18:32 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/68VWyaD2/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Sergio Pérez descarta seguir en F1 hasta los motores V8 de 2030: \"No llegaré\"",
+        "url": "https://espanol.motorsport.com/f1/news/sergio-perez-descarta-seguir-f1-hasta-motores-v8-2030/10875464/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 06:08:16 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAyxk0/s6/sergio-perez-cadillac-racing-a.jpg"
+      },
+      {
+        "title": "Verstappen: \"Si me dejaran escribir las reglas, la F1 no estaría permitida en ciertos lugares\"",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-me-dejaran-escribir-reglas-f1-no-estaria-permitida/10875459/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 06:00:27 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNGqZ2/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Checo Pérez no quiere un Cadillac feliz solo por participar y exige mejoras para 2027",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-no-quiere-cadillac-feliz-solo-por-participar-exige-mejoras-2027/10875455/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 05:58:13 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6Alv9nGY/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Fernando Alonso lamenta 16 años perdidos de carreras puras en F1 ante regreso de los V8",
+        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-lamenta-16-anos-perdidos-ante-regreso-v8/10875452/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 05:53:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEANmN0/s6/fernando-alonso-aston-martin-r.jpg"
+      },
+      {
+        "title": "Bearman revela su frustración por seguir sin contrato con Haas para 2027",
+        "url": "https://espanol.motorsport.com/f1/news/bearman-frustrado-seguir-sin-contrato-haas-2027/10875457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 19 Nov 2026 05:51:35 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6grQwlGY/s6/oliver-bearman-haas-f1-team.jpg"
+      },
+      {
         "title": "F1 y Lego presentan su colección 2027 incluyendo a Checo Pérez y Franco Colapinto",
         "url": "https://espanol.motorsport.com/f1/news/f1-lego-presentan-coleccion-2027-incluyendo-checo-perez-franco-colapinto/10875396/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Thu, 19 Nov 2026 01:36:21 +0000",
@@ -2359,111 +2463,7 @@
         "published": "Thu, 19 Nov 2026 01:06:39 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0qgKRP4Y/s6/jak-crawford-aston-martin-raci.jpg"
-      },
-      {
-        "title": "Checo Pérez celebra la renovación de Bottas en Cadillac: \"Podemos quitarnos esa distracción\"",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-celebra-renovacion-bottas-cadillac-2027/10875391/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 00:49:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/6O79XAw6/s6/sergio-perez-cadillac-racing-v.jpg"
-      },
-      {
-        "title": "Colapinto ya probó partes del Alpine 2027: “Creo que va a ser un buen auto”",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-probo-partes-alpine-2027-creo-que-va-a-ser-un-buen-auto/10875389/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 00:42:56 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwMy82/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "La F1 mostrará información de la salud de los pilotos durante las carreras",
-        "url": "https://espanol.motorsport.com/f1/news/f1-mostrara-datos-de-salud-de-pilotos-durante-las-carreras/10875381/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 23:32:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/2y7Q83g6/s6/ahmed-domenicali.jpg"
-      },
-      {
-        "title": "Qué dice la renovación del contrato de Valtteri Bottas sobre el futuro de Cadillac en la F1",
-        "url": "https://espanol.motorsport.com/f1/news/que-dice-renovacion-contrato-valtteri-bottas-futuro-cadillac-f1/10875366/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 20:22:35 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/0R7BrvZ2/s6/valtteri-bottas-cadillac-racin.jpg"
-      },
-      {
-        "title": "Valtteri Bottas conserva su asiento en Cadillac F1 para 2027 por delante de Colton Herta",
-        "url": "https://espanol.motorsport.com/f1/news/valtteri-bottas-conserva-su-asiento-en-cadillac-f1-para-2027-por-delante-de-colton-herta/10875169/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 20:02:04 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/25dLoeQ0/s6/valtteri-bottas-cadillac-racin.jpg"
-      },
-      {
-        "title": "Cinco cosas a tener en cuenta en el GP de Las Vegas de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/cinco-cosas-prestar-atencion-las-vegas-f1-2026/10875327/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 17:00:23 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/6DGq1eGY/s6/lando-norris-mclaren-george-ru.jpg"
-      },
-      {
-        "title": "\"Sendero de cabras\" y apuesta impagada: las historias más curiosas de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/historias-mas-curiosas-carrera-las-vegas-formula-1/10875289/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 16:18:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/D0JkOwQ2/s6/ziegenpfad-und-unbezahlte-wette-die-kuriosesten-las-vegas-geschichten-26111806.jpg"
-      },
-      {
-        "title": "Nico Rosberg: \"En la Fórmula 1 fui el fracasado el 90 por ciento del tiempo\"",
-        "url": "https://espanol.motorsport.com/f1/news/nico-rosberg-fui-fracasado-90-por-ciento-tiempo/10875307/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 15:38:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/lYBNQonY/s6/nico-rosberg-in-der-formel-1-war-ich-zu-90-prozent-der-versager-26111810.jpg"
-      },
-      {
-        "title": "Futuro imperfecto: ¿Qué hay detrás del anuncio fallido de las reglas de F1 para 2030?",
-        "url": "https://espanol.motorsport.com/f1/news/futuro-imperfecto-que-hay-detras-anuncio-fallido-reglas-f1-2030/10875292/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 14:39:31 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0o5AkOxY/s6/gettyimages-2209898755.jpg"
-      },
-      {
-        "title": "La actualización fue un fiasco: el jefe técnico de Mercedes admite problemas con el W17",
-        "url": "https://espanol.motorsport.com/f1/news/actualizacion-fiasco-jefe-tecnico-mercedes-admite-problemas-w17/10875286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 14:12:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/0kZXvWA6/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Stella defiende que McLaren no retrocedió en 2026, pese a una desventaja inicial de desarrollo",
-        "url": "https://espanol.motorsport.com/f1/news/stella-defiende-mclaren-no-retrocedio-en-2026-desventaja-inicial/10875274/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 13:44:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6grQjZnY/s6/andrea-stella-mclaren.jpg"
-      },
-      {
-        "title": "El casco especial de Ocon para Las Vegas queda sin uso tras perder su asiento en Haas",
-        "url": "https://espanol.motorsport.com/f1/news/casco-especial-ocon-las-vegas-queda-sin-uso/10875276/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 13:14:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-3.motorsport.com/images/amp/68VwR8V2/s6/esteban-ocon-haas-f1-team.jpg"
-      },
-      {
-        "title": "Lawson salvó su asiento con velocidad, confianza y una agresividad mejor controlada",
-        "url": "https://espanol.motorsport.com/f1/news/lawson-salvo-asiento-velocidad-confianza-agresividad-mejor-controlada/10875272/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 13:09:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/6O7zMmO6/s6/liam-lawson-racing-bulls.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKRP4Y/s6/jak-crawford-aston-martin-raci.jpg"
       }
     ],
     "moto": [
@@ -2473,7 +2473,7 @@
         "published": "Wed, 18 Nov 2026 13:22:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/2jEAww90/s6/iker-lecuona-gresini-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAww90/s6/iker-lecuona-gresini-racing.jpg"
       },
       {
         "title": "Honda vuelve a convocar a Jake Dixon mientras Joan Mir se baja del GP de Portugal",
@@ -2489,7 +2489,7 @@
         "published": "Wed, 18 Nov 2026 10:33:51 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-6.motorsport.com/images/amp/0R7wM9O2/s6/aleix-espargaro-honda-hrc.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7wM9O2/s6/aleix-espargaro-honda-hrc.jpg"
       },
       {
         "title": "David Alonso realizó un test privado con la Honda de MotoGP en Sepang",
@@ -2497,7 +2497,7 @@
         "published": "Tue, 17 Nov 2026 12:08:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
       },
       {
         "title": "Pedro Acosta: \"Es pronto para pensar en ganar el título de MotoGP en 2027\"",
@@ -2505,7 +2505,7 @@
         "published": "Tue, 17 Nov 2026 01:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0rVPO8G0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPO8G0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
       },
       {
         "title": "Pecco Bagnaia se perderá el GP de Portugal y Ducati confirma su reemplazo",
@@ -2513,7 +2513,7 @@
         "published": "Mon, 16 Nov 2026 11:32:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
       },
       {
         "title": "La foto de la Aprilia 2027 que revela una aerodinámica innovadora en MotoGP",
@@ -2521,7 +2521,7 @@
         "published": "Mon, 16 Nov 2026 11:16:54 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-5.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
       },
       {
         "title": "La plaga de lesiones en MotoGP enciende las alarmas sobre calendario, sprints y tripletes",
@@ -2529,7 +2529,7 @@
         "published": "Sun, 15 Nov 2026 17:16:40 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/2GdK13QY/s6/jorge-martin-aprilia-racing-te.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdK13QY/s6/jorge-martin-aprilia-racing-te.jpg"
       },
       {
         "title": "Pramac cree que Yamaha no ganará de inmediato con las 850cc, pero podrá cerrar la brecha en 2027",
@@ -2537,7 +2537,7 @@
         "published": "Sun, 15 Nov 2026 15:10:47 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/0kZXBoK6/s6/jack-miller-pramac-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZXBoK6/s6/jack-miller-pramac-racing.jpg"
       },
       {
         "title": "Cómo la bandera roja de Qatar ayudó a Johann Zarco a dejar atrás su accidente de Barcelona",
@@ -2545,7 +2545,7 @@
         "published": "Sat, 14 Nov 2026 23:05:03 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-4.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
       },
       {
         "title": "Marc Márquez, ante su próxima oportunidad de ser campeón: \"Mentalmente me siento mejor que nunca\"",
@@ -2553,7 +2553,7 @@
         "published": "Sat, 14 Nov 2026 16:08:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-9.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/68VwMRl2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Las cifras que revelan cómo las carreras sprint han puesto patas arriba la pelea por el título de MotoGP",
@@ -2561,7 +2561,7 @@
         "published": "Sat, 14 Nov 2026 15:17:46 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXRjBOY/s6/marc-marquez-ducati-team-jorge.jpg"
       },
       {
         "title": "Por qué la aerodinámica será \"aún más importante\" bajo el reglamento de MotoGP 2027",
@@ -2569,7 +2569,7 @@
         "published": "Fri, 13 Nov 2026 17:05:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-7.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7ZVxjY/s6/trackhouse-racing-rear-wing.jpg"
       },
       {
         "title": "MotoGP seguirá en ESPN y Disney+ en Latinoamérica hasta 2028 y suma a Estados Unidos",
@@ -2577,7 +2577,7 @@
         "published": "Fri, 13 Nov 2026 15:25:55 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-2.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzLP2/s6/marc-marquez-ducati-team.jpg"
       },
       {
         "title": "Iker Lecuona sintió diferencias significativas entre la GP25 y la GP26 de Ducati",
@@ -2585,7 +2585,7 @@
         "published": "Fri, 13 Nov 2026 12:52:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-8.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9EpVwY/s6/iker-lecuona-gresini-racing.jpg"
       }
     ]
   },
