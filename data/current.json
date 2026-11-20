@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:21:43.018813Z",
+  "updatedAt": "2026-11-20T23:17:40.701833Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2344,6 +2344,22 @@
   "news": {
     "f1": [
       {
+        "title": "Oficial: F1 regresará a los motores V8 a partir del 2030, así lo informa la FIA",
+        "url": "https://espanol.motorsport.com/f1/news/oficial-f1-regresara-motores-v8-informa-fia-2030/10875133/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 18:57:23 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPM870/s6/logo-fia.jpg"
+      },
+      {
+        "title": "Cadillac desvela los entresijos del caso Bottas: \"Herta está decepcionado, ha sido una decisión difícil\"",
+        "url": "https://espanol.motorsport.com/f1/news/cadillac-herta-esta-decepcionado-decision-dificil-bottas/10876113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 18:09:01 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8ZAVe2/s6/valtteri-bottas-cadillac-racin.jpg"
+      },
+      {
         "title": "Fernando Alonso vuelve al Dakar: por qué su primera experiencia en rally-raid fue un shock",
         "url": "https://espanol.motorsport.com/dakar/news/fernando-alonso-vuelve-al-dakar-por-que-su-primera-experiencia-en-rally-raid-fue-un-shock/10876042/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 20 Nov 2026 15:00:03 +0000",
@@ -2446,25 +2462,33 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/0rVPkN70/s6/lewis-hamilton-ferrari-a10875895-b708-2.jpg"
-      },
-      {
-        "title": "Red Bull acumula dudas en Las Vegas por energía, equilibrio y pocas vueltas de Verstappen",
-        "url": "https://espanol.motorsport.com/f1/news/red-bull-dudas-las-vegas-energia-equilibrio-pocas-vueltas-verstappen/10875901/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 07:06:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0arEG1p2/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Isack Hadjar: \"Me di cuenta de por qué Verstappen es cuatro veces campeón del mundo\"",
-        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-por-que-verstappen-cuatro-veces-campeon-mundo/10875894/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 06:41:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2wlKzrKY/s6/isack-hadjar-red-bull-racing-a10875884-b707-2.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Martín admite miedo en Portimao y no quiere forzar por el campeonato de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/martin-admite-miedo-portimao-no-quiere-forzar-campeonato/10876137/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 20:08:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAkOz0/s6/jorge-martin-aprilia-racing-te.jpg"
+      },
+      {
+        "title": "Márquez acusa la tensión del título: \"Soy humano, el cuerpo me pesaba\"",
+        "url": "https://espanol.motorsport.com/motogp/news/marquez-acusa-tension-titulo-soy-humano-cuerpo-pesaba/10876139/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 20:07:18 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPkeJ0/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Maverick Viñales se retira del Gran Premio de Portugal",
+        "url": "https://espanol.motorsport.com/motogp/news/maverick-vinales-se-retira-gran-premio-portugal/10876109/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 17:52:06 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2wlKMyWY/s6/maverick-vinales-red-bull-ktm-.jpg"
+      },
       {
         "title": "MotoGP Portugal: Alex Márquez, el más rápido el viernes, todos los aspirantes al título pasan a Q2",
         "url": "https://espanol.motorsport.com/motogp/news/motogp-portugal-alex-marquez-mas-rapido-viernes/10876092/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2560,30 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
-      },
-      {
-        "title": "Pedro Acosta: \"Es pronto para pensar en ganar el título de MotoGP en 2027\"",
-        "url": "https://espanol.motorsport.com/motogp/news/pedro-acosta-pronto-para-pensar-en-ganar-el-titulo-en-2027/10874943/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 17 Nov 2026 01:05:03 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPO8G0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
-      },
-      {
-        "title": "Pecco Bagnaia se perderá el GP de Portugal y Ducati confirma su reemplazo",
-        "url": "https://espanol.motorsport.com/motogp/news/bagnaia-se-perdera-el-gp-de-portugal-ducati-confirma-su-reemplazo/10874822/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Mon, 16 Nov 2026 11:32:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YWKARwVY/s6/francesco-bagnaia-ducati-team.jpg"
-      },
-      {
-        "title": "La foto de la Aprilia 2027 que revela una aerodinámica innovadora en MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/aprilia-2027-aerodinamica-innovadora-aleron-delantero/10874791/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Mon, 16 Nov 2026 11:16:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
       }
     ]
   },
