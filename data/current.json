@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T08:41:11.902561Z",
+  "updatedAt": "2026-11-20T17:21:43.018813Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -715,8 +715,7 @@
             "name": "Race",
             "date": "2026-11-22T04:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1920px-2023_Las_Vegas_street_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-22-losail",
@@ -1963,8 +1962,7 @@
             "name": "Race",
             "date": "2026-11-22T13:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Algarve_International_Circuit_%28Unsplash%29.jpg/1920px-Algarve_International_Circuit_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-723031d1-27bd-4467-b59c-4cb8f7e081ab",
@@ -2346,6 +2344,54 @@
   "news": {
     "f1": [
       {
+        "title": "Fernando Alonso vuelve al Dakar: por qué su primera experiencia en rally-raid fue un shock",
+        "url": "https://espanol.motorsport.com/dakar/news/fernando-alonso-vuelve-al-dakar-por-que-su-primera-experiencia-en-rally-raid-fue-un-shock/10876042/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 15:00:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin.jpg"
+      },
+      {
+        "title": "Alpine resta importancia al segundo lugar de Gasly, pero cree que Las Vegas le puede favorecer al A526",
+        "url": "https://espanol.motorsport.com/f1/news/alpine-resta-importancia-segundo-lugar-gasly-pero-cree-que-las-vegas-le-puede-favorecer/10876046/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 13:08:50 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLzD90/s6/pierre-gasly-alpine.jpg"
+      },
+      {
+        "title": "George Russell, impresionado por un McLaren \"excepcionalmente rápido\" en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/russell-impresionado-por-mclaren-excepcionalmente-rapido-en-las-vegas/10876027/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 12:39:12 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2dEolNeY/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "Qué toma Flavio Briatore de McLaren para Alpine tras el \"desastre\" de Fernando Alonso",
+        "url": "https://espanol.motorsport.com/f1/news/que-toma-flavio-briatore-de-mclaren-para-alpine-tras-el-desastre-de-alonso/10876029/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 12:30:31 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmAlV80/s6/flavio-briatore-alpine.jpg"
+      },
+      {
+        "title": "Red Bull \"intenta entender\" la causa de las quejas de Max Verstappen en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/red-bull-intenta-entender-quejas-de-max-verstappen-las-vegas/10876019/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 11:34:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7LrbjY/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Los pilotos de F1, sorprendidos por la 'pista de hielo' de Las Vegas: \"Daba miedo a 100 km/h\"",
+        "url": "https://espanol.motorsport.com/f1/news/pilotos-de-f1-sorprendidos-por-la-pista-de-hielo-de-las-vegas/10876021/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 11:29:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXb8El2/s6/arvid-lindblad-racing-bulls.jpg"
+      },
+      {
         "title": "Pirelli introduce un límite de stint para el GP de Qatar de F1, pero aumenta respecto a 2025",
         "url": "https://espanol.motorsport.com/f1/news/pirelli-introduce-limite-stint-qatar-2026/10875957/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 20 Nov 2026 08:25:00 +0000",
@@ -2416,57 +2462,33 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2wlKzrKY/s6/isack-hadjar-red-bull-racing-a10875884-b707-2.jpg"
-      },
-      {
-        "title": "Ralf Schumacher cree que Antonelli se emancipará tras su título mundial",
-        "url": "https://espanol.motorsport.com/f1/news/ralf-schumacher-antonelli-emancipara-titulo-mundial/10875868/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 06:02:29 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6x7LrdmY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Colapinto ve el GP de Las Vegas \"casi como un sprint\" tras un jueves con poco para aprender",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-las-vegas-practicas-jueves/10875870/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 05:51:50 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2jEAk8k0/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Los resultados completos de las prácticas del jueves del GP de Las Vegas de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/gp-las-vegas-resultados-completos-practicas-jueves/10875860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 05:40:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGgO8GY/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Briatore revela el ambicioso objetivo para Alpine en 2027 con Colapinto y Gasly",
-        "url": "https://espanol.motorsport.com/f1/news/briatore-revela-objetivo-alpine-2027-con-colapinto-y-gasly/10875856/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 05:32:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zEqO6/s6/franco-colapinto-alpine-flavio.jpg"
-      },
-      {
-        "title": "Cinco pilotos penalizados en parrilla para el GP de Las Vegas por cambios de motor",
-        "url": "https://espanol.motorsport.com/f1/news/cinco-pilotos-penalizados-parrilla-las-vegas-cambios-motor/10875848/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 05:11:10 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6lmAKN80/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Russell lidera la FP2 de Las Vegas seguido de Gasly, con Colapinto en el top 10 y Checo Pérez en 14°",
-        "url": "https://espanol.motorsport.com/f1/news/russell-lidera-las-vegas-fp2-colapinto-checo-perez-resultados/10875838/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 05:06:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2eZxkN1Y/s6/george-russell-mercedes.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "MotoGP Portugal: Alex Márquez, el más rápido el viernes, todos los aspirantes al título pasan a Q2",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-portugal-alex-marquez-mas-rapido-viernes/10876092/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 16:39:12 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/27No8bR0/s6/alex-marquez-gresini-racing.jpg"
+      },
+      {
+        "title": "Marc Márquez se sincera sobre sus nervios por la inminente coronación en MotoGP: \"Veo riesgos en todas partes\"",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-nervios-por-la-inminente-coronacion-en-motogp/10876039/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 12:41:51 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2eZxwBbY/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Bezzecchi, el más rápido por delante de Martín en la FP1 de MotoGP en Portugal",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-lidera-fp1-portimao-resultados/10876035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 12:36:49 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QG77zY/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
       {
         "title": "Di Giannantonio aclara que no quiso dar lecciones a Marc Márquez tras la polémica en Qatar",
         "url": "https://espanol.motorsport.com/motogp/news/di-giannantonio-aclara-comentario-marc-marquez-polemica-qatar/10875732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2562,30 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/0JXRpENY/s6/dettagli-aprilia-850cc.jpg"
-      },
-      {
-        "title": "La plaga de lesiones en MotoGP enciende las alarmas sobre calendario, sprints y tripletes",
-        "url": "https://espanol.motorsport.com/motogp/news/plaga-lesiones-motogp-enciende-alarmas-calendario-sprints-tripletes/10874678/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 15 Nov 2026 17:16:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdK13QY/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "Pramac cree que Yamaha no ganará de inmediato con las 850cc, pero podrá cerrar la brecha en 2027",
-        "url": "https://espanol.motorsport.com/motogp/news/pramac-yamaha-no-ganara-inmediato-850cc-cerrar-brecha-2027/10874694/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 15 Nov 2026 15:10:47 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0kZXBoK6/s6/jack-miller-pramac-racing.jpg"
-      },
-      {
-        "title": "Cómo la bandera roja de Qatar ayudó a Johann Zarco a dejar atrás su accidente de Barcelona",
-        "url": "https://espanol.motorsport.com/motogp/news/como-la-bandera-roja-de-qatar-ayudo-zarco-accidente-barcelona/10874570/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 14 Nov 2026 23:05:03 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0kZX9vD6/s6/johann-zarco-team-lcr-honda.jpg"
       }
     ]
   },
