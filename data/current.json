@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T23:17:40.701833Z",
+  "updatedAt": "2026-11-21T04:05:28.750933Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -715,7 +715,8 @@
             "name": "Race",
             "date": "2026-11-22T04:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1920px-2023_Las_Vegas_street_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-22-losail",
@@ -1962,7 +1963,8 @@
             "name": "Race",
             "date": "2026-11-22T13:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Algarve_International_Circuit_%28Unsplash%29.jpg/1920px-Algarve_International_Circuit_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "moto-2026-723031d1-27bd-4467-b59c-4cb8f7e081ab",
@@ -2344,6 +2346,22 @@
   "news": {
     "f1": [
       {
+        "title": "Russell aplasta en la FP3 del GP de Las Vegas, Colapinto se mete en el top 5 y Checo Pérez es 19°",
+        "url": "https://espanol.motorsport.com/f1/news/russell-lidera-las-vegas-fp3-resultados-colapinto-checo-perez/10876179/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 01:37:24 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2wlKzDpY/s6/george-russell-mercedes-2.jpg"
+      },
+      {
+        "title": "Lluvia y frío en Las Vegas: así es como Pirelli y la FIA intervinieron para ayudar a los pilotos",
+        "url": "https://espanol.motorsport.com/f1/news/lluvia-frio-las-vegas-pirelli-fia-intervinieron-ayudar-pilotos/10876111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 00:10:26 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLzQM0/s6/charles-leclerc-ferrari.jpg"
+      },
+      {
         "title": "Oficial: F1 regresará a los motores V8 a partir del 2030, así lo informa la FIA",
         "url": "https://espanol.motorsport.com/f1/news/oficial-f1-regresara-motores-v8-informa-fia-2030/10875133/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 20 Nov 2026 18:57:23 +0000",
@@ -2358,6 +2376,14 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6b8ZAVe2/s6/valtteri-bottas-cadillac-racin.jpg"
+      },
+      {
+        "title": "Cómo el reglamento 2026 de la F1 neutralizó la \"verdadera fortaleza\" de Oscar Piastri",
+        "url": "https://espanol.motorsport.com/f1/news/como-el-reglamento-2026-neutralizo-verdadera-fortaleza-piastri/10876044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 20 Nov 2026 17:05:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKkE4Y/s6/oscar-piastri-mclaren.jpg"
       },
       {
         "title": "Fernando Alonso vuelve al Dakar: por qué su primera experiencia en rally-raid fue un shock",
@@ -2438,33 +2464,25 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2eZxkN1Y/s6/george-russell-mercedes.jpg"
-      },
-      {
-        "title": "Brown admite que McLaren dejó escapar oportunidades clave en la lucha con Red Bull",
-        "url": "https://espanol.motorsport.com/f1/news/mclaren-brown-admite-dejado-escapar-demasiadas-oportunidades/10875929/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 07:35:10 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YP74ZAj2/s6/zak-brown-mclaren-ceo.jpg"
-      },
-      {
-        "title": "Lo que aprendimos de los entrenamientos del jueves en el GP de Las Vegas 2026",
-        "url": "https://espanol.motorsport.com/f1/news/lo-que-aprendimos-entrenamientos-jueves-las-vegas-2026/10875927/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 07:28:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPkjP0/s6/gabriel-bortoleto-audi-f1-team.jpg"
-      },
-      {
-        "title": "Hamilton acaba sexto en Las Vegas y se va al hotel a jugar GTA VI",
-        "url": "https://espanol.motorsport.com/f1/news/hamilton-acaba-sexto-las-vegas-hotel-jugar-gta-vi/10875919/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 07:19:49 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPkN70/s6/lewis-hamilton-ferrari-a10875895-b708-2.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "La estrella de Hollywood Christian Bale quiere llevar al cine a los “dioses” de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/christian-bale-quiere-llevar-al-cine-a-los-dioses-de-motogp/10876214/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 03:41:24 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qX4K986/s6/matt-damon-and-christian-bale.jpg"
+      },
+      {
+        "title": "Ducati despeja las dudas sobre el futuro de Marc Márquez para el MotoGP 2027",
+        "url": "https://espanol.motorsport.com/motogp/news/ducati-despeja-dudas-sobre-futuro-de-marc-marquez/10876211/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 03:36:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9EbrGY/s6/marc-marquez-ducati-team.jpg"
+      },
       {
         "title": "Martín admite miedo en Portimao y no quiere forzar por el campeonato de MotoGP",
         "url": "https://espanol.motorsport.com/motogp/news/martin-admite-miedo-portimao-no-quiere-forzar-campeonato/10876137/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2568,22 +2586,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/01QNpeQ0/s6/jake-dixon-honda-hrc.jpg"
-      },
-      {
-        "title": "Honda explica por qué las motos de 850cc de MotoGP no están lejos del ritmo de las de 1000cc",
-        "url": "https://espanol.motorsport.com/motogp/news/honda-explica-por-que-las-motos-de-850cc-de-motogp-no-estan-lejos-del-ritmo-de-las-de-1000cc/10875240/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Wed, 18 Nov 2026 10:33:51 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0R7wM9O2/s6/aleix-espargaro-honda-hrc.jpg"
-      },
-      {
-        "title": "David Alonso realizó un test privado con la Honda de MotoGP en Sepang",
-        "url": "https://espanol.motorsport.com/motogp/news/david-alonso-probo-honda-test-privado-sepang/10875058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 17 Nov 2026 12:08:58 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25d3Mdl0/s6/david-alonso-cfmoto-aspar-team.jpg"
       }
     ]
   },
