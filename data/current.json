@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T12:36:57.797115Z",
+  "updatedAt": "2026-11-21T19:47:41.449516Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2026,7 +2026,7 @@
         "name": "Piloto 2",
         "driver": "",
         "team": "Aprilia",
-        "points": 371.0,
+        "points": 376.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2035,7 +2035,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 357.0,
+        "points": 369.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2044,7 +2044,7 @@
         "name": "Piloto 4",
         "driver": "",
         "team": "KTM",
-        "points": 309.0,
+        "points": 315.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2053,7 +2053,7 @@
         "name": "Piloto 5",
         "driver": "",
         "team": "Aprilia",
-        "points": 294.0,
+        "points": 298.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2062,7 +2062,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 282.0,
+        "points": 285.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2071,7 +2071,7 @@
         "name": "Piloto 7",
         "driver": "",
         "team": "Aprilia",
-        "points": 258.0,
+        "points": 267.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2080,7 +2080,7 @@
         "name": "Piloto 8",
         "driver": "",
         "team": "Ducati",
-        "points": 197.0,
+        "points": 204.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2134,7 +2134,7 @@
         "name": "Piloto 14",
         "driver": "",
         "team": "Yamaha",
-        "points": 79.0,
+        "points": 81.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2197,7 +2197,7 @@
         "name": "Piloto 21",
         "driver": "",
         "team": "Ducati",
-        "points": 18.0,
+        "points": 19.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2314,19 +2314,19 @@
       {
         "name": "Ducati",
         "team": "Ducati",
-        "points": 1300.0,
+        "points": 1311.0,
         "position": 1
       },
       {
         "name": "Aprilia",
         "team": "Aprilia",
-        "points": 1280.0,
+        "points": 1310.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 596.0,
+        "points": 602.0,
         "position": 3
       },
       {
@@ -2338,7 +2338,7 @@
       {
         "name": "Yamaha",
         "team": "Yamaha",
-        "points": 163.0,
+        "points": 165.0,
         "position": 5
       }
     ]
@@ -2346,7 +2346,47 @@
   "news": {
     "f1": [
       {
-        "title": "Norris frustrado por la \"impactante\" falta de velocidad punta de McLaren en la clasificación de Las Vegas",
+        "title": "Bearman espera anunciar pronto su futuro en la F1 para 2027: “Nos estamos acercando”",
+        "url": "https://espanol.motorsport.com/f1/news/bearman-futuro-f1-para-2027-estamos-cerca-de-resolverlo/10876561/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 15:40:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9Eb4MY/s6/oliver-bearman-haas-f1-team.jpg"
+      },
+      {
+        "title": "Gasly lamenta el resultado final de Alpine tras una Q2 “perfecta” en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/gasly-lamenta-resultado-clasificacion-las-vegas/10876536/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 13:50:13 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QG714Y/s6/pierre-gasly-alpine.jpg"
+      },
+      {
+        "title": "Alonso, duro con Honda en Las Vegas: nos falta tanta potencia que los rivales toman un margen extra con nosotros",
+        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-duro-con-honda-en-las-vegas/10876525/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 13:00:03 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8pK6/s6/fernando-alonso-aston-martin-r.jpg"
+      },
+      {
+        "title": "Antonelli y Russell tendrán conversaciones en Mercedes tras su desacuerdo en la clasificación de Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-y-russell-conversaciones-tras-desacuerdo-clasificacion-las-vegas/10876521/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 12:53:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "Alpine admite que falló en la Q3 con Colapinto y Gasly en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/alpine-admite-no-conseguimos-aprovechar-q3-con-colapinto-y-gasly-en-las-vegas/10876514/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 12:44:29 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXR78EY/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Norris frustrado por la \"impactante\" velocidad punta de McLaren en la clasificación de Las Vegas",
         "url": "https://espanol.motorsport.com/f1/news/norris-frustrado-velocidad-punta-mclaren-clasificacion-las-vegas/10876368/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 21 Nov 2026 12:27:34 +0000",
         "source": "Motorsport.com",
@@ -2424,49 +2464,73 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6lmAKkm0/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Toto Wolff: Russell estaba en la \"posición perfecta\" para la pole en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/toto-wolff-russell-estaba-posicion-pole-las-vegas-2026/10876282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:07:16 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QG73NY/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Los resultados completos de la clasificación del Gran Premio de Las Vegas de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/las-vegas-clasificacion-resultados-completos/10876268/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:04:48 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OJb6/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Leclerc carga contra Ferrari tras quedar eliminado en la Q2 de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/leclerc-carga-contra-ferrari-quedar-eliminado-q2-las-vegas/10876273/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 05:59:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68VwBJD2/s6/charles-leclerc-ferrari-2.jpg"
-      },
-      {
-        "title": "Franco Colapinto expresa su bronca por una Q3 que fue \"un desastre\" en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/colapinto-desastre-q3-las-vegas/10876271/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 05:56:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QG7VdY/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Verstappen hereda la pole de Antonelli en Las Vegas; Colapinto 9° y Checo Pérez sorprende",
-        "url": "https://espanol.motorsport.com/f1/news/clasificacion-gp-las-vegas-2026-verstappen-pole-colapinto-q3-checo-perez/10876239/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 05:09:49 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGgOAVY/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Diogo Moreira admite que tuvo “suerte” tras su aterrador accidente en Portugal",
+        "url": "https://espanol.motorsport.com/motogp/news/diogo-moreira-admite-tuvo-suerte-aterrador-accidente-portugal/10876621/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 19:17:40 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/63QaMz82/s6/diogo-moreira-team-lcr-honda.jpg"
+      },
+      {
+        "title": "Cómo Marc Márquez puede asegurar el título de MotoGP en el Gran Premio de Portugal del domingo",
+        "url": "https://espanol.motorsport.com/motogp/news/combinaciones-marc-marquez-asegurar-titulo-motogp-portugal-2026/10876617/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 19:15:25 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/27No8d30/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Martín admite que sus opciones de título dependen de Márquez tras el sprint de Portugal",
+        "url": "https://espanol.motorsport.com/motogp/news/martin-admite-opciones-titulo-dependen-marquez-sprint-portugal/10876604/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 17:50:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNED82/s6/jorge-martin-aprilia-racing-te.jpg"
+      },
+      {
+        "title": "Márquez tras su caída: “Mañana tenemos una buena oportunidad; la prioridad es acabar”",
+        "url": "https://espanol.motorsport.com/motogp/news/marquez-caida-manana-tenemos-oportunidad-prioridad-acabar/10876577/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 16:39:42 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2QedDKX2/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Aprilia puede celebrar: es el equipo campeón del mundo 2026",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-aprilia-puede-celebrar-equipo-campeon-mundo-2026/10876573/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 16:05:10 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2wlKzN8Y/s6/aprilia-festeggia-la-vittoria-.jpg"
+      },
+      {
+        "title": "Bezzecchi rompe su maldición en sprint y mantiene vivo el milagro por el título",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-rompe-maldicion-sprint-mantiene-vivo-milagro-titulo/10876569/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 15:58:37 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/63QaMbE2/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
+      {
+        "title": "Marc Márquez se cae con el título a la vista y Marco Bezzecchi gana la sprint en Portimao",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-caida-sprint-portugal-bezzecchi-victoria/10876551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 15:05:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OB56/s6/marc-marquez-ducati-team-2.jpg"
+      },
+      {
+        "title": "La parrilla de salida completa para el GP de Portugal de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/parrilla-salida-portugal-sabado-domingo/10876502/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 12:26:31 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6VyK5WwY/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
       {
         "title": "MotoGP en Portugal: Marco Bezzecchi logra la pole seguido de Marc Márquez y Martín queda retrasado",
         "url": "https://espanol.motorsport.com/motogp/news/motogp-portugal-bezzecchi-pole-seguido-de-marc-marquez/10876496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2522,70 +2586,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2wlKMyWY/s6/maverick-vinales-red-bull-ktm-.jpg"
-      },
-      {
-        "title": "MotoGP Portugal: Alex Márquez, el más rápido el viernes, todos los aspirantes al título pasan a Q2",
-        "url": "https://espanol.motorsport.com/motogp/news/motogp-portugal-alex-marquez-mas-rapido-viernes/10876092/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 16:39:12 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27No8bR0/s6/alex-marquez-gresini-racing.jpg"
-      },
-      {
-        "title": "Marc Márquez se sincera sobre sus nervios por la inminente coronación en MotoGP: \"Veo riesgos en todas partes\"",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-nervios-por-la-inminente-coronacion-en-motogp/10876039/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 12:41:51 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2eZxwBbY/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Bezzecchi, el más rápido por delante de Martín en la FP1 de MotoGP en Portugal",
-        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-lidera-fp1-portimao-resultados/10876035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 12:36:49 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QG77zY/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "Di Giannantonio aclara que no quiso dar lecciones a Marc Márquez tras la polémica en Qatar",
-        "url": "https://espanol.motorsport.com/motogp/news/di-giannantonio-aclara-comentario-marc-marquez-polemica-qatar/10875732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 22:17:44 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zrpN6/s6/fabio-di-giannantonio-vr46-rac.jpg"
-      },
-      {
-        "title": "Jorge Martín revela su mentalidad antes de una posible definición del título de MotoGP en Portugal",
-        "url": "https://espanol.motorsport.com/motogp/news/jorge-martin-revela-mentalidad-para-definicion-del-titulo-en-portugal/10875705/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 19:06:44 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0R7BENE2/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "“Aprilia perdió el campeonato porque se enfrentó a Marc Márquez”, dice Alex",
-        "url": "https://espanol.motorsport.com/motogp/news/aprilia-perdio-el-campeonato-porque-se-enfrento-a-marc-marquez-dice-alex/10875695/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 19:03:11 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0R7BEwV2/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Viñales evalúa convertirse en piloto independiente para continuar en MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/vinales-evalua-convertirse-en-piloto-independiente-en-motogp/10875693/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 18:17:27 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8Kn6/s6/maverick-vinales-tech3-ktm-en-.jpg"
-      },
-      {
-        "title": "Marc Márquez no desmiente los rumores de retiro de MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-no-desmiente-rumores-de-retiro-de-motogp/10875691/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 19 Nov 2026 18:12:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNzgZ2/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
