@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:47:41.449516Z",
+  "updatedAt": "2026-11-21T23:58:34.949161Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2346,6 +2346,22 @@
   "news": {
     "f1": [
       {
+        "title": "Isack Hadjar: “Parecimos tontos” en Las Vegas porque no me gusta tomar rebufo",
+        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-parecimos-tontos-en-las-vegas-porque-no-me-gusta-tomar-rebufo/10876632/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 23:00:04 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0R7Byjr2/s6/isack-hadjar-red-bull-racing.jpg"
+      },
+      {
+        "title": "Cómo McLaren intentó mitigar su déficit de velocidad punta en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/como-mclaren-intento-mitigar-deficit-de-velocidad-punta-en-las-vegas/10876630/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 22:19:42 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0arEGwP2/s6/oscar-piastri-mclaren-lando-no.jpg"
+      },
+      {
         "title": "Bearman espera anunciar pronto su futuro en la F1 para 2027: “Nos estamos acercando”",
         "url": "https://espanol.motorsport.com/f1/news/bearman-futuro-f1-para-2027-estamos-cerca-de-resolverlo/10876561/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 21 Nov 2026 15:40:55 +0000",
@@ -2448,25 +2464,17 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/YN7vBdV6/s6/frederic-vasseur-ferrari.jpg"
-      },
-      {
-        "title": "Antonelli negó rebufo a Russell en Las Vegas y Villeneuve lo calificó de desagradable",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-nego-rebufo-russell-las-vegas-villeneuve-califico-desagradable/10876303/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:25:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNxvm0/s6/george-russell-mercedes-3.jpg"
-      },
-      {
-        "title": "Cara a cara de clasificación de F1 2026: GP de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/comparacion-clasificacion-f1-2026-las-vegas/10876294/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:16:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6lmAKkm0/s6/lando-norris-mclaren.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Jack Miller, furioso por el cambio de horario de la carrera sprint de MotoGP: “Ya no corremos bajo la lluvia”",
+        "url": "https://espanol.motorsport.com/motogp/news/jack-miller-furioso-por-cambio-de-horario-sprint-portimao/10876628/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 21 Nov 2026 22:03:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YvKBk4n6/s6/jack-miller-pramac-racing-2.jpg"
+      },
       {
         "title": "Diogo Moreira admite que tuvo “suerte” tras su aterrador accidente en Portugal",
         "url": "https://espanol.motorsport.com/motogp/news/diogo-moreira-admite-tuvo-suerte-aterrador-accidente-portugal/10876621/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2578,14 +2586,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/0rVPkeJ0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Maverick Viñales se retira del Gran Premio de Portugal",
-        "url": "https://espanol.motorsport.com/motogp/news/maverick-vinales-se-retira-gran-premio-portugal/10876109/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 17:52:06 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2wlKMyWY/s6/maverick-vinales-red-bull-ktm-.jpg"
       }
     ]
   },
