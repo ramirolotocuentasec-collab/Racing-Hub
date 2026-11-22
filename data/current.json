@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:53:58.902050Z",
+  "updatedAt": "2026-11-22T20:58:53.352490Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,8 +749,7 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2345,6 +2344,46 @@
   "news": {
     "f1": [
       {
+        "title": "La F1 planea reducir los equipos cliente a medida que emergen detalles clave de 2030",
+        "url": "https://espanol.motorsport.com/f1/news/f1-planea-reducir-los-equipos-cliente-para-2030/10877062/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 20:43:19 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/68Vw5vX2/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
+        "title": "El jefe de McLaren defiende el exabrupto de Piastri en el GP de Las Vegas: \"La verdad es que me gustó\"",
+        "url": "https://espanol.motorsport.com/f1/news/jefe-de-mclaren-defiende-el-exabrupto-de-piastri-en-el-gp-de-las-vegas/10877047/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 19:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7QgKm6/s6/oscar-piastri-mclaren-lando-no-3.jpg"
+      },
+      {
+        "title": "Haas confirma a Rafa Camara para Qatar y Abu Dhabi",
+        "url": "https://espanol.motorsport.com/f1/news/haas-confirma-a-rafa-camara-para-qatar-y-abu-dhabi/10877026/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 18:07:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmAKWm0/s6/rafael-camara-haas.jpg"
+      },
+      {
+        "title": "Verstappen sigue su enfrentamiento con Russell y califica su 2026 como un \"completo desastre\"",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-califica-2026-de-russell-como-completo-desastre/10876986/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 14:59:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YWKA3mxY/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Leclerc: Ferrari debe encontrar una solución a la rivalidad \"inaceptable\" tras el choque con Hamilton",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-ferrari-debe-encontrar-solucion-a-rivalidad-inaceptable-tras-choque-con-hamilton/10876982/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 14:51:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/63QaDqb2/s6/lewis-hamilton-ferrari-charles-2.jpg"
+      },
+      {
         "title": "El aspecto en el que Max Verstappen \"superó en astucia\" a Mercedes y dejó sin palabras a Red Bull",
         "url": "https://espanol.motorsport.com/f1/news/max-verstappen-supero-en-astucia-a-mercedes-y-dejo-sin-palabras-a-red-bull/10876979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sun, 22 Nov 2026 14:37:20 +0000",
@@ -2423,49 +2462,33 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/0arEDqM2/s6/oscar-piastri-mclaren-lando-no-3.jpg"
-      },
-      {
-        "title": "El error de Antonelli que arruinó su lucha por la victoria ante Verstappen en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/error-antonelli-arruino-lucha-victoria-verstappen-las-vegas/10876802/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 07:57:35 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyKxydY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Hamilton cree que podía lograr podio en Las Vegas antes de una carrera caótica",
-        "url": "https://espanol.motorsport.com/f1/news/hamilton-cree-podia-lograr-podio-las-vegas-carrera-caotica/10876771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 07:41:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6b8Zy7v2/s6/charles-leclerc-ferrari-lewis--3.jpg"
-      },
-      {
-        "title": "Verstappen carga contra Russell tras ganar en Las Vegas: “Está muy por debajo de mi nivel”",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-arremete-contra-russell-debajo-de-mi-nivel/10876789/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 07:31:59 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QGyWeY/s6/max-verstappen-red-bull-racing-3.jpg"
-      },
-      {
-        "title": "Sergio Pérez recibe sanción en parrilla para el GP de Qatar tras choque en Las Vegas con Camara",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-sancion-parrilla-gp-qatar-f1-2026-choque-camara/10876785/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 07:24:13 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8xo6/s6/sergio-perez-cadillac-racing.jpg"
-      },
-      {
-        "title": "Vasseur estalla tras el choque entre Leclerc y Hamilton en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/vasseur-estalla-tras-el-choque-entre-leclerc-y-hamilton-en-las-vegas/10876769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 07:16:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27NogKX0/s6/frederic-vasseur-ferrari-3.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Cómo se planearon los festejos de Márquez por su título para poner fin al debate sobre el mejor piloto de la historia",
+        "url": "https://espanol.motorsport.com/motogp/news/como-se-planearon-los-festejos-de-marquez-por-su-titulo-en-motogp/10877041/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 20:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5AMp1Y/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Quartararo dice que Marc Márquez es el mejor piloto de MotoGP de todos los tiempos tras su 10º título mundial",
+        "url": "https://espanol.motorsport.com/motogp/news/quartararo-dice-marc-marquez-es-el-mejor-piloto-de-motogp-de-todos-los-tiempos/10877037/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 18:24:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2d1kQb3Y/s6/marc-marquez-ducati-team-fabio.jpg"
+      },
+      {
+        "title": "Marc Márquez confiesa que \"la gente de mi alrededor creyó más en mí que yo mismo\"",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-gente-de-mi-alrededor-creyo-mas-en-mi-que-yo-mismo/10876997/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 17:04:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YXyKMV56/s6/marc-marquez-ducati-team-2.jpg"
+      },
       {
         "title": "Marc Márquez deja atrás a Valentino Rossi y solo tiene a Nieto y Agostini por delante",
         "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-deja-atras-a-valentino-rossi-y-solo-tiene-a-nieto-y-agostini-por-delante/10876976/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2561,30 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6VyK5WwY/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "MotoGP en Portugal: Marco Bezzecchi logra la pole seguido de Marc Márquez y Martín queda retrasado",
-        "url": "https://espanol.motorsport.com/motogp/news/motogp-portugal-bezzecchi-pole-seguido-de-marc-marquez/10876496/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 12:12:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YMXb8W12/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "VIDEO: La impresionante caída de Diogo Moreira que causa una bandera roja en Portimao",
-        "url": "https://espanol.motorsport.com/motogp/news/video-impresionante-caida-diogo-moreira-en-portimao/10876477/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 11:30:10 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyK5qnY/s6/accidente-de-moreira.jpg"
-      },
-      {
-        "title": "La estrella de Hollywood Christian Bale quiere llevar al cine a los “dioses” de MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/christian-bale-quiere-llevar-al-cine-a-los-dioses-de-motogp/10876214/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 03:41:24 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0qX4K986/s6/matt-damon-and-christian-bale.jpg"
       }
     ]
   },
