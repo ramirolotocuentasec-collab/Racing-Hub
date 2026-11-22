@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T06:32:52.376791Z",
+  "updatedAt": "2026-11-22T14:53:58.902050Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,7 +749,8 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -792,49 +793,49 @@
         "name": "Andrea Kimi Antonelli",
         "driver": "ANT",
         "team": "Mercedes",
-        "points": 390.0
+        "points": 402.0
       },
       {
         "position": 2,
         "name": "Max Verstappen",
         "driver": "VER",
         "team": "Red Bull",
-        "points": 279.0
+        "points": 304.0
       },
       {
         "position": 3,
-        "name": "George Russell",
-        "driver": "RUS",
-        "team": "Mercedes",
-        "points": 262.0
-      },
-      {
-        "position": 4,
         "name": "Lewis Hamilton",
         "driver": "HAM",
         "team": "Ferrari",
-        "points": 261.0
+        "points": 267.0
+      },
+      {
+        "position": 4,
+        "name": "George Russell",
+        "driver": "RUS",
+        "team": "Mercedes",
+        "points": 264.0
       },
       {
         "position": 5,
-        "name": "Charles Leclerc",
-        "driver": "LEC",
-        "team": "Ferrari",
-        "points": 249.0
-      },
-      {
-        "position": 6,
         "name": "Lando Norris",
         "driver": "NOR",
         "team": "McLaren",
-        "points": 246.0
+        "points": 264.0
+      },
+      {
+        "position": 6,
+        "name": "Charles Leclerc",
+        "driver": "LEC",
+        "team": "Ferrari",
+        "points": 250.0
       },
       {
         "position": 7,
         "name": "Oscar Piastri",
         "driver": "PIA",
         "team": "McLaren",
-        "points": 152.0
+        "points": 167.0
       },
       {
         "position": 8,
@@ -855,7 +856,7 @@
         "name": "Pierre Gasly",
         "driver": "GAS",
         "team": "Alpine F1 Team",
-        "points": 42.0
+        "points": 52.0
       },
       {
         "position": 11,
@@ -869,7 +870,7 @@
         "name": "Franco Colapinto",
         "driver": "COL",
         "team": "Alpine F1 Team",
-        "points": 27.0
+        "points": 35.0
       },
       {
         "position": 13,
@@ -894,23 +895,23 @@
       },
       {
         "position": 16,
+        "name": "Carlos Sainz",
+        "driver": "SAI",
+        "team": "Williams",
+        "points": 11.0
+      },
+      {
+        "position": 17,
         "name": "Esteban Ocon",
         "driver": "OCO",
         "team": "Haas F1 Team",
         "points": 7.0
       },
       {
-        "position": 17,
+        "position": 18,
         "name": "Fernando Alonso",
         "driver": "ALO",
         "team": "Aston Martin",
-        "points": 7.0
-      },
-      {
-        "position": 18,
-        "name": "Carlos Sainz",
-        "driver": "SAI",
-        "team": "Williams",
         "points": 7.0
       },
       {
@@ -968,25 +969,25 @@
         "position": 1,
         "name": "Mercedes",
         "team": "Mercedes",
-        "points": 652.0
+        "points": 666.0
       },
       {
         "position": 2,
         "name": "Ferrari",
         "team": "Ferrari",
-        "points": 510.0
+        "points": 517.0
       },
       {
         "position": 3,
         "name": "Red Bull",
         "team": "Red Bull",
-        "points": 415.0
+        "points": 440.0
       },
       {
         "position": 4,
         "name": "McLaren",
         "team": "McLaren",
-        "points": 398.0
+        "points": 431.0
       },
       {
         "position": 5,
@@ -998,7 +999,7 @@
         "position": 6,
         "name": "Alpine F1 Team",
         "team": "Alpine F1 Team",
-        "points": 69.0
+        "points": 87.0
       },
       {
         "position": 7,
@@ -1016,7 +1017,7 @@
         "position": 9,
         "name": "Williams",
         "team": "Williams",
-        "points": 12.0
+        "points": 16.0
       },
       {
         "position": 10,
@@ -1948,11 +1949,11 @@
           },
           {
             "name": "Q",
-            "date": "2026-11-21T11:15:00Z"
+            "date": "2026-11-21T11:20:00Z"
           },
           {
             "name": "Sprint",
-            "date": "2026-11-21T15:00:00Z"
+            "date": "2026-11-21T14:30:00Z"
           },
           {
             "name": "Warm Up",
@@ -2015,7 +2016,7 @@
         "name": "Piloto 1",
         "driver": "",
         "team": "Ducati",
-        "points": 431.0,
+        "points": 439.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2024,7 +2025,7 @@
         "name": "Piloto 2",
         "driver": "",
         "team": "Aprilia",
-        "points": 376.0,
+        "points": 396.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2033,7 +2034,7 @@
         "name": "Piloto 3",
         "driver": "",
         "team": "Aprilia",
-        "points": 369.0,
+        "points": 394.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2051,7 +2052,7 @@
         "name": "Piloto 5",
         "driver": "",
         "team": "Aprilia",
-        "points": 298.0,
+        "points": 309.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2060,7 +2061,7 @@
         "name": "Piloto 6",
         "driver": "",
         "team": "Ducati",
-        "points": 285.0,
+        "points": 298.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2069,7 +2070,7 @@
         "name": "Piloto 7",
         "driver": "",
         "team": "Aprilia",
-        "points": 267.0,
+        "points": 283.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2096,7 +2097,7 @@
         "name": "Piloto 10",
         "driver": "",
         "team": "KTM",
-        "points": 147.0,
+        "points": 152.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2105,7 +2106,7 @@
         "name": "Piloto 11",
         "driver": "",
         "team": "Ducati",
-        "points": 129.0,
+        "points": 139.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2114,7 +2115,7 @@
         "name": "Piloto 12",
         "driver": "",
         "team": "KTM",
-        "points": 118.0,
+        "points": 127.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2123,7 +2124,7 @@
         "name": "Piloto 13",
         "driver": "",
         "team": "Honda",
-        "points": 117.0,
+        "points": 124.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2132,7 +2133,7 @@
         "name": "Piloto 14",
         "driver": "",
         "team": "Yamaha",
-        "points": 81.0,
+        "points": 85.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2150,7 +2151,7 @@
         "name": "Piloto 16",
         "driver": "",
         "team": "Ducati",
-        "points": 70.0,
+        "points": 71.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2167,8 +2168,8 @@
         "position": 18,
         "name": "Piloto 18",
         "driver": "",
-        "team": "Honda",
-        "points": 33.0,
+        "team": "Yamaha",
+        "points": 34.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2176,8 +2177,8 @@
         "position": 19,
         "name": "Piloto 19",
         "driver": "",
-        "team": "Yamaha",
-        "points": 31.0,
+        "team": "Honda",
+        "points": 33.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2186,7 +2187,7 @@
         "name": "Piloto 20",
         "driver": "",
         "team": "Yamaha",
-        "points": 29.0,
+        "points": 31.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2195,7 +2196,7 @@
         "name": "Piloto 21",
         "driver": "",
         "team": "Ducati",
-        "points": 19.0,
+        "points": 25.0,
         "riderImage": "",
         "bikeImage": ""
       },
@@ -2310,33 +2311,33 @@
     ],
     "teams": [
       {
-        "name": "Ducati",
-        "team": "Ducati",
-        "points": 1311.0,
+        "name": "Aprilia",
+        "team": "Aprilia",
+        "points": 1382.0,
         "position": 1
       },
       {
-        "name": "Aprilia",
-        "team": "Aprilia",
-        "points": 1310.0,
+        "name": "Ducati",
+        "team": "Ducati",
+        "points": 1349.0,
         "position": 2
       },
       {
         "name": "KTM",
         "team": "KTM",
-        "points": 602.0,
+        "points": 616.0,
         "position": 3
       },
       {
         "name": "Honda",
         "team": "Honda",
-        "points": 299.0,
+        "points": 306.0,
         "position": 4
       },
       {
         "name": "Yamaha",
         "team": "Yamaha",
-        "points": 165.0,
+        "points": 174.0,
         "position": 5
       }
     ]
@@ -2344,127 +2345,143 @@
   "news": {
     "f1": [
       {
-        "title": "Los resultados completos del Gran Premio de Las Vegas de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/las-vegas-carrera-2026-resultados-completos/10876702/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 06:12:55 +0000",
+        "title": "El aspecto en el que Max Verstappen \"superó en astucia\" a Mercedes y dejó sin palabras a Red Bull",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-supero-en-astucia-a-mercedes-y-dejo-sin-palabras-a-red-bull/10876979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 14:37:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YBVj7rnY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9ErKKY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
-        "title": "Cinco conclusiones rápidas del GP de Las Vegas de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/gp-las-vegas-cinco-conclusiones-rapidas/10876692/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 05:49:01 +0000",
+        "title": "Vasseur, furioso con el último choque \"poco profesional\" en Ferrari: \"Es el mismo discurso que en México\"",
+        "url": "https://espanol.motorsport.com/f1/news/vasseur-furioso-choque-leclerc-hamilton-las-vegas/10876971/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 14:31:42 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vj146/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8Zy7v2/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
-        "title": "Así queda el campeonato de pilotos y constructores de la F1 2026 tras el GP de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/campeonato-pilotos-constructores-f1-2026-carrera-las-vegas/10876689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 05:46:31 +0000",
+        "title": "Gasly revela que la victoria era posible para Alpine en Las Vegas hasta que un problema lo frenó",
+        "url": "https://espanol.motorsport.com/f1/news/gasly-victoria-era-posible-para-alpine-en-las-vegas/10876961/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 13:44:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YvKBeKe6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YpbA7Nj0/s6/pierre-gasly-alpine-isack-hadj.jpg"
       },
       {
-        "title": "Verstappen gana una carrera increíble en Las Vegas con Colapinto en el top 6 y choque de Checo Pérez",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-gana-las-vegas-colapinto-sexto-checo-perez-abandono/10876684/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 05:37:43 +0000",
+        "title": "Briatore celebra la mejor cosecha del año de Alpine en Las Vegas y destaca a Gasly y a Colapinto",
+        "url": "https://espanol.motorsport.com/f1/news/briatore-celebra-carrera-colapinto-gasly-las-vegas/10876943/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 12:53:14 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8mro6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZXbyq6/s6/franco-colapinto-alpine-pierre.jpg"
       },
       {
-        "title": "General Motors respalda el regreso de los motores V8 y confirma su plan con Cadillac para 2030",
-        "url": "https://espanol.motorsport.com/f1/news/cadillac-retraso-motor-f1-2030-v8-general-motors/10876642/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 01:45:44 +0000",
+        "title": "Lewis Hamilton: La mentalidad de Charles Leclerc nos costó muchos puntos en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-actitud-de-leclerc-nos-costo-muchos-puntos-en-las-vegas/10876940/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 12:45:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6n7bD7X0/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/27NojvR0/s6/charles-leclerc-ferrari-lewis-.jpg"
       },
       {
-        "title": "Piastri cuestiona la \"extraña\" diferencia de ritmo frente a otros coches con motor Mercedes en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/piastri-cuestiona-diferencia-de-ritmo-frente-coches-con-motor-mercedes-en-las-vegas/10876634/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 01:05:02 +0000",
+        "title": "La venganza de Max Verstappen contra George Russell: “El karma es una perra”",
+        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-contra-george-russell-las-vegas-karma-es-una-perra/10876937/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 12:36:50 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNxkZ0/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6grQV1nY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
-        "title": "Isack Hadjar: “Parecimos tontos” en Las Vegas porque no me gusta tomar rebufo",
-        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-parecimos-tontos-en-las-vegas-porque-no-me-gusta-tomar-rebufo/10876632/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 23:00:04 +0000",
+        "title": "Isack Hadjar recibe una penalización tras el GP de Las Vegas por frenar a George Russell",
+        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-penalizacion-por-frenar-russell-en-las-vegas/10876925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 12:05:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0R7Byjr2/s6/isack-hadjar-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/27No8MO0/s6/isack-hadjar-red-bull-racing.jpg"
       },
       {
-        "title": "Cómo McLaren intentó mitigar su déficit de velocidad punta en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/como-mclaren-intento-mitigar-deficit-de-velocidad-punta-en-las-vegas/10876630/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 22:19:42 +0000",
+        "title": "Ganadores y perdedores del caóticamente extraordinario GP de Las Vegas de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/ganadores-y-perdedores-gp-de-las-vegas-f1-2026/10876920/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 11:58:25 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0arEGwP2/s6/oscar-piastri-mclaren-lando-no.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdKBeKY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
-        "title": "Bearman espera anunciar pronto su futuro en la F1 para 2027: “Nos estamos acercando”",
-        "url": "https://espanol.motorsport.com/f1/news/bearman-futuro-f1-para-2027-estamos-cerca-de-resolverlo/10876561/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 15:40:55 +0000",
+        "title": "Hamilton asegura que con respaldo de Ferrari podría haber vencido a Antonelli por el título de la F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-asegura-respaldo-ferrari-pudo-vencer-antonelli-f1-2026/10876832/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 08:25:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9Eb4MY/s6/oliver-bearman-haas-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7LeMRY/s6/lewis-hamilton-ferrari-3.jpg"
       },
       {
-        "title": "Gasly lamenta el resultado final de Alpine tras una Q2 “perfecta” en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/gasly-lamenta-resultado-clasificacion-las-vegas/10876536/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 13:50:13 +0000",
+        "title": "Piastri rechaza advertencias de McLaren tras pelear con Norris en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/piastri-rechaza-advertencias-mclaren-pelear-norris-las-vegas/10876818/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 08:17:41 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QG714Y/s6/pierre-gasly-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0arEDqM2/s6/oscar-piastri-mclaren-lando-no-3.jpg"
       },
       {
-        "title": "Alonso, duro con Honda en Las Vegas: nos falta tanta potencia que los rivales toman un margen extra con nosotros",
-        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-duro-con-honda-en-las-vegas/10876525/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 13:00:03 +0000",
+        "title": "El error de Antonelli que arruinó su lucha por la victoria ante Verstappen en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/error-antonelli-arruino-lucha-victoria-verstappen-las-vegas/10876802/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 07:57:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8pK6/s6/fernando-alonso-aston-martin-r.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6VyKxydY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
-        "title": "Antonelli y Russell tendrán conversaciones en Mercedes tras su desacuerdo en la clasificación de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-y-russell-conversaciones-tras-desacuerdo-clasificacion-las-vegas/10876521/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 12:53:19 +0000",
+        "title": "Hamilton cree que podía lograr podio en Las Vegas antes de una carrera caótica",
+        "url": "https://espanol.motorsport.com/f1/news/hamilton-cree-podia-lograr-podio-las-vegas-carrera-caotica/10876771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 07:41:02 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8Zy7v2/s6/charles-leclerc-ferrari-lewis--3.jpg"
       },
       {
-        "title": "Alpine admite que falló en la Q3 con Colapinto y Gasly en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/alpine-admite-no-conseguimos-aprovechar-q3-con-colapinto-y-gasly-en-las-vegas/10876514/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 12:44:29 +0000",
+        "title": "Verstappen carga contra Russell tras ganar en Las Vegas: “Está muy por debajo de mi nivel”",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-arremete-contra-russell-debajo-de-mi-nivel/10876789/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 07:31:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JXR78EY/s6/franco-colapinto-alpine.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGyWeY/s6/max-verstappen-red-bull-racing-3.jpg"
       },
       {
-        "title": "Norris frustrado por la \"impactante\" velocidad punta de McLaren en la clasificación de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/norris-frustrado-velocidad-punta-mclaren-clasificacion-las-vegas/10876368/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 12:27:34 +0000",
+        "title": "Sergio Pérez recibe sanción en parrilla para el GP de Qatar tras choque en Las Vegas con Camara",
+        "url": "https://espanol.motorsport.com/f1/news/checo-perez-sancion-parrilla-gp-qatar-f1-2026-choque-camara/10876785/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 07:24:13 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2wlKznbY/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8xo6/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
-        "title": "Max Verstappen revela un misterioso problema en su Red Bull que no tiene solución en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-misterioso-problema-en-su-red-bull-en-las-vegas/10876472/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 11:27:14 +0000",
+        "title": "Vasseur estalla tras el choque entre Leclerc y Hamilton en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/vasseur-estalla-tras-el-choque-entre-leclerc-y-hamilton-en-las-vegas/10876769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 07:16:20 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGgOAVY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/27NogKX0/s6/frederic-vasseur-ferrari-3.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Marc Márquez deja atrás a Valentino Rossi y solo tiene a Nieto y Agostini por delante",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-deja-atras-a-valentino-rossi-y-solo-tiene-a-nieto-y-agostini-por-delante/10876976/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 14:24:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0RrQm4Z0/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Marc Márquez se consagra campeón 2026 de MotoGP y Marco Bezzecchi gana una carrera tensa en Portugal",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-campeon-2026-bezzecchi-gana-portugal/10876965/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 13:46:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAOpE0/s6/marc-marquez-ducati-team-2.jpg"
+      },
       {
         "title": "MotoGP cambiará el horario de las carreras en 2027 para evitar chocar con la F1",
         "url": "https://espanol.motorsport.com/motogp/news/motogp-cambio-horario-carreras-en-2027-para-evitar-chocar-con-la-f1/10876636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2568,22 +2585,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/0qX4K986/s6/matt-damon-and-christian-bale.jpg"
-      },
-      {
-        "title": "Ducati despeja las dudas sobre el futuro de Marc Márquez para el MotoGP 2027",
-        "url": "https://espanol.motorsport.com/motogp/news/ducati-despeja-dudas-sobre-futuro-de-marc-marquez/10876211/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 03:36:19 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YE9EbrGY/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Martín admite miedo en Portimao y no quiere forzar por el campeonato de MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/martin-admite-miedo-portimao-no-quiere-forzar-campeonato/10876137/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 20:08:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2jEAkOz0/s6/jorge-martin-aprilia-racing-te.jpg"
       }
     ]
   },
