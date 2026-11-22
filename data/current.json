@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:58:34.949161Z",
+  "updatedAt": "2026-11-22T06:32:52.376791Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -715,8 +715,7 @@
             "name": "Race",
             "date": "2026-11-22T04:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/2023_Las_Vegas_street_circuit.svg/1920px-2023_Las_Vegas_street_circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-22-losail",
@@ -1963,8 +1962,7 @@
             "name": "Race",
             "date": "2026-11-22T13:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Algarve_International_Circuit_%28Unsplash%29.jpg/1920px-Algarve_International_Circuit_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "moto-2026-723031d1-27bd-4467-b59c-4cb8f7e081ab",
@@ -2346,6 +2344,54 @@
   "news": {
     "f1": [
       {
+        "title": "Los resultados completos del Gran Premio de Las Vegas de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/las-vegas-carrera-2026-resultados-completos/10876702/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 06:12:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVj7rnY/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Cinco conclusiones rápidas del GP de Las Vegas de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/gp-las-vegas-cinco-conclusiones-rapidas/10876692/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 05:49:01 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YN7vj146/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Así queda el campeonato de pilotos y constructores de la F1 2026 tras el GP de Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/campeonato-pilotos-constructores-f1-2026-carrera-las-vegas/10876689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 05:46:31 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YvKBeKe6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Verstappen gana una carrera increíble en Las Vegas con Colapinto en el top 6 y choque de Checo Pérez",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-gana-las-vegas-colapinto-sexto-checo-perez-abandono/10876684/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 05:37:43 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8mro6/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "General Motors respalda el regreso de los motores V8 y confirma su plan con Cadillac para 2030",
+        "url": "https://espanol.motorsport.com/f1/news/cadillac-retraso-motor-f1-2030-v8-general-motors/10876642/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 01:45:44 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6n7bD7X0/s6/sergio-perez-cadillac-racing.jpg"
+      },
+      {
+        "title": "Piastri cuestiona la \"extraña\" diferencia de ritmo frente a otros coches con motor Mercedes en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/piastri-cuestiona-diferencia-de-ritmo-frente-coches-con-motor-mercedes-en-las-vegas/10876634/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 01:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/01QNxkZ0/s6/oscar-piastri-mclaren.jpg"
+      },
+      {
         "title": "Isack Hadjar: “Parecimos tontos” en Las Vegas porque no me gusta tomar rebufo",
         "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-parecimos-tontos-en-las-vegas-porque-no-me-gusta-tomar-rebufo/10876632/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Sat, 21 Nov 2026 23:00:04 +0000",
@@ -2416,57 +2462,17 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6DGgOAVY/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Lewis Hamilton revela daños en su Ferrari tras la eliminación en la Q2 de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-revela-danos-en-ferrari-tras-eliminacion-q2-las-vegas/10876466/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 11:21:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JXR7JyY/s6/lewis-hamilton-ferrari-2.jpg"
-      },
-      {
-        "title": "Antonelli: arriesgué mucho en la peor pole, pero la estrategia de rebufo funcionó",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-arriesgue-mucho-peor-pole-estrategia-rebufo-funciono/10876349/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 07:16:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LderDv0/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Verstappen responde a Russell tras su encontronazo en Las Vegas y niega conocer un pacto entre pilotos",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-minimiza-choque-russell-las-vegas-niega-pacto-pilotos/10876336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 07:03:10 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LderLv0/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Hadjar ve a Red Bull “estúpido” en la batalla de rebufos de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/hadjar-red-bull-estupido-batalla-rebufos-las-vegas/10876327/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:47:22 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27No8MO0/s6/isack-hadjar-red-bull-racing-3.jpg"
-      },
-      {
-        "title": "Russell acusa a Verstappen de pilotar como si fuera mejor que todos tras choque en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/russell-acusa-verstappen-pilotar-como-si-fuera-mejor-todos/10876325/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:43:47 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6grQkLjY/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "Vasseur admite que Ferrari tenía margen para meter al menos un coche en Q3 en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/vasseur-admite-ferrari-tenia-margen-meter-un-coche-q3-las-vegas/10876311/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 06:37:43 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vBdV6/s6/frederic-vasseur-ferrari.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "MotoGP cambiará el horario de las carreras en 2027 para evitar chocar con la F1",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-cambio-horario-carreras-en-2027-para-evitar-chocar-con-la-f1/10876636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 00:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0rVPjzd0/s6/salida-de-la-carrera.jpg"
+      },
       {
         "title": "Jack Miller, furioso por el cambio de horario de la carrera sprint de MotoGP: “Ya no corremos bajo la lluvia”",
         "url": "https://espanol.motorsport.com/motogp/news/jack-miller-furioso-por-cambio-de-horario-sprint-portimao/10876628/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2578,14 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2jEAkOz0/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "Márquez acusa la tensión del título: \"Soy humano, el cuerpo me pesaba\"",
-        "url": "https://espanol.motorsport.com/motogp/news/marquez-acusa-tension-titulo-soy-humano-cuerpo-pesaba/10876139/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Fri, 20 Nov 2026 20:07:18 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0rVPkeJ0/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
