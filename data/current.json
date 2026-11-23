@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:58:53.352490Z",
+  "updatedAt": "2026-11-23T01:34:10.457247Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,7 +749,8 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2466,6 +2467,22 @@
     ],
     "moto": [
       {
+        "title": "Los pilotos de MotoGP rinden homenaje a Marc Márquez y lo consideran el mejor de todos los tiempos",
+        "url": "https://espanol.motorsport.com/motogp/news/pilotos-de-motogp-rinden-homenaje-a-marc-marquez-y-lo-consideran-el-mejor-de-todos-los-tiempos/10877049/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 22:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YK15yXk0/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "\"Volveré a poner mi nombre en el trofeo de MotoGP\", promete Jorge Martín tras perder el título 2026 ante Marc Márquez",
+        "url": "https://espanol.motorsport.com/motogp/news/volvere-a-poner-mi-nombre-en-el-trofeo-de-motogp-promete-jorge-martin/10877043/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sun, 22 Nov 2026 21:05:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbR7V2/s6/jorge-martin-aprilia-racing-te.jpg"
+      },
+      {
         "title": "Cómo se planearon los festejos de Márquez por su título para poner fin al debate sobre el mejor piloto de la historia",
         "url": "https://espanol.motorsport.com/motogp/news/como-se-planearon-los-festejos-de-marquez-por-su-titulo-en-motogp/10877041/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
         "published": "Sun, 22 Nov 2026 20:05:02 +0000",
@@ -2568,22 +2585,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/63QaMbE2/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "Marc Márquez se cae con el título a la vista y Marco Bezzecchi gana la sprint en Portimao",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-caida-sprint-portugal-bezzecchi-victoria/10876551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 15:05:48 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OB56/s6/marc-marquez-ducati-team-2.jpg"
-      },
-      {
-        "title": "La parrilla de salida completa para el GP de Portugal de MotoGP",
-        "url": "https://espanol.motorsport.com/motogp/news/parrilla-salida-portugal-sabado-domingo/10876502/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 12:26:31 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyK5WwY/s6/marco-bezzecchi-aprilia-racing.jpg"
       }
     ]
   },
