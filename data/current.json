@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:36:53.189397Z",
+  "updatedAt": "2026-11-24T16:27:20.900520Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,8 +749,7 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2345,6 +2344,70 @@
   "news": {
     "f1": [
       {
+        "title": "Por qué los nuevos motores V8 de la Fórmula 1 podrían ser muy diferentes",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-nuevos-motores-v8-formula-1-seran-muy-diferentes/10877519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 16:21:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbRx32/s6/lando-norris-mclaren.jpg"
+      },
+      {
+        "title": "Verstappen compara su triunfo en Las Vegas con una carrera de Mario Kart",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-compara-triunfo-las-vegas-carrera-mario-kart/10877465/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 16:00:40 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVj73lY/s6/max-verstappen-red-bull-racing-3.jpg"
+      },
+      {
+        "title": "Colapinto advierte el reto de Lusail y busca repetir puntos con Alpine en el GP de Qatar F1",
+        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-alpine-previa-gp-qatar-f1-2026/10877512/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 15:48:55 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8mwo6/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Steiner espera que la junta de Ferrari reaccione tras el choque entre Hamilton y Leclerc",
+        "url": "https://espanol.motorsport.com/f1/news/steiner-espera-junta-ferrari-reaccione-choque-hamilton-leclerc/10877472/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 13:40:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmKOY/s6/charles-leclerc-ferrari-lewis--3.jpg"
+      },
+      {
+        "title": "Por qué Alpine pudo mantenerse con los líderes en Las Vegas pero no en Monza",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-alpine-pudo-mantenerse-con-lideres-en-las-vegas-no-en-monza/10877455/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 13:08:09 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmXEY/s6/pierre-gasly-alpine-isack-hadj.jpg"
+      },
+      {
+        "title": "La carrera al estilo de los óvalos de la F1 en Las Vegas no se debió exclusivamente a los motores",
+        "url": "https://espanol.motorsport.com/f1/news/la-carrera-al-estilo-de-los-ovalos-en-las-vegas-no-fue-exclusivamente-por-los-motores/10877430/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 11:54:57 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2dEoR13Y/s6/max-verstappen-red-bull-racing.jpg"
+      },
+      {
+        "title": "Guerra de palabras: ¿qué tendrán preparado Verstappen y Russell para el próximo acto?",
+        "url": "https://espanol.motorsport.com/f1/news/guerra-de-palabras-verstappen-y-russell-las-vegas/10877420/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 11:36:40 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdKBeKY/s6/max-verstappen-red-bull-racing-2.jpg"
+      },
+      {
+        "title": "Isack Hadjar, frustrado: qué pasó realmente en la radio de Red Bull en Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/isack-hadjar-frustrado-que-paso-realmente-en-la-radio-de-red-bull-en-las-vegas/10877413/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 11:25:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKkjkY/s6/isack-hadjar-red-bull-racing.jpg"
+      },
+      {
         "title": "Los horarios para el GP de Qatar de F1 2026 en Lusail y cómo verlo en vivo",
         "url": "https://espanol.motorsport.com/f1/news/horarios-gp-qatar-f1-2026-donde-ver-en-vivo/10877331/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 24 Nov 2026 03:14:36 +0000",
@@ -2399,73 +2462,33 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8Pv6/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Quién durmió mejor tras el GP de Las Vegas 2026: Max Verstappen",
-        "url": "https://espanol.motorsport.com/f1/news/quien-durmio-mejor-gp-las-vegas-2026-max-verstappen/10877222/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 13:45:29 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6zoD4Pl0/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "¿Quién durmió peor anoche tras el GP de Las Vegas? Charles Leclerc",
-        "url": "https://espanol.motorsport.com/f1/news/quien-durmio-peor-anoche-tras-el-gp-de-las-vegas-charles-leclerc/10877174/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 13:41:44 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdKxOEY/s6/charles-leclerc-ferrari.jpg"
-      },
-      {
-        "title": "Las Vegas deja 352 adelantamientos y reabre el debate entre espectáculo y artificio en la F1",
-        "url": "https://espanol.motorsport.com/f1/news/f1-las-vegas-divide-352-adelantamientos-espectaculo-artificio/10877225/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 13:38:41 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2eZxjqKY/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Colton Herta no completará la temporada 2026 de Fórmula 2 tras ser reemplazado en Hitech",
-        "url": "https://espanol.motorsport.com/fia-f2/news/colton-herta-reemplazado-en-hitech-formula-2-qatar-abu-dhabi/10877151/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 10:14:20 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7QPOK6/s6/colton-herta-hitech.jpg"
-      },
-      {
-        "title": "Una disputa salarial retrasa el nuevo acuerdo de Oliver Bearman con Haas para la F1 2027",
-        "url": "https://espanol.motorsport.com/f1/news/disputa-salarial-retrasa-acuerdo-bearman-haas-para-2027/10877146/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 10:07:23 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Lderom0/s6/oliver-bearman-haas-f1-team.jpg"
-      },
-      {
-        "title": "La F1 planea reducir los equipos cliente a medida que emergen detalles clave de 2030",
-        "url": "https://espanol.motorsport.com/f1/news/f1-planea-reducir-los-equipos-cliente-para-2030/10877062/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 20:43:19 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68Vw5vX2/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "El jefe de McLaren defiende el exabrupto de Piastri en el GP de Las Vegas: \"La verdad es que me gustó\"",
-        "url": "https://espanol.motorsport.com/f1/news/jefe-de-mclaren-defiende-el-exabrupto-de-piastri-en-el-gp-de-las-vegas/10877047/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 19:05:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7QgKm6/s6/oscar-piastri-mclaren-lando-no-3.jpg"
-      },
-      {
-        "title": "Haas confirma a Rafa Camara para Qatar y Abu Dhabi",
-        "url": "https://espanol.motorsport.com/f1/news/haas-confirma-a-rafa-camara-para-qatar-y-abu-dhabi/10877026/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 18:07:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6lmAKWm0/s6/rafael-camara-haas.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Bezzecchi admite haber cometido “demasiados errores” tras perder el título de MotoGP 2026",
+        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-admite-errores-perder-titulo-motogp-2026/10877463/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 14:09:00 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLRoM0/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
+      {
+        "title": "Viñales se perderá Valencia por lesión y Pol Espargaró ocupará su lugar en Tech3",
+        "url": "https://espanol.motorsport.com/motogp/news/vinales-perdera-valencia-lesion-pol-espargaro-ocupara-lugar-tech3/10877476/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 13:45:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2dEoN43Y/s6/maverick-vinales-red-bull-ktm-.jpg"
+      },
+      {
+        "title": "Mientras Márquez hace historia, Rossi sigue repasando la suya",
+        "url": "https://espanol.motorsport.com/motogp/news/mientras-marquez-hace-historia-rossi-sigue-repasando-la-suya/10877426/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 11:40:08 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmvkY/s6/marc-marquez-ducati.jpg"
+      },
       {
         "title": "Marc Márquez: \"Controlar mis instintos fue clave para ganar el título de MotoGP 2026\"",
         "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-controlar-instintos-clave-ganar-titulo-2026/10877270/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2561,30 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/63QaMz82/s6/diogo-moreira-team-lcr-honda.jpg"
-      },
-      {
-        "title": "Cómo Marc Márquez puede asegurar el título de MotoGP en el Gran Premio de Portugal del domingo",
-        "url": "https://espanol.motorsport.com/motogp/news/combinaciones-marc-marquez-asegurar-titulo-motogp-portugal-2026/10876617/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 19:15:25 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27No8d30/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Martín admite que sus opciones de título dependen de Márquez tras el sprint de Portugal",
-        "url": "https://espanol.motorsport.com/motogp/news/martin-admite-opciones-titulo-dependen-marquez-sprint-portugal/10876604/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 17:50:57 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/Y9lNED82/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "Márquez tras su caída: “Mañana tenemos una buena oportunidad; la prioridad es acabar”",
-        "url": "https://espanol.motorsport.com/motogp/news/marquez-caida-manana-tenemos-oportunidad-prioridad-acabar/10876577/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 16:39:42 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2QedDKX2/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
