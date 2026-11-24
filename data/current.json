@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T21:44:40.340072Z",
+  "updatedAt": "2026-11-24T05:36:53.189397Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,7 +749,8 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2344,6 +2345,14 @@
   "news": {
     "f1": [
       {
+        "title": "Los horarios para el GP de Qatar de F1 2026 en Lusail y cómo verlo en vivo",
+        "url": "https://espanol.motorsport.com/f1/news/horarios-gp-qatar-f1-2026-donde-ver-en-vivo/10877331/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 03:14:36 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YN7w7Va6/s6/oscar-piastri-mclaren.jpg"
+      },
+      {
         "title": "Max Verstappen revela que está considerando participar en las 24 Horas de Daytona de 2027",
         "url": "https://espanol.motorsport.com/f1/news/verstappen-considerando-participar-24-horas-daytona-2027/10877307/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Mon, 23 Nov 2026 20:40:57 +0000",
@@ -2454,14 +2463,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6lmAKWm0/s6/rafael-camara-haas.jpg"
-      },
-      {
-        "title": "Verstappen sigue su enfrentamiento con Russell y califica su 2026 como un \"completo desastre\"",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-califica-2026-de-russell-como-completo-desastre/10876986/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 14:59:11 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YWKA3mxY/s6/max-verstappen-red-bull-racing-2.jpg"
       }
     ],
     "moto": [
