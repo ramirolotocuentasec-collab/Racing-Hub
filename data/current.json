@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:27:20.900520Z",
+  "updatedAt": "2026-11-25T01:01:11.527966Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,7 +749,8 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2344,6 +2345,46 @@
   "news": {
     "f1": [
       {
+        "title": "Nico Rosberg: La retirada de la Fórmula 1 en 2016 fue \"aterradora\" y \"agobiante\"",
+        "url": "https://espanol.motorsport.com/f1/news/nico-rosberg-retirada-formula-1-2016-aterradora-agobiante/10877467/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 22:36:46 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YN1BjlJ2/s6/nico-rosberg-mercedes-amg.jpg"
+      },
+      {
+        "title": "El reto logístico de F1 para llevar material a Qatar y Abu Dhabi entre rutas bajo tensió",
+        "url": "https://espanol.motorsport.com/f1/news/reto-logistico-f1-llevar-material-qatar-abu-dhabi/10877546/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 22:10:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0kZAZnV6/s6/partenza-del-gp-del-qatar-2.jpg"
+      },
+      {
+        "title": "Colapinto recibe elogios y destaca en los Power Rankings de la F1 tras el GP de Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/colapinto-elogios-power-rankings-f1-gp-las-vegas/10877564/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 21:47:43 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OEb6/s6/franco-colapinto-alpine.jpg"
+      },
+      {
+        "title": "Herta debe decidir entre seguir como reserva de Cadillac o volver a IndyCar",
+        "url": "https://espanol.motorsport.com/f1/news/herta-debe-decidir-reserva-cadillac-o-volver-indycar/10877544/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 19:13:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/01QNpEx0/s6/colton-herta-cadillac-f1-team.jpg"
+      },
+      {
+        "title": "El problema que le costó a Pierre Gasly una posible \"victoria\" en el GP de Las Vegas",
+        "url": "https://espanol.motorsport.com/f1/news/problema-costo-pierre-gasly-posible-victoria-las-vegas/10877528/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 17:48:32 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2jEAOXb0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      },
+      {
         "title": "Por qué los nuevos motores V8 de la Fórmula 1 podrían ser muy diferentes",
         "url": "https://espanol.motorsport.com/f1/news/por-que-nuevos-motores-v8-formula-1-seran-muy-diferentes/10877519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Tue, 24 Nov 2026 16:21:57 +0000",
@@ -2422,49 +2463,17 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6VyKxMwY/s6/max-verstappen-red-bull-racing.jpg"
-      },
-      {
-        "title": "Norris: \"Miraba más la batería que la pista\" durante el GP de Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/lando-norris-mirando-bateria-las-vegas/10877292/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 18:33:25 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2GdKBDOY/s6/lando-norris-mclaren-3.jpg"
-      },
-      {
-        "title": "Lewis Hamilton: el déficit de velocidad punta de Ferrari fue “brutal” en Las Vegas",
-        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-deficit-velocidad-punta-ferrari-las-vegas/10877254/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 15:45:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6VyK51VY/s6/lewis-hamilton-ferrari.jpg"
-      },
-      {
-        "title": "Ferrari cree que ninguna norma escrita evitará choques si falta respeto entre Hamilton y Leclerc",
-        "url": "https://espanol.motorsport.com/f1/news/ferrari-ninguna-norma-escrita-evitara-choques-entre-hamilton-leclerc/10877220/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 14:39:19 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vBdV6/s6/frederic-vasseur-ferrari.jpg"
-      },
-      {
-        "title": "Steiner advierte a George Russell: No \"provoques al oso\" Max Verstappen",
-        "url": "https://espanol.motorsport.com/f1/news/guenther-steiner-advierte-russell-no-provoques-max-verstappen/10877216/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 13:58:39 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vj146/s6/max-verstappen-red-bull-racing-3.jpg"
-      },
-      {
-        "title": "Verstappen confía en la F1, aunque preferiría no viajar a Oriente Medio",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-confia-f1-preferiria-no-viajar-oriente-medio/10876751/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 13:47:03 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8Pv6/s6/max-verstappen-red-bull-racing.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Dall'Igna defiende el fichaje de Márquez tras su décima corona mundial",
+        "url": "https://espanol.motorsport.com/motogp/news/dalligna-defiende-fichaje-marquez-decima-corona-mundial/10877517/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Tue, 24 Nov 2026 21:33:05 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/68Vw54B2/s6/marc-marquez-piscina-portimao.jpg"
+      },
       {
         "title": "Bezzecchi admite haber cometido “demasiados errores” tras perder el título de MotoGP 2026",
         "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-admite-errores-perder-titulo-motogp-2026/10877463/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2576,14 +2585,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/YvKBk4n6/s6/jack-miller-pramac-racing-2.jpg"
-      },
-      {
-        "title": "Diogo Moreira admite que tuvo “suerte” tras su aterrador accidente en Portugal",
-        "url": "https://espanol.motorsport.com/motogp/news/diogo-moreira-admite-tuvo-suerte-aterrador-accidente-portugal/10876621/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sat, 21 Nov 2026 19:17:40 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/63QaMz82/s6/diogo-moreira-team-lcr-honda.jpg"
       }
     ]
   },
