@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T02:29:13.824689Z",
+  "updatedAt": "2026-11-26T11:26:46.129245Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2345,6 +2345,30 @@
   "news": {
     "f1": [
       {
+        "title": "Fernando Alonso, ausente el jueves de la F1 en Qatar por enfermedad",
+        "url": "https://espanol.motorsport.com/f1/news/fernando-alonso-ausente-jueves-qatar-por-enfermedad/10877860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 26 Nov 2026 11:20:10 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6zoD4Ma0/s6/fernando-alonso-aston-martin-r.jpg"
+      },
+      {
+        "title": "Los pilotos de la F1 para 2027: ¿quiénes correrán y en qué equipos?",
+        "url": "https://espanol.motorsport.com/f1/news/pilotos-formula-1-2027-parrilla-completa/10847607/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 26 Nov 2026 10:30:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7ZeD4Y/s6/oscar-piastri-mclaren-2.jpg"
+      },
+      {
+        "title": "Oliver Bearman asegura su asiento en Haas F1 y la parrilla de 2027 queda oficialmente definida",
+        "url": "https://espanol.motorsport.com/f1/news/oliver-bearman-asegura-asiento-en-haas-f1-para-2027/10877835/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Thu, 26 Nov 2026 10:01:51 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/25dLzlD0/s6/oliver-bearman-haas-f1-team-2.jpg"
+      },
+      {
         "title": "Cinco cosas a tener en cuenta en el GP de Qatar de F1 2026",
         "url": "https://espanol.motorsport.com/f1/news/cinco-cosas-a-tener-en-cuenta-en-gp-de-qatar-f1-2026/10877754/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Wed, 25 Nov 2026 17:31:48 +0000",
@@ -2439,33 +2463,17 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/YBVj73lY/s6/max-verstappen-red-bull-racing-3.jpg"
-      },
-      {
-        "title": "Colapinto advierte el reto de Lusail y busca repetir puntos con Alpine en el GP de Qatar F1",
-        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-alpine-previa-gp-qatar-f1-2026/10877512/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 15:48:55 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8mwo6/s6/franco-colapinto-alpine.jpg"
-      },
-      {
-        "title": "Steiner espera que la junta de Ferrari reaccione tras el choque entre Hamilton y Leclerc",
-        "url": "https://espanol.motorsport.com/f1/news/steiner-espera-junta-ferrari-reaccione-choque-hamilton-leclerc/10877472/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 13:40:54 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmKOY/s6/charles-leclerc-ferrari-lewis--3.jpg"
-      },
-      {
-        "title": "Por qué Alpine pudo mantenerse con los líderes en Las Vegas pero no en Monza",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-alpine-pudo-mantenerse-con-lideres-en-las-vegas-no-en-monza/10877455/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 13:08:09 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmXEY/s6/pierre-gasly-alpine-isack-hadj.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Joan Mir viaja a Valencia tras recibir el OK de sus médicos",
+        "url": "https://espanol.motorsport.com/motogp/news/joan-mir-viaja-a-valencia-tras-recibir-el-ok-de-sus-medicos/10877838/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Thu, 26 Nov 2026 10:10:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6O7zDvw6/s6/joan-mir-honda-hrc.jpg"
+      },
       {
         "title": "El dúo de Aprilia en MotoGP se prepara para una emotiva despedida: \"Encontramos algo que no esperábamos\"",
         "url": "https://espanol.motorsport.com/motogp/news/duo-de-aprilia-en-motogp-se-prepara-para-una-emotiva-despedida-en-valencia/10877759/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2577,14 +2585,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/2d1kQb3Y/s6/marc-marquez-ducati-team-fabio.jpg"
-      },
-      {
-        "title": "Marc Márquez confiesa que \"la gente de mi alrededor creyó más en mí que yo mismo\"",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-gente-de-mi-alrededor-creyo-mas-en-mi-que-yo-mismo/10876997/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 17:04:52 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YXyKMV56/s6/marc-marquez-ducati-team-2.jpg"
       }
     ]
   },
