@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T03:12:49.910562Z",
+  "updatedAt": "2026-11-27T12:47:44.819868Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -2344,6 +2344,14 @@
   "news": {
     "f1": [
       {
+        "title": "Antonelli quiere correr con Verstappen en el Nordschleife, pero hay una condición",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-carrera-con-verstappen-en-el-nordschleife-hay-una-condicion/10878125/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 09:39:17 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6AlvVP1Y/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+      },
+      {
         "title": "A qué hora y cómo ver las prácticas del viernes del GP de Qatar de F1 2026",
         "url": "https://espanol.motorsport.com/f1/news/hora-practicas-qatar-viernes-fp1-fp2/10878059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 27 Nov 2026 00:13:00 +0000",
@@ -2454,17 +2462,25 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6zoDj4P0/s6/lando-norris-mclaren.jpg"
-      },
-      {
-        "title": "Antonelli admite que en Las Vegas colapsó el sistema y perdió la lucha por la victoria",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-admite-las-vegas-colapso-el-sistema-perdio-lucha-victoria/10877897/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 15:02:17 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNx9v0/s6/andrea-kimi-antonelli-mercedes.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Alberto Puig, sobre el retiro de Marc Márquez: \"No me sorprende, es la decisión correcta\"",
+        "url": "https://espanol.motorsport.com/motogp/news/alberto-puig-sobre-el-retiro-de-marc-marquez-no-me-sorprende-es-la-decision-correcta/10878157/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 10:32:29 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/01QNxLq0/s6/alberto-puig.jpg"
+      },
+      {
+        "title": "Marc Márquez anuncia su retiro inmediato de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-anuncia-retiro-inmediato-de-motogp/10878135/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 09:46:24 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6lmAp4D0/s6/marc-marquez-ducati-team.jpg"
+      },
       {
         "title": "Jorge Martín: \"Mi relación con Aprilia ha sido difícil, pero me hizo mejor persona y piloto\"",
         "url": "https://espanol.motorsport.com/motogp/news/jorge-martin-mi-relacion-con-aprilia-ha-sido-dificil-pero-me-hizo-mejor-persona-y-piloto/10877996/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2568,22 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/YWKA35OY/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Ganadores y perdedores del GP de Portugal de MotoGP que decidió el título",
-        "url": "https://espanol.motorsport.com/motogp/news/ganadores-y-perdedores-gp-de-portugal-2026/10877170/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 10:57:52 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YN7vj8V6/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Los pilotos de MotoGP rinden homenaje a Marc Márquez y lo consideran el mejor de todos los tiempos",
-        "url": "https://espanol.motorsport.com/motogp/news/pilotos-de-motogp-rinden-homenaje-a-marc-marquez-y-lo-consideran-el-mejor-de-todos-los-tiempos/10877049/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Sun, 22 Nov 2026 22:05:02 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YK15yXk0/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
