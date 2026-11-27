@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:47:44.819868Z",
+  "updatedAt": "2026-11-27T21:42:56.250510Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,7 +749,8 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ]
+        ],
+        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2344,127 +2345,199 @@
   "news": {
     "f1": [
       {
-        "title": "Antonelli quiere correr con Verstappen en el Nordschleife, pero hay una condición",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-carrera-con-verstappen-en-el-nordschleife-hay-una-condicion/10878125/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 27 Nov 2026 09:39:17 +0000",
+        "title": "Lo que aprendimos de los entrenamientos del viernes en el GP de Qatar de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/lo-que-aprendimos-entrenamientos-viernes-qatar-2026/10878458/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 21:16:58 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6AlvVP1Y/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmZkY/s6/george-russell-mercedes-2.jpg"
       },
       {
-        "title": "A qué hora y cómo ver las prácticas del viernes del GP de Qatar de F1 2026",
-        "url": "https://espanol.motorsport.com/f1/news/hora-practicas-qatar-viernes-fp1-fp2/10878059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 27 Nov 2026 00:13:00 +0000",
+        "title": "Charles Leclerc explica el trompo en los entrenamientos de Qatar tras un día \"lento\" para Ferrari",
+        "url": "https://espanol.motorsport.com/f1/news/leclerc-explica-trompo-entrenamientos-qatar-dia-lento-ferrari/10878453/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 21:01:22 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6DGqG74Y/s6/oscar-piastri-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0Zq8m7b6/s6/charles-leclerc-ferrari-2.jpg"
       },
       {
-        "title": "Max Verstappen, sin Gianpiero Lambiase en el GP de Qatar",
-        "url": "https://espanol.motorsport.com/f1/news/max-verstappen-sin-gianpiero-lambiase-en-el-gp-de-qatar/10878057/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 22:02:12 +0000",
+        "title": "Verstappen ve a Red Bull desconectado y lejos de Mercedes en Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/verstappen-ve-red-bull-desconectado-lejos-mercedes-qatar/10878451/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 20:56:49 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YBVj7QzY/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2dEoRawY/s6/max-verstappen-red-bull-racing.jpg"
       },
       {
-        "title": "Por qué Max Verstappen descarta correr las 500 Millas de Indianápolis",
-        "url": "https://espanol.motorsport.com/f1/news/por-que-max-verstappen-descarta-correr-las-500-millas-de-indianapolis/10878039/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 19:17:10 +0000",
+        "title": "Antonelli impone su ley en Qatar y Norris se rinde: \"Mercedes está a otro nivel\"",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-impone-ley-lusail-norris-mercedes-otro-nivel/10878430/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:52:52 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0LderLv0/s6/max-verstappen-red-bull-racing-3.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2GdKBMrY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
-        "title": "Max Verstappen tiene la inteligencia de carrera de Fernando Alonso, pero es más rápido, dice un analista de la F1",
-        "url": "https://espanol.motorsport.com/f1/news/verstappen-tiene-inteligencia-de-carrera-de-alonso-pero-es-mas-rapido-dice-analista-de-f1/10878034/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 19:13:14 +0000",
+        "title": "La debilidad de Alpine en las curvas rápidas \"sin dudas nos está perjudicando\" en Qatar, dice Nielsen",
+        "url": "https://espanol.motorsport.com/f1/news/alpine-problemas-curvas-rapidas-qatar/10878427/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:50:57 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0mXyz7z6/s6/fernando-alonso-aston-martin-r-4.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/63QaDz42/s6/pierre-gasly-alpine.jpg"
       },
       {
-        "title": "El veredicto de Norris sobre la rivalidad entre Russell y Verstappen: \"Ayuda cuando lo respaldas en la pista\"",
-        "url": "https://espanol.motorsport.com/f1/news/norris-veredicto-sobre-la-rivalidad-russell-y-verstappen/10878025/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 19:00:46 +0000",
+        "title": "Mercedes en otro planeta: qué las está haciendo inalcanzables en Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/mercedes-otro-planeta-que-haciendo-inalcanzables-qatar/10878419/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:39:35 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2eZx5yPY/s6/max-verstappen-red-bull-racing-3.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6x7LeR4Y/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
-        "title": "Pilotos pedirán a la FIA sanciones más duras tras el caso Leclerc en México",
-        "url": "https://espanol.motorsport.com/f1/news/pilotos-pediran-fia-sanciones-mas-duras-caso-leclerc-mexico/10878014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 18:23:06 +0000",
+        "title": "\"Dimos un paso atrás\": Checo Pérez explica por qué Cadillac cayó al fondo en la FP2 de Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/gp-qatar-2026-checo-perez-explica-error-configuracion-cadillac-fp2/10878417/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:29:23 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27No9xX0/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YBVj7O8Y/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
-        "title": "Hadjar atribuye el fallo del alerón en Las Vegas a un bache y al cierre del sistema aerodinámico",
-        "url": "https://espanol.motorsport.com/f1/news/hadjar-atribuye-fallo-aleron-las-vegas-bache/10877962/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 18:13:04 +0000",
+        "title": "La queja de Sainz contra Colapinto en Qatar: \"Corre como si fuera domingo; supongo que es joven\"",
+        "url": "https://espanol.motorsport.com/f1/news/sainz-comentario-colapinto-qatar-viernes/10878413/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:24:16 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YvKBeKe6/s6/max-verstappen-red-bull-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/2y7Q8By6/s6/carlos-sainz-williams.jpg"
       },
       {
-        "title": "Lewis Hamilton sobre el último punto de tensión con Charles Leclerc: \"Vamos a resolverlo\"",
-        "url": "https://espanol.motorsport.com/f1/news/lewis-hamilton-sobre-el-ultimo-punto-de-tension-con-charles-leclerc/10877983/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 17:14:51 +0000",
+        "title": "Franco Colapinto admite que no está cómodo tras un difícil viernes de Alpine en Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/franco-colapinto-viernes-qatar-alpine/10878395/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 18:56:53 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/27NojvR0/s6/charles-leclerc-ferrari-lewis-.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0arEDkr2/s6/franco-colapinto-alpine.jpg"
       },
       {
-        "title": "Checo Pérez es citado por los comisarios en el GP de Qatar por llegar tarde a conferencia",
-        "url": "https://espanol.motorsport.com/f1/news/checo-perez-citado-comisarios-qatar-llegar-tarde-conferencia/10877985/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 17:11:31 +0000",
+        "title": "FIA resuelve el caso de Checo Pérez por su retraso en la conferencia de prensa en Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/f1-gp-qatar-2026-resolucion-fia-checo-perez-conferencia/10878386/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 18:39:19 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNx4q0/s6/sergio-perez-cadillac.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YK15zrO0/s6/sergio-perez-cadillac-racing.jpg"
       },
       {
-        "title": "Leclerc, molesto por quienes cuestionan su integridad: \"No hay nada más claro que el amor que tengo por Ferrari\"",
-        "url": "https://espanol.motorsport.com/f1/news/charles-leclerc-responde-comentarios-integridad-con-ferrari/10877956/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 16:48:46 +0000",
+        "title": "Los resultados completos de la FP1 y la FP2 del GP de Qatar de F1 2026",
+        "url": "https://espanol.motorsport.com/f1/news/qatar-resultados-practicas-viernes/10878381/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 18:30:05 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6n7b33g0/s6/charles-leclerc-ferrari.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGywNY/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
-        "title": "Sergio Pérez aconseja a Colton Herta sobre su futuro en la F1 tras no ser elegido para 2027",
-        "url": "https://espanol.motorsport.com/f1/news/sergio-perez-aconseja-colton-herta-futuro-f1/10877958/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 16:23:41 +0000",
+        "title": "Audi pierde la apelación contra Yuki Tsunoda en el GP de Italia: estos son los motivos",
+        "url": "https://espanol.motorsport.com/f1/news/audi-pierde-apelacion-contra-yuki-tsunoda-estos-son-los-motivos/10878376/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 18:24:21 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0o5AkmbY/s6/sergio-perez-cadillac-racing.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/6AlvL9EY/s6/yuki-tsunoda-racing-bulls.jpg"
       },
       {
-        "title": "George Russell responde a los comentarios de Max Verstappen: fueron \"divertidos\", pero mantengo lo que dije",
-        "url": "https://espanol.motorsport.com/f1/news/george-russell-responde-comentarios-max-verstappen/10877935/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 16:02:27 +0000",
+        "title": "Antonelli lidera una FP2 en Qatar afectada por dos banderas rojas; Colapinto es 15º y Checo Pérez, 22º",
+        "url": "https://espanol.motorsport.com/f1/news/antonelli-lidera-qatar-fp2-resultados-colapinto-checo-perez/10878368/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 18:13:07 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6AlvydGY/s6/max-verstappen-red-bull-racing-2.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGyP4Y/s6/andrea-kimi-antonelli-mercedes.jpg"
       },
       {
-        "title": "Bortoleto responde a las críticas de otros pilotos al GP de Las Vegas: \"¿Qué carajos quieren?\"",
-        "url": "https://espanol.motorsport.com/f1/news/bortoleto-responde-criticas-pilotos-las-vegas-que-carajos-quieren/10877916/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 15:26:57 +0000",
+        "title": "VIDEO: Pierre Gasly se sale de pista y causa una bandera roja en la FP2 de Qatar",
+        "url": "https://espanol.motorsport.com/f1/news/video-gasly-bandera-roja-fp2-qatar/10878364/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 17:56:15 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLzRE0/s6/gabriel-bortoleto-audi-f1-team.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/YMXbRqG2/s6/pierre-gasly-alpine-2.jpg"
       },
       {
-        "title": "Norris: en Las Vegas hubo espectáculo, pero demasiada dependencia de la batería",
-        "url": "https://espanol.motorsport.com/f1/news/norris-las-vegas-hubo-espectaculo-demasiada-dependencia-bateria/10877904/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 15:14:32 +0000",
+        "title": "La FIA confirma la congelación de motores de F1 e impone restricciones de pruebas antes del regreso de los V8",
+        "url": "https://espanol.motorsport.com/f1/news/fia-confirma-congelacion-motores-f1-e-impone-restricciones-de-pruebas-para-v8/10878343/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 17:18:59 +0000",
         "source": "Motorsport.com",
         "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6zoDj4P0/s6/lando-norris-mclaren.jpg"
+        "image": "https://cdn-1.motorsport.com/images/amp/0arED5G2/s6/arvid-lindblad-racing-bulls-an.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "La retirada de Márquez podría impulsar a Aldeguer al equipo oficial",
+        "url": "https://espanol.motorsport.com/motogp/news/retirada-marquez-podria-impulsar-aldeguer-equipo-oficial/10878424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 20:04:11 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5AMraY/s6/fermin-aldeguer-gresini-racing.jpg"
+      },
+      {
+        "title": "La reacción de Acosta ante el retiro de Marc Márquez que le impedirá medirse con el múltiple campeón en Ducati",
+        "url": "https://espanol.motorsport.com/motogp/news/pedro-acosta-reaccion-retiro-marc-marquez/10878390/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 19:07:45 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6n7Ag4w0/s6/pedro-acosta-red-bull-ktm-fact-2.jpg"
+      },
+      {
+        "title": "Tardozzi ve correcta la retirada de Marc Márquez pese al shock en Ducati",
+        "url": "https://espanol.motorsport.com/motogp/news/tardozzi-correcta-retirada-marc-marquez-shock-ducati/10878324/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 16:50:54 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YpbA78j0/s6/davide-tardozzi.jpg"
+      },
+      {
+        "title": "Valencia MotoGP: Marc Márquez termina el primer día del último fin de semana de MotoGP con estilo",
+        "url": "https://espanol.motorsport.com/motogp/news/valencia-marc-marquez-lidera-viernes-valencia-resultados-2026/10878301/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 15:54:52 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6DGgzn7Y/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "¿Qué hará Marc Márquez tras retirarse de MotoGP?",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-planes-tras-retiro-motogp/10878258/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 15:12:02 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6AlvV19Y/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "¿Quién reemplazará a Marc Márquez en Ducati tras su retiro?",
+        "url": "https://espanol.motorsport.com/motogp/news/quien-reemplazara-marc-marquez-ducati-decision-retiro/10878227/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 13:34:38 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/2eZxjOmY/s6/fermin-aldeguer-gresini-racing.jpg"
+      },
+      {
+        "title": "Marc Márquez se despide de MotoGP a su manera y deja un vacío irreemplazable",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-despide-motogp-deja-vacio-irreemplazable/10878224/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 13:28:30 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6zoD43l0/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "Marc Márquez explica la decisión detrás de su sorprendente retirada de MotoGP",
+        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-explica-decision-retirada-motogp/10878195/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 12:57:01 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0JXRDQRY/s6/marc-marquez-ducati-team.jpg"
+      },
+      {
+        "title": "GP de Valencia MotoGP: Marco Bezzecchi lidera a Marc Márquez en una fría FP1",
+        "url": "https://espanol.motorsport.com/motogp/news/valencia-motogp-marco-bezzecchi-lidera-marc-marquez-fp1/10878197/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Fri, 27 Nov 2026 12:55:43 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/YE9ErjPY/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
       {
         "title": "Alberto Puig, sobre el retiro de Marc Márquez: \"No me sorprende, es la decisión correcta\"",
         "url": "https://espanol.motorsport.com/motogp/news/alberto-puig-sobre-el-retiro-de-marc-marquez-no-me-sorprende-es-la-decision-correcta/10878157/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2512,78 +2585,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6O7zDvw6/s6/joan-mir-honda-hrc.jpg"
-      },
-      {
-        "title": "El dúo de Aprilia en MotoGP se prepara para una emotiva despedida: \"Encontramos algo que no esperábamos\"",
-        "url": "https://espanol.motorsport.com/motogp/news/duo-de-aprilia-en-motogp-se-prepara-para-una-emotiva-despedida-en-valencia/10877759/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Wed, 25 Nov 2026 23:05:03 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YpbA7Gd0/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "Las seis claves con las que Marc Márquez superó a Aprilia para conquistar el título de MotoGP 2026",
-        "url": "https://espanol.motorsport.com/motogp/news/seis-claves-con-las-que-marc-marquez-supero-a-aprilia-para-ser-campeon-2026/10877757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Wed, 25 Nov 2026 19:05:03 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/01QNE4Z0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Pecco Bagnaia se pierde su última carrera con Ducati y el primer test con Aprilia por lesión",
-        "url": "https://espanol.motorsport.com/motogp/news/bagnaia-ausente-carrera-valencia-test-aprilia-por-lesion/10877722/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Wed, 25 Nov 2026 15:53:44 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6AlvDeGY/s6/francesco-bagnaia-ducati-team.jpg"
-      },
-      {
-        "title": "¿Aprilia dejó escapar el título de MotoGP 2026 o Márquez simplemente fue demasiado bueno?",
-        "url": "https://espanol.motorsport.com/motogp/news/aprilia-dejo-escapar-el-titulo-de-motogp-2026-o-marquez-fue-demasiado-bueno/10877624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Wed, 25 Nov 2026 10:48:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0Lde9zP0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Dall'Igna defiende el fichaje de Márquez tras su décima corona mundial",
-        "url": "https://espanol.motorsport.com/motogp/news/dalligna-defiende-fichaje-marquez-decima-corona-mundial/10877517/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 21:33:05 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/68Vw54B2/s6/marc-marquez-piscina-portimao.jpg"
-      },
-      {
-        "title": "Bezzecchi admite haber cometido “demasiados errores” tras perder el título de MotoGP 2026",
-        "url": "https://espanol.motorsport.com/motogp/news/bezzecchi-admite-errores-perder-titulo-motogp-2026/10877463/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 14:09:00 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/25dLRoM0/s6/marco-bezzecchi-aprilia-racing.jpg"
-      },
-      {
-        "title": "Viñales se perderá Valencia por lesión y Pol Espargaró ocupará su lugar en Tech3",
-        "url": "https://espanol.motorsport.com/motogp/news/vinales-perdera-valencia-lesion-pol-espargaro-ocupara-lugar-tech3/10877476/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 13:45:48 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2dEoN43Y/s6/maverick-vinales-red-bull-ktm-.jpg"
-      },
-      {
-        "title": "Mientras Márquez hace historia, Rossi sigue repasando la suya",
-        "url": "https://espanol.motorsport.com/motogp/news/mientras-marquez-hace-historia-rossi-sigue-repasando-la-suya/10877426/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Tue, 24 Nov 2026 11:40:08 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0qgKmvkY/s6/marc-marquez-ducati.jpg"
-      },
-      {
-        "title": "Marc Márquez: \"Controlar mis instintos fue clave para ganar el título de MotoGP 2026\"",
-        "url": "https://espanol.motorsport.com/motogp/news/marc-marquez-controlar-instintos-clave-ganar-titulo-2026/10877270/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Mon, 23 Nov 2026 16:57:38 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YWKA35OY/s6/marc-marquez-ducati-team.jpg"
       }
     ]
   },
