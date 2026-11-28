@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T03:35:14.847004Z",
+  "updatedAt": "2026-11-28T12:21:33.930201Z",
   "year": 2026,
   "f1": {
     "races": [
@@ -749,8 +749,7 @@
             "name": "Race",
             "date": "2026-11-29T16:00:00Z"
           }
-        ],
-        "circuitImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1920px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ]
       },
       {
         "id": "f1-2026-23-yas_marina",
@@ -2345,6 +2344,30 @@
   "news": {
     "f1": [
       {
+        "title": "Por qué Williams infringió el límite de costos de la Fórmula 1",
+        "url": "https://espanol.motorsport.com/f1/news/por-que-williams-infringio-limite-de-costos-formula-1-2025/10878567/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 11:30:44 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QeqOXY/s6/alexander-albon-williams-2.jpg"
+      },
+      {
+        "title": "100% de desgaste en 15 vueltas: los problemas de neumáticos en Qatar superan lo previsto por Pirelli",
+        "url": "https://espanol.motorsport.com/f1/news/100-de-desgaste-en-15-vueltas-problemas-de-neumaticos-en-qatar/10878534/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 09:38:48 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6O7z5j56/s6/pierre-gasly-alpine.jpg"
+      },
+      {
+        "title": "Hankook apunta a entrar en la carrera por el contrato de suministro de neumáticos de la F1",
+        "url": "https://espanol.motorsport.com/f1/news/hankook-apunta-contrato-suministro-neumaticos-f1/10878393/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 09:30:47 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/24QGyxNY/s6/gettyimages-2257247174.jpg"
+      },
+      {
         "title": "Lo que aprendimos de los entrenamientos del viernes en el GP de Qatar de F1 2026",
         "url": "https://espanol.motorsport.com/f1/news/lo-que-aprendimos-entrenamientos-viernes-qatar-2026/10878458/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
         "published": "Fri, 27 Nov 2026 21:16:58 +0000",
@@ -2439,33 +2462,41 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6AlvL9EY/s6/yuki-tsunoda-racing-bulls.jpg"
-      },
-      {
-        "title": "Antonelli lidera una FP2 en Qatar afectada por dos banderas rojas; Colapinto es 15º y Checo Pérez, 22º",
-        "url": "https://espanol.motorsport.com/f1/news/antonelli-lidera-qatar-fp2-resultados-colapinto-checo-perez/10878368/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 27 Nov 2026 18:13:07 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/24QGyP4Y/s6/andrea-kimi-antonelli-mercedes.jpg"
-      },
-      {
-        "title": "VIDEO: Pierre Gasly se sale de pista y causa una bandera roja en la FP2 de Qatar",
-        "url": "https://espanol.motorsport.com/f1/news/video-gasly-bandera-roja-fp2-qatar/10878364/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 27 Nov 2026 17:56:15 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/YMXbRqG2/s6/pierre-gasly-alpine-2.jpg"
-      },
-      {
-        "title": "La FIA confirma la congelación de motores de F1 e impone restricciones de pruebas antes del regreso de los V8",
-        "url": "https://espanol.motorsport.com/f1/news/fia-confirma-congelacion-motores-f1-e-impone-restricciones-de-pruebas-para-v8/10878343/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es_us",
-        "published": "Fri, 27 Nov 2026 17:18:59 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0arED5G2/s6/arvid-lindblad-racing-bulls-an.jpg"
       }
     ],
     "moto": [
+      {
+        "title": "Zarco, “feliz” de que Marquez esté “escuchando a su cuerpo”: \"Lo vi sufrir\"",
+        "url": "https://espanol.motorsport.com/motogp/news/zarco-feliz-de-que-marquez-este-escuchando-a-su-cuerpo/10878398/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 11:46:32 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0o5P4jlY/s6/johann-zarco-team-lcr-honda-ma.jpg"
+      },
+      {
+        "title": "Los directivos de MotoGP y Liberty se reunirán con los equipos para explicar el futuro del campeonato",
+        "url": "https://espanol.motorsport.com/motogp/news/directivos-motogp-y-liberty-se-reuniran-con-equipos-para-explicar-futuro-campeonato/10878565/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 11:25:32 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6b8j5Re2/s6/carmelo-ezpeleta-y-derek-chang.jpg"
+      },
+      {
+        "title": "MotoGP GP en Valencia: Marco Bezzecchi vuela hacia la pole position, Marc Márquez segundo",
+        "url": "https://espanol.motorsport.com/motogp/news/motogp-gp-valencia-marco-bezzecchi-pole-position-marc-marquez-segundo/10878559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 11:09:18 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/0mXyx9a6/s6/marco-bezzecchi-aprilia-racing.jpg"
+      },
+      {
+        "title": "Dani Pedrosa deja su rol de piloto de pruebas de KTM después de ocho años",
+        "url": "https://espanol.motorsport.com/motogp/news/dani-pedrosa-deja-ktm-despues-de-ocho-anos/10878532/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
+        "published": "Sat, 28 Nov 2026 09:32:59 +0000",
+        "source": "Motorsport.com",
+        "language": "es",
+        "image": "https://cdn-1.motorsport.com/images/amp/6AErKXv6/s6/dani-pedrosa-red-bull-ktm-tech.jpg"
+      },
       {
         "title": "La retirada de Márquez podría impulsar a Aldeguer al equipo oficial",
         "url": "https://espanol.motorsport.com/motogp/news/retirada-marquez-podria-impulsar-aldeguer-equipo-oficial/10878424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
@@ -2553,38 +2584,6 @@
         "source": "Motorsport.com",
         "language": "es",
         "image": "https://cdn-1.motorsport.com/images/amp/6lmAp4D0/s6/marc-marquez-ducati-team.jpg"
-      },
-      {
-        "title": "Jorge Martín: \"Mi relación con Aprilia ha sido difícil, pero me hizo mejor persona y piloto\"",
-        "url": "https://espanol.motorsport.com/motogp/news/jorge-martin-mi-relacion-con-aprilia-ha-sido-dificil-pero-me-hizo-mejor-persona-y-piloto/10877996/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 17:26:36 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/2y7Qg8X6/s6/jorge-martin-aprilia-racing-te.jpg"
-      },
-      {
-        "title": "Bagnaia revela que una lesión en la cabeza está detrás de su ausencia en Valencia",
-        "url": "https://espanol.motorsport.com/motogp/news/bagnaia-revela-lesion-en-la-cabeza-ausencia-en-valencia/10877908/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 15:04:31 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0o5AVPoY/s6/francesco-bagnaia-ducati-team.jpg"
-      },
-      {
-        "title": "El circuito de Valencia retiró el mural homenaje a Valentino Rossi",
-        "url": "https://espanol.motorsport.com/motogp/news/valencia-retira-mural-homenaje-a-valentino-rossi/10877888/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 14:23:51 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/0JBnvOE0/s6/valentino-rossi-petronas-yamah.jpg"
-      },
-      {
-        "title": "Joan Mir viaja a Valencia tras recibir el OK de sus médicos",
-        "url": "https://espanol.motorsport.com/motogp/news/joan-mir-viaja-a-valencia-tras-recibir-el-ok-de-sus-medicos/10877838/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-MOTO&utm_term=News&utm_content=es_us",
-        "published": "Thu, 26 Nov 2026 10:10:52 +0000",
-        "source": "Motorsport.com",
-        "language": "es",
-        "image": "https://cdn-1.motorsport.com/images/amp/6O7zDvw6/s6/joan-mir-honda-hrc.jpg"
       }
     ]
   },
